@@ -241,7 +241,7 @@
       <http://www.w3.org/2002/07/owl#sameAs>
               <http://data.semanticweb.org/conference/iswc-2016-posterdemo-poster-10> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#abstract>
-              "We developed RDF-based databases of phenotype and animal strains produced in Japan and a portal site termed as “J-Phenome”. By the application of common schema, these databases can be retrieved by the same SPARQL query across graphs. In the operation of these databases, RDF represented multiple advantages such as improvement of comprehensive search, data integration using ontologies and public data, reuse of data and wider dissemination of phenotype data compared to conventional technologies." ;
+              "test-We developed RDF-based databases of phenotype and animal strains produced in Japan and a portal site termed as “J-Phenome”. By the application of common schema, these databases can be retrieved by the same SPARQL query across graphs. In the operation of these databases, RDF represented multiple advantages such as improvement of comprehensive search, data integration using ontologies and public data, reuse of data and wider dissemination of phenotype data compared to conventional technologies." ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAuthorList>
               <https://w3id.org/scholarlydata/authorlist/iswc-2016-posterdemo-poster-10> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isPartOf>

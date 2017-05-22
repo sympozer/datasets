@@ -257,6 +257,17 @@
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#previous>
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-demo-pd_49-item-3> .
 
+<https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-chair-diana-maynard>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Role of Programme chair held by Diana Maynard during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
+              <https://w3id.org/scholarlydata/person/diana-maynard> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
+              <https://w3id.org/scholarlydata/role/programme-chair> .
+
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-knowledge-media-institute-the-open-university-john-domingue>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -2030,6 +2041,17 @@ In this work, we address the problem of relation alignment across disparate link
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#next>
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-research-41-item-2> .
 
+<https://w3id.org/scholarlydata/role-during-event/eswc2017-workshops-chair-fabio-ciravegna>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Role of Workshops chair held by Fabio Ciravegna during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
+              <https://w3id.org/scholarlydata/person/fabio-ciravegna> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
+              <https://w3id.org/scholarlydata/role/workshops-chair> .
+
 <https://w3id.org/scholarlydata/person/axel-ngonga>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -3695,9 +3717,9 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <http://xmlns.com/foaf/0.1/mbox_sha1sum>
               "cb0fc458c5bd360c5fa92b296c68974ccd1112c5" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation>
-              <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-fondazione-bruno-kessler-fbk-irst-mauro-dragoni> ;
+              <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-fondazione-bruno-kessler-mauro-dragoni> , <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-fondazione-bruno-kessler-fbk-irst-mauro-dragoni> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#holdsRole>
-              <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-mauro-dragoni-eswc-2017-workshops-emsasw-8> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-mauro-dragoni> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-mauro-dragoni-eswc-2017-workshops-emsasw-9> ;
+              <https://w3id.org/scholarlydata/role-during-event/eswc2017-challenge-chair-mauro-dragoni> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-mauro-dragoni-eswc-2017-workshops-emsasw-8> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-mauro-dragoni> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-mauro-dragoni-eswc-2017-workshops-emsasw-9> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Mauro Dragoni" .
 
@@ -4088,6 +4110,17 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
 <https://w3id.org/scholarlydata/authorlist/eswc-2017-poster-pd_26>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> .
 
+<https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-stlab-istc-cnr-luigi-asprino>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Affiliation held by Luigi Asprino with STLab, ISTC-CNR during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf>
+              <https://w3id.org/scholarlydata/person/luigi-asprino> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
+              <https://w3id.org/scholarlydata/organisation/stlab-istc-cnr> .
+
 <https://w3id.org/scholarlydata/authorlist/eswc-2017-poster-pd_7>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -4268,6 +4301,10 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
               <https://w3id.org/scholarlydata/person/tim-berners-lee> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
               <https://w3id.org/scholarlydata/organisation/mit> .
+
+<https://w3id.org/scholarlydata/role/programme-chair>
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Programme chair"@en .
 
 <https://w3id.org/scholarlydata/organisation/universidad-simon-bolivar>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation> ;
@@ -4722,7 +4759,7 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation>
               <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-university-of-mannheim-heiko-paulheim> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#holdsRole>
-              <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-heiko-paulheim-eswc-2017-research-127> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-heiko-paulheim-eswc-2017-research-222> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-heiko-paulheim> ;
+              <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-heiko-paulheim-eswc-2017-research-127> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-posters-chair-heiko-paulheim> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-heiko-paulheim-eswc-2017-research-222> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-heiko-paulheim> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Heiko Paulheim" .
 
@@ -5772,6 +5809,17 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#title>
               "A Compressed, Inference-enabled Encoding Scheme for RDF Stream Processing" .
 
+<https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-vrije-universiteit-amsterdam-rinke-hoekstra>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Affiliation held by Rinke Hoekstra with Vrije Universiteit Amsterdam during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf>
+              <https://w3id.org/scholarlydata/person/rinke-hoekstra> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
+              <https://w3id.org/scholarlydata/organisation/vrije-universiteit-amsterdam> .
+
 <https://w3id.org/scholarlydata/talk/eswc-2017-222>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Talk> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -5935,6 +5983,10 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
               <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-university-of-oxford-boris-motik> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Boris Motik" .
+
+<https://w3id.org/scholarlydata/role/treasurer>
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Treasurer"@en .
 
 <https://w3id.org/scholarlydata/organisation/norwegian-university-of-science-and-technology>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation> ;
@@ -6298,7 +6350,7 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation>
               <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-linkoping-university-olaf-hartig> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#holdsRole>
-              <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-olaf-hartig> ;
+              <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-olaf-hartig> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-proceedings-chair-olaf-hartig> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Olaf Hartig" .
 
@@ -6442,6 +6494,10 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
               <http://www.scholarlydata.org/role/author> .
 
+<https://w3id.org/scholarlydata/role/publicity-chair>
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Publicity chair"@en .
+
 <https://w3id.org/scholarlydata/talk/eswc-2017-edsc_2>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Talk> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -6578,6 +6634,17 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
               <https://w3id.org/scholarlydata/organisation/l3s-research-center> .
 
+<https://w3id.org/scholarlydata/role-during-event/eswc2017-process-improvement-chair-derek-doran>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Role of process improvement chair held by Derek Doran during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
+              <https://w3id.org/scholarlydata/person/derek-doran> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
+              <https://w3id.org/scholarlydata/role/process-improvement-chair> .
+
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-fuji-xerox-co-ltd-motoyuki-takaai>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -6617,6 +6684,19 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
 
 <https://w3id.org/scholarlydata/authorlist/eswc-2017-poster-pd_15>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> .
+
+<https://w3id.org/scholarlydata/person/fabio-ciravegna>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Fabio Ciravegna" ;
+      <http://xmlns.com/foaf/0.1/mbox_sha1sum>
+              "72b493dcc03342c0a6cb441ece51214f63058219" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation>
+              <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-university-of-sheffield-fabio-ciravegna> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#holdsRole>
+              <https://w3id.org/scholarlydata/role-during-event/eswc2017-workshops-chair-fabio-ciravegna> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
+              "Fabio Ciravegna" .
 
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-grigoris-antoniou>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
@@ -6807,6 +6887,17 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
               "Thomson Reuters" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Thomson Reuters" .
+
+<https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-karlsruhe-institute-of-technology-maria-maleshkova>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Affiliation held by Maria Maleshkova with Karlsruhe Institute of Technology during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf>
+              <https://w3id.org/scholarlydata/person/maria-maleshkova> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
+              <https://w3id.org/scholarlydata/organisation/karlsruhe-institute-of-technology> .
 
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-ghent-university-intec-iminds-femke-ongenae>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
@@ -7009,11 +7100,11 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <http://www.w3.org/2000/01/rdf-schema#label>
               "Eva Blomqvist" ;
       <http://xmlns.com/foaf/0.1/mbox_sha1sum>
-              "6ae81c4db26362dadb297719b4178e23dd011c6d" ;
+              "6ae81c4db26362dadb297719b4178e23dd011c6d" , "f346d71f8a4b81034daeeb94d93d4eb7c0c8157f" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation>
               <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-linkoping-university-eva-blomqvist> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#holdsRole>
-              <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-eva-blomqvist> ;
+              <https://w3id.org/scholarlydata/role-during-event/eswc2017-general-chair-eva-blomqvist> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-eva-blomqvist> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Eva Blomqvist" .
 
@@ -7219,11 +7310,11 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <http://xmlns.com/foaf/0.1/made>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-research-201> ;
       <http://xmlns.com/foaf/0.1/mbox_sha1sum>
-              "35b2281e246b2273a7c3780193851df3f9262972" , "afc0b2d9d17f63457688ebab6a66bf2913774795" ;
+              "35b2281e246b2273a7c3780193851df3f9262972" , "4a1aff54d43bc5b75c3912a414fa50ac88aa3f05" , "afc0b2d9d17f63457688ebab6a66bf2913774795" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation>
               <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-university-of-mannheim-anna-lisa-gentile> , <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-ibm-research-almaden-anna-lisa-gentile> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#holdsRole>
-              <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-anna-lisa-gentile> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-anna-lisa-gentile-eswc-2017-research-201> ;
+              <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-anna-lisa-gentile> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-tutorials-chair-anna-lisa-gentile> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-anna-lisa-gentile-eswc-2017-research-201> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Anna Lisa Gentile" .
 
@@ -7860,6 +7951,17 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
               <https://w3id.org/scholarlydata/role/programme-committee-member> .
 
+<https://w3id.org/scholarlydata/role-during-event/eswc2017-challenge-chair-monika-solanki>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Role of Challenge chair held by Monika Solanki during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
+              <https://w3id.org/scholarlydata/person/monika-solanki> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
+              <https://w3id.org/scholarlydata/role/challenge-chair> .
+
 <https://w3id.org/scholarlydata/person/yohei-onuki>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -7952,6 +8054,17 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-research-152-item-3> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#previous>
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-research-152-item-1> .
+
+<https://w3id.org/scholarlydata/role-during-event/eswc2017-tutorials-chair-anna-lisa-gentile>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Role of Tutorials chair held by Anna Lisa Gentile during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
+              <https://w3id.org/scholarlydata/person/anna-lisa-gentile> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
+              <https://w3id.org/scholarlydata/role/tutorials-chair> .
 
 <https://w3id.org/scholarlydata/person/vasco-furtado>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
@@ -8150,6 +8263,17 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
               <https://w3id.org/scholarlydata/organisation/university-of-crete> .
 
+<https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-chair-aldo-gagemi>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Role of Programme chair held by Aldo Gagemi during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
+              <https://w3id.org/scholarlydata/person/aldo-gagemi> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
+              <https://w3id.org/scholarlydata/role/programme-chair> .
+
 <https://w3id.org/scholarlydata/talk/eswc-2017-73>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Talk> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -8333,6 +8457,17 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-workshops-emsasw-1-item-4> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#previous>
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-workshops-emsasw-1-item-2> .
+
+<https://w3id.org/scholarlydata/role-during-event/eswc2017-posters-chair-katja-hose>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Role of Posters chair held by Katja Hose during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
+              <https://w3id.org/scholarlydata/person/katja-hose> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
+              <https://w3id.org/scholarlydata/role/posters-chair> .
 
 <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-workshops-semdeep-17-4-item-2>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> ;
@@ -8963,6 +9098,17 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
               "Consiglio Nazionale delle Ricerche" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Consiglio Nazionale delle Ricerche" .
+
+<https://w3id.org/scholarlydata/role-during-event/eswc2017-phd-symposium-chair-pascal-hitzler>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Role of PhD symposium chair held by Pascal Hitzler during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
+              <https://w3id.org/scholarlydata/person/pascal-hitzler> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
+              <https://w3id.org/scholarlydata/role/phd-symposium-chair> .
 
 <https://w3id.org/scholarlydata/person/mauro-vallati>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
@@ -9931,7 +10077,7 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation>
               <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-aalborg-university-katja-hose> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#holdsRole>
-              <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-katja-hose> ;
+              <https://w3id.org/scholarlydata/role-during-event/eswc2017-posters-chair-katja-hose> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-katja-hose> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Katja Hose" .
 
@@ -9998,6 +10144,17 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
               <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-aalborg-university-torben-bach-pedersen> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Torben Bach Pedersen" .
+
+<https://w3id.org/scholarlydata/role-during-event/eswc2017-phd-symposium-chair-rinke-hoekstra>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Role of PhD symposium chair held by Rinke Hoekstra during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
+              <https://w3id.org/scholarlydata/person/rinke-hoekstra> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
+              <https://w3id.org/scholarlydata/role/phd-symposium-chair> .
 
 <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-workshops-answer_5-item-5>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> ;
@@ -10423,6 +10580,21 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Pompeu Casanovas" .
 
+<https://w3id.org/scholarlydata/role/posters-chair>
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Posters chair"@en .
+
+<https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-sti-venislav-georgiev>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Affiliation held by Venislav Georgiev with STI during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf>
+              <https://w3id.org/scholarlydata/person/venislav-georgiev> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
+              <https://w3id.org/scholarlydata/organisation/sti> .
+
 <https://w3id.org/scholarlydata/person/luigi-asprino>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> , <http://xmlns.com/foaf/0.1/Person> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -10434,11 +10606,13 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <http://xmlns.com/foaf/0.1/made>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-answer_5> , <https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-answer_3> , <https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-answer_4> ;
       <http://xmlns.com/foaf/0.1/mbox_sha1sum>
-              "f2dfe24099ceb1e431cb222c59a3b226e369367a" ;
+              "f2dfe24099ceb1e431cb222c59a3b226e369367a" , "c775678ec000c80a483a4c2fc69f34d6a62b6281" ;
       <http://xmlns.com/foaf/0.1/name>
               "Luigi Asprino" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation>
-              <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-university-of-bologna-and-stlab-istc-cnr-luigi-asprino> ;
+              <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-stlab-istc-cnr-luigi-asprino> , <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-university-of-bologna-and-stlab-istc-cnr-luigi-asprino> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#holdsRole>
+              <https://w3id.org/scholarlydata/role-during-event/eswc2017-metadata-chair-luigi-asprino> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-luigi-asprino-eswc-2017-workshops-answer_4> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-luigi-asprino-eswc-2017-workshops-answer_3> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-luigi-asprino-eswc-2017-workshops-answer_5> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Luigi Asprino" .
 
@@ -10851,6 +11025,17 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Chantal Reynaud" .
 
+<https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-sti-alexander-wahler>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Affiliation held by Alexander Wahler with STI during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf>
+              <https://w3id.org/scholarlydata/person/alexander-wahler> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
+              <https://w3id.org/scholarlydata/organisation/sti> .
+
 <https://w3id.org/scholarlydata/person/frederique-laforest>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -10939,6 +11124,13 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
               <https://w3id.org/scholarlydata/person/wolfgang-nejdl> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
               <https://w3id.org/scholarlydata/organisation/l3s-and-university-of-hannover> .
+
+<https://w3id.org/scholarlydata/organisation/university-of-lyon>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "University of Lyon" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
+              "University of Lyon" .
 
 <https://w3id.org/scholarlydata/authorlist/eswc-2017-research-29>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> ;
@@ -11210,6 +11402,10 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
               <https://w3id.org/scholarlydata/person/george-marandianos> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
               <https://w3id.org/scholarlydata/organisation/national-technical-university-of-athens> .
+
+<https://w3id.org/scholarlydata/role/eu-project-networking-chair>
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Eu Project Networking Chair" .
 
 <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-workshops-rsp2017-1-item-2>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> ;
@@ -11822,6 +12018,17 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#previous>
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-research-55-item-1> .
 
+<https://w3id.org/scholarlydata/role-during-event/eswc2017-local-organiser-marko-grobelnik>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Role of Local organiser held by Marko Grobelnik during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
+              <https://w3id.org/scholarlydata/person/marko-grobelnik> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
+              <https://w3id.org/scholarlydata/role/local-organiser> .
+
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-university-of-paris-est-marne-la-vallee-jeremy-lhez>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -12277,6 +12484,17 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
               <https://w3id.org/scholarlydata/organisation/university-of-bologna-and-stlab-istc-cnr> .
 
+<https://w3id.org/scholarlydata/role-during-event/eswc2017-webmaster-venislav-georgiev>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Role of Webmaster held by Venislav Georgiev during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
+              <https://w3id.org/scholarlydata/person/venislav-georgiev> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
+              <https://w3id.org/scholarlydata/role/webmaster> .
+
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-university-of-brussels-luc-steels>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -12701,6 +12919,17 @@ processing over multiple RSP engine instances. We apply load balancing strategie
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasLastItem>
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-research-174-item-5> .
 
+<https://w3id.org/scholarlydata/role-during-event/eswc2017-eu-project-networking-chair-maria-maleshkova>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Role of eu project networking chair held by Maria Maleshkova during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
+              <https://w3id.org/scholarlydata/person/maria-maleshkova> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
+              <https://w3id.org/scholarlydata/role/eu-project-networking-chair> .
+
 <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-demo-pd_6-item-1>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent>
@@ -12733,6 +12962,19 @@ processing over multiple RSP engine instances. We apply load balancing strategie
               <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-thierry-charnois> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Thierry Charnois" .
+
+<https://w3id.org/scholarlydata/person/aldo-gagemi>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Aldo Gagemi" ;
+      <http://xmlns.com/foaf/0.1/mbox_sha1sum>
+              "1e84a6fe56f8234c7a27a5b5e8799133de73eee9" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation>
+              <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-paris-nord-university-and-istc-cnr-aldo-gagemi> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#holdsRole>
+              <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-chair-aldo-gagemi> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
+              "Aldo Gagemi" .
 
 <https://w3id.org/scholarlydata/organisation/armasuisse>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation> ;
@@ -13142,11 +13384,11 @@ processing over multiple RSP engine instances. We apply load balancing strategie
       <http://xmlns.com/foaf/0.1/made>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-scientometrics2017_1> ;
       <http://xmlns.com/foaf/0.1/mbox_sha1sum>
-              "6a9054d3a369f74a6338c546dceceeeb7be8ed6a" ;
+              "cfd86717f16de620a397eca429370b3301dc8e57" , "6a9054d3a369f74a6338c546dceceeeb7be8ed6a" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation>
               <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-university-of-sheffield-diana-maynard> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#holdsRole>
-              <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-diana-maynard-eswc-2017-workshops-scientometrics2017_1> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-diana-maynard> ;
+              <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-diana-maynard-eswc-2017-workshops-scientometrics2017_1> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-diana-maynard> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-chair-diana-maynard> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Diana Maynard" .
 
@@ -13200,6 +13442,10 @@ processing over multiple RSP engine instances. We apply load balancing strategie
               "Zaporizhzhya National Univ." ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Zaporizhzhya National Univ." .
+
+<https://w3id.org/scholarlydata/role/challenge-chair>
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Challenge chair"@en .
 
 <https://w3id.org/scholarlydata/person/david-fichtmuller>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
@@ -13575,6 +13821,10 @@ more comprehensive workflows.""" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
               <https://w3id.org/scholarlydata/organisation/heinz-nixdorf-endowed-chair-for-distributed-information-systems-friedrich-schiller-university-jena> .
 
+<https://w3id.org/scholarlydata/role/phd-symposium-chair>
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "PhD symposium chair"@en .
+
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-university-of-manchester-ulrike-sattler>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -13705,6 +13955,19 @@ more comprehensive workflows.""" ;
               <https://w3id.org/scholarlydata/person/jens-lehmann> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
               <https://w3id.org/scholarlydata/organisation/university-of-bonn> .
+
+<https://w3id.org/scholarlydata/person/awrynowicz>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Agnieszka Ławrynowicz" ;
+      <http://xmlns.com/foaf/0.1/mbox_sha1sum>
+              "d16c46a8e688f893db4910fdeca8a346035e09ae" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation>
+              <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-poznan-university-of-technology-awrynowicz> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#holdsRole>
+              <https://w3id.org/scholarlydata/role-during-event/eswc2017-workshops-chair-awrynowicz> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
+              "Agnieszka Ławrynowicz" .
 
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-oktie-hassanzadeh>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
@@ -14178,6 +14441,19 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-06-01T09:00:00" .
 
+<https://w3id.org/scholarlydata/person/lionel-medini>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Lionel Medini" ;
+      <http://xmlns.com/foaf/0.1/mbox_sha1sum>
+              "cb6e61ece04f3d3a91c1ed15388beacd6fa1affa" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation>
+              <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-university-of-lyon-lionel-medini> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#holdsRole>
+              <https://w3id.org/scholarlydata/role-during-event/eswc2017-metadata-chair-lionel-medini> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
+              "Lionel Medini" .
+
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-ontology-engineering-group-universidad-politecnica-de-madrid-nandana-mihindukulasooriya>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -14405,6 +14681,10 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-research-184> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
               <http://www.scholarlydata.org/role/author> .
+
+<https://w3id.org/scholarlydata/role/tutorials-chair>
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Tutorials chair"@en .
 
 <https://w3id.org/scholarlydata/person/md-rezaul-karim>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
@@ -14963,6 +15243,17 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Ba Lam Do" , "Ba-Lam Do" .
 
+<https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-poznan-university-of-technology-awrynowicz>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Affiliation held by Agnieszka Ławrynowicz with Poznan University of Technology during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf>
+              <https://w3id.org/scholarlydata/person/awrynowicz> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
+              <https://w3id.org/scholarlydata/organisation/poznan-university-of-technology> .
+
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-leo-obrst>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -15273,9 +15564,9 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
       <http://xmlns.com/foaf/0.1/mbox_sha1sum>
               "26760beaa133cf2c7733ff61f1c32984bd8955cb" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation>
-              <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-aifb-karlsruhe-institute-of-technology-maria-maleshkova> ;
+              <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-aifb-karlsruhe-institute-of-technology-maria-maleshkova> , <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-karlsruhe-institute-of-technology-maria-maleshkova> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#holdsRole>
-              <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-maria-maleshkova> ;
+              <https://w3id.org/scholarlydata/role-during-event/eswc2017-eu-project-networking-chair-maria-maleshkova> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-maria-maleshkova> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Maria Maleshkova" .
 
@@ -15360,6 +15651,17 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasLastItem>
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-in-use-242-item-1> .
 
+<https://w3id.org/scholarlydata/role-during-event/eswc2017-workshops-chair-awrynowicz>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Role of Workshops chair held by Agnieszka Ławrynowicz during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
+              <https://w3id.org/scholarlydata/person/awrynowicz> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
+              <https://w3id.org/scholarlydata/role/workshops-chair> .
+
 <https://w3id.org/scholarlydata/person/derek-doran>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -15369,7 +15671,7 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation>
               <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-wright-state-university-derek-doran> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#holdsRole>
-              <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-derek-doran> ;
+              <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-derek-doran> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-process-improvement-chair-derek-doran> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Derek Doran" .
 
@@ -16438,6 +16740,17 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
               <https://w3id.org/scholarlydata/organisation/information-technologies-institute-centre-for-research-technology-hellas> .
 
+<https://w3id.org/scholarlydata/role-during-event/eswc2017-publicity-chair-ruben-verborgh>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Role of Publicity chair held by Ruben Verborgh during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
+              <https://w3id.org/scholarlydata/person/ruben-verborgh> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
+              <https://w3id.org/scholarlydata/role/publicity-chair> .
+
 <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-coffee_29_mor>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> , <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#SocialEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -16632,6 +16945,10 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
               <https://w3id.org/scholarlydata/person/andrea-marchetti> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#previous>
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-workshops-sw4sh2017-1-item-1> .
+
+<https://w3id.org/scholarlydata/role/webmaster>
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Webmaster"@en .
 
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-tu-wien-magdalena-ortiz>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
@@ -17222,6 +17539,17 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-workshops-answer_7-item-6> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#previous>
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-workshops-answer_7-item-4> .
+
+<https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-university-of-lyon-lionel-medini>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Affiliation held by Lionel Medini with University of Lyon during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf>
+              <https://w3id.org/scholarlydata/person/lionel-medini> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
+              <https://w3id.org/scholarlydata/organisation/university-of-lyon> .
 
 <https://w3id.org/scholarlydata/person/enrico-motta>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
@@ -18219,6 +18547,17 @@ feature reduction. Our approach exhibits a significant improvement of
               <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-siemens-ag-volker-tresp> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Volker Tresp" .
+
+<https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-modul-universitat-vienna-lyndon-nixon>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Affiliation held by Lyndon Nixon with Modul Universität Vienna during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf>
+              <https://w3id.org/scholarlydata/person/lyndon-nixon> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
+              <https://w3id.org/scholarlydata/organisation/modul-universitat-vienna> .
 
 <https://w3id.org/scholarlydata/session/eswc-2017-session-28>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> , <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Session> ;
@@ -20977,6 +21316,17 @@ We present a general mechanism that allows users to interact with Question Answe
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
               <https://w3id.org/scholarlydata/organisation/inria> .
 
+<https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-paris-nord-university-and-istc-cnr-aldo-gagemi>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Affiliation held by Aldo Gagemi with Paris Nord University and ISTC-CNR during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf>
+              <https://w3id.org/scholarlydata/person/aldo-gagemi> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
+              <https://w3id.org/scholarlydata/organisation/paris-nord-university-and-istc-cnr> .
+
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-vrije-universiteit-amsterdam-oana-inel>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -21300,7 +21650,7 @@ We present a general mechanism that allows users to interact with Question Answe
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-jozef-stefan-institute-dunja-mladenic>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Affiliation held by Dunja Mladenic with Jozef Stefan Institute during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Affiliation held by Dunja Mladenic with Jožef Stefan Institute during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
               <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf>
@@ -21347,6 +21697,17 @@ We present a general mechanism that allows users to interact with Question Answe
               "Universidade de Sao Paulo" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Universidade de Sao Paulo" .
+
+<https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-fondazione-bruno-kessler-mauro-dragoni>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Affiliation held by Mauro Dragoni with Fondazione Bruno Kessler during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf>
+              <https://w3id.org/scholarlydata/person/mauro-dragoni> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
+              <https://w3id.org/scholarlydata/organisation/fondazione-bruno-kessler> .
 
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-ghent-university-raf-buyle>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
@@ -21512,6 +21873,17 @@ execution logic. (iii) Querying and Updating via SPARQL (iv) Alteration of terms
               <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-tomi-kauppinen> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Tomi Kauppinen" .
+
+<https://w3id.org/scholarlydata/role-during-event/eswc2017-treasurer-alexander-wahler>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Role of Treasurer held by Alexander Wahler during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
+              <https://w3id.org/scholarlydata/person/alexander-wahler> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
+              <https://w3id.org/scholarlydata/role/treasurer> .
 
 <https://w3id.org/scholarlydata/person/jelle-nelis>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
@@ -22141,7 +22513,7 @@ To our knowledge, this is the largest-scale graph database & analysis on real su
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation>
               <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-university-of-oxford-monika-solanki> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#holdsRole>
-              <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-monika-solanki> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-monika-solanki-eswc-2017-in-use-240> ;
+              <https://w3id.org/scholarlydata/role-during-event/eswc2017-challenge-chair-monika-solanki> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-monika-solanki> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-monika-solanki-eswc-2017-in-use-240> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Monika Solanki" .
 
@@ -22328,6 +22700,10 @@ associated with access control management.""" ;
               <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-jacopo-urbani> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Jacopo Urbani" .
+
+<https://w3id.org/scholarlydata/role/process-improvement-chair>
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Process Improvement Chair" .
 
 <https://w3id.org/scholarlydata/person/alessandra-toninelli>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
@@ -22646,6 +23022,10 @@ associated with access control management.""" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
               <https://w3id.org/scholarlydata/organisation/cognitive-systems-dtu-compute-technical-university-of-denmark> .
 
+<https://w3id.org/scholarlydata/role/workshops-chair>
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Workshops chair"@en .
+
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-amrapali-zaveri-eswc-2017-in-use-243>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -22761,6 +23141,17 @@ associated with access control management.""" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#previous>
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-workshops-answer_3-item-3> .
 
+<https://w3id.org/scholarlydata/role-during-event/eswc2017-proceedings-chair-olaf-hartig>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Role of Proceedings chair held by Olaf Hartig during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
+              <https://w3id.org/scholarlydata/person/olaf-hartig> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
+              <https://w3id.org/scholarlydata/role/proceedings-chair> .
+
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-university-of-liverpool-boris-konev>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -22783,7 +23174,7 @@ associated with access control management.""" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation>
               <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-imec-ruben-verborgh> , <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-ugent-imec-idlab-ruben-verborgh> , <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-ghent-university-imec-ruben-verborgh> , <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-ghent-university-imec-idlab-ruben-verborgh> , <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-idlab-ruben-verborgh> , <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-ghent-university-ruben-verborgh> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#holdsRole>
-              <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-ruben-verborgh-eswc-2017-workshops-mepdaw-3> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-ruben-verborgh-eswc-2017-demo-pd_49> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-ruben-verborgh-eswc-2017-demo-pd_10> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-ruben-verborgh> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-ruben-verborgh-eswc-2017-demo-pd_12> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-ruben-verborgh-eswc-2017-in-use-163> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-ruben-verborgh-eswc-2017-in-use-243> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-ruben-verborgh-eswc-2017-demo-pd_20> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-ruben-verborgh-eswc-2017-demo-pd_31> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-ruben-verborgh-eswc-2017-workshops-edsc_3> ;
+              <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-ruben-verborgh-eswc-2017-workshops-mepdaw-3> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-ruben-verborgh-eswc-2017-demo-pd_49> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-ruben-verborgh-eswc-2017-demo-pd_10> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-ruben-verborgh> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-ruben-verborgh-eswc-2017-demo-pd_12> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-ruben-verborgh-eswc-2017-in-use-163> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-ruben-verborgh-eswc-2017-in-use-243> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-ruben-verborgh-eswc-2017-demo-pd_20> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-ruben-verborgh-eswc-2017-demo-pd_31> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-ruben-verborgh-eswc-2017-workshops-edsc_3> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-publicity-chair-ruben-verborgh> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Ruben Verborgh" .
 
@@ -22883,6 +23274,17 @@ associated with access control management.""" ;
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-in-use-243-item-3> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#previous>
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-in-use-243-item-11> .
+
+<https://w3id.org/scholarlydata/role-during-event/eswc2017-general-chair-eva-blomqvist>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Role of General chair held by Eva Blomqvist during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
+              <https://w3id.org/scholarlydata/person/eva-blomqvist> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
+              <https://w3id.org/scholarlydata/role/general-chair> .
 
 <https://w3id.org/scholarlydata/person/georgia-troullinou>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
@@ -23626,7 +24028,7 @@ The problem of understanding and exploring this evolution is a fundamental probl
 <https://w3id.org/scholarlydata/dataset/eswc2017>
       a       <http://rdfs.org/ns/void#Dataset> ;
       <http://purl.org/dc/terms/created>
-              "Mon May 22 17:49:45 CEST 2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Mon May 22 22:39:30 CEST 2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
       <http://purl.org/dc/terms/creator>
               <https://w3id.org/scholarlydata/person/luigi-asprino> , <https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese> ;
       <http://purl.org/dc/terms/title>
@@ -24223,6 +24625,10 @@ Additionally, we demonstrate how KBox can be used to share RDF knowledge graphs 
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
               <https://w3id.org/scholarlydata/role/programme-committee-member> .
 
+<https://w3id.org/scholarlydata/role/general-chair>
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "General chair"@en .
+
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-idlab-ruben-verborgh>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -24482,6 +24888,19 @@ to verbalise an ontology exist. We have implemented the algorithms corresponding
               <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-anna-tordai> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Anna Tordai" .
+
+<https://w3id.org/scholarlydata/person/alexander-wahler>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Alexander Wahler" ;
+      <http://xmlns.com/foaf/0.1/mbox_sha1sum>
+              "cb0ed6095ae9058b8fff90273e5cbf56860845bb" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation>
+              <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-sti-alexander-wahler> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#holdsRole>
+              <https://w3id.org/scholarlydata/role-during-event/eswc2017-treasurer-alexander-wahler> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
+              "Alexander Wahler" .
 
 <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_29>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> ;
@@ -26134,6 +26553,17 @@ As such, the potential of available open data sets is not fully exploited and ra
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Nitish Aggarwal" .
 
+<https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-tu-dresden-sebastian-rudolph>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Affiliation held by Sebastian Rudolph with TU Dresden during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf>
+              <https://w3id.org/scholarlydata/person/sebastian-rudolph> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
+              <https://w3id.org/scholarlydata/organisation/tu-dresden> .
+
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-david-toman>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -26317,6 +26747,17 @@ improvements of our solution over the states of the art.""" ;
               <https://w3id.org/scholarlydata/person/jacek-kopecky> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
               <https://w3id.org/scholarlydata/organisation/university-of-portsmouth> .
+
+<https://w3id.org/scholarlydata/role-during-event/eswc2017-challenge-chair-mauro-dragoni>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Role of Challenge chair held by Mauro Dragoni during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
+              <https://w3id.org/scholarlydata/person/mauro-dragoni> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
+              <https://w3id.org/scholarlydata/role/challenge-chair> .
 
 <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-in-use-144-item-3>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> ;
@@ -26789,6 +27230,10 @@ improvements of our solution over the states of the art.""" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "UNIFOR" .
 
+<https://w3id.org/scholarlydata/role/metadata-chair>
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Metadata Chair" .
+
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-norwegian-defence-research-establishment-ffi-audun-stolpe>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -27248,6 +27693,10 @@ improvements of our solution over the states of the art.""" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#title>
               "SLD Revolution: A Cheaper,  Faster yet more Accurate Streaming Linked Data Framework" .
 
+<https://w3id.org/scholarlydata/role/proceedings-chair>
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Proceedings chair"@en .
+
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-iri-chantal-reynaud>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -27400,6 +27849,13 @@ improvements of our solution over the states of the art.""" ;
               "Le2i" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Le2i" .
+
+<https://w3id.org/scholarlydata/organisation/modul-universitat-vienna>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Modul Universität Vienna" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
+              "Modul Universität Vienna" .
 
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-camille-roth>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
@@ -28481,6 +28937,17 @@ mappings discovered through a keyword-based search by a domain expert.""" ;
               "Open Knowledge Greece & Mathematics Department of Aristotle University" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Open Knowledge Greece & Mathematics Department of Aristotle University" .
+
+<https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-jozef-stefan-institute-marko-grobelnik>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Affiliation held by Marko Grobelnik with Jožef Stefan Institute during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf>
+              <https://w3id.org/scholarlydata/person/marko-grobelnik> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
+              <https://w3id.org/scholarlydata/organisation/jozef-stefan-institute> .
 
 <https://w3id.org/scholarlydata/person/freddy-priyatna>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
@@ -29833,6 +30300,17 @@ neither between the transformations and the generation framework nor their imple
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasLastItem>
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-research-127-item-2> .
 
+<https://w3id.org/scholarlydata/role-during-event/eswc2017-eu-project-networking-chair-lyndon-nixon>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Role of eu project networking chair held by Lyndon Nixon during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
+              <https://w3id.org/scholarlydata/person/lyndon-nixon> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
+              <https://w3id.org/scholarlydata/role/eu-project-networking-chair> .
+
 <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-poster-pd_11-item-5>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent>
@@ -29970,6 +30448,17 @@ neither between the transformations and the generation framework nor their imple
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#previous>
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-in-use-243-item-10> .
 
+<https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-university-of-sheffield-fabio-ciravegna>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Affiliation held by Fabio Ciravegna with University Of Sheffield during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf>
+              <https://w3id.org/scholarlydata/person/fabio-ciravegna> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
+              <https://w3id.org/scholarlydata/organisation/university-of-sheffield> .
+
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-university-of-mannheim-heiko-paulheim>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -30056,6 +30545,19 @@ neither between the transformations and the generation framework nor their imple
               <https://w3id.org/scholarlydata/person/siegfried-handschuh> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
               <https://w3id.org/scholarlydata/role/programme-committee-member> .
+
+<https://w3id.org/scholarlydata/person/venislav-georgiev>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Venislav Georgiev" ;
+      <http://xmlns.com/foaf/0.1/mbox_sha1sum>
+              "c4c8b140cc3001ea7e96c734b1e3b0b84b5808bc" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation>
+              <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-sti-venislav-georgiev> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#holdsRole>
+              <https://w3id.org/scholarlydata/role-during-event/eswc2017-webmaster-venislav-georgiev> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
+              "Venislav Georgiev" .
 
 <https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-mepdaw-5>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> ;
@@ -30214,6 +30716,19 @@ neither between the transformations and the generation framework nor their imple
               <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-chun-lu-eswc-2017-research-132> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-chun-lu> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Chun Lu" .
+
+<https://w3id.org/scholarlydata/person/lyndon-nixon>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Lyndon Nixon" ;
+      <http://xmlns.com/foaf/0.1/mbox_sha1sum>
+              "651ddd4dfd6da76021e6bca9b7f6f244095c2fca" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation>
+              <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-modul-universitat-vienna-lyndon-nixon> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#holdsRole>
+              <https://w3id.org/scholarlydata/role-during-event/eswc2017-eu-project-networking-chair-lyndon-nixon> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
+              "Lyndon Nixon" .
 
 <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-demo-pd_10-item-2>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> ;
@@ -30384,6 +30899,13 @@ neither between the transformations and the generation framework nor their imple
               <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-stefan-borgwardt> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Stefan Borgwardt" .
+
+<https://w3id.org/scholarlydata/organisation/sti>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "STI" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
+              "STI" .
 
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-tommaso-di-noia>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
@@ -30691,6 +31213,19 @@ neither between the transformations and the generation framework nor their imple
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
               <https://w3id.org/scholarlydata/role/programme-committee-member> .
 
+<https://w3id.org/scholarlydata/role-during-event/eswc2017-author-luigi-asprino-eswc-2017-workshops-answer_5>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Role of Author of held by Luigi Asprino during ESWC2017 for paper titled: \"Knowledge-driven Support for Reminiscence on Companion Robots\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
+              <https://w3id.org/scholarlydata/person/luigi-asprino> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withDocument>
+              <https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-answer_5> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
+              <http://www.scholarlydata.org/role/author> .
+
 <https://w3id.org/scholarlydata/organisation/fondazione-bruno-kessler-fbk-irst>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -30767,6 +31302,17 @@ neither between the transformations and the generation framework nor their imple
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasLastItem>
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-research-131-item-2> .
 
+<https://w3id.org/scholarlydata/role-during-event/eswc2017-tutorials-chair-sebastian-rudolph>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Role of Tutorials chair held by Sebastian Rudolph during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
+              <https://w3id.org/scholarlydata/person/sebastian-rudolph> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
+              <https://w3id.org/scholarlydata/role/tutorials-chair> .
+
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-christian-chiarcos>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -30810,6 +31356,19 @@ neither between the transformations and the generation framework nor their imple
               <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-l3s-research-center-tuan-tran> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Tuan Tran" .
+
+<https://w3id.org/scholarlydata/role-during-event/eswc2017-author-luigi-asprino-eswc-2017-workshops-answer_4>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Role of Author of held by Luigi Asprino during ESWC2017 for paper titled: \"A Knowledge Management System for Assistive Robotics\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
+              <https://w3id.org/scholarlydata/person/luigi-asprino> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withDocument>
+              <https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-answer_4> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
+              <http://www.scholarlydata.org/role/author> .
 
 <https://w3id.org/scholarlydata/organisation/university-mannheim>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation> ;
@@ -30992,6 +31551,19 @@ neither between the transformations and the generation framework nor their imple
               <https://w3id.org/scholarlydata/person/francesco-osborne> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
               <https://w3id.org/scholarlydata/role/programme-committee-member> .
+
+<https://w3id.org/scholarlydata/role-during-event/eswc2017-author-luigi-asprino-eswc-2017-workshops-answer_3>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Role of Author of held by Luigi Asprino during ESWC2017 for paper titled: \"Autonomous Comprehensive Geriatric Assessment\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
+              <https://w3id.org/scholarlydata/person/luigi-asprino> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withDocument>
+              <https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-answer_3> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
+              <http://www.scholarlydata.org/role/author> .
 
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-alberto-lavelli>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
@@ -31337,7 +31909,7 @@ The performed experiments show the added value of our approach since a) our adap
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation>
               <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-wright-state-university-pascal-hitzler> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#holdsRole>
-              <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-pascal-hitzler-eswc-2017-research-46> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-pascal-hitzler-eswc-2017-demo-pd_24> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-pascal-hitzler> ;
+              <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-pascal-hitzler-eswc-2017-research-46> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-phd-symposium-chair-pascal-hitzler> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-pascal-hitzler-eswc-2017-demo-pd_24> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-pascal-hitzler> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Pascal Hitzler" .
 
@@ -31754,6 +32326,10 @@ The performed experiments show the added value of our approach since a) our adap
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
               <https://w3id.org/scholarlydata/organisation/tu-dresden> .
 
+<https://w3id.org/scholarlydata/role/local-organiser>
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Local organiser"@en .
+
 <https://w3id.org/scholarlydata/authorlist/eswc-2017-research-63>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -31990,9 +32566,9 @@ The performed experiments show the added value of our approach since a) our adap
       <http://xmlns.com/foaf/0.1/mbox_sha1sum>
               "be99a71a2d9e6e47689dad484930df2a971b036d" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation>
-              <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-university-of-amsterdam-vu-university-amsterdam-rinke-hoekstra> ;
+              <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-university-of-amsterdam-vu-university-amsterdam-rinke-hoekstra> , <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-vrije-universiteit-amsterdam-rinke-hoekstra> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#holdsRole>
-              <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-rinke-hoekstra> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-rinke-hoekstra-eswc-2017-demo-pd_35> ;
+              <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-rinke-hoekstra> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-phd-symposium-chair-rinke-hoekstra> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-rinke-hoekstra-eswc-2017-demo-pd_35> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Rinke Hoekstra" .
 
@@ -32075,6 +32651,17 @@ The performed experiments show the added value of our approach since a) our adap
               "KU Leuven" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "KU Leuven" .
+
+<https://w3id.org/scholarlydata/role-during-event/eswc2017-metadata-chair-lionel-medini>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Role of metadata chair held by Lionel Medini during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
+              <https://w3id.org/scholarlydata/person/lionel-medini> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
+              <https://w3id.org/scholarlydata/role/metadata-chair> .
 
 <https://w3id.org/scholarlydata/organisation/ics-forth>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation> ;
@@ -32770,6 +33357,19 @@ The performed experiments show the added value of our approach since a) our adap
               <https://w3id.org/scholarlydata/person/chun-lu> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
               <https://w3id.org/scholarlydata/organisation/sepage-stih-universite-paris-sorbonne-france> .
+
+<https://w3id.org/scholarlydata/person/marko-grobelnik>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Marko Grobelnik" ;
+      <http://xmlns.com/foaf/0.1/mbox_sha1sum>
+              "b6706a96f87552df0b385ae8120db0633ba76a44" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation>
+              <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-jozef-stefan-institute-marko-grobelnik> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#holdsRole>
+              <https://w3id.org/scholarlydata/role-during-event/eswc2017-local-organiser-marko-grobelnik> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
+              "Marko Grobelnik" .
 
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-federico-morando-eswc-2017-research-141>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
@@ -35918,9 +36518,9 @@ exhibits a F1-score of .89 while DBPedia and Wikidata respectively reach
       <http://xmlns.com/foaf/0.1/mbox_sha1sum>
               "807d7f597773942adce20c1573a69f426da25380" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation>
-              <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-technische-universitat-dresden-sebastian-rudolph> ;
+              <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-tu-dresden-sebastian-rudolph> , <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-technische-universitat-dresden-sebastian-rudolph> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#holdsRole>
-              <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-sebastian-rudolph> ;
+              <https://w3id.org/scholarlydata/role-during-event/eswc2017-tutorials-chair-sebastian-rudolph> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-sebastian-rudolph> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Sebastian Rudolph" .
 
@@ -36563,6 +37163,17 @@ exhibits a F1-score of .89 while DBPedia and Wikidata respectively reach
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
               <https://w3id.org/scholarlydata/organisation/university-of-versailles> .
 
+<https://w3id.org/scholarlydata/role-during-event/eswc2017-posters-chair-heiko-paulheim>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Role of Posters chair held by Heiko Paulheim during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
+              <https://w3id.org/scholarlydata/person/heiko-paulheim> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
+              <https://w3id.org/scholarlydata/role/posters-chair> .
+
 <https://w3id.org/scholarlydata/organisation/the-scripss-research-institute>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -36722,6 +37333,17 @@ exhibits a F1-score of .89 while DBPedia and Wikidata respectively reach
 
 <https://w3id.org/scholarlydata/authorlist/eswc-2017-poster-pd_30>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> .
+
+<https://w3id.org/scholarlydata/role-during-event/eswc2017-metadata-chair-luigi-asprino>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Role of metadata chair held by Luigi Asprino during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
+              <https://w3id.org/scholarlydata/person/luigi-asprino> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
+              <https://w3id.org/scholarlydata/role/metadata-chair> .
 
 <https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-sewebmeda_2>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> ;
@@ -37179,9 +37801,9 @@ Further data relates to dietary content and specific questions such as cancer pr
 <https://w3id.org/scholarlydata/organisation/jozef-stefan-institute>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Jozef Stefan Institute" ;
+              "Jozef Stefan Institute" , "Jožef Stefan Institute" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
-              "Jozef Stefan Institute" .
+              "Jozef Stefan Institute" , "Jožef Stefan Institute" .
 
 <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-workshops-sewebmeda_9-item-2>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> ;

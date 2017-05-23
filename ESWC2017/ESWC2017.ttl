@@ -9960,17 +9960,6 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
               <https://w3id.org/scholarlydata/organisation/university-of-crete> .
 
-<https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-chair-aldo-gagemi>
-      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
-      <http://www.w3.org/2000/01/rdf-schema#label>
-              "Role of Programme chair held by Aldo Gagemi during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
-      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
-              <https://w3id.org/scholarlydata/conference/eswc2017> ;
-      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
-              <https://w3id.org/scholarlydata/person/aldo-gagemi> ;
-      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
-              <https://w3id.org/scholarlydata/role/programme-chair> .
-
 <https://w3id.org/scholarlydata/talk/eswc-2017-73>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Talk> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -13366,7 +13355,7 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <http://xmlns.com/foaf/0.1/mbox_sha1sum>
               "9a5f499c604ad2aa0187925949a43598439fcf00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation>
-              <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-technical-university-of-delft-geert-jan-houben> , <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-tu-delft-geert-jan-houben> ;
+              <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-tu-delft-geert-jan-houben> , <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-technical-university-of-delft-geert-jan-houben> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#holdsRole>
               <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-geert-jan-houben> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-geert-jan-houben-eswc-2017-research-231> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
@@ -15463,19 +15452,6 @@ processing over multiple RSP engine instances. We apply load balancing strategie
               <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-thierry-charnois> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Thierry Charnois" .
-
-<https://w3id.org/scholarlydata/person/aldo-gagemi>
-      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
-      <http://www.w3.org/2000/01/rdf-schema#label>
-              "Aldo Gagemi" ;
-      <http://xmlns.com/foaf/0.1/mbox_sha1sum>
-              "1e84a6fe56f8234c7a27a5b5e8799133de73eee9" ;
-      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation>
-              <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-paris-nord-university-and-istc-cnr-aldo-gagemi> ;
-      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#holdsRole>
-              <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-chair-aldo-gagemi> ;
-      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
-              "Aldo Gagemi" .
 
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-nick-hawes-eswc-2017-workshops-answer_7>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
@@ -25086,17 +25062,6 @@ We present a general mechanism that allows users to interact with Question Answe
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
               <https://w3id.org/scholarlydata/organisation/inria> .
 
-<https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-paris-nord-university-and-istc-cnr-aldo-gagemi>
-      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
-      <http://www.w3.org/2000/01/rdf-schema#label>
-              "Affiliation held by Aldo Gagemi with Paris Nord University and ISTC-CNR during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
-      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
-              <https://w3id.org/scholarlydata/conference/eswc2017> ;
-      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf>
-              <https://w3id.org/scholarlydata/person/aldo-gagemi> ;
-      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
-              <https://w3id.org/scholarlydata/organisation/paris-nord-university-and-istc-cnr> .
-
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-vrije-universiteit-amsterdam-oana-inel>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -28104,7 +28069,7 @@ The problem of understanding and exploring this evolution is a fundamental probl
 <https://w3id.org/scholarlydata/dataset/eswc2017>
       a       <http://rdfs.org/ns/void#Dataset> ;
       <http://purl.org/dc/terms/created>
-              "Tue May 23 12:21:00 CEST 2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Tue May 23 13:16:05 CEST 2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
       <http://purl.org/dc/terms/creator>
               <https://w3id.org/scholarlydata/person/luigi-asprino> , <https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese> ;
       <http://purl.org/dc/terms/title>
@@ -33316,6 +33281,17 @@ producing explanations.""" ;
               <https://w3id.org/scholarlydata/person/franziska-klugl> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
               <https://w3id.org/scholarlydata/organisation/orebro-university> .
+
+<https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-chair-aldo-gangemi>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Role of Programme chair held by Aldo Gangemi during ESWC2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
+              <https://w3id.org/scholarlydata/conference/eswc2017> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
+              <https://w3id.org/scholarlydata/person/aldo-gangemi> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
+              <https://w3id.org/scholarlydata/role/programme-chair> .
 
 <https://w3id.org/scholarlydata/organisation/universidad-simon-bolivar-dep-de-computacion-y-t-i>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation> ;
@@ -38594,11 +38570,11 @@ The performed experiments show the added value of our approach since a) our adap
       <http://xmlns.com/foaf/0.1/made>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-answer_5> , <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_2> , <https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-answer_3> , <https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-answer_4> ;
       <http://xmlns.com/foaf/0.1/mbox_sha1sum>
-              "8d7f004803b48a3b7c5e9f73dc16953069a6632d" , "0d507b815cd8fce44f18d38bfa2a10cb7531c146" ;
+              "8d7f004803b48a3b7c5e9f73dc16953069a6632d" , "1e84a6fe56f8234c7a27a5b5e8799133de73eee9" , "0d507b815cd8fce44f18d38bfa2a10cb7531c146" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation>
               <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-universite-paris-13-cnr-istc-aldo-gangemi> , <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-paris-nord-university-and-istc-cnr-aldo-gangemi> , <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-universite-paris-13-aldo-gangemi> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#holdsRole>
-              <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-aldo-gangemi-eswc-2017-workshops-answer_4> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-aldo-gangemi-eswc-2017-workshops-answer_3> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-aldo-gangemi-eswc-2017-demo-pd_2> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-aldo-gangemi-eswc-2017-workshops-answer_5> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-aldo-gangemi> ;
+              <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-chair-aldo-gangemi> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-aldo-gangemi-eswc-2017-workshops-answer_4> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-aldo-gangemi-eswc-2017-workshops-answer_3> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-aldo-gangemi-eswc-2017-demo-pd_2> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-aldo-gangemi-eswc-2017-workshops-answer_5> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-aldo-gangemi> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Aldo Gangemi" .
 

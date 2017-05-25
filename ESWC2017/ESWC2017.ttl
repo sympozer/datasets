@@ -200,7 +200,7 @@
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-research> , <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Room Emerald 1" ;
+              "Emerald" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-31T14:00:00" .
 
@@ -465,7 +465,7 @@
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-research> , <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Room Emerald 1" ;
+              "Emerald" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-31T11:00:00" .
 
@@ -641,7 +641,7 @@
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-in-use> , <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Room Emerald 2" ;
+              "Mediteranea" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-31T11:00:00" .
 
@@ -838,10 +838,12 @@ In this work, we address the problem of relation alignment across disparate link
               "NLP 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
               "2017-05-31T17:30:00" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent>
+              <https://w3id.org/scholarlydata/talk/eswc-2017-169> , <https://w3id.org/scholarlydata/talk/eswc-2017-71> , <https://w3id.org/scholarlydata/talk/eswc-2017-231> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-research> , <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Room Emerald 1" ;
+              "Emerald" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-31T16:00:00" .
 
@@ -983,12 +985,10 @@ In this work, we address the problem of relation alignment across disparate link
               "In-Use 3" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
               "2017-05-31T17:30:00" ;
-      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent>
-              <https://w3id.org/scholarlydata/talk/eswc-2017-169> , <https://w3id.org/scholarlydata/talk/eswc-2017-71> , <https://w3id.org/scholarlydata/talk/eswc-2017-231> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-in-use> , <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Room Emerald 2" ;
+              "Mediteranea" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-31T16:00:00" .
 
@@ -1209,7 +1209,7 @@ In this work, we address the problem of relation alignment across disparate link
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-in-use> , <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Room Emerald 2" ;
+              "Mediteranea" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-31T14:00:00" .
 
@@ -1324,7 +1324,7 @@ In this work, we address the problem of relation alignment across disparate link
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-research-169> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-27> , <https://w3id.org/scholarlydata/track/eswc-2017-research> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-26> , <https://w3id.org/scholarlydata/track/eswc-2017-research> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-31T16:00:00" .
 
@@ -1346,15 +1346,15 @@ In this work, we address the problem of relation alignment across disparate link
 <https://w3id.org/scholarlydata/session/eswc-2017-session-25>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> , <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Session> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Project networking" ;
+              "EU project networking 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
-              "Project networking" ;
+              "EU project networking 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
               "2017-05-31T15:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-research> , <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Room Adria 1" ;
+              "Adria" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-31T14:00:00" .
 
@@ -2540,6 +2540,8 @@ In this work, we address the problem of relation alignment across disparate link
               "2017-05-28T17:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-tutorials> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Mediteranea 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T09:30:00" .
 
@@ -3651,6 +3653,10 @@ In the experimental evaluation carried out against two datasets, we showed that 
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Dietrich Rebholz-Schuhmann" .
 
+<https://w3id.org/scholarlydata/talk/eswc-2017-phd_10>
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-phd_symp_4> , <https://w3id.org/scholarlydata/track/eswc-2017-phdsymposium> .
+
 <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-in-use-209-item-5>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent>
@@ -3957,6 +3963,10 @@ The relative improvement of this approach is experimentally validated on a bench
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "IRISA" , "Irisa" .
 
+<https://w3id.org/scholarlydata/inproceedings/eswc-2017-phdsymposium-phd_8>
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAuthorList>
+              <https://w3id.org/scholarlydata/authorlist/eswc-2017-phdsymposium-phd_8> .
+
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-claudia-muller-birn-eswc-2017-demo-pd_21>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -4160,6 +4170,10 @@ The relative improvement of this approach is experimentally validated on a bench
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-research-127> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
               <https://w3id.org/scholarlydata/role/author> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc-2017-phdsymposium-phd_9>
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAuthorList>
+              <https://w3id.org/scholarlydata/authorlist/eswc-2017-phdsymposium-phd_9> .
 
 <https://w3id.org/scholarlydata/inproceedings/eswc-2017-poster-pd_43>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> ;
@@ -5304,6 +5318,10 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
               <https://w3id.org/scholarlydata/organisation/idlab-imec-ghent-university> .
 
+<https://w3id.org/scholarlydata/talk/eswc-2017-phd_1>
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-phd_symp_1> , <https://w3id.org/scholarlydata/track/eswc-2017-phdsymposium> .
+
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-insight-centre-for-data-analytics-nui-galway-syeda-sana-e-zainab>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -5337,7 +5355,7 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-research> , <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Room Adria 1" ;
+              "Adria" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-30T14:00:00" .
 
@@ -5461,6 +5479,10 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
               <https://w3id.org/scholarlydata/person/olivier-corby> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
               <https://w3id.org/scholarlydata/organisation/inria> .
+
+<https://w3id.org/scholarlydata/talk/eswc-2017-phd_2>
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-phd_symp_1> , <https://w3id.org/scholarlydata/track/eswc-2017-phdsymposium> .
 
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-achille-zappa-eswc-2017-workshops-sewebmeda_9>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
@@ -5880,6 +5902,10 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasLastItem>
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-research-55-item-4> .
 
+<https://w3id.org/scholarlydata/talk/eswc-2017-phd_5>
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-phd_symp_2> , <https://w3id.org/scholarlydata/track/eswc-2017-phdsymposium> .
+
 <https://w3id.org/scholarlydata/authorlist/eswc-2017-poster-pd_1>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -5974,7 +6000,7 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-research> , <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Room Emerald 2" ;
+              "Mediteranea" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-30T16:00:00" .
 
@@ -6021,6 +6047,10 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
               <https://w3id.org/scholarlydata/person/miriam-fernandez> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
               <https://w3id.org/scholarlydata/organisation/the-open-university> .
+
+<https://w3id.org/scholarlydata/talk/eswc-2017-phd_6>
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-phd_symp_3> , <https://w3id.org/scholarlydata/track/eswc-2017-phdsymposium> .
 
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-vienna-university-of-technology-andreas-rauber>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
@@ -6204,6 +6234,10 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
               <https://w3id.org/scholarlydata/organisation/upmc> .
 
+<https://w3id.org/scholarlydata/talk/eswc-2017-phd_3>
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-phd_symp_2> , <https://w3id.org/scholarlydata/track/eswc-2017-phdsymposium> .
+
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-sebastien-ferre>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -6341,6 +6375,10 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
               <https://w3id.org/scholarlydata/role/author> .
 
+<https://w3id.org/scholarlydata/talk/eswc-2017-phd_4>
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-phd_symp_2> , <https://w3id.org/scholarlydata/track/eswc-2017-phdsymposium> .
+
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-smart-aksw-sandro-coelho>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -6415,7 +6453,7 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-research> , <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Room Emerald 1" ;
+              "Emerald" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-30T16:00:00" .
 
@@ -7533,6 +7571,8 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
               "2017-05-28T12:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-tutorials> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Mediteranea 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T09:30:00" .
 
@@ -9426,6 +9466,10 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Christof Mahieu" .
 
+<https://w3id.org/scholarlydata/talk/eswc-2017-phd_9>
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-phd_symp_4> , <https://w3id.org/scholarlydata/track/eswc-2017-phdsymposium> .
+
 <https://w3id.org/scholarlydata/talk/eswc-2017-184>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Talk> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -9549,7 +9593,7 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-research-71> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-27> , <https://w3id.org/scholarlydata/track/eswc-2017-research> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-26> , <https://w3id.org/scholarlydata/track/eswc-2017-research> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-31T16:30:00" .
 
@@ -9760,6 +9804,10 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
               <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-christos-doulkeridis-eswc-2017-poster-pd_37> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Christos Doulkeridis" .
+
+<https://w3id.org/scholarlydata/talk/eswc-2017-phd_7>
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-phd_symp_3> , <https://w3id.org/scholarlydata/track/eswc-2017-phdsymposium> .
 
 <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-workshops-emsasw-1-item-1>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> ;
@@ -10031,6 +10079,10 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "AKSW, University Of Leizpig" .
 
+<https://w3id.org/scholarlydata/talk/eswc-2017-phd_8>
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-phd_symp_3> , <https://w3id.org/scholarlydata/track/eswc-2017-phdsymposium> .
+
 <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-workshops-quweda2017-3-item-1>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent>
@@ -10111,6 +10163,8 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
               <https://w3id.org/scholarlydata/talk/eswc-2017-answer_1> , <https://w3id.org/scholarlydata/talk/eswc-2017-answer_2> , <https://w3id.org/scholarlydata/talk/eswc-2017-answer_4> , <https://w3id.org/scholarlydata/talk/eswc-2017-answer_5> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Mediteranea 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T09:10:00" .
 
@@ -10412,6 +10466,8 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
               "2017-05-29T09:10:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Mediteranea 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T09:00:00" .
 
@@ -10451,21 +10507,6 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
               <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-fabien-gandon> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Fabien Gandon" .
-
-<https://w3id.org/scholarlydata/socialevent/eswc-2017-session-11>
-      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> , <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#SocialEvent> ;
-      <http://www.w3.org/2000/01/rdf-schema#label>
-              "Coffee break" ;
-      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
-              "Coffee break" ;
-      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-05-30T16:00:00" ;
-      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/track/eswc-2017-research> ;
-      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Mediterranea" ;
-      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-05-30T15:30:00" .
 
 <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-workshops-emsasw-1-item-4>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> ;
@@ -10801,6 +10842,8 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
               <https://w3id.org/scholarlydata/talk/eswc-2017-answer_6> , <https://w3id.org/scholarlydata/talk/eswc-2017-answer_7> , <https://w3id.org/scholarlydata/talk/eswc-2017-answer_3> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Mediteranea 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T11:00:00" .
 
@@ -11184,6 +11227,8 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
               "2017-05-29T17:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T16:40:00" .
 
@@ -11200,7 +11245,7 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSeries>
               <https://w3id.org/scholarlydata//conferenceseries/eswc> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent>
-              <https://w3id.org/scholarlydata/track/eswc-2017-in-use> , <https://w3id.org/scholarlydata/track/eswc-2017-workshops> , <https://w3id.org/scholarlydata/session/eswc-2017-session-28> , <https://w3id.org/scholarlydata/track/eswc-2017-poster> , <https://w3id.org/scholarlydata/session/eswc-2017-session-10> , <https://w3id.org/scholarlydata/session/eswc-2017-session-9> , <https://w3id.org/scholarlydata/session/eswc-2017-session-20> , <https://w3id.org/scholarlydata/session/eswc-2017-session-26> , <https://w3id.org/scholarlydata/session/eswc-2017-session-14> , <https://w3id.org/scholarlydata/track/eswc-2017-research> , <https://w3id.org/scholarlydata/session/eswc-2017-session-36> , <https://w3id.org/scholarlydata/session/eswc-2017-session-24> , <https://w3id.org/scholarlydata/session/eswc-2017-session-5> , <https://w3id.org/scholarlydata/session/eswc-2017-session-40> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/session/eswc-2017-session-39> , <https://w3id.org/scholarlydata/track/eswc-2017-tutorials> , <https://w3id.org/scholarlydata/session/eswc-2017-session-23> , <https://w3id.org/scholarlydata/session/eswc-2017-session-33> , <https://w3id.org/scholarlydata/session/eswc-2017-session-21> , <https://w3id.org/scholarlydata/session/eswc-2017-session-8> , <https://w3id.org/scholarlydata/session/eswc-2017-session-31> , <https://w3id.org/scholarlydata/session/eswc-2017-session-6> , <https://w3id.org/scholarlydata/session/eswc-2017-session-27> , <https://w3id.org/scholarlydata/session/eswc-2017-session-37> , <https://w3id.org/scholarlydata/session/eswc-2017-session-4> , <https://w3id.org/scholarlydata/session/eswc-2017-session-25> , <https://w3id.org/scholarlydata/session/eswc-2017-session-13> , <https://w3id.org/scholarlydata/session/eswc-2017-session-35> , <https://w3id.org/scholarlydata/session/eswc-2017-session-2> , <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
+              <https://w3id.org/scholarlydata/track/eswc-2017-in-use> , <https://w3id.org/scholarlydata/track/eswc-2017-workshops> , <https://w3id.org/scholarlydata/session/eswc-2017-session-28> , <https://w3id.org/scholarlydata/track/eswc-2017-poster> , <https://w3id.org/scholarlydata/session/eswc-2017-session-10> , <https://w3id.org/scholarlydata/session/eswc-2017-session-9> , <https://w3id.org/scholarlydata/session/eswc-2017-session-20> , <https://w3id.org/scholarlydata/session/eswc-2017-session-26> , <https://w3id.org/scholarlydata/session/eswc-2017-session-14> , <https://w3id.org/scholarlydata/track/eswc-2017-research> , <https://w3id.org/scholarlydata/session/eswc-2017-session-36> , <https://w3id.org/scholarlydata/session/eswc-2017-session-24> , <https://w3id.org/scholarlydata/session/eswc-2017-session-5> , <https://w3id.org/scholarlydata/session/eswc-2017-session-phd_symp_3> , <https://w3id.org/scholarlydata/session/eswc-2017-session-phd_symp_1> , <https://w3id.org/scholarlydata/session/eswc-2017-session-40> , <https://w3id.org/scholarlydata/session/eswc-2017-session-phd_symp_5> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/session/eswc-2017-session-39> , <https://w3id.org/scholarlydata/track/eswc-2017-tutorials> , <https://w3id.org/scholarlydata/track/eswc-2017-phdsymposium> , <https://w3id.org/scholarlydata/session/eswc-2017-session-23> , <https://w3id.org/scholarlydata/session/eswc-2017-session-33> , <https://w3id.org/scholarlydata/session/eswc-2017-session-21> , <https://w3id.org/scholarlydata/session/eswc-2017-session-8> , <https://w3id.org/scholarlydata/session/eswc-2017-session-31> , <https://w3id.org/scholarlydata/session/eswc-2017-session-6> , <https://w3id.org/scholarlydata/session/eswc-2017-session-27> , <https://w3id.org/scholarlydata/session/eswc-2017-session-phd_symp_0> , <https://w3id.org/scholarlydata/session/eswc-2017-session-37> , <https://w3id.org/scholarlydata/session/eswc-2017-session-4> , <https://w3id.org/scholarlydata/session/eswc-2017-session-25> , <https://w3id.org/scholarlydata/session/eswc-2017-session-13> , <https://w3id.org/scholarlydata/session/eswc-2017-session-35> , <https://w3id.org/scholarlydata/session/eswc-2017-session-2> , <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/session/eswc-2017-session-phd_symp_4> , <https://w3id.org/scholarlydata/session/eswc-2017-session-phd_symp_2> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
               "Portoroz, Slovenia" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
@@ -11346,6 +11391,8 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
               <https://w3id.org/scholarlydata/talk/eswc-2017-lddl_2> , <https://w3id.org/scholarlydata/talk/eswc-2017-lddl_3> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T16:00:00" .
 
@@ -11451,6 +11498,8 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
               <https://w3id.org/scholarlydata/talk/eswc-2017-lddl_1> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T15:10:00" .
 
@@ -11942,7 +11991,7 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-research-231> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-27> , <https://w3id.org/scholarlydata/track/eswc-2017-research> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-26> , <https://w3id.org/scholarlydata/track/eswc-2017-research> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-31T17:00:00" .
 
@@ -12872,6 +12921,8 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
               "2017-05-29T15:10:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T14:10:00" .
 
@@ -12885,6 +12936,8 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
               "2017-05-28T17:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-tutorials> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Mediteranea 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T14:00:00" .
 
@@ -13051,6 +13104,8 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
               "2017-05-29T14:10:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T14:00:00" .
 
@@ -13355,7 +13410,7 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <http://xmlns.com/foaf/0.1/mbox_sha1sum>
               "9a5f499c604ad2aa0187925949a43598439fcf00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation>
-              <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-tu-delft-geert-jan-houben> , <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-technical-university-of-delft-geert-jan-houben> ;
+              <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-technical-university-of-delft-geert-jan-houben> , <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-tu-delft-geert-jan-houben> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#holdsRole>
               <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-geert-jan-houben> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-geert-jan-houben-eswc-2017-research-231> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
@@ -13468,7 +13523,7 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-research> , <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Room Emerald 2" ;
+              "Mediteranea" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-06-01T16:00:00" .
 
@@ -16807,6 +16862,10 @@ solely by editing the mapping document via HTML controls.""" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
               <https://w3id.org/scholarlydata/organisation/ontology-engineering-group-universidad-politecnica-de-madrid> .
 
+<https://w3id.org/scholarlydata/inproceedings/eswc-2017-phdsymposium-phd_1>
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAuthorList>
+              <https://w3id.org/scholarlydata/authorlist/eswc-2017-phdsymposium-phd_1> .
+
 <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-workshops-sewebmeda_4-item-1>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent>
@@ -16896,7 +16955,7 @@ solely by editing the mapping document via HTML controls.""" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-research> , <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Room Emerald 1" ;
+              "Emerald" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-06-01T14:00:00" .
 
@@ -17004,6 +17063,10 @@ In this demonstrator-paper, we present a self-learning dashboard, for monitoring
               <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-amna-dridi-eswc-2017-workshops-emsasw-3> , <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-amna-dridi-eswc-2017-workshops-emsasw-6> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Amna Dridi" .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc-2017-phdsymposium-phd_2>
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAuthorList>
+              <https://w3id.org/scholarlydata/authorlist/eswc-2017-phdsymposium-phd_2> .
 
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-jun-zhao>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
@@ -17161,6 +17224,10 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Johannes Gutenberg university" , "Johannes Gutenberg University" .
 
+<https://w3id.org/scholarlydata/inproceedings/eswc-2017-phdsymposium-phd_3>
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAuthorList>
+              <https://w3id.org/scholarlydata/authorlist/eswc-2017-phdsymposium-phd_3> .
+
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-free-university-of-bozen-bolzano-vladislav-ryzhikov>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -17186,15 +17253,15 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
 <https://w3id.org/scholarlydata/session/eswc-2017-session-33>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> , <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Session> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Keynote speech by Lora Aroyo" ;
+              "Keynote speech by Lora Aroyo “Disrupting the Semantic Comfort Zone”" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
-              "Keynote speech by Lora Aroyo" ;
+              "Keynote speech by Lora Aroyo “Disrupting the Semantic Comfort Zone”" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
               "2017-05-30T12:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-research> , <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Room Emerald" ;
+              "Emerald" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-30T11:30:00" .
 
@@ -17364,6 +17431,10 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Magnus Knuth" .
 
+<https://w3id.org/scholarlydata/inproceedings/eswc-2017-phdsymposium-phd_4>
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAuthorList>
+              <https://w3id.org/scholarlydata/authorlist/eswc-2017-phdsymposium-phd_4> .
+
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-harith-alani-eswc-2017-research-184>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -17469,6 +17540,10 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
               <https://w3id.org/scholarlydata/role/author> .
 
+<https://w3id.org/scholarlydata/inproceedings/eswc-2017-phdsymposium-phd_5>
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAuthorList>
+              <https://w3id.org/scholarlydata/authorlist/eswc-2017-phdsymposium-phd_5> .
+
 <https://w3id.org/scholarlydata/session/eswc-2017-session-39>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> , <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Session> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -17482,7 +17557,7 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-research> , <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Room Emerald 1" ;
+              "Emerald" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-06-01T16:00:00" .
 
@@ -17671,6 +17746,10 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
               <https://w3id.org/scholarlydata/organisation/friedrich-schiller-university-jena> .
 
+<https://w3id.org/scholarlydata/inproceedings/eswc-2017-phdsymposium-phd_6>
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAuthorList>
+              <https://w3id.org/scholarlydata/authorlist/eswc-2017-phdsymposium-phd_6> .
+
 <https://w3id.org/scholarlydata/talk/eswc-2017-243>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Talk> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -17730,7 +17809,7 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-research> , <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Room Emerald 2" ;
+              "Mediteranea" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-06-01T14:00:00" .
 
@@ -17770,6 +17849,10 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
               <https://w3id.org/scholarlydata/person/nitish-aggarwal> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
               <https://w3id.org/scholarlydata/organisation/insight-centre-nui-galway> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc-2017-phdsymposium-phd_7>
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAuthorList>
+              <https://w3id.org/scholarlydata/authorlist/eswc-2017-phdsymposium-phd_7> .
 
 <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-research-115-item-2>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> ;
@@ -17843,7 +17926,7 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-research> , <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Room Adria 2" ;
+              "Adria" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-06-01T14:00:00" .
 
@@ -18401,15 +18484,15 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
 <https://w3id.org/scholarlydata/session/eswc-2017-session-2>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> , <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Session> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Keynote speech by Kevin Crosbie" ;
+              "Keynote speech by Kevin Crosbie “Bringing Semantic Intelligence to Financial Markets”" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
-              "Keynote speech by Kevin Crosbie" ;
+              "Keynote speech by Kevin Crosbie “Bringing Semantic Intelligence to Financial Markets”" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
               "2017-05-30T10:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-research> , <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Room Emerald" ;
+              "Emerald" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-30T09:30:00" .
 
@@ -18450,6 +18533,8 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
               "2017-05-28T17:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T16:00:00" .
 
@@ -18576,6 +18661,8 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
               "2017-05-29T17:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-tutorials> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Adria 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T09:30:00" .
 
@@ -18737,6 +18824,8 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
               "2017-05-29T17:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T09:30:00" .
 
@@ -18992,6 +19081,8 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
               <https://w3id.org/scholarlydata/talk/eswc-2017-quweda2017-8> , <https://w3id.org/scholarlydata/talk/eswc-2017-quweda2017-3> , <https://w3id.org/scholarlydata/talk/eswc-2017-quweda2017-6> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T11:00:00" .
 
@@ -19197,6 +19288,8 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
               "2017-05-29T10:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T09:30:00" .
 
@@ -19364,7 +19457,7 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-poster> , <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Beach bar" ;
+              "Conference lobby" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-06-01T09:00:00" .
 
@@ -19449,6 +19542,8 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
               "2017-05-29T09:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T09:00:00" .
 
@@ -20052,6 +20147,23 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
               <https://w3id.org/scholarlydata/role/author> .
 
+<https://w3id.org/scholarlydata/session/eswc-2017-session-phd_symp_1>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> , <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Session> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "PhD Symposium: Presentations 1" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
+              "PhD Symposium: Presentations 1" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
+              "2017-05-29T10:30:00" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent>
+              <https://w3id.org/scholarlydata/talk/eswc-2017-phd_1> , <https://w3id.org/scholarlydata/talk/eswc-2017-phd_2> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
+              <https://w3id.org/scholarlydata/conference/eswc2017> , <https://w3id.org/scholarlydata/track/eswc-2017-phdsymposium> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 3" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
+              "2017-05-29T09:30:00" .
+
 <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-workshops-answer_7-item-4>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent>
@@ -20162,6 +20274,21 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
               <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-takahiro-kawamura> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Takahiro Kawamura" .
+
+<https://w3id.org/scholarlydata/session/eswc-2017-session-phd_symp_0>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> , <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Session> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "PhD Symposium: Welcome" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
+              "PhD Symposium: Welcome" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
+              "2017-05-29T09:30:00" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
+              <https://w3id.org/scholarlydata/conference/eswc2017> , <https://w3id.org/scholarlydata/track/eswc-2017-phdsymposium> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 3" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
+              "2017-05-29T09:20:00" .
 
 <https://w3id.org/scholarlydata/talk/eswc-2017-semdeep-17-6>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Talk> ;
@@ -20321,7 +20448,7 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-research> , <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Room Emerald 2" ;
+              "Mediteranea" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-30T14:00:00" .
 
@@ -20352,6 +20479,23 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
               <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_sd_3> , <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T16:15:00" .
+
+<https://w3id.org/scholarlydata/session/eswc-2017-session-phd_symp_3>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> , <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Session> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "PhD Symposium: Presentations 3" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
+              "PhD Symposium: Presentations 3" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
+              "2017-05-29T15:30:00" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent>
+              <https://w3id.org/scholarlydata/talk/eswc-2017-phd_8> , <https://w3id.org/scholarlydata/talk/eswc-2017-phd_7> , <https://w3id.org/scholarlydata/talk/eswc-2017-phd_6> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
+              <https://w3id.org/scholarlydata/conference/eswc2017> , <https://w3id.org/scholarlydata/track/eswc-2017-phdsymposium> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 3" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
+              "2017-05-29T14:00:00" .
 
 <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-research-167-item-3>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> ;
@@ -20518,7 +20662,7 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-research> , <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Room Emerald 1" ;
+              "Emerald" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-30T14:00:00" .
 
@@ -20615,6 +20759,23 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-research-167-item-3> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#previous>
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-research-167-item-1> .
+
+<https://w3id.org/scholarlydata/session/eswc-2017-session-phd_symp_2>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> , <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Session> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "PhD Symposium: Presentations 2" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
+              "PhD Symposium: Presentations 2" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
+              "2017-05-29T12:30:00" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent>
+              <https://w3id.org/scholarlydata/talk/eswc-2017-phd_5> , <https://w3id.org/scholarlydata/talk/eswc-2017-phd_4> , <https://w3id.org/scholarlydata/talk/eswc-2017-phd_3> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
+              <https://w3id.org/scholarlydata/conference/eswc2017> , <https://w3id.org/scholarlydata/track/eswc-2017-phdsymposium> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 3" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
+              "2017-05-29T11:00:00" .
 
 <https://w3id.org/scholarlydata/organisation/pwc>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation> ;
@@ -20774,6 +20935,21 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
               "IRI" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "IRI" .
+
+<https://w3id.org/scholarlydata/session/eswc-2017-session-phd_symp_5>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> , <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Session> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "PhD Symposium: Closing" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
+              "PhD Symposium: Closing" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
+              "2017-05-29T17:30:00" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
+              <https://w3id.org/scholarlydata/conference/eswc2017> , <https://w3id.org/scholarlydata/track/eswc-2017-phdsymposium> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 3" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
+              "2017-05-29T17:00:00" .
 
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-devify-inc-jollen-chen>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
@@ -20942,7 +21118,7 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-research> , <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Room Adria 1" ;
+              "Adria" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-30T11:00:00" .
 
@@ -20978,6 +21154,23 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
               "The University of New South Wales" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "The University of New South Wales" .
+
+<https://w3id.org/scholarlydata/session/eswc-2017-session-phd_symp_4>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> , <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Session> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "PhD Symposium: Presentations 4" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
+              "PhD Symposium: Presentations 4" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
+              "2017-05-29T17:00:00" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent>
+              <https://w3id.org/scholarlydata/talk/eswc-2017-phd_9> , <https://w3id.org/scholarlydata/talk/eswc-2017-phd_10> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
+              <https://w3id.org/scholarlydata/conference/eswc2017> , <https://w3id.org/scholarlydata/track/eswc-2017-phdsymposium> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 3" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
+              "2017-05-29T16:00:00" .
 
 <https://w3id.org/scholarlydata/inproceedings/eswc-2017-poster-pd_11>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> ;
@@ -21160,7 +21353,7 @@ feature reduction. Our approach exhibits a significant improvement of
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-research> , <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Room Emerald 2" ;
+              "Mediteranea" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-30T11:00:00" .
 
@@ -21395,7 +21588,7 @@ feature reduction. Our approach exhibits a significant improvement of
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-research> , <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Room Emerald 1" ;
+              "Emerald" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-30T11:00:00" .
 
@@ -21865,9 +22058,9 @@ feature reduction. Our approach exhibits a significant improvement of
 <https://w3id.org/scholarlydata/session/eswc-2017-session-28>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> , <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Session> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Project networking" ;
+              "EU project networking 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
-              "Project networking" ;
+              "EU project networking 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
               "2017-05-31T17:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent>
@@ -21875,7 +22068,7 @@ feature reduction. Our approach exhibits a significant improvement of
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-research> , <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Room Adria" ;
+              "Adria" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-31T16:00:00" .
 
@@ -22015,7 +22208,7 @@ feature reduction. Our approach exhibits a significant improvement of
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-research> , <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Room Emerald 1/2" ;
+              "Emerald" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-31T17:30:00" .
 
@@ -22878,6 +23071,8 @@ feature reduction. Our approach exhibits a significant improvement of
               <https://w3id.org/scholarlydata/talk/eswc-2017-ldq-2> , <https://w3id.org/scholarlydata/talk/eswc-2017-ldq-3> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Mediteranea 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T11:00:00" .
 
@@ -22935,6 +23130,8 @@ feature reduction. Our approach exhibits a significant improvement of
               "2017-05-28T09:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Adria 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T09:15:00" .
 
@@ -23107,6 +23304,8 @@ is available at: https://vcharpenay.github.io/urdf-amaa/.""" ;
               "2017-05-29T12:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Mediteranea 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T12:00:00" .
 
@@ -23120,6 +23319,8 @@ is available at: https://vcharpenay.github.io/urdf-amaa/.""" ;
               "2017-05-28T09:15:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Adria 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T09:00:00" .
 
@@ -23272,6 +23473,8 @@ is available at: https://vcharpenay.github.io/urdf-amaa/.""" ;
               <https://w3id.org/scholarlydata/talk/eswc-2017-mepdaw-3> , <https://w3id.org/scholarlydata/talk/eswc-2017-mepdaw-6> , <https://w3id.org/scholarlydata/talk/eswc-2017-mepdaw-4> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Adria 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T11:00:00" .
 
@@ -23473,6 +23676,8 @@ is available at: https://vcharpenay.github.io/urdf-amaa/.""" ;
               "2017-05-28T10:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Adria 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T09:30:00" .
 
@@ -24282,6 +24487,8 @@ We present a general mechanism that allows users to interact with Question Answe
               "2017-05-28T12:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T12:20:00" .
 
@@ -24360,6 +24567,8 @@ We present a general mechanism that allows users to interact with Question Answe
               "2017-05-29T12:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-tutorials> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Adria 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T09:30:00" .
 
@@ -24507,6 +24716,8 @@ We present a general mechanism that allows users to interact with Question Answe
               <https://w3id.org/scholarlydata/talk/eswc-2017-sewebmeda_1> , <https://w3id.org/scholarlydata/talk/eswc-2017-sewebmeda_9> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T11:00:00" .
 
@@ -24693,6 +24904,8 @@ We present a general mechanism that allows users to interact with Question Answe
               "2017-05-28T15:15:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T15:10:00" .
 
@@ -24851,6 +25064,8 @@ We present a general mechanism that allows users to interact with Question Answe
               <https://w3id.org/scholarlydata/talk/eswc-2017-sewebmeda_12> , <https://w3id.org/scholarlydata/talk/eswc-2017-sewebmeda_4> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T14:00:00" .
 
@@ -24966,6 +25181,8 @@ We present a general mechanism that allows users to interact with Question Answe
               "2017-05-28T09:50:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T09:10:00" .
 
@@ -25002,7 +25219,7 @@ We present a general mechanism that allows users to interact with Question Answe
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "ESWC 2017 Workshops track" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent>
-              <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_rsp_3> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-sewebmeda_5> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_ldq_2> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_scientometrics_6> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_sw4sh_0> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_mepdaw_1> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-5a> , <https://w3id.org/scholarlydata/talk/eswc-2017-lddl_3> , <https://w3id.org/scholarlydata/talk/eswc-2017-sewebmeda_6> , <https://w3id.org/scholarlydata/talk/eswc-2017-rsp2017-4> , <https://w3id.org/scholarlydata/talk/eswc-2017-edsc_3> , <https://w3id.org/scholarlydata/talk/eswc-2017-scientometrics2017_2> , <https://w3id.org/scholarlydata/talk/eswc-2017-answer_4> , <https://w3id.org/scholarlydata/talk/eswc-2017-mepdaw-4> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-coffee_28_mor> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-sewebmeda_4> , <https://w3id.org/scholarlydata/talk/eswc-2017-scientometrics2017_1> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_ldq_3> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_mepdaw_0> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_scientometrics_5> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_sw4sh_1> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_lddl_4> , <https://w3id.org/scholarlydata/talk/eswc-2017-semdeep-17-6> , <https://w3id.org/scholarlydata/talk/eswc-2017-sw4sh2017-2> , <https://w3id.org/scholarlydata/talk/eswc-2017-answer_3> , <https://w3id.org/scholarlydata/talk/eswc-2017-mepdaw-5> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_scientometrics_10> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_mepdaw_3> , <https://w3id.org/scholarlydata/talk/eswc-2017-ldq-2> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-sewebmeda_7> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_scientometrics_4> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_lddl_3> , <https://w3id.org/scholarlydata/talk/eswc-2017-answer_6> , <https://w3id.org/scholarlydata/talk/eswc-2017-semdeep-17-5> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_sd_4> , <https://w3id.org/scholarlydata/talk/eswc-2017-scientometrics2017_4> , <https://w3id.org/scholarlydata/talk/eswc-2017-sewebmeda_8> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_quweda_3> , <https://w3id.org/scholarlydata/talk/eswc-2017-mepdaw-6> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-sewebmeda_6> , <https://w3id.org/scholarlydata/talk/eswc-2017-ldq-3> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_mepdaw_2> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_scientometrics_3> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_lddl_2> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_edsc_2> , <https://w3id.org/scholarlydata/talk/eswc-2017-sewebmeda_12> , <https://w3id.org/scholarlydata/talk/eswc-2017-semdeep-17-4> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_sd_3> , <https://w3id.org/scholarlydata/talk/eswc-2017-scientometrics2017_3> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-lunch_28> , <https://w3id.org/scholarlydata/talk/eswc-2017-rsp2017-3> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_quweda_2> , <https://w3id.org/scholarlydata/talk/eswc-2017-quweda2017-3> , <https://w3id.org/scholarlydata/talk/eswc-2017-answer_5> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-sewebmeda_1> , <https://w3id.org/scholarlydata/talk/eswc-2017-quweda2017-8> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_answer_1> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_mepdaw_5> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_scientometrics_2> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_sw4sh_4> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_lddl_1> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_edsc_1> , <https://w3id.org/scholarlydata/talk/eswc-2017-sewebmeda_2> , <https://w3id.org/scholarlydata/talk/eswc-2017-semdeep-17-3> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_sd_2> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-lunch_29> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_quweda_1> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-coffee_29_noon> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_answer_0> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_rsp_0> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_mepdaw_4> , <https://w3id.org/scholarlydata/talk/eswc-2017-ldq-1> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-sewebmeda_8> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_lddl_0> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_scientometrics_1> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-sewebmeda_0> , <https://w3id.org/scholarlydata/talk/eswc-2017-answer_7> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_scientometrics_9> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_sd_1> , <https://w3id.org/scholarlydata/talk/eswc-2017-sewebmeda_1> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-sewebmeda_9> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_quweda_0> , <https://w3id.org/scholarlydata/talk/eswc-2017-mepdaw-1> , <https://w3id.org/scholarlydata/talk/eswc-2017-rsp2017-1> , <https://w3id.org/scholarlydata/talk/eswc-2017-sewebmeda_9> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-sewebmeda_3> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_rsp_1> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_ldq_0> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_sw4sh_2> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_scientometrics_0> , <https://w3id.org/scholarlydata/talk/eswc-2017-lddl_1> , <https://w3id.org/scholarlydata/talk/eswc-2017-sewebmeda_4> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_scientometrics_8> , <https://w3id.org/scholarlydata/talk/eswc-2017-edsc_1> , <https://w3id.org/scholarlydata/talk/eswc-2017-mepdaw-2> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-sewebmeda_10> , <https://w3id.org/scholarlydata/talk/eswc-2017-sw4sh2017-1> , <https://w3id.org/scholarlydata/talk/eswc-2017-answer_2> , <https://w3id.org/scholarlydata/talk/eswc-2017-quweda2017-6> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_rsp_2> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_answer_2> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-sewebmeda_2> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-coffee_29_mor> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_mepdaw_6> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_ldq_1> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_sw4sh_3> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-coffee_28_noon> , <https://w3id.org/scholarlydata/talk/eswc-2017-lddl_2> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_scientometrics_7> , <https://w3id.org/scholarlydata/talk/eswc-2017-mepdaw-3> , <https://w3id.org/scholarlydata/talk/eswc-2017-edsc_2> , <https://w3id.org/scholarlydata/talk/eswc-2017-answer_1> ;
+              <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_rsp_3> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-sewebmeda_5> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_ldq_2> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_scientometrics_6> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_sw4sh_0> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_mepdaw_1> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-5a> , <https://w3id.org/scholarlydata/talk/eswc-2017-lddl_3> , <https://w3id.org/scholarlydata/talk/eswc-2017-sewebmeda_6> , <https://w3id.org/scholarlydata/talk/eswc-2017-rsp2017-4> , <https://w3id.org/scholarlydata/talk/eswc-2017-edsc_3> , <https://w3id.org/scholarlydata/talk/eswc-2017-scientometrics2017_2> , <https://w3id.org/scholarlydata/talk/eswc-2017-answer_4> , <https://w3id.org/scholarlydata/talk/eswc-2017-mepdaw-4> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-coffee_28_mor> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-sewebmeda_4> , <https://w3id.org/scholarlydata/talk/eswc-2017-scientometrics2017_1> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_ldq_3> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_mepdaw_0> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_scientometrics_5> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_sw4sh_1> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_lddl_4> , <https://w3id.org/scholarlydata/talk/eswc-2017-semdeep-17-6> , <https://w3id.org/scholarlydata/talk/eswc-2017-sw4sh2017-2> , <https://w3id.org/scholarlydata/talk/eswc-2017-answer_3> , <https://w3id.org/scholarlydata/talk/eswc-2017-mepdaw-5> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_scientometrics_10> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_mepdaw_3> , <https://w3id.org/scholarlydata/talk/eswc-2017-ldq-2> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-sewebmeda_7> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_scientometrics_4> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_lddl_3> , <https://w3id.org/scholarlydata/talk/eswc-2017-answer_6> , <https://w3id.org/scholarlydata/talk/eswc-2017-semdeep-17-5> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_sd_4> , <https://w3id.org/scholarlydata/talk/eswc-2017-scientometrics2017_4> , <https://w3id.org/scholarlydata/talk/eswc-2017-sewebmeda_8> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_quweda_3> , <https://w3id.org/scholarlydata/talk/eswc-2017-mepdaw-6> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-sewebmeda_6> , <https://w3id.org/scholarlydata/talk/eswc-2017-ldq-3> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_mepdaw_2> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_scientometrics_3> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_lddl_2> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_edsc_2> , <https://w3id.org/scholarlydata/talk/eswc-2017-sewebmeda_12> , <https://w3id.org/scholarlydata/talk/eswc-2017-semdeep-17-4> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_sd_3> , <https://w3id.org/scholarlydata/talk/eswc-2017-scientometrics2017_3> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-lunch_28> , <https://w3id.org/scholarlydata/talk/eswc-2017-rsp2017-3> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_quweda_2> , <https://w3id.org/scholarlydata/talk/eswc-2017-quweda2017-3> , <https://w3id.org/scholarlydata/talk/eswc-2017-answer_5> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-sewebmeda_1> , <https://w3id.org/scholarlydata/talk/eswc-2017-quweda2017-8> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_answer_1> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_mepdaw_5> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_scientometrics_2> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_sw4sh_4> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_lddl_1> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_edsc_1> , <https://w3id.org/scholarlydata/talk/eswc-2017-sewebmeda_2> , <https://w3id.org/scholarlydata/talk/eswc-2017-semdeep-17-3> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_sd_2> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-lunch_29> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_quweda_1> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-coffee_29_noon> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_answer_0> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_rsp_0> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_mepdaw_4> , <https://w3id.org/scholarlydata/talk/eswc-2017-ldq-1> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-sewebmeda_8> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_lddl_0> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_scientometrics_1> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-sewebmeda_0> , <https://w3id.org/scholarlydata/talk/eswc-2017-answer_7> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_scientometrics_9> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_sd_1> , <https://w3id.org/scholarlydata/talk/eswc-2017-sewebmeda_1> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-sewebmeda_9> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_quweda_0> , <https://w3id.org/scholarlydata/talk/eswc-2017-mepdaw-1> , <https://w3id.org/scholarlydata/talk/eswc-2017-rsp2017-1> , <https://w3id.org/scholarlydata/talk/eswc-2017-sewebmeda_9> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_mepdaw_7> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-sewebmeda_3> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_rsp_1> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_ldq_0> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_sw4sh_2> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_scientometrics_0> , <https://w3id.org/scholarlydata/talk/eswc-2017-lddl_1> , <https://w3id.org/scholarlydata/talk/eswc-2017-sewebmeda_4> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_scientometrics_8> , <https://w3id.org/scholarlydata/talk/eswc-2017-edsc_1> , <https://w3id.org/scholarlydata/talk/eswc-2017-mepdaw-2> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-sewebmeda_10> , <https://w3id.org/scholarlydata/talk/eswc-2017-sw4sh2017-1> , <https://w3id.org/scholarlydata/talk/eswc-2017-answer_2> , <https://w3id.org/scholarlydata/talk/eswc-2017-quweda2017-6> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_rsp_2> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_answer_2> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-sewebmeda_2> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-coffee_29_mor> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_mepdaw_6> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_ldq_1> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_sw4sh_3> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-coffee_28_noon> , <https://w3id.org/scholarlydata/talk/eswc-2017-lddl_2> , <https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_scientometrics_7> , <https://w3id.org/scholarlydata/talk/eswc-2017-mepdaw-3> , <https://w3id.org/scholarlydata/talk/eswc-2017-edsc_2> , <https://w3id.org/scholarlydata/talk/eswc-2017-answer_1> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/conference/eswc2017> .
 
@@ -25173,6 +25390,8 @@ We present a general mechanism that allows users to interact with Question Answe
               "2017-05-28T09:10:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T09:00:00" .
 
@@ -25259,6 +25478,8 @@ We present a general mechanism that allows users to interact with Question Answe
               "2017-05-28T10:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T10:20:00" .
 
@@ -25387,6 +25608,8 @@ We present a general mechanism that allows users to interact with Question Answe
               <https://w3id.org/scholarlydata/talk/eswc-2017-sewebmeda_2> , <https://w3id.org/scholarlydata/talk/eswc-2017-sewebmeda_6> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T09:50:00" .
 
@@ -26025,7 +26248,7 @@ IoT application framework.""" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-research> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Room Emerald 1/2" ;
+              "Emerald" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-06-01T16:00:00" .
 
@@ -26082,7 +26305,7 @@ IoT application framework.""" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-research> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Room Emerald 1/2" ;
+              "Emerald" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-30T17:30:00" .
 
@@ -26209,6 +26432,8 @@ IoT application framework.""" ;
               <https://w3id.org/scholarlydata/talk/eswc-2017-sewebmeda_8> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T15:15:00" .
 
@@ -26321,6 +26546,8 @@ To our knowledge, this is the largest-scale graph database & analysis on real su
               "2017-05-28T16:45:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T16:00:00" .
 
@@ -27851,6 +28078,8 @@ are available online.""" ;
               "2017-05-29T10:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Mediteranea 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T09:00:00" .
 
@@ -28069,7 +28298,7 @@ The problem of understanding and exploring this evolution is a fundamental probl
 <https://w3id.org/scholarlydata/dataset/eswc2017>
       a       <http://rdfs.org/ns/void#Dataset> ;
       <http://purl.org/dc/terms/created>
-              "Tue May 23 13:16:05 CEST 2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Thu May 25 16:49:02 CEST 2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
       <http://purl.org/dc/terms/creator>
               <https://w3id.org/scholarlydata/person/luigi-asprino> , <https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese> ;
       <http://purl.org/dc/terms/title>
@@ -28089,6 +28318,8 @@ The problem of understanding and exploring this evolution is a fundamental probl
               <https://w3id.org/scholarlydata/talk/eswc-2017-ldq-1> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Mediteranea 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T10:00:00" .
 
@@ -28366,6 +28597,9 @@ The system is open source and can be freely downloaded from https://github.com/i
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#title>
               "MappingPedia: A Collaborative Environment for R2RML Mappings" .
 
+<https://w3id.org/scholarlydata/authorlist/eswc-2017-phdsymposium-phd_1>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> .
+
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-dan-vodislav-eswc-2017-research-219>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -28410,6 +28644,9 @@ The system is open source and can be freely downloaded from https://github.com/i
               <https://w3id.org/scholarlydata/person/maxime-lefrancois> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#next>
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-research-165-item-2> .
+
+<https://w3id.org/scholarlydata/authorlist/eswc-2017-phdsymposium-phd_2>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> .
 
 <https://w3id.org/scholarlydata/authorlist/eswc-2017-research-12>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> ;
@@ -28801,6 +29038,8 @@ Additionally, we demonstrate how KBox can be used to share RDF knowledge graphs 
               <https://w3id.org/scholarlydata/talk/eswc-2017-edsc_3> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T11:00:00" .
 
@@ -29030,6 +29269,8 @@ to verbalise an ontology exist. We have implemented the algorithms corresponding
               <https://w3id.org/scholarlydata/talk/eswc-2017-edsc_1> , <https://w3id.org/scholarlydata/talk/eswc-2017-edsc_2> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T09:00:00" .
 
@@ -29839,6 +30080,8 @@ As such, the potential of available open data sets is not fully exploited and ra
               "2017-05-29T17:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-tutorials> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Adria 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T14:00:00" .
 
@@ -32910,6 +33153,8 @@ improves the overall throughput of the system.""" ;
               <https://w3id.org/scholarlydata/talk/eswc-2017-mepdaw-2> , <https://w3id.org/scholarlydata/talk/eswc-2017-mepdaw-1> , <https://w3id.org/scholarlydata/talk/eswc-2017-mepdaw-5> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Adria 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T14:00:00" .
 
@@ -33073,6 +33318,8 @@ improves the overall throughput of the system.""" ;
               "2017-05-28T12:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Adria 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T12:15:00" .
 
@@ -33271,6 +33518,21 @@ producing explanations.""" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation>
               <https://w3id.org/scholarlydata/organisation/university-of-nantes> .
 
+<https://w3id.org/scholarlydata/workshop/eswc-2017-session-ws_mepdaw_7>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Workshop> , <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "WS: MePDaW: Closing Session" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
+              "WS: MePDaW: Closing Session" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
+              "2017-05-28T17:00:00" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
+              <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Adria 1" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
+              "2017-05-28T16:00:00" .
+
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-orebro-university-franziska-klugl>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -33435,6 +33697,8 @@ producing explanations.""" ;
               "2017-05-28T15:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Adria 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T15:15:00" .
 
@@ -34420,6 +34684,8 @@ neither between the transformations and the generation framework nor their imple
               "2017-05-29T12:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Mediteranea 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T12:00:00" .
 
@@ -34649,9 +34915,9 @@ neither between the transformations and the generation framework nor their imple
 <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-16>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> , <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#SocialEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Welcome recepetion" ;
+              "Welcome reception" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
-              "Welcome recepetion" ;
+              "Welcome reception" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
               "2017-05-30T21:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
@@ -34682,6 +34948,8 @@ neither between the transformations and the generation framework nor their imple
               <https://w3id.org/scholarlydata/talk/eswc-2017-sw4sh2017-1> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Mediteranea 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T10:00:00" .
 
@@ -34849,6 +35117,8 @@ neither between the transformations and the generation framework nor their imple
               <https://w3id.org/scholarlydata/talk/eswc-2017-sw4sh2017-2> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Mediteranea 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T11:00:00" .
 
@@ -34991,6 +35261,8 @@ neither between the transformations and the generation framework nor their imple
               "2017-05-29T09:05:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Mediteranea 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T09:00:00" .
 
@@ -35024,6 +35296,8 @@ neither between the transformations and the generation framework nor their imple
               "2017-05-28T17:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 3" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T09:30:00" .
 
@@ -35183,6 +35457,8 @@ neither between the transformations and the generation framework nor their imple
               "2017-05-29T10:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Mediteranea 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T09:05:00" .
 
@@ -37671,6 +37947,9 @@ The performed experiments show the added value of our approach since a) our adap
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Free University of Bozen-Bolzano / LORIA" .
 
+<https://w3id.org/scholarlydata/authorlist/eswc-2017-phdsymposium-phd_9>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> .
+
 <https://w3id.org/scholarlydata/inproceedings/eswc-2017-in-use-209>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -38048,6 +38327,9 @@ The performed experiments show the added value of our approach since a) our adap
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "University of Montpellier - LIRMM" .
 
+<https://w3id.org/scholarlydata/authorlist/eswc-2017-phdsymposium-phd_7>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> .
+
 <https://w3id.org/scholarlydata/authorlist/eswc-2017-poster-pd_46>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> .
 
@@ -38170,6 +38452,9 @@ The performed experiments show the added value of our approach since a) our adap
               <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-joel-azzopardi-eswc-2017-workshops-scientometrics2017_2> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Joel Azzopardi" .
+
+<https://w3id.org/scholarlydata/authorlist/eswc-2017-phdsymposium-phd_8>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> .
 
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-national-institute-of-technology-karnataka-nitk-surathkal-india-avijit-shah>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
@@ -38305,6 +38590,9 @@ The performed experiments show the added value of our approach since a) our adap
               "Laboratoire Hubert Curien" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Laboratoire Hubert Curien" .
+
+<https://w3id.org/scholarlydata/authorlist/eswc-2017-phdsymposium-phd_5>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> .
 
 <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-22>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> , <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#SocialEvent> ;
@@ -38485,6 +38773,9 @@ The performed experiments show the added value of our approach since a) our adap
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-in-use-37> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withRole>
               <https://w3id.org/scholarlydata/role/author> .
+
+<https://w3id.org/scholarlydata/authorlist/eswc-2017-phdsymposium-phd_6>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> .
 
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-enterprise-information-systems-applied-computer-science-university-of-bonn-ioanna-lytra>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
@@ -38725,6 +39016,9 @@ The performed experiments show the added value of our approach since a) our adap
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Christian Chiarcos" .
 
+<https://w3id.org/scholarlydata/authorlist/eswc-2017-phdsymposium-phd_3>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> .
+
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-univ-rennes-1-helene-jaudoin>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
@@ -38964,6 +39258,9 @@ The performed experiments show the added value of our approach since a) our adap
               <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-pierre-drap-eswc-2017-poster-pd_1> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Pierre Drap" .
+
+<https://w3id.org/scholarlydata/authorlist/eswc-2017-phdsymposium-phd_4>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> .
 
 <https://w3id.org/scholarlydata/person/chris-preist>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
@@ -39937,6 +40234,8 @@ The performed experiments show the added value of our approach since a) our adap
               "2017-05-28T09:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Adria 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T09:15:00" .
 
@@ -40134,6 +40433,8 @@ The performed experiments show the added value of our approach since a) our adap
               "2017-05-28T10:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Adria 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T09:30:00" .
 
@@ -40283,6 +40584,8 @@ The performed experiments show the added value of our approach since a) our adap
               <https://w3id.org/scholarlydata/talk/eswc-2017-rsp2017-4> , <https://w3id.org/scholarlydata/talk/eswc-2017-rsp2017-3> , <https://w3id.org/scholarlydata/talk/eswc-2017-rsp2017-1> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Adria 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T11:00:00" .
 
@@ -40453,6 +40756,8 @@ The performed experiments show the added value of our approach since a) our adap
               "2017-05-28T14:25:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T14:00:00" .
 
@@ -40676,6 +40981,8 @@ The performed experiments show the added value of our approach since a) our adap
               "2017-05-28T12:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T12:20:00" .
 
@@ -40845,6 +41152,8 @@ The performed experiments show the added value of our approach since a) our adap
               "2017-05-28T12:20:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T11:50:00" .
 
@@ -40876,6 +41185,8 @@ The performed experiments show the added value of our approach since a) our adap
               "2017-05-29T17:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T17:00:00" .
 
@@ -41014,6 +41325,8 @@ The performed experiments show the added value of our approach since a) our adap
               "2017-05-28T11:50:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T11:25:00" .
 
@@ -41044,6 +41357,10 @@ The performed experiments show the added value of our approach since a) our adap
               <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-finn-arup-nielsen-eswc-2017-workshops-scientometrics2017_3> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Finn Årup Nielsen" .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc-2017-phdsymposium-phd_10>
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAuthorList>
+              <https://w3id.org/scholarlydata/authorlist/eswc-2017-phdsymposium-phd_10> .
 
 <https://w3id.org/scholarlydata/organisation/lirmm>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation> ;
@@ -41129,6 +41446,8 @@ The performed experiments show the added value of our approach since a) our adap
               <https://w3id.org/scholarlydata/talk/eswc-2017-semdeep-17-3> , <https://w3id.org/scholarlydata/talk/eswc-2017-semdeep-17-4> , <https://w3id.org/scholarlydata/talk/eswc-2017-semdeep-17-5> , <https://w3id.org/scholarlydata/talk/eswc-2017-semdeep-17-6> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Mediteranea 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T15:15:00" .
 
@@ -41136,6 +41455,9 @@ The performed experiments show the added value of our approach since a) our adap
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent>
               <https://w3id.org/scholarlydata/person/jollen-chen> .
+
+<https://w3id.org/scholarlydata/authorlist/eswc-2017-phdsymposium-phd_10>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> .
 
 <https://w3id.org/scholarlydata/person/paul-warren>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
@@ -41213,6 +41535,8 @@ The performed experiments show the added value of our approach since a) our adap
               <https://w3id.org/scholarlydata/talk/eswc-2017-scientometrics2017_2> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T11:00:00" .
 
@@ -41257,6 +41581,8 @@ The performed experiments show the added value of our approach since a) our adap
               "2017-05-29T15:15:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Mediteranea 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T14:15:00" .
 
@@ -41351,6 +41677,8 @@ The performed experiments show the added value of our approach since a) our adap
               <https://w3id.org/scholarlydata/talk/eswc-2017-scientometrics2017_1> , <https://w3id.org/scholarlydata/talk/eswc-2017-scientometrics2017_4> , <https://w3id.org/scholarlydata/talk/eswc-2017-scientometrics2017_3> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T09:15:00" .
 
@@ -41384,6 +41712,8 @@ The performed experiments show the added value of our approach since a) our adap
               "2017-05-29T14:15:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Mediteranea 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T14:00:00" .
 
@@ -41559,6 +41889,8 @@ The performed experiments show the added value of our approach since a) our adap
               "2017-05-28T09:15:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T09:00:00" .
 
@@ -41651,6 +41983,8 @@ The performed experiments show the added value of our approach since a) our adap
               "2017-05-28T17:15:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T16:45:00" .
 
@@ -42746,6 +43080,8 @@ exhibits a F1-score of .89 while DBPedia and Wikidata respectively reach
               "2017-05-28T15:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T15:15:00" .
 
@@ -42863,6 +43199,8 @@ exhibits a F1-score of .89 while DBPedia and Wikidata respectively reach
               "2017-05-28T15:15:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T14:50:00" .
 
@@ -43068,6 +43406,8 @@ exhibits a F1-score of .89 while DBPedia and Wikidata respectively reach
               "2017-05-28T14:50:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Aurora 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T14:25:00" .
 
@@ -43084,7 +43424,7 @@ exhibits a F1-score of .89 while DBPedia and Wikidata respectively reach
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-demo> , <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Beach bar" ;
+              "Conference lobby" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-06-01T09:00:00" .
 
@@ -43136,6 +43476,8 @@ exhibits a F1-score of .89 while DBPedia and Wikidata respectively reach
               "2017-05-28T12:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
+              "Adria 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T12:15:00" .
 
@@ -43613,7 +43955,7 @@ exhibits a F1-score of .89 while DBPedia and Wikidata respectively reach
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-research> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Room Emerald 1/2" ;
+              "Emerald" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-30T09:00:00" .
 
@@ -44366,7 +44708,7 @@ Further data relates to dietary content and specific questions such as cancer pr
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "ESWC 2017 Research track" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent>
-              <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-38> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-22> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-30> , <https://w3id.org/scholarlydata/talk/eswc-2017-session-18> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-34> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-3> , <https://w3id.org/scholarlydata/talk/eswc-2017-188> , <https://w3id.org/scholarlydata/session/eswc-2017-session-10> , <https://w3id.org/scholarlydata/talk/eswc-2017-201> , <https://w3id.org/scholarlydata/talk/eswc-2017-120> , <https://w3id.org/scholarlydata/session/eswc-2017-session-26> , <https://w3id.org/scholarlydata/talk/eswc-2017-132> , <https://w3id.org/scholarlydata/talk/eswc-2017-184> , <https://w3id.org/scholarlydata/session/eswc-2017-session-14> , <https://w3id.org/scholarlydata/talk/eswc-2017-241> , <https://w3id.org/scholarlydata/talk/eswc-2017-152> , <https://w3id.org/scholarlydata/talk/eswc-2017-74> , <https://w3id.org/scholarlydata/talk/eswc-2017-192> , <https://w3id.org/scholarlydata/talk/eswc-2017-46> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-19> , <https://w3id.org/scholarlydata/talk/eswc-2017-71> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-11> , <https://w3id.org/scholarlydata/talk/eswc-2017-108> , <https://w3id.org/scholarlydata/session/eswc-2017-session-39> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-7> , <https://w3id.org/scholarlydata/organisedevent/eswc-2017-session-17> , <https://w3id.org/scholarlydata/session/eswc-2017-session-23> , <https://w3id.org/scholarlydata/talk/eswc-2017-111> , <https://w3id.org/scholarlydata/talk/eswc-2017-199> , <https://w3id.org/scholarlydata/talk/eswc-2017-167> , <https://w3id.org/scholarlydata/session/eswc-2017-session-6> , <https://w3id.org/scholarlydata/talk/eswc-2017-131> , <https://w3id.org/scholarlydata/session/eswc-2017-session-35> , <https://w3id.org/scholarlydata/session/eswc-2017-session-2> , <https://w3id.org/scholarlydata/talk/eswc-2017-11> , <https://w3id.org/scholarlydata/talk/eswc-2017-55> , <https://w3id.org/scholarlydata/talk/eswc-2017-63> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-16> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-32> , <https://w3id.org/scholarlydata/session/eswc-2017-session-28> , <https://w3id.org/scholarlydata/talk/eswc-2017-115> , <https://w3id.org/scholarlydata/talk/eswc-2017-159> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-12> , <https://w3id.org/scholarlydata/talk/eswc-2017-127> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-1> , <https://w3id.org/scholarlydata/session/eswc-2017-session-20> , <https://w3id.org/scholarlydata/session/eswc-2017-session-9> , <https://w3id.org/scholarlydata/talk/eswc-2017-142> , <https://w3id.org/scholarlydata/session/eswc-2017-session-36> , <https://w3id.org/scholarlydata/talk/eswc-2017-231> , <https://w3id.org/scholarlydata/session/eswc-2017-session-5> , <https://w3id.org/scholarlydata/talk/eswc-2017-174> , <https://w3id.org/scholarlydata/talk/eswc-2017-88> , <https://w3id.org/scholarlydata/talk/eswc-2017-44> , <https://w3id.org/scholarlydata/session/eswc-2017-session-40> , <https://w3id.org/scholarlydata/talk/eswc-2017-12> , <https://w3id.org/scholarlydata/talk/eswc-2017-73> , <https://w3id.org/scholarlydata/talk/eswc-2017-61> , <https://w3id.org/scholarlydata/talk/eswc-2017-219> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-41> , <https://w3id.org/scholarlydata/talk/eswc-2017-222> , <https://w3id.org/scholarlydata/talk/eswc-2017-29> , <https://w3id.org/scholarlydata/talk/eswc-2017-169> , <https://w3id.org/scholarlydata/session/eswc-2017-session-33> , <https://w3id.org/scholarlydata/session/eswc-2017-session-8> , <https://w3id.org/scholarlydata/talk/eswc-2017-17> , <https://w3id.org/scholarlydata/talk/eswc-2017-153> , <https://w3id.org/scholarlydata/session/eswc-2017-session-37> , <https://w3id.org/scholarlydata/talk/eswc-2017-165> , <https://w3id.org/scholarlydata/session/eswc-2017-session-25> , <https://w3id.org/scholarlydata/session/eswc-2017-session-4> , <https://w3id.org/scholarlydata/session/eswc-2017-session-13> , <https://w3id.org/scholarlydata/talk/eswc-2017-230> , <https://w3id.org/scholarlydata/talk/eswc-2017-141> , <https://w3id.org/scholarlydata/talk/eswc-2017-41> , <https://w3id.org/scholarlydata/panel/eswc-2017-session-15> ;
+              <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-38> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-22> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-30> , <https://w3id.org/scholarlydata/talk/eswc-2017-session-18> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-34> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-3> , <https://w3id.org/scholarlydata/talk/eswc-2017-188> , <https://w3id.org/scholarlydata/session/eswc-2017-session-10> , <https://w3id.org/scholarlydata/talk/eswc-2017-201> , <https://w3id.org/scholarlydata/talk/eswc-2017-120> , <https://w3id.org/scholarlydata/session/eswc-2017-session-26> , <https://w3id.org/scholarlydata/talk/eswc-2017-132> , <https://w3id.org/scholarlydata/talk/eswc-2017-184> , <https://w3id.org/scholarlydata/session/eswc-2017-session-14> , <https://w3id.org/scholarlydata/talk/eswc-2017-241> , <https://w3id.org/scholarlydata/talk/eswc-2017-152> , <https://w3id.org/scholarlydata/talk/eswc-2017-74> , <https://w3id.org/scholarlydata/talk/eswc-2017-192> , <https://w3id.org/scholarlydata/talk/eswc-2017-46> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-19> , <https://w3id.org/scholarlydata/talk/eswc-2017-71> , <https://w3id.org/scholarlydata/talk/eswc-2017-108> , <https://w3id.org/scholarlydata/session/eswc-2017-session-39> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-7> , <https://w3id.org/scholarlydata/organisedevent/eswc-2017-session-17> , <https://w3id.org/scholarlydata/session/eswc-2017-session-23> , <https://w3id.org/scholarlydata/talk/eswc-2017-111> , <https://w3id.org/scholarlydata/talk/eswc-2017-199> , <https://w3id.org/scholarlydata/talk/eswc-2017-167> , <https://w3id.org/scholarlydata/session/eswc-2017-session-6> , <https://w3id.org/scholarlydata/talk/eswc-2017-131> , <https://w3id.org/scholarlydata/session/eswc-2017-session-35> , <https://w3id.org/scholarlydata/session/eswc-2017-session-2> , <https://w3id.org/scholarlydata/talk/eswc-2017-11> , <https://w3id.org/scholarlydata/talk/eswc-2017-55> , <https://w3id.org/scholarlydata/talk/eswc-2017-63> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-16> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-32> , <https://w3id.org/scholarlydata/session/eswc-2017-session-28> , <https://w3id.org/scholarlydata/talk/eswc-2017-115> , <https://w3id.org/scholarlydata/talk/eswc-2017-159> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-12> , <https://w3id.org/scholarlydata/talk/eswc-2017-127> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-1> , <https://w3id.org/scholarlydata/session/eswc-2017-session-20> , <https://w3id.org/scholarlydata/session/eswc-2017-session-9> , <https://w3id.org/scholarlydata/talk/eswc-2017-142> , <https://w3id.org/scholarlydata/session/eswc-2017-session-36> , <https://w3id.org/scholarlydata/talk/eswc-2017-231> , <https://w3id.org/scholarlydata/session/eswc-2017-session-5> , <https://w3id.org/scholarlydata/talk/eswc-2017-174> , <https://w3id.org/scholarlydata/talk/eswc-2017-88> , <https://w3id.org/scholarlydata/talk/eswc-2017-44> , <https://w3id.org/scholarlydata/session/eswc-2017-session-40> , <https://w3id.org/scholarlydata/talk/eswc-2017-12> , <https://w3id.org/scholarlydata/talk/eswc-2017-73> , <https://w3id.org/scholarlydata/talk/eswc-2017-61> , <https://w3id.org/scholarlydata/talk/eswc-2017-219> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/socialevent/eswc-2017-session-41> , <https://w3id.org/scholarlydata/talk/eswc-2017-222> , <https://w3id.org/scholarlydata/talk/eswc-2017-29> , <https://w3id.org/scholarlydata/talk/eswc-2017-169> , <https://w3id.org/scholarlydata/session/eswc-2017-session-33> , <https://w3id.org/scholarlydata/session/eswc-2017-session-8> , <https://w3id.org/scholarlydata/talk/eswc-2017-17> , <https://w3id.org/scholarlydata/talk/eswc-2017-153> , <https://w3id.org/scholarlydata/session/eswc-2017-session-37> , <https://w3id.org/scholarlydata/talk/eswc-2017-165> , <https://w3id.org/scholarlydata/session/eswc-2017-session-25> , <https://w3id.org/scholarlydata/session/eswc-2017-session-4> , <https://w3id.org/scholarlydata/session/eswc-2017-session-13> , <https://w3id.org/scholarlydata/talk/eswc-2017-230> , <https://w3id.org/scholarlydata/talk/eswc-2017-141> , <https://w3id.org/scholarlydata/talk/eswc-2017-41> , <https://w3id.org/scholarlydata/panel/eswc-2017-session-15> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/conference/eswc2017> .
 
@@ -44582,6 +44924,17 @@ and and annotate them with semantic metadata.""" ;
               <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-henrique-santos-eswc-2017-in-use-209> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name>
               "Henrique Santos" .
+
+<https://w3id.org/scholarlydata/track/eswc-2017-phdsymposium>
+      a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Track> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "PhD Symposium" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
+              "PhD Symposium" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent>
+              <https://w3id.org/scholarlydata/talk/eswc-2017-phd_5> , <https://w3id.org/scholarlydata/talk/eswc-2017-phd_4> , <https://w3id.org/scholarlydata/talk/eswc-2017-phd_7> , <https://w3id.org/scholarlydata/talk/eswc-2017-phd_6> , <https://w3id.org/scholarlydata/talk/eswc-2017-phd_1> , <https://w3id.org/scholarlydata/talk/eswc-2017-phd_3> , <https://w3id.org/scholarlydata/talk/eswc-2017-phd_2> , <https://w3id.org/scholarlydata/talk/eswc-2017-phd_10> , <https://w3id.org/scholarlydata/talk/eswc-2017-phd_9> , <https://w3id.org/scholarlydata/session/eswc-2017-session-phd_symp_0> , <https://w3id.org/scholarlydata/talk/eswc-2017-phd_8> , <https://w3id.org/scholarlydata/session/eswc-2017-session-phd_symp_3> , <https://w3id.org/scholarlydata/session/eswc-2017-session-phd_symp_4> , <https://w3id.org/scholarlydata/session/eswc-2017-session-phd_symp_1> , <https://w3id.org/scholarlydata/session/eswc-2017-session-phd_symp_2> , <https://w3id.org/scholarlydata/session/eswc-2017-session-phd_symp_5> ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
+              <https://w3id.org/scholarlydata/conference/eswc2017> .
 
 <https://w3id.org/scholarlydata/person/ziqi-zhang>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;

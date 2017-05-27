@@ -25249,9 +25249,9 @@ We present a general mechanism that allows users to interact with Question Answe
 <https://w3id.org/scholarlydata/workshop/eswc-2017-session-sewebmeda_1>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Workshop> , <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "WS: (SeWeBMeDA): Keynote TBA" ;
+              "WS: (SeWeBMeDA): Keynote by Dr. D. Rebholz-Schuhmann “Semantics driven big data analytics”" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
-              "WS: (SeWeBMeDA): Keynote TBA" ;
+              "WS: (SeWeBMeDA): Keynote by Dr. D. Rebholz-Schuhmann “Semantics driven big data analytics”" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
               "2017-05-28T09:50:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
@@ -28388,7 +28388,7 @@ The problem of understanding and exploring this evolution is a fundamental probl
 <https://w3id.org/scholarlydata/dataset/eswc2017>
       a       <http://rdfs.org/ns/void#Dataset> ;
       <http://purl.org/dc/terms/created>
-              "Sat May 27 17:14:11 CEST 2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Sat May 27 17:23:35 CEST 2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
       <http://purl.org/dc/terms/creator>
               <https://w3id.org/scholarlydata/person/luigi-asprino> , <https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese> ;
       <http://purl.org/dc/terms/title>

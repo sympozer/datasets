@@ -25761,7 +25761,7 @@ We present a general mechanism that allows users to interact with Question Answe
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Aurora 3" ;
+              "Aurora 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T15:00:00" .
 
@@ -28388,7 +28388,7 @@ The problem of understanding and exploring this evolution is a fundamental probl
 <https://w3id.org/scholarlydata/dataset/eswc2017>
       a       <http://rdfs.org/ns/void#Dataset> ;
       <http://purl.org/dc/terms/created>
-              "Sun May 28 09:26:08 CEST 2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Sun May 28 09:41:58 CEST 2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
       <http://purl.org/dc/terms/creator>
               <https://w3id.org/scholarlydata/person/luigi-asprino> , <https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese> ;
       <http://purl.org/dc/terms/title>
@@ -31159,7 +31159,7 @@ As such, the potential of available open data sets is not fully exploited and ra
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Aurora 3" ;
+              "Aurora 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T14:00:00" .
 
@@ -31458,7 +31458,7 @@ improvements of our solution over the states of the art.""" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Aurora 3" ;
+              "Aurora 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T11:00:00" .
 
@@ -31693,7 +31693,7 @@ improvements of our solution over the states of the art.""" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Aurora 3" ;
+              "Aurora 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T09:30:00" .
 
@@ -31824,7 +31824,7 @@ improvements of our solution over the states of the art.""" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Aurora 3" ;
+              "Aurora 2" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T09:00:00" .
 
@@ -40384,7 +40384,7 @@ The performed experiments show the added value of our approach since a) our adap
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Adria 2" ;
+              "Aurora 3" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T09:15:00" .
 
@@ -40583,7 +40583,7 @@ The performed experiments show the added value of our approach since a) our adap
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Adria 2" ;
+              "Aurora 3" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T09:30:00" .
 
@@ -40734,7 +40734,7 @@ The performed experiments show the added value of our approach since a) our adap
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Adria 2" ;
+              "Aurora 3" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T11:00:00" .
 
@@ -43626,7 +43626,7 @@ exhibits a F1-score of .89 while DBPedia and Wikidata respectively reach
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Adria 2" ;
+              "Aurora 3" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-28T12:15:00" .
 

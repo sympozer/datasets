@@ -25757,13 +25757,13 @@ We present a general mechanism that allows users to interact with Question Answe
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "WS: EMSASW 2017: Discussion and wrap up" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-05-28T17:30:00" ;
+              "2017-05-28T15:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
               "Aurora 3" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-05-28T09:30:00" .
+              "2017-05-28T15:00:00" .
 
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-ghent-university-raf-buyle>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
@@ -28388,7 +28388,7 @@ The problem of understanding and exploring this evolution is a fundamental probl
 <https://w3id.org/scholarlydata/dataset/eswc2017>
       a       <http://rdfs.org/ns/void#Dataset> ;
       <http://purl.org/dc/terms/created>
-              "Sat May 27 17:23:35 CEST 2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Sun May 28 09:26:08 CEST 2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
       <http://purl.org/dc/terms/creator>
               <https://w3id.org/scholarlydata/person/luigi-asprino> , <https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese> ;
       <http://purl.org/dc/terms/title>

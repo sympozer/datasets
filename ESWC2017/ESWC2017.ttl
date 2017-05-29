@@ -11303,7 +11303,7 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Aurora1" ;
+              "Aurora 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T16:40:00" .
 
@@ -11467,7 +11467,7 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-workshops> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Aurora1" ;
+              "Aurora 1" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-29T16:00:00" .
 
@@ -28388,7 +28388,7 @@ The problem of understanding and exploring this evolution is a fundamental probl
 <https://w3id.org/scholarlydata/dataset/eswc2017>
       a       <http://rdfs.org/ns/void#Dataset> ;
       <http://purl.org/dc/terms/created>
-              "Sun May 28 16:34:25 CEST 2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Mon May 29 17:59:58 CEST 2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
       <http://purl.org/dc/terms/creator>
               <https://w3id.org/scholarlydata/person/luigi-asprino> , <https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese> ;
       <http://purl.org/dc/terms/title>
@@ -42337,7 +42337,7 @@ The performed experiments show the added value of our approach since a) our adap
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-research> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
-              "Roof restaurant" ;
+              "Hotel Beach" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
               "2017-05-31T20:00:00" .
 

@@ -109,13 +109,13 @@
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: RML and FnO: Shaping DBpedia Declaratively" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_49> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-demo-pd_49-item-3>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> ;
@@ -266,7 +266,7 @@
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-george-marandianos-eswc-2017-workshops-emsasw-2>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Role of Author of held by George Marandianos during ESWC2017 for paper titled: \"Aggeliki Vlachostergiou, George Marandianos and Stefanos Kollias\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Role of Author of held by George Marandianos during ESWC2017 for paper titled: \"From Conditional Random Field (CRF) to Rhetorical Structure Theory(RST): incorporating Context information in Sentiment Analysis\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
               <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
@@ -391,7 +391,7 @@
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-marco-federici-eswc-2017-workshops-emsasw-9>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Role of Author of held by Marco Federici during ESWC2017 for paper titled: \"Marco Federici and Mauro Dragoni\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Role of Author of held by Marco Federici during ESWC2017 for paper titled: \"Towards Unsupervised Approaches For Aspects Extraction\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
               <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
@@ -1486,13 +1486,13 @@ In this work, we address the problem of relation alignment across disparate link
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: Framework for Live synchronization of RDF Views of Relational Data" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_41> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/authorlist/eswc-2017-workshops-mepdaw-6>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> ;
@@ -1811,13 +1811,13 @@ In this work, we address the problem of relation alignment across disparate link
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: Towards Learning Commonalities in SPARQL" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-poster-pd_43> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31> , <https://w3id.org/scholarlydata/track/eswc-2017-poster> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-poster> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/authorlist/eswc-2017-workshops-mepdaw-4>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> ;
@@ -2298,13 +2298,13 @@ In this work, we address the problem of relation alignment across disparate link
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: JedAI: The Force behind Entity Resolution" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_47> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-poznan-university-of-technology-agnieszka-lawrynowicz>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
@@ -2460,13 +2460,13 @@ In this work, we address the problem of relation alignment across disparate link
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: Context-Aware and Self-Learning Dynamic Transport Scheduling in Hospitals" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_48> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-jose-julio-alferes>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
@@ -5095,7 +5095,7 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
 <https://w3id.org/scholarlydata/authorlist/eswc-2017-workshops-emsasw-13>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Authors list of the paper \"Andi Rexha\""^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Authors list of the paper \"Polarity Classification for Target Phrases in Tweets: A Word2Vec approach\""^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasFirstItem>
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-workshops-emsasw-13-item-1> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasItem>
@@ -5404,9 +5404,9 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
 <https://w3id.org/scholarlydata/talk/eswc-2017-emsasw-1>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Talk> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Talk: Zahra Ahmadi, Aleksandrs Stier, Marcin Skowron and Stefan Kramer" ;
+              "Talk: To Parse or Not to Parse: An Experimental Comparison of RNTNs and CNNs for Sentiment Analysis" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
-              "Talk: Zahra Ahmadi, Aleksandrs Stier, Marcin Skowron and Stefan Kramer" ;
+              "Talk: To Parse or Not to Parse: An Experimental Comparison of RNTNs and CNNs for Sentiment Analysis" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
               "2017-05-28T11:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
@@ -5552,9 +5552,9 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
 <https://w3id.org/scholarlydata/talk/eswc-2017-emsasw-2>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Talk> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Talk: Aggeliki Vlachostergiou, George Marandianos and Stefanos Kollias" ;
+              "Talk: From Conditional Random Field (CRF) to Rhetorical Structure Theory(RST): incorporating Context information in Sentiment Analysis" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
-              "Talk: Aggeliki Vlachostergiou, George Marandianos and Stefanos Kollias" ;
+              "Talk: From Conditional Random Field (CRF) to Rhetorical Structure Theory(RST): incorporating Context information in Sentiment Analysis" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
               "2017-05-28T12:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
@@ -5672,9 +5672,9 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
 <https://w3id.org/scholarlydata/talk/eswc-2017-emsasw-3>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Talk> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Talk: Amna Dridi, Mattia Atzeni and Diego Reforgiato Recupero" ;
+              "Talk: Bearish-Bullish Sentiment Analysis on Financial Microblogs" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
-              "Talk: Amna Dridi, Mattia Atzeni and Diego Reforgiato Recupero" ;
+              "Talk: Bearish-Bullish Sentiment Analysis on Financial Microblogs" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
               "2017-05-28T12:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
@@ -6052,7 +6052,7 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-mauro-dragoni-eswc-2017-workshops-emsasw-8>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Role of Author of held by Mauro Dragoni during ESWC2017 for paper titled: \"Mauro Dragoni\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Role of Author of held by Mauro Dragoni during ESWC2017 for paper titled: \"Extracting Linguistic Features From Opinion Data Streams For Multi-Domain Sentiment Analysis\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
               <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
@@ -6122,7 +6122,7 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-zahra-ahmadi-eswc-2017-workshops-emsasw-1>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Role of Author of held by Zahra Ahmadi during ESWC2017 for paper titled: \"Zahra Ahmadi, Aleksandrs Stier, Marcin Skowron and Stefan Kramer\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Role of Author of held by Zahra Ahmadi during ESWC2017 for paper titled: \"To Parse or Not to Parse: An Experimental Comparison of RNTNs and CNNs for Sentiment Analysis\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
               <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
@@ -6152,13 +6152,13 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: Ontology-based photogrammetric survey in underwater archaeology" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-poster-pd_1> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31> , <https://w3id.org/scholarlydata/track/eswc-2017-poster> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-poster> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-paul-avillach-eswc-2017-in-use-243>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
@@ -6224,7 +6224,7 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-mauro-dragoni-eswc-2017-workshops-emsasw-9>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Role of Author of held by Mauro Dragoni during ESWC2017 for paper titled: \"Marco Federici and Mauro Dragoni\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Role of Author of held by Mauro Dragoni during ESWC2017 for paper titled: \"Towards Unsupervised Approaches For Aspects Extraction\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
               <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
@@ -6750,7 +6750,7 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-andi-rexha-eswc-2017-workshops-emsasw-13>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Role of Author of held by Andi Rexha during ESWC2017 for paper titled: \"Andi Rexha\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Role of Author of held by Andi Rexha during ESWC2017 for paper titled: \"Polarity Classification for Target Phrases in Tweets: A Word2Vec approach\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
               <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
@@ -7530,9 +7530,9 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
 <https://w3id.org/scholarlydata/talk/eswc-2017-emsasw-6>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Talk> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Talk: Amna Dridi and Diego Reforgiato Recupero" ;
+              "Talk: MORE SENSE: MOvie REviews SENtiment analysis boosted with SEmantics" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
-              "Talk: Amna Dridi and Diego Reforgiato Recupero" ;
+              "Talk: MORE SENSE: MOvie REviews SENtiment analysis boosted with SEmantics" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
               "2017-05-28T15:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
@@ -7756,9 +7756,9 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
 <https://w3id.org/scholarlydata/talk/eswc-2017-emsasw-7>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Talk> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Talk: Lubna Zafar and Muhammad Tanvir Afzal" ;
+              "Talk: Exploiting Polarity Features for Developing Sentiment Analysis Tool" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
-              "Talk: Lubna Zafar and Muhammad Tanvir Afzal" ;
+              "Talk: Exploiting Polarity Features for Developing Sentiment Analysis Tool" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
               "2017-05-28T14:30:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
@@ -8306,7 +8306,7 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-mattia-atzeni-eswc-2017-workshops-emsasw-3>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Role of Author of held by Mattia Atzeni during ESWC2017 for paper titled: \"Amna Dridi, Mattia Atzeni and Diego Reforgiato Recupero\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Role of Author of held by Mattia Atzeni during ESWC2017 for paper titled: \"Bearish-Bullish Sentiment Analysis on Financial Microblogs\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
               <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
@@ -9505,13 +9505,13 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: KBox : Distributing ready-to-query RDF Knowledge Graphs" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_4> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-bifan-wei-eswc-2017-research-44>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
@@ -10001,13 +10001,13 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: AMR2FRED, a tool for translating AMR to Motif-based Linguistic Knowledge Graphs" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_2> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/inproceedings/eswc-2017-poster-pd_30>
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAuthorList>
@@ -10183,13 +10183,13 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: Trill: A generic Front-End for QA systems" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_3> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-programme-committee-member-karl-aberer>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
@@ -10365,13 +10365,13 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: Linked Data Processing Provenance: Towards Transparent & Reusable Linked Data Integration" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_9> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/organisation/school-of-electrical-engineering-and-informatics-itb>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation> ;
@@ -10446,7 +10446,7 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-muhammad-tanvir-afzal-eswc-2017-workshops-emsasw-7>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Role of Author of held by Muhammad Tanvir Afzal during ESWC2017 for paper titled: \"Lubna Zafar and Muhammad Tanvir Afzal\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Role of Author of held by Muhammad Tanvir Afzal during ESWC2017 for paper titled: \"Exploiting Polarity Features for Developing Sentiment Analysis Tool\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
               <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
@@ -10826,13 +10826,13 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: Verbalising OWL ontologies in isiZulu with Python" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_6> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-universita-di-milano-bicocca-elisabetta-fersini>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
@@ -10998,13 +10998,13 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: Towards Open Data Mashups for Data Journalism" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_8> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-universite-paris-13-mehwish-alam>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
@@ -11024,13 +11024,13 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: Assessing the Completeness of Entities in Knowledge Bases" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-poster-pd_7> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31> , <https://w3id.org/scholarlydata/track/eswc-2017-poster> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-poster> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/organisation/consiglio-nazionale-delle-ricerche>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation> ;
@@ -11213,13 +11213,13 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: MappingPedia: A Collaborative Environment for R2RML Mappings" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_25> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-orebro-university-amy-loutfi>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
@@ -11528,13 +11528,13 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: REPRODUCE-ME: Ontology-based Data Access for Reproducibility of Microscopy Experiments" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-poster-pd_27> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31> , <https://w3id.org/scholarlydata/track/eswc-2017-poster> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-poster> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/organisation/free-university-of-bozen-bolzano>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation> ;
@@ -11665,13 +11665,13 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: Leveraging Cognitive Computing for Multi-Class Classification of E-Learning Videos" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-poster-pd_28> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31> , <https://w3id.org/scholarlydata/track/eswc-2017-poster> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-poster> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_38>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> ;
@@ -11820,13 +11820,13 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: TDDonto2: A Test-Driven Development Plugin for arbitrary TBox and ABox axioms" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_29> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-md-rezaul-karim-eswc-2017-workshops-sewebmeda_9>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
@@ -12896,13 +12896,13 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: Automated UML-Based Ontology Generation in in OSLO²" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_20> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/organisation/computer-science-institute-iii-university-of-bonn-fraunhofer-iais>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation> ;
@@ -13063,13 +13063,13 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: Honey bee versus Apis mellifera: A Semantic Search for Biological Data" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_21> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/organisation/university-of-sheffield>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation> ;
@@ -13550,13 +13550,13 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: EvoRDF: A framework for exploring ontology evolution" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_23> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-research-174-item-2>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> ;
@@ -13752,13 +13752,13 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: Rendering OWL in Description Logic Syntax" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_24> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/person/audun-stolpe>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
@@ -13791,7 +13791,7 @@ We revisit this old problem in the popular conjunctive fragment of SPARQL, aka B
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-stefanos-kollias-eswc-2017-workshops-emsasw-2>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Role of Author of held by Stefanos Kollias during ESWC2017 for paper titled: \"Aggeliki Vlachostergiou, George Marandianos and Stefanos Kollias\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Role of Author of held by Stefanos Kollias during ESWC2017 for paper titled: \"From Conditional Random Field (CRF) to Rhetorical Structure Theory(RST): incorporating Context information in Sentiment Analysis\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
               <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
@@ -16795,13 +16795,13 @@ more comprehensive workflows.""" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: The datAcron Ontology for Semantic Trajectories" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-poster-pd_37> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31> , <https://w3id.org/scholarlydata/track/eswc-2017-poster> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-poster> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-alessandro-bozzon-eswc-2017-research-231>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
@@ -17041,13 +17041,13 @@ solely by editing the mapping document via HTML controls.""" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: Eaglet -- a Named Entity Recognition and Entity Linking Gold Standard Checking Tool" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_38> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-research-46-item-1>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> ;
@@ -17221,13 +17221,13 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: Dynamic Semantic Music Notation: Using Linked Data to Enhance Music Performance" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-poster-pd_39> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31> , <https://w3id.org/scholarlydata/track/eswc-2017-poster> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-poster> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/person/lionel-medini>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
@@ -18838,18 +18838,18 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: Ladda: SPARQL Queries in the Fog of Browsers" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_31> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-aleksandrs-stier-eswc-2017-workshops-emsasw-1>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Role of Author of held by Aleksandrs Stier during ESWC2017 for paper titled: \"Zahra Ahmadi, Aleksandrs Stier, Marcin Skowron and Stefan Kramer\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Role of Author of held by Aleksandrs Stier during ESWC2017 for paper titled: \"To Parse or Not to Parse: An Experimental Comparison of RNTNs and CNNs for Sentiment Analysis\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
               <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
@@ -19318,13 +19318,13 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: Talking Open Data" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_33> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-demo-pd_34-item-3>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> ;
@@ -19577,13 +19577,13 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: YAM++ online: a Multi-task Platform for Ontology and Thesaurus Matching" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_34> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-foaad-haddod-eswc-2017-workshops-scientometrics2017_2>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
@@ -19826,13 +19826,13 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: SPARQL2Git: Transparent SPARQL and Linked Data API Curation via Git" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_35> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-answer_6>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> ;
@@ -20131,7 +20131,7 @@ We revisit this problem in the popular Resource Description Framework (RDF) of W
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-lubna-zafar-eswc-2017-workshops-emsasw-7>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Role of Author of held by Lubna Zafar during ESWC2017 for paper titled: \"Lubna Zafar and Muhammad Tanvir Afzal\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Role of Author of held by Lubna Zafar during ESWC2017 for paper titled: \"Exploiting Polarity Features for Developing Sentiment Analysis Tool\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
               <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
@@ -22280,6 +22280,8 @@ feature reduction. Our approach exhibits a significant improvement of
               "Minute Madness" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
               "2017-05-31T18:30:00" ;
+      <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent>
+              <https://w3id.org/scholarlydata/talk/eswc-2017-pd_9> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_4> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_6> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_41> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_31> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_43> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_21> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_11> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_33> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_2> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_23> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_13> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_35> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_25> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_47> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_37> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_27> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_49> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_39> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_29> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_19> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_8> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_7> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_20> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_10> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_1> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_3> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_12> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_34> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_24> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_48> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_16> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_38> , <https://w3id.org/scholarlydata/talk/eswc-2017-pd_28> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
               <https://w3id.org/scholarlydata/track/eswc-2017-research> , <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location>
@@ -26457,7 +26459,7 @@ IoT application framework.""" ;
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-diego-reforgiato-recupero-eswc-2017-workshops-emsasw-6>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Role of Author of held by Diego Reforgiato Recupero during ESWC2017 for paper titled: \"Amna Dridi and Diego Reforgiato Recupero\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Role of Author of held by Diego Reforgiato Recupero during ESWC2017 for paper titled: \"MORE SENSE: MOvie REviews SENtiment analysis boosted with SEmantics\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
               <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
@@ -26983,7 +26985,7 @@ associated with access control management.""" ;
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-diego-reforgiato-recupero-eswc-2017-workshops-emsasw-3>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Role of Author of held by Diego Reforgiato Recupero during ESWC2017 for paper titled: \"Amna Dridi, Mattia Atzeni and Diego Reforgiato Recupero\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Role of Author of held by Diego Reforgiato Recupero during ESWC2017 for paper titled: \"Bearish-Bullish Sentiment Analysis on Financial Microblogs\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
               <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
@@ -27290,7 +27292,7 @@ associated with access control management.""" ;
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-stefan-kramer-eswc-2017-workshops-emsasw-1>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Role of Author of held by Stefan Kramer during ESWC2017 for paper titled: \"Zahra Ahmadi, Aleksandrs Stier, Marcin Skowron and Stefan Kramer\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Role of Author of held by Stefan Kramer during ESWC2017 for paper titled: \"To Parse or Not to Parse: An Experimental Comparison of RNTNs and CNNs for Sentiment Analysis\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
               <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
@@ -27671,7 +27673,7 @@ associated with access control management.""" ;
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-amna-dridi-eswc-2017-workshops-emsasw-6>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Role of Author of held by Amna Dridi during ESWC2017 for paper titled: \"Amna Dridi and Diego Reforgiato Recupero\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Role of Author of held by Amna Dridi during ESWC2017 for paper titled: \"MORE SENSE: MOvie REviews SENtiment analysis boosted with SEmantics\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
               <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
@@ -28258,7 +28260,7 @@ are available online.""" ;
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-amna-dridi-eswc-2017-workshops-emsasw-3>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Role of Author of held by Amna Dridi during ESWC2017 for paper titled: \"Amna Dridi, Mattia Atzeni and Diego Reforgiato Recupero\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Role of Author of held by Amna Dridi during ESWC2017 for paper titled: \"Bearish-Bullish Sentiment Analysis on Financial Microblogs\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
               <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
@@ -28388,7 +28390,7 @@ The problem of understanding and exploring this evolution is a fundamental probl
 <https://w3id.org/scholarlydata/dataset/eswc2017>
       a       <http://rdfs.org/ns/void#Dataset> ;
       <http://purl.org/dc/terms/created>
-              "Mon May 29 17:59:58 CEST 2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Tue May 30 12:01:36 CEST 2017"^^<http://www.w3.org/2001/XMLSchema#string> ;
       <http://purl.org/dc/terms/creator>
               <https://w3id.org/scholarlydata/person/luigi-asprino> , <https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese> ;
       <http://purl.org/dc/terms/title>
@@ -28660,13 +28662,13 @@ The system is open source and can be freely downloaded from https://github.com/i
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: μRDF Store: Towards Extending the Semantic Web to Embedded Devices" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_13> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_25>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> ;
@@ -29173,13 +29175,13 @@ Additionally, we demonstrate how KBox can be used to share RDF knowledge graphs 
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: Introducing Feedback in Qanary: How Users can interact with QA systems" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_16> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-sw4sh2017-1>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> ;
@@ -29686,13 +29688,13 @@ As such, the potential of available open data sets is not fully exploited and ra
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: Juma: an Editor that Uses a Block Metaphor to Facilitate the Creation and Editing of R2RML Mappings" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_19> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-aalto-university-mikko-rinne>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
@@ -29908,7 +29910,7 @@ As such, the potential of available open data sets is not fully exploited and ra
 <https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-emsasw-1>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Zahra Ahmadi, Aleksandrs Stier, Marcin Skowron and Stefan Kramer" ;
+              "To Parse or Not to Parse: An Experimental Comparison of RNTNs and CNNs for Sentiment Analysis" ;
       <http://purl.org/dc/elements/1.1/creator>
               <https://w3id.org/scholarlydata/person/stefan-kramer> , <https://w3id.org/scholarlydata/person/zahra-ahmadi> , <https://w3id.org/scholarlydata/person/aleksandrs-stier> , <https://w3id.org/scholarlydata/person/marcin-skowron> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#abstract>
@@ -29922,7 +29924,7 @@ As such, the potential of available open data sets is not fully exploited and ra
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#relatesToEvent>
               <https://w3id.org/scholarlydata/talk/eswc-2017-emsasw-1> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#title>
-              "Zahra Ahmadi, Aleksandrs Stier, Marcin Skowron and Stefan Kramer" .
+              "To Parse or Not to Parse: An Experimental Comparison of RNTNs and CNNs for Sentiment Analysis" .
 
 <https://w3id.org/scholarlydata/organisation/university-of-calabria>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation> ;
@@ -30352,7 +30354,7 @@ As such, the potential of available open data sets is not fully exploited and ra
 <https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-emsasw-3>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Amna Dridi, Mattia Atzeni and Diego Reforgiato Recupero" ;
+              "Bearish-Bullish Sentiment Analysis on Financial Microblogs" ;
       <http://purl.org/dc/elements/1.1/creator>
               <https://w3id.org/scholarlydata/person/mattia-atzeni> , <https://w3id.org/scholarlydata/person/diego-reforgiato-recupero> , <https://w3id.org/scholarlydata/person/amna-dridi> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#abstract>
@@ -30366,12 +30368,12 @@ As such, the potential of available open data sets is not fully exploited and ra
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#relatesToEvent>
               <https://w3id.org/scholarlydata/talk/eswc-2017-emsasw-3> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#title>
-              "Amna Dridi, Mattia Atzeni and Diego Reforgiato Recupero" .
+              "Bearish-Bullish Sentiment Analysis on Financial Microblogs" .
 
 <https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-emsasw-2>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Aggeliki Vlachostergiou, George Marandianos and Stefanos Kollias" ;
+              "From Conditional Random Field (CRF) to Rhetorical Structure Theory(RST): incorporating Context information in Sentiment Analysis" ;
       <http://purl.org/dc/elements/1.1/creator>
               <https://w3id.org/scholarlydata/person/george-marandianos> , <https://w3id.org/scholarlydata/person/aggeliki-vlachostergiou> , <https://w3id.org/scholarlydata/person/stefanos-kollias> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#abstract>
@@ -30385,7 +30387,7 @@ As such, the potential of available open data sets is not fully exploited and ra
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#relatesToEvent>
               <https://w3id.org/scholarlydata/talk/eswc-2017-emsasw-2> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#title>
-              "Aggeliki Vlachostergiou, George Marandianos and Stefanos Kollias" .
+              "From Conditional Random Field (CRF) to Rhetorical Structure Theory(RST): incorporating Context information in Sentiment Analysis" .
 
 <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-demo-pd_9-item-4>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> ;
@@ -30713,13 +30715,13 @@ As such, the potential of available open data sets is not fully exploited and ra
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: ComSem: Digitization and Semantic Annotation of Comic Books" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_10> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/person/jun-liu>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
@@ -30903,13 +30905,13 @@ As such, the potential of available open data sets is not fully exploited and ra
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: Unsupervised Open Relation Extraction" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-poster-pd_11> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31> , <https://w3id.org/scholarlydata/track/eswc-2017-poster> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-poster> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/affiliation-during-event/eswc2017-nexa-center-for-internet-amp-society-politecnico-di-torino-dauin-giuseppe-futia>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> ;
@@ -31056,13 +31058,13 @@ As such, the potential of available open data sets is not fully exploited and ra
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#description>
               "Talk: Live Storage and Querying of Versioned Datasets on the Web" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate>
-              "2017-06-01T11:00:00" ;
+              "2017-05-31T18:30:00" , "2017-06-01T11:00:00" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isEventRelatedTo>
               <https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_12> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf>
-              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
+              <https://w3id.org/scholarlydata/session/eswc-2017-session-31b> , <https://w3id.org/scholarlydata/session/eswc-2017-session-29> , <https://w3id.org/scholarlydata/track/eswc-2017-demo> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate>
-              "2017-06-01T09:00:00" .
+              "2017-05-31T17:30:00" , "2017-06-01T09:00:00" .
 
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-jovan-varga-eswc-2017-research-174>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
@@ -31166,7 +31168,7 @@ As such, the potential of available open data sets is not fully exploited and ra
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-aggeliki-vlachostergiou-eswc-2017-workshops-emsasw-2>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Role of Author of held by Aggeliki Vlachostergiou during ESWC2017 for paper titled: \"Aggeliki Vlachostergiou, George Marandianos and Stefanos Kollias\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Role of Author of held by Aggeliki Vlachostergiou during ESWC2017 for paper titled: \"From Conditional Random Field (CRF) to Rhetorical Structure Theory(RST): incorporating Context information in Sentiment Analysis\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
               <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
@@ -31186,7 +31188,7 @@ As such, the potential of available open data sets is not fully exploited and ra
 <https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-emsasw-9>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Marco Federici and Mauro Dragoni" ;
+              "Towards Unsupervised Approaches For Aspects Extraction" ;
       <http://purl.org/dc/elements/1.1/creator>
               <https://w3id.org/scholarlydata/person/marco-federici> , <https://w3id.org/scholarlydata/person/mauro-dragoni> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#abstract>
@@ -31198,7 +31200,7 @@ As such, the potential of available open data sets is not fully exploited and ra
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#keyword>
               "Sentiment analysis"^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#title>
-              "Marco Federici and Mauro Dragoni" .
+              "Towards Unsupervised Approaches For Aspects Extraction" .
 
 <https://w3id.org/scholarlydata/person/yinchong-yang>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
@@ -31481,7 +31483,7 @@ improvements of our solution over the states of the art.""" ;
 <https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-emsasw-8>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Mauro Dragoni" ;
+              "Extracting Linguistic Features From Opinion Data Streams For Multi-Domain Sentiment Analysis" ;
       <http://purl.org/dc/elements/1.1/creator>
               <https://w3id.org/scholarlydata/person/mauro-dragoni> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#abstract>
@@ -31493,7 +31495,7 @@ improvements of our solution over the states of the art.""" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#keyword>
               "Sentiment analysis"^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#title>
-              "Mauro Dragoni" .
+              "Extracting Linguistic Features From Opinion Data Streams For Multi-Domain Sentiment Analysis" .
 
 <https://w3id.org/scholarlydata/organisation/aalborg-university>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation> ;
@@ -31715,7 +31717,7 @@ improvements of our solution over the states of the art.""" ;
 <https://w3id.org/scholarlydata/role-during-event/eswc2017-author-marcin-skowron-eswc-2017-workshops-emsasw-1>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Role of Author of held by Marcin Skowron during ESWC2017 for paper titled: \"Zahra Ahmadi, Aleksandrs Stier, Marcin Skowron and Stefan Kramer\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Role of Author of held by Marcin Skowron during ESWC2017 for paper titled: \"To Parse or Not to Parse: An Experimental Comparison of RNTNs and CNNs for Sentiment Analysis\"."^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during>
               <https://w3id.org/scholarlydata/conference/eswc2017> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isHeldBy>
@@ -32441,7 +32443,7 @@ improvements of our solution over the states of the art.""" ;
 <https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-emsasw-7>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Lubna Zafar and Muhammad Tanvir Afzal" ;
+              "Exploiting Polarity Features for Developing Sentiment Analysis Tool" ;
       <http://purl.org/dc/elements/1.1/creator>
               <https://w3id.org/scholarlydata/person/muhammad-tanvir-afzal> , <https://w3id.org/scholarlydata/person/lubna-zafar> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#abstract>
@@ -32455,7 +32457,7 @@ improvements of our solution over the states of the art.""" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#relatesToEvent>
               <https://w3id.org/scholarlydata/talk/eswc-2017-emsasw-7> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#title>
-              "Lubna Zafar and Muhammad Tanvir Afzal" .
+              "Exploiting Polarity Features for Developing Sentiment Analysis Tool" .
 
 <https://w3id.org/scholarlydata/person/ana-roxin>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
@@ -32637,7 +32639,7 @@ improvements of our solution over the states of the art.""" ;
 <https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-emsasw-6>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Amna Dridi and Diego Reforgiato Recupero" ;
+              "MORE SENSE: MOvie REviews SENtiment analysis boosted with SEmantics" ;
       <http://purl.org/dc/elements/1.1/creator>
               <https://w3id.org/scholarlydata/person/diego-reforgiato-recupero> , <https://w3id.org/scholarlydata/person/amna-dridi> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#abstract>
@@ -32651,7 +32653,7 @@ improvements of our solution over the states of the art.""" ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#relatesToEvent>
               <https://w3id.org/scholarlydata/talk/eswc-2017-emsasw-6> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#title>
-              "Amna Dridi and Diego Reforgiato Recupero" .
+              "MORE SENSE: MOvie REviews SENtiment analysis boosted with SEmantics" .
 
 <https://w3id.org/scholarlydata/person/francesco-guerra>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> ;
@@ -39193,7 +39195,7 @@ The performed experiments show the added value of our approach since a) our adap
 <https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-emsasw-13>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Andi Rexha" ;
+              "Polarity Classification for Target Phrases in Tweets: A Word2Vec approach" ;
       <http://purl.org/dc/elements/1.1/creator>
               <https://w3id.org/scholarlydata/person/andi-rexha> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#abstract>
@@ -39205,7 +39207,7 @@ The performed experiments show the added value of our approach since a) our adap
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#keyword>
               "Sentiment analysis"^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#title>
-              "Andi Rexha" .
+              "Polarity Classification for Target Phrases in Tweets: A Word2Vec approach" .
 
 <https://w3id.org/scholarlydata/authorlist/eswc-2017-research-61>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> ;
@@ -42467,7 +42469,7 @@ The performed experiments show the added value of our approach since a) our adap
 <https://w3id.org/scholarlydata/authorlist/eswc-2017-workshops-emsasw-9>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Authors list of the paper \"Marco Federici and Mauro Dragoni\""^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Authors list of the paper \"Towards Unsupervised Approaches For Aspects Extraction\""^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasFirstItem>
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-workshops-emsasw-9-item-1> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasItem>
@@ -42731,7 +42733,7 @@ feasibility and usefulness of such a solution""" ;
 <https://w3id.org/scholarlydata/authorlist/eswc-2017-workshops-emsasw-8>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Authors list of the paper \"Mauro Dragoni\""^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Authors list of the paper \"Extracting Linguistic Features From Opinion Data Streams For Multi-Domain Sentiment Analysis\""^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasFirstItem>
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-workshops-emsasw-8-item-1> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasItem>
@@ -42866,7 +42868,7 @@ feasibility and usefulness of such a solution""" ;
 <https://w3id.org/scholarlydata/authorlist/eswc-2017-workshops-emsasw-7>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Authors list of the paper \"Lubna Zafar and Muhammad Tanvir Afzal\""^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Authors list of the paper \"Exploiting Polarity Features for Developing Sentiment Analysis Tool\""^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasFirstItem>
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-workshops-emsasw-7-item-1> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasItem>
@@ -43711,7 +43713,7 @@ exhibits a F1-score of .89 while DBPedia and Wikidata respectively reach
 <https://w3id.org/scholarlydata/authorlist/eswc-2017-workshops-emsasw-2>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Authors list of the paper \"Aggeliki Vlachostergiou, George Marandianos and Stefanos Kollias\""^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Authors list of the paper \"From Conditional Random Field (CRF) to Rhetorical Structure Theory(RST): incorporating Context information in Sentiment Analysis\""^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasFirstItem>
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-workshops-emsasw-2-item-1> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasItem>
@@ -43915,7 +43917,7 @@ exhibits a F1-score of .89 while DBPedia and Wikidata respectively reach
 <https://w3id.org/scholarlydata/authorlist/eswc-2017-workshops-emsasw-1>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Authors list of the paper \"Zahra Ahmadi, Aleksandrs Stier, Marcin Skowron and Stefan Kramer\""^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Authors list of the paper \"To Parse or Not to Parse: An Experimental Comparison of RNTNs and CNNs for Sentiment Analysis\""^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasFirstItem>
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-workshops-emsasw-1-item-1> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasItem>
@@ -44318,7 +44320,7 @@ Further data relates to dietary content and specific questions such as cancer pr
 <https://w3id.org/scholarlydata/authorlist/eswc-2017-workshops-emsasw-6>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Authors list of the paper \"Amna Dridi and Diego Reforgiato Recupero\""^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Authors list of the paper \"MORE SENSE: MOvie REviews SENtiment analysis boosted with SEmantics\""^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasFirstItem>
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-workshops-emsasw-6-item-1> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasItem>
@@ -45040,7 +45042,7 @@ and and annotate them with semantic metadata.""" ;
 <https://w3id.org/scholarlydata/authorlist/eswc-2017-workshops-emsasw-3>
       a       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "Authors list of the paper \"Amna Dridi, Mattia Atzeni and Diego Reforgiato Recupero\""^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "Authors list of the paper \"Bearish-Bullish Sentiment Analysis on Financial Microblogs\""^^<http://www.w3.org/2001/XMLSchema#string> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasFirstItem>
               <https://w3id.org/scholarlydata/authorlistitem/eswc-2017-workshops-emsasw-3-item-1> ;
       <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasItem>

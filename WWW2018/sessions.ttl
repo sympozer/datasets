@@ -12085,35 +12085,6 @@
  :relatesToTrack t:www-research-2018-security;
  :startDate "2018-04-25T11:00:00+02:00"^^xsd:dateTime .
  
- se:133 :hasSubEvent talks:1 .
- 
- se:134 :hasSubEvent talks:2,
- talks:3 .
- 
- se:135 :hasSubEvent talks:17,
- talks:4 .
- 
- se:139 :hasSubEvent talks:5 .
- 
- se:140 :hasSubEvent talks:6,
- talks:7 .
- 
- se:141 :hasSubEvent talks:8 .
- 
- se:142 :hasSubEvent talks:9 .
- 
- se:143 :hasSubEvent talks:10,
- talks:11 .
- 
- se:144 :hasSubEvent talks:12 .
- 
- se:145 :hasSubEvent talks:13 .
- 
- se:146 :hasSubEvent talks:14,
- talks:15 .
- 
- se:147 :hasSubEvent talks:16 .
- 
  talks:1 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
@@ -12270,7 +12241,7 @@
  tal:1 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Time Expression Recognition Using a Time-related Tagging Scheme (talk #1)";
+ rdfs:label "Time Expression Recognition Using a Time-related Tagging Scheme";
  :endDate "2018-04-27T12:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-1;
  :isSubEventOf ses:167;
@@ -12280,7 +12251,7 @@
  tal:100 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "HighLife: Higher-arity Fact Harvesting (talk #100)";
+ rdfs:label "HighLife: Higher-arity Fact Harvesting";
  :endDate "2018-04-25T16:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-100;
  :isSubEventOf ses:78;
@@ -12290,7 +12261,7 @@
  tal:1018 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Crowd-based Multi-Predicate Screening of Papers in Literature Reviews (talk #1018)";
+ rdfs:label "Crowd-based Multi-Predicate Screening of Papers in Literature Reviews";
  :endDate "2018-04-25T11:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-crowdsourcing-1018;
  :isSubEventOf ses:61;
@@ -12300,7 +12271,7 @@
  tal:1026 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "The Cost of Digital Advertisement: Comparing User and Advertiser Views (talk #1026)";
+ rdfs:label "The Cost of Digital Advertisement: Comparing User and Advertiser Views";
  :endDate "2018-04-27T14:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-mobile-1026;
  :isSubEventOf ses:164;
@@ -12310,7 +12281,7 @@
  tal:1045 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "StaQC: A Systematically Mined Question-Code Dataset from Stack Overflow (talk #1045)";
+ rdfs:label "StaQC: A Systematically Mined Question-Code Dataset from Stack Overflow";
  :endDate "2018-04-25T11:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-search-1045;
  :isSubEventOf ses:83;
@@ -12320,7 +12291,7 @@
  tal:1046 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "AdBudgetKiller: Online Advertising Budget Draining Attack (talk #1046)";
+ rdfs:label "AdBudgetKiller: Online Advertising Budget Draining Attack";
  :endDate "2018-04-25T11:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-security-1046;
  :isSubEventOf ses:99;
@@ -12330,7 +12301,7 @@
  tal:1047 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Leveraging Social Media Signals for Record Linkage (talk #1047)";
+ rdfs:label "Leveraging Social Media Signals for Record Linkage";
  :endDate "2018-04-27T14:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-1047;
  :isSubEventOf ses:168;
@@ -12340,7 +12311,7 @@
  tal:1053 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Algorithmic Glass Ceiling: The effect of social recommender systems on diversity (talk #1053)";
+ rdfs:label "Algorithmic Glass Ceiling: The effect of social recommender systems on diversity";
  :endDate "2018-04-25T16:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-society-1053;
  :isSubEventOf ses:66;
@@ -12350,7 +12321,7 @@
  tal:1063 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "How to Impute Missing Ratings? Claims, Solution, and Its Application to Collaborative Filtering (talk #1063)";
+ rdfs:label "How to Impute Missing Ratings? Claims, Solution, and Its Application to Collaborative Filtering";
  :endDate "2018-04-27T14:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-user-modeling-1063;
  :isSubEventOf ses:178;
@@ -12360,7 +12331,7 @@
  tal:1065 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "A Structured Approach to Understanding Recovery and Relapse in AA (talk #1065)";
+ rdfs:label "A Structured Approach to Understanding Recovery and Relapse in AA";
  :endDate "2018-04-27T12:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-society-1065;
  :isSubEventOf ses:162;
@@ -12370,7 +12341,7 @@
  tal:1074 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "When Sheep Shop: Measuring Herding Effects in Product Ratings with Natural Experiments (talk #1074)";
+ rdfs:label "When Sheep Shop: Measuring Herding Effects in Product Ratings with Natural Experiments";
  :endDate "2018-04-25T15:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-user-modeling-1074;
  :isSubEventOf ses:100;
@@ -12380,7 +12351,7 @@
  tal:1075 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Facet Annotation Using Reference Knowledge Bases (talk #1075)";
+ rdfs:label "Facet Annotation Using Reference Knowledge Bases";
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-1075;
  :isSubEventOf ses:118;
@@ -12390,7 +12361,7 @@
  tal:1097 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "MemeSequencer: Sparse Matching for Embedding Image Macros (talk #1097)";
+ rdfs:label "MemeSequencer: Sparse Matching for Embedding Image Macros";
  :endDate "2018-04-27T14:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-1097;
  :isSubEventOf ses:168;
@@ -12400,7 +12371,7 @@
  tal:1104 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Modeling Success and Engagement for the App Economy (talk #1104)";
+ rdfs:label "Modeling Success and Engagement for the App Economy";
  :endDate "2018-04-25T11:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-1104;
  :isSubEventOf ses:86;
@@ -12410,7 +12381,7 @@
  tal:1109 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Community Interaction and Conflict on the Web (talk #1109)";
+ rdfs:label "Community Interaction and Conflict on the Web";
  :endDate "2018-04-27T12:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-society-1109;
  :isSubEventOf ses:162;
@@ -12420,7 +12391,7 @@
  tal:1116 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Finding Subcube Heavy Hitters in Data Streams (talk #1116)";
+ rdfs:label "Finding Subcube Heavy Hitters in Data Streams";
  :endDate "2018-04-26T16:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-search-1116;
  :isSubEventOf ses:110;
@@ -12430,7 +12401,7 @@
  tal:1121 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Hiding in the crowd: an analysis of the effectiveness of browser fingerprinting at large scale (talk #1121)";
+ rdfs:label "Hiding in the crowd: an analysis of the effectiveness of browser fingerprinting at large scale";
  :endDate "2018-04-26T11:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-security-1121;
  :isSubEventOf ses:154;
@@ -12440,7 +12411,7 @@
  tal:1125 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Facebook (A)Live? Are live social broadcasts really broadcasts? (talk #1125)";
+ rdfs:label "Facebook (A)Live? Are live social broadcasts really broadcasts?";
  :endDate "2018-04-27T11:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-mobile-1125;
  :isSubEventOf ses:163;
@@ -12450,7 +12421,7 @@
  tal:1127 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Testing Incentive Compatibility in Display Ad Auctions (talk #1127)";
+ rdfs:label "Testing Incentive Compatibility in Display Ad Auctions";
  :endDate "2018-04-25T16:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-economics-1127;
  :isSubEventOf ses:63;
@@ -12460,7 +12431,7 @@
  tal:1136 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Fully Dynamic k-Center Clustering (talk #1136)";
+ rdfs:label "Fully Dynamic k-Center Clustering";
  :endDate "2018-04-26T14:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-1136;
  :isSubEventOf ses:149;
@@ -12470,7 +12441,7 @@
  tal:115 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Content Attention Model for Aspect Based Sentiment Analysis (talk #115)";
+ rdfs:label "Content Attention Model for Aspect Based Sentiment Analysis";
  :endDate "2018-04-26T14:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-115;
  :isSubEventOf ses:119;
@@ -12480,7 +12451,7 @@
  tal:1153 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Matching Natural Language Sentences with Hierarchical Sentence Factorization (talk #1153)";
+ rdfs:label "Matching Natural Language Sentences with Hierarchical Sentence Factorization";
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-1153;
  :isSubEventOf ses:120;
@@ -12490,7 +12461,7 @@
  tal:1160 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Listing $k$-cliques in Sparse Real-World Graphs (talk #1160)";
+ rdfs:label "Listing $k$-cliques in Sparse Real-World Graphs";
  :endDate "2018-04-25T14:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-1160;
  :isSubEventOf ses:87;
@@ -12500,7 +12471,7 @@
  tal:1173 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Exposing Search and Advertisement Abuse Tactics and Infrastructure of Technical Support Scammers (talk #1173)";
+ rdfs:label "Exposing Search and Advertisement Abuse Tactics and Infrastructure of Technical Support Scammers";
  :endDate "2018-04-25T11:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-security-1173;
  :isSubEventOf ses:99;
@@ -12510,7 +12481,7 @@
  tal:1186 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Mind Your Credit: Assessing the Health of the Ripple Credit Network (talk #1186)";
+ rdfs:label "Mind Your Credit: Assessing the Health of the Ripple Credit Network";
  :endDate "2018-04-26T14:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-security-1186;
  :isSubEventOf ses:155;
@@ -12520,7 +12491,7 @@
  tal:1189 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Why Reinvent the Wheel – Let’s Build Question Answering Systems Together (talk #1189)";
+ rdfs:label "Why Reinvent the Wheel – Let’s Build Question Answering Systems Together";
  :endDate "2018-04-26T14:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-1189;
  :isSubEventOf ses:119;
@@ -12530,7 +12501,7 @@
  tal:1208 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Fast Exact CoSimRank Search on Evolving and Static Graphs (talk #1208)";
+ rdfs:label "Fast Exact CoSimRank Search on Evolving and Static Graphs";
  :endDate "2018-04-25T14:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-1208;
  :isSubEventOf ses:87;
@@ -12540,7 +12511,7 @@
  tal:1213 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Measuring and Improving the Core Resilience of Networks (talk #1213)";
+ rdfs:label "Measuring and Improving the Core Resilience of Networks";
  :endDate "2018-04-27T11:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-1213;
  :isSubEventOf ses:173;
@@ -12550,7 +12521,7 @@
  tal:1221 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Weakly-supervised Relation Extraction by Pattern-enhanced Embedding Learning (talk #1221)";
+ rdfs:label "Weakly-supervised Relation Extraction by Pattern-enhanced Embedding Learning";
  :endDate "2018-04-25T11:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-1221;
  :isSubEventOf ses:76;
@@ -12560,7 +12531,7 @@
  tal:1232 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Low rank spectral network alignment (talk #1232)";
+ rdfs:label "Low rank spectral network alignment";
  :endDate "2018-04-26T12:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-1232;
  :isSubEventOf ses:148;
@@ -12570,7 +12541,7 @@
  tal:1234 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Conversational Query Understanding Using Sequence to Sequence Modeling (talk #1234)";
+ rdfs:label "Conversational Query Understanding Using Sequence to Sequence Modeling";
  :endDate "2018-04-25T11:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-search-1234;
  :isSubEventOf ses:83;
@@ -12580,7 +12551,7 @@
  tal:124 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Bid-Limited Targeting (talk #124)";
+ rdfs:label "Bid-Limited Targeting";
  :endDate "2018-04-25T16:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-economics-124;
  :isSubEventOf ses:63;
@@ -12590,7 +12561,7 @@
  tal:125 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "ProxyTorrent: Untangling the Free HTTP(S) Proxy Ecosystem (talk #125)";
+ rdfs:label "ProxyTorrent: Untangling the Free HTTP(S) Proxy Ecosystem";
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-security-125;
  :isSubEventOf ses:154;
@@ -12600,7 +12571,7 @@
  tal:1250 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Mapping the Invocation Structure of Online Political Interaction (talk #1250)";
+ rdfs:label "Mapping the Invocation Structure of Online Political Interaction";
  :endDate "2018-04-25T11:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-1250;
  :isSubEventOf ses:86;
@@ -12610,7 +12581,7 @@
  tal:1256 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Finding Needles in an Encyclopedic Haystack: Detecting Classes Among Wikipedia Articles (talk #1256)";
+ rdfs:label "Finding Needles in an Encyclopedic Haystack: Detecting Classes Among Wikipedia Articles";
  :endDate "2018-04-27T14:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-1256;
  :isSubEventOf ses:168;
@@ -12620,7 +12591,7 @@
  tal:1259 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "User-guided Hierarchical Attention Network for Multi-modal Social Image Popularity Prediction (talk #1259)";
+ rdfs:label "User-guided Hierarchical Attention Network for Multi-modal Social Image Popularity Prediction";
  :endDate "2018-04-26T15:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-1259;
  :isSubEventOf ses:119;
@@ -12630,7 +12601,7 @@
  tal:126 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Social Rank Regulated Large-scale Network Embedding (talk #126)";
+ rdfs:label "Social Rank Regulated Large-scale Network Embedding";
  :endDate "2018-04-26T11:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-126;
  :isSubEventOf ses:148;
@@ -12640,7 +12611,7 @@
  tal:1265 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "The Size Conundrum: Why Online Knowledge Markets Can Fail at Scale (talk #1265)";
+ rdfs:label "The Size Conundrum: Why Online Knowledge Markets Can Fail at Scale";
  :endDate "2018-04-25T11:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-crowdsourcing-1265;
  :isSubEventOf ses:61;
@@ -12650,7 +12621,7 @@
  tal:1273 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "A Coherent Unsupervised Model for Toponym Resolution (talk #1273)";
+ rdfs:label "A Coherent Unsupervised Model for Toponym Resolution";
  :endDate "2018-04-26T11:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-1273;
  :isSubEventOf ses:118;
@@ -12660,7 +12631,7 @@
  tal:1281 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Simple vs Optimal Contests with Convex Costs (talk #1281)";
+ rdfs:label "Simple vs Optimal Contests with Convex Costs";
  :endDate "2018-04-25T15:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-economics-1281;
  :isSubEventOf ses:62;
@@ -12670,7 +12641,7 @@
  tal:1308 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Modeling Interdependent and Periodic Real-World Action Sequences (talk #1308)";
+ rdfs:label "Modeling Interdependent and Periodic Real-World Action Sequences";
  :endDate "2018-04-27T15:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-health-1308;
  :isSubEventOf ses:161;
@@ -12680,7 +12651,7 @@
  tal:1333 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "I'm Listening to your Location! Inferring User Location with Acoustic Side Channel (talk #1333)";
+ rdfs:label "I'm Listening to your Location! Inferring User Location with Acoustic Side Channel";
  :endDate "2018-04-26T14:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-security-1333;
  :isSubEventOf ses:155;
@@ -12690,7 +12661,7 @@
  tal:1346 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Unsupervised Anomaly Detection via Variational Auto-Encoder for Seasonal KPIs in Web Applications (talk #1346)";
+ rdfs:label "Unsupervised Anomaly Detection via Variational Auto-Encoder for Seasonal KPIs in Web Applications";
  :endDate "2018-04-26T11:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-ai-1346;
  :isSubEventOf ses:105;
@@ -12700,7 +12671,7 @@
  tal:1353 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Did You Really Just Have a Heart Attack? Towards Robust Detection of Personal Health Mentions in Social Media (talk #1353)";
+ rdfs:label "Did You Really Just Have a Heart Attack? Towards Robust Detection of Personal Health Mentions in Social Media";
  :endDate "2018-04-27T11:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-health-1353;
  :isSubEventOf ses:160;
@@ -12710,7 +12681,7 @@
  tal:1373 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "“You are no Jack Kennedy”: On Media Selection of Highlights from Presidential Debates (talk #1373)";
+ rdfs:label "“You are no Jack Kennedy”: On Media Selection of Highlights from Presidential Debates";
  :endDate "2018-04-25T14:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-society-1373;
  :isSubEventOf ses:65;
@@ -12720,7 +12691,7 @@
  tal:1374 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "I’ll Be Back: On the Multiple Lives of Users of a Mobile Activity Tracking Application (talk #1374)";
+ rdfs:label "I’ll Be Back: On the Multiple Lives of Users of a Mobile Activity Tracking Application";
  :endDate "2018-04-27T12:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-mobile-1374;
  :isSubEventOf ses:163;
@@ -12730,7 +12701,7 @@
  tal:1382 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Inferring Missing Categorical Information in Noisy and Sparse Web Markup (talk #1382)";
+ rdfs:label "Inferring Missing Categorical Information in Noisy and Sparse Web Markup";
  :endDate "2018-04-26T12:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-1382;
  :isSubEventOf ses:118;
@@ -12740,7 +12711,7 @@
  tal:1384 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Privacy and Efficiency Tradeoffs for Multiword Top K Search with Linear Additive Rank Scoring (talk #1384)";
+ rdfs:label "Privacy and Efficiency Tradeoffs for Multiword Top K Search with Linear Additive Rank Scoring";
  :endDate "2018-04-26T14:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-search-1384;
  :isSubEventOf ses:109;
@@ -12750,7 +12721,7 @@
  tal:1411 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Auditing the Personalization and Composition of Politically-Related Search Engine Results Pages (talk #1411)";
+ rdfs:label "Auditing the Personalization and Composition of Politically-Related Search Engine Results Pages";
  :endDate "2018-04-25T12:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-society-1411;
  :isSubEventOf ses:64;
@@ -12760,7 +12731,7 @@
  tal:1418 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Towards Annotating Relational Data on the Web with Language Models (talk #1418)";
+ rdfs:label "Towards Annotating Relational Data on the Web with Language Models";
  :endDate "2018-04-26T11:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-1418;
  :isSubEventOf ses:118;
@@ -12770,7 +12741,7 @@
  tal:1419 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "The Effect of Ad Blocking on User Engagement with the Web (talk #1419)";
+ rdfs:label "The Effect of Ad Blocking on User Engagement with the Web";
  :endDate "2018-04-25T16:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-user-modeling-1419;
  :isSubEventOf ses:101;
@@ -12780,7 +12751,7 @@
  tal:1431 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "CESI: Canonicalizing Open Knowledge Bases using Embeddings and Side Information (talk #1431)";
+ rdfs:label "CESI: Canonicalizing Open Knowledge Bases using Embeddings and Side Information";
  :endDate "2018-04-25T14:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-1431;
  :isSubEventOf ses:77;
@@ -12790,7 +12761,7 @@
  tal:1441 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "To Stay or to Leave: Churn Prediction for Urban Migrants in the Initial Period (talk #1441)";
+ rdfs:label "To Stay or to Leave: Churn Prediction for Urban Migrants in the Initial Period";
  :endDate "2018-04-27T11:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-society-1441;
  :isSubEventOf ses:162;
@@ -12800,7 +12771,7 @@
  tal:145 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Minimizing Polarization and Disagreement in Social Networks (talk #145)";
+ rdfs:label "Minimizing Polarization and Disagreement in Social Networks";
  :endDate "2018-04-25T12:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-145;
  :isSubEventOf ses:86;
@@ -12810,7 +12781,7 @@
  tal:147 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Geographical Feature Extraction for Entities in Location-based Social Networks (talk #147)";
+ rdfs:label "Geographical Feature Extraction for Entities in Location-based Social Networks";
  :endDate "2018-04-25T11:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-society-147;
  :isSubEventOf ses:64;
@@ -12820,7 +12791,7 @@
  tal:1503 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "SafeKeeper: Protecting Web Passwords using Trusted Execution Environments (talk #1503)";
+ rdfs:label "SafeKeeper: Protecting Web Passwords using Trusted Execution Environments";
  :endDate "2018-04-26T14:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-security-1503;
  :isSubEventOf ses:155;
@@ -12830,7 +12801,7 @@
  tal:1521 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Manifold Learning for Rank Aggregation (talk #1521)";
+ rdfs:label "Manifold Learning for Rank Aggregation";
  :endDate "2018-04-26T14:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-search-1521;
  :isSubEventOf ses:109;
@@ -12840,7 +12811,7 @@
  tal:154 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Reinforcement Mechanism Design for e-commerce (talk #154)";
+ rdfs:label "Reinforcement Mechanism Design for e-commerce";
  :endDate "2018-04-26T14:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-economics-154;
  :isSubEventOf ses:106;
@@ -12850,7 +12821,7 @@
  tal:168 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Financing the Web of Data with Delayed-Answer Auctions (talk #168)";
+ rdfs:label "Financing the Web of Data with Delayed-Answer Auctions";
  :endDate "2018-04-26T15:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-economics-168;
  :isSubEventOf ses:106;
@@ -12860,7 +12831,7 @@
  tal:179 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Detecting Absurd Conversations from Intelligent Assistant Logs by Exploiting User Feedback Utterances (talk #179)";
+ rdfs:label "Detecting Absurd Conversations from Intelligent Assistant Logs by Exploiting User Feedback Utterances";
  :endDate "2018-04-27T11:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-179;
  :isSubEventOf ses:167;
@@ -12870,7 +12841,7 @@
  tal:181 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Minimizing Latency in Online Ride and Delivery Services (talk #181)";
+ rdfs:label "Minimizing Latency in Online Ride and Delivery Services";
  :endDate "2018-04-25T12:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-181;
  :isSubEventOf ses:86;
@@ -12880,7 +12851,7 @@
  tal:183 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "ROSC: Robust Spectral Clustering on Multi-scale Data (talk #183)";
+ rdfs:label "ROSC: Robust Spectral Clustering on Multi-scale Data";
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-ai-183;
  :isSubEventOf ses:105;
@@ -12890,7 +12861,7 @@
  tal:188 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Attack under Disguise: An Intelligent Data Poisoning Attack Mechanism in Crowdsourcing (talk #188)";
+ rdfs:label "Attack under Disguise: An Intelligent Data Poisoning Attack Mechanism in Crowdsourcing";
  :endDate "2018-04-26T16:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-crowdsourcing-188;
  :isSubEventOf ses:107;
@@ -12900,7 +12871,7 @@
  tal:190 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Field-weighted Factorization Machines for Click-through Rate Prediction in Display Advertising (talk #190)";
+ rdfs:label "Field-weighted Factorization Machines for Click-through Rate Prediction in Display Advertising";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-economics-190;
  :isSubEventOf ses:63;
@@ -12910,7 +12881,7 @@
  tal:203 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Estimating the Cardinality of Conjunctive Queries over RDF Data Using Graph Summarisation (talk #203)";
+ rdfs:label "Estimating the Cardinality of Conjunctive Queries over RDF Data Using Graph Summarisation";
  :endDate "2018-04-25T16:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-203;
  :isSubEventOf ses:78;
@@ -12920,7 +12891,7 @@
  tal:210 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "TEM: Tree-enhanced Embedding Model for Explainable Recommendation (talk #210)";
+ rdfs:label "TEM: Tree-enhanced Embedding Model for Explainable Recommendation";
  :endDate "2018-04-26T14:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-search-210;
  :isSubEventOf ses:109;
@@ -12930,7 +12901,7 @@
  tal:212 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Aesthetic-based Clothing Recommendation (talk #212)";
+ rdfs:label "Aesthetic-based Clothing Recommendation";
  :endDate "2018-04-27T12:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-user-modeling-212;
  :isSubEventOf ses:177;
@@ -12940,7 +12911,7 @@
  tal:215 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Ad Hoc Table Retrieval using Semantic Similarity (talk #215)";
+ rdfs:label "Ad Hoc Table Retrieval using Semantic Similarity";
  :endDate "2018-04-25T14:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-search-215;
  :isSubEventOf ses:84;
@@ -12950,7 +12921,7 @@
  tal:218 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "An Automated Approach to Auditing Disclosure of Third-Party Data Collection in Website Privacy Policies (talk #218)";
+ rdfs:label "An Automated Approach to Auditing Disclosure of Third-Party Data Collection in Website Privacy Policies";
  :endDate "2018-04-25T12:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-security-218;
  :isSubEventOf ses:99;
@@ -12960,7 +12931,7 @@
  tal:219 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "TIMES: Temporal Information Maximally Extracted from Structures (talk #219)";
+ rdfs:label "TIMES: Temporal Information Maximally Extracted from Structures";
  :endDate "2018-04-25T14:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-219;
  :isSubEventOf ses:87;
@@ -12970,7 +12941,7 @@
  tal:228 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "(Don't) Mention the War: A Comparison of Wikipedia and Britannica Articles on National Histories (talk #228)";
+ rdfs:label "(Don't) Mention the War: A Comparison of Wikipedia and Britannica Articles on National Histories";
  :endDate "2018-04-25T16:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-society-228;
  :isSubEventOf ses:66;
@@ -12980,7 +12951,7 @@
  tal:236 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Leveraging Crowdsourcing Data For Deep Active Learning - An Application: Learning Intents in Alexa (talk #236)";
+ rdfs:label "Leveraging Crowdsourcing Data For Deep Active Learning - An Application: Learning Intents in Alexa";
  :endDate "2018-04-26T16:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-crowdsourcing-236;
  :isSubEventOf ses:107;
@@ -12990,7 +12961,7 @@
  tal:24 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Joint User- and Event- Driven Stable Social Event Organization (talk #24)";
+ rdfs:label "Joint User- and Event- Driven Stable Social Event Organization";
  :endDate "2018-04-25T15:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-search-24;
  :isSubEventOf ses:84;
@@ -13000,7 +12971,7 @@
  tal:253 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "A Fast Deep Learning Model for Textual Relevance in Biomedical Information Retrieval (talk #253)";
+ rdfs:label "A Fast Deep Learning Model for Textual Relevance in Biomedical Information Retrieval";
  :endDate "2018-04-27T12:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-health-253;
  :isSubEventOf ses:160;
@@ -13010,7 +12981,7 @@
  tal:258 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Query Suggestion With Feedback Memory Network (talk #258)";
+ rdfs:label "Query Suggestion With Feedback Memory Network";
  :endDate "2018-04-25T12:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-search-258;
  :isSubEventOf ses:83;
@@ -13020,7 +12991,7 @@
  tal:268 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "A Sparse Topic Model for Extracting Aspect-Specific Summaries from Online Reviews (talk #268)";
+ rdfs:label "A Sparse Topic Model for Extracting Aspect-Specific Summaries from Online Reviews";
  :endDate "2018-04-26T12:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-search-268;
  :isSubEventOf ses:108;
@@ -13030,7 +13001,7 @@
  tal:272 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Never-Ending Learning for Open-Domain Question Answering over Knowledge Bases (talk #272)";
+ rdfs:label "Never-Ending Learning for Open-Domain Question Answering over Knowledge Bases";
  :endDate "2018-04-25T15:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-272;
  :isSubEventOf ses:77;
@@ -13040,7 +13011,7 @@
  tal:283 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Neural Attentional Rating Regression with Review-level Explanations (talk #283)";
+ rdfs:label "Neural Attentional Rating Regression with Review-level Explanations";
  :endDate "2018-04-26T11:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-search-283;
  :isSubEventOf ses:108;
@@ -13050,7 +13021,7 @@
  tal:284 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Multi-Task Learning Improves Disease Models from Web Search (talk #284)";
+ rdfs:label "Multi-Task Learning Improves Disease Models from Web Search";
  :endDate "2018-04-27T12:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-health-284;
  :isSubEventOf ses:160;
@@ -13060,7 +13031,7 @@
  tal:29 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Aspect-Aware Latent Factor Model: Rating Prediction with Ratings and Reviews (talk #29)";
+ rdfs:label "Aspect-Aware Latent Factor Model: Rating Prediction with Ratings and Reviews";
  :endDate "2018-04-25T14:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-user-modeling-29;
  :isSubEventOf ses:100;
@@ -13070,7 +13041,7 @@
  tal:311 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Deep Collective Classification in Heterogeneous Information Networks (talk #311)";
+ rdfs:label "Deep Collective Classification in Heterogeneous Information Networks";
  :endDate "2018-04-27T14:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-311;
  :isSubEventOf ses:174;
@@ -13080,7 +13051,7 @@
  tal:312 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Large-Scale Hierarchical Text Classification with Recursively Regularized Deep Graph-CNN (talk #312)";
+ rdfs:label "Large-Scale Hierarchical Text Classification with Recursively Regularized Deep Graph-CNN";
  :endDate "2018-04-25T11:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-312;
  :isSubEventOf ses:76;
@@ -13090,7 +13061,7 @@
  tal:314 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Multi-instance Domain Adaptation for Vaccine Adverse Event Detection (talk #314)";
+ rdfs:label "Multi-instance Domain Adaptation for Vaccine Adverse Event Detection";
  :endDate "2018-04-27T14:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-health-314;
  :isSubEventOf ses:161;
@@ -13100,7 +13071,7 @@
  tal:321 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Fast and Accurate Random Walk with Restart on Dynamic Graphs with Guarantees (talk #321)";
+ rdfs:label "Fast and Accurate Random Walk with Restart on Dynamic Graphs with Guarantees";
  :endDate "2018-04-26T14:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-321;
  :isSubEventOf ses:149;
@@ -13110,7 +13081,7 @@
  tal:328 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Adaptive Sensitive Reweighting to Mitigate Bias in Fairness-aware Classification (talk #328)";
+ rdfs:label "Adaptive Sensitive Reweighting to Mitigate Bias in Fairness-aware Classification";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-society-328;
  :isSubEventOf ses:66;
@@ -13120,7 +13091,7 @@
  tal:332 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "On the Causal Effect of Badges (talk #332)";
+ rdfs:label "On the Causal Effect of Badges";
  :endDate "2018-04-25T16:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-user-modeling-332;
  :isSubEventOf ses:101;
@@ -13130,7 +13101,7 @@
  tal:372 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Arrays of (locality-sensitive) Count Estimators (ACE): Anomaly Detection on the Edge (talk #372)";
+ rdfs:label "Arrays of (locality-sensitive) Count Estimators (ACE): Anomaly Detection on the Edge";
  :endDate "2018-04-27T15:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-mobile-372;
  :isSubEventOf ses:164;
@@ -13140,7 +13111,7 @@
  tal:376 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Learning from Multi-View Multi-Way Data via Structural Factorization Machines (talk #376)";
+ rdfs:label "Learning from Multi-View Multi-Way Data via Structural Factorization Machines";
  :endDate "2018-04-25T16:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-search-376;
  :isSubEventOf ses:85;
@@ -13150,7 +13121,7 @@
  tal:396 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Scalable Supervised Discrete Hashing for Large-Scale Search (talk #396)";
+ rdfs:label "Scalable Supervised Discrete Hashing for Large-Scale Search";
  :endDate "2018-04-25T16:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-search-396;
  :isSubEventOf ses:85;
@@ -13160,7 +13131,7 @@
  tal:40 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Parabel: Partitioned Label Trees for Extreme Classification with Application to Dynamic Search Advertising (talk #40)";
+ rdfs:label "Parabel: Partitioned Label Trees for Extreme Classification with Application to Dynamic Search Advertising";
  :endDate "2018-04-26T15:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-search-40;
  :isSubEventOf ses:109;
@@ -13170,7 +13141,7 @@
  tal:402 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Modeling Individual Cyclic Variation in Human Behavior (talk #402)";
+ rdfs:label "Modeling Individual Cyclic Variation in Human Behavior";
  :endDate "2018-04-27T14:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-health-402;
  :isSubEventOf ses:161;
@@ -13180,7 +13151,7 @@
  tal:411 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Robust Factorization Machines for User Response Prediction (talk #411)";
+ rdfs:label "Robust Factorization Machines for User Response Prediction";
  :endDate "2018-04-27T12:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-user-modeling-411;
  :isSubEventOf ses:177;
@@ -13190,7 +13161,7 @@
  tal:413 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Bayesian Models for Product Size Recommendations (talk #413)";
+ rdfs:label "Bayesian Models for Product Size Recommendations";
  :endDate "2018-04-27T11:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-user-modeling-413;
  :isSubEventOf ses:177;
@@ -13200,7 +13171,7 @@
  tal:422 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Subgraph-augmented Path Embedding for Semantic User Search on Heterogeneous Social Network (talk #422)";
+ rdfs:label "Subgraph-augmented Path Embedding for Semantic User Search on Heterogeneous Social Network";
  :endDate "2018-04-25T14:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-search-422;
  :isSubEventOf ses:84;
@@ -13210,7 +13181,7 @@
  tal:424 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Variational Autoencoders for Collaborative Filtering (talk #424)";
+ rdfs:label "Variational Autoencoders for Collaborative Filtering";
  :endDate "2018-04-27T15:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-user-modeling-424;
  :isSubEventOf ses:178;
@@ -13220,7 +13191,7 @@
  tal:430 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Your Secrets Are Safe: How Browsers' Explanations Impact Misconceptions About Private Browsing Mode (talk #430)";
+ rdfs:label "Your Secrets Are Safe: How Browsers' Explanations Impact Misconceptions About Private Browsing Mode";
  :endDate "2018-04-26T12:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-security-430;
  :isSubEventOf ses:154;
@@ -13230,7 +13201,7 @@
  tal:454 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "SIR-Hawkes: Linking Epidemic Models and Hawkes Processes for Information Diffusion in a Finite Population (talk #454)";
+ rdfs:label "SIR-Hawkes: Linking Epidemic Models and Hawkes Processes for Information Diffusion in a Finite Population";
  :endDate "2018-04-27T15:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-454;
  :isSubEventOf ses:174;
@@ -13240,7 +13211,7 @@
  tal:457 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Dynamic Mechanism Design in the Field (talk #457)";
+ rdfs:label "Dynamic Mechanism Design in the Field";
  :endDate "2018-04-25T14:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-economics-457;
  :isSubEventOf ses:62;
@@ -13250,7 +13221,7 @@
  tal:478 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Estimating Rule Quality for Knowledge Base Completion with the Relationship between Coverage Assumption (talk #478)";
+ rdfs:label "Estimating Rule Quality for Knowledge Base Completion with the Relationship between Coverage Assumption";
  :endDate "2018-04-25T14:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-478;
  :isSubEventOf ses:77;
@@ -13260,7 +13231,7 @@
  tal:495 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Improving Word Embedding Compositionality using Lexicographic Definitions (talk #495)";
+ rdfs:label "Improving Word Embedding Compositionality using Lexicographic Definitions";
  :endDate "2018-04-25T12:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-495;
  :isSubEventOf ses:76;
@@ -13270,7 +13241,7 @@
  tal:507 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Leveraging Fine-Grained Wikipedia Categories for Entity Search (talk #507)";
+ rdfs:label "Leveraging Fine-Grained Wikipedia Categories for Entity Search";
  :endDate "2018-04-25T14:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-search-507;
  :isSubEventOf ses:84;
@@ -13280,7 +13251,7 @@
  tal:518 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Browserless Web Data Extraction: Challenges and Opportunities (talk #518)";
+ rdfs:label "Browserless Web Data Extraction: Challenges and Opportunities";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-518;
  :isSubEventOf ses:78;
@@ -13290,7 +13261,7 @@
  tal:546 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Short-Text Topic Modeling via Non-negative Matrix Factorization Enriched with Local Word-Context Correlations (talk #546)";
+ rdfs:label "Short-Text Topic Modeling via Non-negative Matrix Factorization Enriched with Local Word-Context Correlations";
  :endDate "2018-04-25T16:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-546;
  :isSubEventOf ses:78;
@@ -13300,7 +13271,7 @@
  tal:548 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Are All People Married? Determining Obligatory Attributes in Knowledge Bases (talk #548)";
+ rdfs:label "Are All People Married? Determining Obligatory Attributes in Knowledge Bases";
  :endDate "2018-04-25T14:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-548;
  :isSubEventOf ses:77;
@@ -13310,7 +13281,7 @@
  tal:565 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Incentive-Aware Learning for Large Markets (talk #565)";
+ rdfs:label "Incentive-Aware Learning for Large Markets";
  :endDate "2018-04-25T14:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-economics-565;
  :isSubEventOf ses:62;
@@ -13320,7 +13291,7 @@
  tal:567 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Online Compact Convexified Factorization Machine (talk #567)";
+ rdfs:label "Online Compact Convexified Factorization Machine";
  :endDate "2018-04-25T16:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-search-567;
  :isSubEventOf ses:85;
@@ -13330,7 +13301,7 @@
  tal:573 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "On Ridesharing Competition and Accessibility: Evidence from Uber, Lyft, and Taxi (talk #573)";
+ rdfs:label "On Ridesharing Competition and Accessibility: Evidence from Uber, Lyft, and Taxi";
  :endDate "2018-04-25T12:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-society-573;
  :isSubEventOf ses:64;
@@ -13340,7 +13311,7 @@
  tal:575 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Multi-Task Pharmacovigilance Mining from Social Media Posts (talk #575)";
+ rdfs:label "Multi-Task Pharmacovigilance Mining from Social Media Posts";
  :endDate "2018-04-27T11:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-health-575;
  :isSubEventOf ses:160;
@@ -13350,7 +13321,7 @@
  tal:598 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Understanding and Predicting Delay in Reciprocal Relations (talk #598)";
+ rdfs:label "Understanding and Predicting Delay in Reciprocal Relations";
  :endDate "2018-04-26T16:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-search-598;
  :isSubEventOf ses:110;
@@ -13360,7 +13331,7 @@
  tal:607 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "When Online Dating Meets Nash Social Welfare: Achieving Efficiency and Fairness (talk #607)";
+ rdfs:label "When Online Dating Meets Nash Social Welfare: Achieving Efficiency and Fairness";
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-607;
  :isSubEventOf ses:150;
@@ -13370,7 +13341,7 @@
  tal:608 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Web-Based VR Experiments Powered by the Crowd (talk #608)";
+ rdfs:label "Web-Based VR Experiments Powered by the Crowd";
  :endDate "2018-04-25T12:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-crowdsourcing-608;
  :isSubEventOf ses:61;
@@ -13380,7 +13351,7 @@
  tal:61 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Dynamic Embeddings for Language Evolution (talk #61)";
+ rdfs:label "Dynamic Embeddings for Language Evolution";
  :endDate "2018-04-26T16:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-61;
  :isSubEventOf ses:120;
@@ -13390,7 +13361,7 @@
  tal:614 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Learning causal effects from many randomized experiments using regularized instrumental variables (talk #614)";
+ rdfs:label "Learning causal effects from many randomized experiments using regularized instrumental variables";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-user-modeling-614;
  :isSubEventOf ses:101;
@@ -13400,7 +13371,7 @@
  tal:621 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Socioeconomic dependencies of linguistic patterns in Twitter: a multivariate analysis (talk #621)";
+ rdfs:label "Socioeconomic dependencies of linguistic patterns in Twitter: a multivariate analysis";
  :endDate "2018-04-27T12:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-621;
  :isSubEventOf ses:167;
@@ -13410,7 +13381,7 @@
  tal:624 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Betrayed by Your Dashboard: Discovering Malicious Campaigns via Web Analytics (talk #624)";
+ rdfs:label "Betrayed by Your Dashboard: Discovering Malicious Campaigns via Web Analytics";
  :endDate "2018-04-25T12:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-security-624;
  :isSubEventOf ses:99;
@@ -13420,7 +13391,7 @@
  tal:638 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Incentive-Compatible Diffusion (talk #638)";
+ rdfs:label "Incentive-Compatible Diffusion";
  :endDate "2018-04-25T14:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-economics-638;
  :isSubEventOf ses:62;
@@ -13430,7 +13401,7 @@
  tal:662 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "A Correlation Clustering Framework for Community Detection (talk #662)";
+ rdfs:label "A Correlation Clustering Framework for Community Detection";
  :endDate "2018-04-27T14:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-662;
  :isSubEventOf ses:174;
@@ -13440,7 +13411,7 @@
  tal:665 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Provable and practical approximations for the degree distribution using sublinear graph samples (talk #665)";
+ rdfs:label "Provable and practical approximations for the degree distribution using sublinear graph samples";
  :endDate "2018-04-27T12:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-665;
  :isSubEventOf ses:173;
@@ -13450,7 +13421,7 @@
  tal:670 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "A Short-term Intervention for Long-term Fairness in the Labor Market (talk #670)";
+ rdfs:label "A Short-term Intervention for Long-term Fairness in the Labor Market";
  :endDate "2018-04-26T14:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-economics-670;
  :isSubEventOf ses:106;
@@ -13460,7 +13431,7 @@
  tal:672 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Large-Scale Analysis of Style Injection by Relative Path Overwrite (talk #672)";
+ rdfs:label "Large-Scale Analysis of Style Injection by Relative Path Overwrite";
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-security-672;
  :isSubEventOf ses:156;
@@ -13470,7 +13441,7 @@
  tal:677 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Mining tours and paths in activity networks (talk #677)";
+ rdfs:label "Mining tours and paths in activity networks";
  :endDate "2018-04-26T16:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-677;
  :isSubEventOf ses:150;
@@ -13480,7 +13451,7 @@
  tal:678 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Uncovering HTTP Header Inconsistencies and the Impact on Desktop/Mobile Websites (talk #678)";
+ rdfs:label "Uncovering HTTP Header Inconsistencies and the Impact on Desktop/Mobile Websites";
  :endDate "2018-04-26T11:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-security-678;
  :isSubEventOf ses:154;
@@ -13490,7 +13461,7 @@
  tal:680 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "VizByWiki: Mining Data Visualizations from the Web to Enrich News Articles (talk #680)";
+ rdfs:label "VizByWiki: Mining Data Visualizations from the Web to Enrich News Articles";
  :endDate "2018-04-25T11:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-society-680;
  :isSubEventOf ses:64;
@@ -13500,7 +13471,7 @@
  tal:685 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Co-Regularized Deep Multi-Network Embedding (talk #685)";
+ rdfs:label "Co-Regularized Deep Multi-Network Embedding";
  :endDate "2018-04-26T15:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-685;
  :isSubEventOf ses:149;
@@ -13510,7 +13481,7 @@
  tal:694 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "On Exploring Semantic Meanings of Links for Embedding Social Networks (talk #694)";
+ rdfs:label "On Exploring Semantic Meanings of Links for Embedding Social Networks";
  :endDate "2018-04-27T14:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-694;
  :isSubEventOf ses:174;
@@ -13520,7 +13491,7 @@
  tal:702 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Hierarchical Variational Memory Network for Dialogue Generation (talk #702)";
+ rdfs:label "Hierarchical Variational Memory Network for Dialogue Generation";
  :endDate "2018-04-25T12:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-search-702;
  :isSubEventOf ses:83;
@@ -13530,7 +13501,7 @@
  tal:704 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Mile High WiFi: A First Look At In-Flight Internet Connectivity (talk #704)";
+ rdfs:label "Mile High WiFi: A First Look At In-Flight Internet Connectivity";
  :endDate "2018-04-27T14:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-mobile-704;
  :isSubEventOf ses:164;
@@ -13540,7 +13511,7 @@
  tal:706 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Camel: Content-Aware and Meta-path Augmented Metric Learning for Author Identification (talk #706)";
+ rdfs:label "Camel: Content-Aware and Meta-path Augmented Metric Learning for Author Identification";
  :endDate "2018-04-27T11:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-user-modeling-706;
  :isSubEventOf ses:177;
@@ -13550,7 +13521,7 @@
  tal:709 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Strategies for geographical scoping and improving a gazetteer (talk #709)";
+ rdfs:label "Strategies for geographical scoping and improving a gazetteer";
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-search-709;
  :isSubEventOf ses:108;
@@ -13560,7 +13531,7 @@
  tal:722 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Interactive Top-k Tree Pattern Retrieval in Heterogeneous Information Networks (talk #722)";
+ rdfs:label "Interactive Top-k Tree Pattern Retrieval in Heterogeneous Information Networks";
  :endDate "2018-04-25T15:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-722;
  :isSubEventOf ses:87;
@@ -13570,7 +13541,7 @@
  tal:725 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Panning for gold.com: Understanding the dynamics of domain dropcatching (talk #725)";
+ rdfs:label "Panning for gold.com: Understanding the dynamics of domain dropcatching";
  :endDate "2018-04-26T16:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-security-725;
  :isSubEventOf ses:156;
@@ -13580,7 +13551,7 @@
  tal:726 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Prediction of Sparse User-Item Consumption Rates with Zero-Inflated Poisson Regression (talk #726)";
+ rdfs:label "Prediction of Sparse User-Item Consumption Rates with Zero-Inflated Poisson Regression";
  :endDate "2018-04-25T14:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-user-modeling-726;
  :isSubEventOf ses:100;
@@ -13590,7 +13561,7 @@
  tal:738 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Incognito: A Method for Obfuscating Web Data (talk #738)";
+ rdfs:label "Incognito: A Method for Obfuscating Web Data";
  :endDate "2018-04-26T16:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-security-738;
  :isSubEventOf ses:156;
@@ -13600,7 +13571,7 @@
  tal:740 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "An Attention Factor Graph Model for Tweet Entity Linking (talk #740)";
+ rdfs:label "An Attention Factor Graph Model for Tweet Entity Linking";
  :endDate "2018-04-27T15:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-740;
  :isSubEventOf ses:168;
@@ -13610,7 +13581,7 @@
  tal:743 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Latent Relational Metric Learning via Memory-based Attention for Collaborative Ranking (talk #743)";
+ rdfs:label "Latent Relational Metric Learning via Memory-based Attention for Collaborative Ranking";
  :endDate "2018-04-27T14:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-user-modeling-743;
  :isSubEventOf ses:178;
@@ -13620,7 +13591,7 @@
  tal:744 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Dual Graph Convolutional Networks for Graph-Based Semi-Supervised Classification (talk #744)";
+ rdfs:label "Dual Graph Convolutional Networks for Graph-Based Semi-Supervised Classification";
  :endDate "2018-04-26T11:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-744;
  :isSubEventOf ses:148;
@@ -13630,7 +13601,7 @@
  tal:746 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "SIDE: Representation Learning in Signed Directed Networks (talk #746)";
+ rdfs:label "SIDE: Representation Learning in Signed Directed Networks";
  :endDate "2018-04-27T12:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-746;
  :isSubEventOf ses:173;
@@ -13640,7 +13611,7 @@
  tal:761 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Spectral Algorithms for Temporal Graph Cuts (talk #761)";
+ rdfs:label "Spectral Algorithms for Temporal Graph Cuts";
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-761;
  :isSubEventOf ses:148;
@@ -13650,7 +13621,7 @@
  tal:762 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Optimizing Ad Refresh In Mobile App Advertising (talk #762)";
+ rdfs:label "Optimizing Ad Refresh In Mobile App Advertising";
  :endDate "2018-04-25T16:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-economics-762;
  :isSubEventOf ses:63;
@@ -13660,7 +13631,7 @@
  tal:769 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "DRN: A Deep Reinforcement Learning Framework for News Recommendation (talk #769)";
+ rdfs:label "DRN: A Deep Reinforcement Learning Framework for News Recommendation";
  :endDate "2018-04-26T12:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-ai-769;
  :isSubEventOf ses:105;
@@ -13670,7 +13641,7 @@
  tal:774 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "AdaError: An Adaptive Learning Rate Method for Matrix Approximation-based Collaborative Filtering (talk #774)";
+ rdfs:label "AdaError: An Adaptive Learning Rate Method for Matrix Approximation-based Collaborative Filtering";
  :endDate "2018-04-27T14:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-user-modeling-774;
  :isSubEventOf ses:178;
@@ -13680,7 +13651,7 @@
  tal:775 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Find the Conversation Killers: a Predictive Study of Thread-ending Posts (talk #775)";
+ rdfs:label "Find the Conversation Killers: a Predictive Study of Thread-ending Posts";
  :endDate "2018-04-27T11:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-775;
  :isSubEventOf ses:167;
@@ -13690,7 +13661,7 @@
  tal:776 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Collective Classification of Spam Campaigners on Twitter: A Hierarchical Meta-Path Based Approach (talk #776)";
+ rdfs:label "Collective Classification of Spam Campaigners on Twitter: A Hierarchical Meta-Path Based Approach";
  :endDate "2018-04-26T16:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-776;
  :isSubEventOf ses:150;
@@ -13700,7 +13671,7 @@
  tal:80 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Learning on Partial-Order Hypergraphs (talk #80)";
+ rdfs:label "Learning on Partial-Order Hypergraphs";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-search-80;
  :isSubEventOf ses:85;
@@ -13710,7 +13681,7 @@
  tal:800 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Computationally Inferred Genealogical Networks Uncover Long-Term Trends in Assortative Mating (talk #800)";
+ rdfs:label "Computationally Inferred Genealogical Networks Uncover Long-Term Trends in Assortative Mating";
  :endDate "2018-04-27T11:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-society-800;
  :isSubEventOf ses:162;
@@ -13720,7 +13691,7 @@
  tal:810 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "What We Read, What We Search: Media Attention and Public Attention among 193 Countries (talk #810)";
+ rdfs:label "What We Read, What We Search: Media Attention and Public Attention among 193 Countries";
  :endDate "2018-04-25T14:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-society-810;
  :isSubEventOf ses:65;
@@ -13730,7 +13701,7 @@
  tal:841 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Human Perceptions of Fairness in Algorithmic Decision Making: A Case Study of Criminal Risk Prediction (talk #841)";
+ rdfs:label "Human Perceptions of Fairness in Algorithmic Decision Making: A Case Study of Criminal Risk Prediction";
  :endDate "2018-04-25T16:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-society-841;
  :isSubEventOf ses:66;
@@ -13740,7 +13711,7 @@
  tal:860 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label """Detecting Crowdturfing "Add to Favorites" Activities in Online Shopping (talk #860)""";
+ rdfs:label """Detecting Crowdturfing "Add to Favorites" Activities in Online Shopping""";
  :endDate "2018-04-26T11:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-search-860;
  :isSubEventOf ses:108;
@@ -13750,7 +13721,7 @@
  tal:867 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Semantics and Complexity of GraphQL (talk #867)";
+ rdfs:label "Semantics and Complexity of GraphQL";
  :endDate "2018-04-26T16:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-867;
  :isSubEventOf ses:120;
@@ -13760,7 +13731,7 @@
  tal:869 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Platform Criminalism - The 'Last-Mile' Geography of the Darknet Market Supply Chain (talk #869)";
+ rdfs:label "Platform Criminalism - The 'Last-Mile' Geography of the Darknet Market Supply Chain";
  :endDate "2018-04-26T15:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-security-869;
  :isSubEventOf ses:155;
@@ -13770,7 +13741,7 @@
  tal:88 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label """"Satisfaction with Failure" or "Unsatisfied Success": Investigating the Relationship between Search Success and User Satisfaction (talk #88)""";
+ rdfs:label """"Satisfaction with Failure" or "Unsatisfied Success": Investigating the Relationship between Search Success and User Satisfaction""";
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-search-88;
  :isSubEventOf ses:110;
@@ -13780,7 +13751,7 @@
  tal:884 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Detecting Ponzi Schemes on Ethereum: Towards Healthier Blockchain Technology (talk #884)";
+ rdfs:label "Detecting Ponzi Schemes on Ethereum: Towards Healthier Blockchain Technology";
  :endDate "2018-04-26T14:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-economics-884;
  :isSubEventOf ses:106;
@@ -13790,7 +13761,7 @@
  tal:892 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Search Process as Transitions Between Neural States (talk #892)";
+ rdfs:label "Search Process as Transitions Between Neural States";
  :endDate "2018-04-26T16:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-search-892;
  :isSubEventOf ses:110;
@@ -13800,7 +13771,7 @@
  tal:895 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Tagvisor: A Privacy Advisor for Sharing Hashtags (talk #895)";
+ rdfs:label "Tagvisor: A Privacy Advisor for Sharing Hashtags";
  :endDate "2018-04-26T16:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-security-895;
  :isSubEventOf ses:156;
@@ -13810,7 +13781,7 @@
  tal:913 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Sentiment Analysis by Capsules (talk #913)";
+ rdfs:label "Sentiment Analysis by Capsules";
  :endDate "2018-04-26T14:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-913;
  :isSubEventOf ses:119;
@@ -13820,7 +13791,7 @@
  tal:914 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "CHIMP: Crowdsourcing Human Inputs for Mobile Phones (talk #914)";
+ rdfs:label "CHIMP: Crowdsourcing Human Inputs for Mobile Phones";
  :endDate "2018-04-26T16:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-crowdsourcing-914;
  :isSubEventOf ses:107;
@@ -13830,7 +13801,7 @@
  tal:915 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "VERSE: Versatile Graph Embeddings from Similarity Measures (talk #915)";
+ rdfs:label "VERSE: Versatile Graph Embeddings from Similarity Measures";
  :endDate "2018-04-26T14:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-915;
  :isSubEventOf ses:149;
@@ -13840,7 +13811,7 @@
  tal:93 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Creating Crowdsourced Research Talks at Scale (talk #93)";
+ rdfs:label "Creating Crowdsourced Research Talks at Scale";
  :endDate "2018-04-25T12:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-crowdsourcing-93;
  :isSubEventOf ses:61;
@@ -13850,7 +13821,7 @@
  tal:930 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Sharing Deep Neural Network Models with Interpretation (talk #930)";
+ rdfs:label "Sharing Deep Neural Network Models with Interpretation";
  :endDate "2018-04-26T11:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-ai-930;
  :isSubEventOf ses:105;
@@ -13860,7 +13831,7 @@
  tal:933 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Political Discourse on Social Media: Echo Chambers, Gatekeepers, and the Price of Bipartisanship (talk #933)";
+ rdfs:label "Political Discourse on Social Media: Echo Chambers, Gatekeepers, and the Price of Bipartisanship";
  :endDate "2018-04-25T14:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-society-933;
  :isSubEventOf ses:65;
@@ -13870,7 +13841,7 @@
  tal:937 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "DeepMove: Predicting Human Mobility with Attentional Recurrent Networks (talk #937)";
+ rdfs:label "DeepMove: Predicting Human Mobility with Attentional Recurrent Networks";
  :endDate "2018-04-27T11:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-mobile-937;
  :isSubEventOf ses:163;
@@ -13880,7 +13851,7 @@
  tal:94 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Me, My Echo Chamber, and I: Introspection on Social Media Polarization (talk #94)";
+ rdfs:label "Me, My Echo Chamber, and I: Introspection on Social Media Polarization";
  :endDate "2018-04-25T15:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-society-94;
  :isSubEventOf ses:65;
@@ -13890,7 +13861,7 @@
  tal:947 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Anxiety and Information Seeking: Evidence From Large-Scale Mouse Tracking (talk #947)";
+ rdfs:label "Anxiety and Information Seeking: Evidence From Large-Scale Mouse Tracking";
  :endDate "2018-04-25T16:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-user-modeling-947;
  :isSubEventOf ses:101;
@@ -13900,7 +13871,7 @@
  tal:949 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Modelling Dynamics in Semantic Web Knowledge Graphs with Formal Concept Analysis (talk #949)";
+ rdfs:label "Modelling Dynamics in Semantic Web Knowledge Graphs with Formal Concept Analysis";
  :endDate "2018-04-26T16:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-949;
  :isSubEventOf ses:120;
@@ -13910,7 +13881,7 @@
  tal:960 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Demarcating Endogenous and Exogenous Opinion Diffusion Process on Social Networks (talk #960)";
+ rdfs:label "Demarcating Endogenous and Exogenous Opinion Diffusion Process on Social Networks";
  :endDate "2018-04-26T16:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-960;
  :isSubEventOf ses:150;
@@ -13920,7 +13891,7 @@
  tal:968 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Aladdin: Automating Release of Deep-Link APIs on Android (talk #968)";
+ rdfs:label "Aladdin: Automating Release of Deep-Link APIs on Android";
  :endDate "2018-04-27T14:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-mobile-968;
  :isSubEventOf ses:164;
@@ -13930,7 +13901,7 @@
  tal:983 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Through a Gender Lens: Learning Usage Patterns of Emojis from Large-Scale Android Users (talk #983)";
+ rdfs:label "Through a Gender Lens: Learning Usage Patterns of Emojis from Large-Scale Android Users";
  :endDate "2018-04-27T12:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-mobile-983;
  :isSubEventOf ses:163;
@@ -13940,7 +13911,7 @@
  tal:985 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Preferential Attachment as a Unique Equilibrium (talk #985)";
+ rdfs:label "Preferential Attachment as a Unique Equilibrium";
  :endDate "2018-04-27T11:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-985;
  :isSubEventOf ses:173;
@@ -13950,7 +13921,7 @@
  tal:997 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Scalable Instance Reconstruction in Knowledge Bases via Relatedness Affiliated Embedding (talk #997)";
+ rdfs:label "Scalable Instance Reconstruction in Knowledge Bases via Relatedness Affiliated Embedding";
  :endDate "2018-04-25T12:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-997;
  :isSubEventOf ses:76;
@@ -13960,7 +13931,7 @@
  tal:998 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Coevolutionary Recommendation Model: Mutual Learning between Rating and Reviews (talk #998)";
+ rdfs:label "Coevolutionary Recommendation Model: Mutual Learning between Rating and Reviews";
  :endDate "2018-04-25T14:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-user-modeling-998;
  :isSubEventOf ses:100;

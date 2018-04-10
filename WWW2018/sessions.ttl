@@ -22,6 +22,7 @@
  @prefix track: <https://w3id.org/scholarlydata/track/> .
  @prefix tuto: <#tutorial/> .
  @prefix wo: <https://w3id.org/scholarlydata/workshop/> .
+ @prefix www: <https://www.acm-digitalhealth.org/> .
  @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
  
  alt:1 a :AcademicEvent,
@@ -9705,6 +9706,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web4All Unconference";
+ foaf:homepage <https://www.w4a.info/2018/>;
  :description "Web4All Unconference";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_4>;
@@ -9799,8 +9801,8 @@
  se:11 a :AcademicEvent,
  :OrganisedEvent,
  :Session;
- rdfs:label "The BIG Web (formerly <em>BigData Innovators Gathering</em>)";
- :description "The BIG Web (formerly <em>BigData Innovators Gathering</em>)";
+ rdfs:label "The BIG Web (formerly BigData Innovators Gathering)";
+ :description "The BIG Web (formerly BigData Innovators Gathering)";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Auditorium_Pasteur>;
  :isSubEventOf confe:the-web-conf2018;
@@ -9943,6 +9945,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web4All";
+ foaf:homepage <https://www.w4a.info/2018/>;
  :description "Web4All";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Pasteur>;
@@ -9968,6 +9971,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
+ foaf:homepage www:;
  :description "Digital-Health 2018";
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Gratte-Ciel>;
@@ -9978,6 +9982,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
+ foaf:homepage www:;
  :description "Digital-Health 2018";
  :hasSite <#room/Salon_Gratte-Ciel>;
  :isSubEventOf confe:the-web-conf2018 .
@@ -9986,6 +9991,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
+ foaf:homepage www:;
  :description "Digital-Health 2018";
  :hasSite <#room/Salon_Gratte-Ciel>;
  :isSubEventOf confe:the-web-conf2018 .
@@ -9994,6 +10000,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
+ foaf:homepage www:;
  :description "Digital-Health 2018";
  :hasSite <#room/Salle_Gratte-Ciel_1>;
  :isSubEventOf confe:the-web-conf2018 .
@@ -10002,6 +10009,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
+ foaf:homepage www:;
  :description "Digital-Health 2018";
  :hasSite <#room/Salle_Gratte-Ciel_1>;
  :isSubEventOf confe:the-web-conf2018 .
@@ -10010,6 +10018,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
+ foaf:homepage www:;
  :description "Digital-Health 2018";
  :hasSite <#room/Salle_Gratte-Ciel_1>;
  :isSubEventOf confe:the-web-conf2018 .
@@ -10018,6 +10027,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
+ foaf:homepage www:;
  :description "Digital-Health 2018";
  :hasSite <#room/Salle_Gratte-Ciel_2>;
  :isSubEventOf confe:the-web-conf2018 .
@@ -10026,6 +10036,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
+ foaf:homepage www:;
  :description "Digital-Health 2018";
  :hasSite <#room/Salle_Gratte-Ciel_2>;
  :isSubEventOf confe:the-web-conf2018 .
@@ -10034,6 +10045,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
+ foaf:homepage www:;
  :description "Digital-Health 2018";
  :hasSite <#room/Salle_Gratte-Ciel_2>;
  :isSubEventOf confe:the-web-conf2018 .
@@ -10054,6 +10066,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
+ foaf:homepage www:;
  :description "Digital-Health 2018";
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Gratte-Ciel_3>;
@@ -10064,6 +10077,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
+ foaf:homepage www:;
  :description "Digital-Health 2018";
  :hasSite <#room/Salle_Gratte-Ciel_3>;
  :isSubEventOf confe:the-web-conf2018 .
@@ -10072,6 +10086,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
+ foaf:homepage www:;
  :description "Digital-Health 2018";
  :hasSite <#room/Salle_Gratte-Ciel_3>;
  :isSubEventOf confe:the-web-conf2018 .
@@ -10602,6 +10617,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018 - PhD Track";
+ foaf:homepage www:;
  :description "Digital-Health 2018 - PhD Track";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_4>;
@@ -11673,6 +11689,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
+ foaf:homepage www:;
  :description "Digital-Health 2018";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Gratte-Ciel>;
@@ -11683,6 +11700,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
+ foaf:homepage www:;
  :description "Digital-Health 2018";
  :hasSite <#room/Salle_Gratte-Ciel_1>;
  :isSubEventOf confe:the-web-conf2018 .
@@ -11691,6 +11709,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
+ foaf:homepage www:;
  :description "Digital-Health 2018";
  :hasSite <#room/Salle_Gratte-Ciel_2>;
  :isSubEventOf confe:the-web-conf2018 .
@@ -11699,6 +11718,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
+ foaf:homepage www:;
  :description "Digital-Health 2018";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Gratte-Ciel_3>;
@@ -11708,8 +11728,8 @@
  se:40 a :AcademicEvent,
  :OrganisedEvent,
  :Session;
- rdfs:label "The BIG Web (formerly <em>BigData Innovators Gathering</em>)";
- :description "The BIG Web (formerly <em>BigData Innovators Gathering</em>)";
+ rdfs:label "The BIG Web (formerly BigData Innovators Gathering)";
+ :description "The BIG Web (formerly BigData Innovators Gathering)";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Auditorium_Pasteur>;
  :isSubEventOf confe:the-web-conf2018;
@@ -11720,6 +11740,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web4All";
+ foaf:homepage <https://www.w4a.info/2018/>;
  :description "Web4All";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Pasteur>;
@@ -12249,6 +12270,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
+ foaf:homepage www:;
  :description "Digital-Health 2018";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Gratte-Ciel>;
@@ -12271,6 +12293,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
+ foaf:homepage www:;
  :description "Digital-Health 2018";
  :hasSite <#room/Salle_Gratte-Ciel_1>;
  :isSubEventOf confe:the-web-conf2018 .
@@ -12279,6 +12302,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
+ foaf:homepage www:;
  :description "Digital-Health 2018";
  :hasSite <#room/Salle_Gratte-Ciel_2>;
  :isSubEventOf confe:the-web-conf2018 .
@@ -12287,6 +12311,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
+ foaf:homepage www:;
  :description "Digital-Health 2018";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Gratte-Ciel_3>;

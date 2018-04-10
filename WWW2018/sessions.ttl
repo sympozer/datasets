@@ -10767,6 +10767,7 @@
  :SocialEvent;
  rdfs:label "Le Banquet de La Cuisine du Web";
  :description "Le Banquet de La Cuisine du Web";
+ :endDate "2018-04-23T23:59:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Hard_Rock_Cafe>;
  :isSubEventOf confe:the-web-conf2018;
  :startDate "2018-04-23T19:00:00+02:00"^^xsd:dateTime .
@@ -10796,6 +10797,7 @@
  :SocialEvent;
  rdfs:label "Gala Dinner";
  :description "Gala Dinner";
+ :endDate "2018-04-26T23:59:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Halles_Paul_Bocuse>;
  :isSubEventOf confe:the-web-conf2018;
  :startDate "2018-04-26T19:00:00+02:00"^^xsd:dateTime .
@@ -11434,6 +11436,7 @@
  :SocialEvent;
  rdfs:label "Digital-Health Gala Dinner";
  :description "Digital-Health Gala Dinner";
+ :endDate "2018-04-24T23:59:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Restaurant_La_Maison>;
  :isSubEventOf confe:the-web-conf2018;
  :startDate "2018-04-24T20:00:00+02:00"^^xsd:dateTime .

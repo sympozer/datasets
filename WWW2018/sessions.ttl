@@ -19,6 +19,7 @@
  @prefix se: <#session/> .
  @prefix ses: <#session-chair/> .
  @prefix talk: <#talk/> .
+ @prefix the: <https://www2018.thewebconf.org/program/the-big-web-track/> .
  @prefix track: <https://w3id.org/scholarlydata/track/> .
  @prefix tuto: <#tutorial/> .
  @prefix wo: <https://w3id.org/scholarlydata/workshop/> .
@@ -9716,8 +9717,8 @@
  se:104 a :AcademicEvent,
  :OrganisedEvent,
  :Session;
- rdfs:label """<div class="closer">Keynote: Ruhi Sarikaya<br/><span class="normal italic">Conversational AI for Interacting with Digital and Physical World</span></div>Panel: AI and the future of the Web and the Internet.""";
- :description """<div class="closer">Keynote: Ruhi Sarikaya<br/><span class="normal italic">Conversational AI for Interacting with Digital and Physical World</span></div>Panel: AI and the future of the Web and the Internet.""";
+ rdfs:label "Keynote and Panel";
+ :description "Keynote and Panel";
  :endDate "2018-04-26T10:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Amphith%C3%A9%C3%A2tre>;
  :isSubEventOf confe:the-web-conf2018;
@@ -9802,6 +9803,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "The BIG Web (formerly BigData Innovators Gathering)";
+ foaf:homepage the:;
  :description "The BIG Web (formerly BigData Innovators Gathering)";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Auditorium_Pasteur>;
@@ -10441,8 +10443,8 @@
  se:158 a :AcademicEvent,
  :OrganisedEvent,
  :Session;
- rdfs:label """<div class="closer">Keynote: Lorrie Faith Cranor<br/><span class="normal italic">Web Privacy and Security: The User Experience</span></div>Panel: Privacy and Security, remaining challenges for the Web""";
- :description """<div class="closer">Keynote: Lorrie Faith Cranor<br/><span class="normal italic">Web Privacy and Security: The User Experience</span></div>Panel: Privacy and Security, remaining challenges for the Web""";
+ rdfs:label "Keynote and Panel";
+ :description "Keynote and Panel";
  :endDate "2018-04-27T10:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Amphith%C3%A9%C3%A2tre>;
  :isSubEventOf confe:the-web-conf2018;
@@ -10452,8 +10454,8 @@
  se:159 a :AcademicEvent,
  :OrganisedEvent,
  :Session;
- rdfs:label """<div class="closer">Take home message from Robert Cailliau,<br/><span class="normal italic">founder of The Web Conference Series and of the IW3C2</span>,</div>Awards, and Closing""";
- :description """<div class="closer">Take home message from Robert Cailliau,<br/><span class="normal italic">founder of The Web Conference Series and of the IW3C2</span>,</div>Awards, and Closing""";
+ rdfs:label "Awards, Keynote and Closing";
+ :description "Awards, Keynote and Closing";
  :endDate "2018-04-27T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Amphith%C3%A9%C3%A2tre>;
  :isSubEventOf confe:the-web-conf2018;
@@ -11729,6 +11731,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "The BIG Web (formerly BigData Innovators Gathering)";
+ foaf:homepage the:;
  :description "The BIG Web (formerly BigData Innovators Gathering)";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Auditorium_Pasteur>;
@@ -11990,8 +11993,8 @@
  se:60 a :AcademicEvent,
  :OrganisedEvent,
  :Session;
- rdfs:label """Opening<div class="closer">Keynote: Luciano Floridi<br/><span class="normal italic">The good web – some challenges and strategies to realise it</span></div>""";
- :description """Opening<div class="closer">Keynote: Luciano Floridi<br/><span class="normal italic">The good web – some challenges and strategies to realise it</span></div>""";
+ rdfs:label "Opening and Keynote";
+ :description "Opening and Keynote";
  :endDate "2018-04-25T10:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Amphith%C3%A9%C3%A2tre>;
  :isSubEventOf confe:the-web-conf2018;

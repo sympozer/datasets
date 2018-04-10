@@ -22,9 +22,217 @@
  @prefix the: <https://www2018.thewebconf.org/program/the-big-web-track/> .
  @prefix track: <https://w3id.org/scholarlydata/track/> .
  @prefix tuto: <#tutorial/> .
+ @prefix w: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-bignet-2018-582#> .
  @prefix wo: <https://w3id.org/scholarlydata/workshop/> .
- @prefix www: <https://www.acm-digitalhealth.org/> .
+ @prefix ww: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-ssei-754#> .
+ @prefix www: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-hqa18-801#> .
+ @prefix www10: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-huml2018-658#> .
+ @prefix www11: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-aw4city-707#> .
+ @prefix www12: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-rcblackmirror2018-838#> .
+ @prefix www13: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-huml2018-661#> .
+ @prefix www14: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-orsum-736#> .
+ @prefix www15: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-bignet-2018-807#> .
+ @prefix www16: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-rod-345#> .
+ @prefix www17: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-wsp-633#> .
+ @prefix www18: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-rcblackmirror2018-831#> .
+ @prefix www19: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-orsum-725#> .
+ @prefix www2: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-huml2018-629#> .
+ @prefix www20: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-ekm-784#> .
+ @prefix www21: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-rcblackmirror2018-829#> .
+ @prefix www22: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-rod-712#> .
+ @prefix www23: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-smerp-679#> .
+ @prefix www24: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-aw4city-856#> .
+ @prefix www25: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-ssei-818#> .
+ @prefix www26: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-orsum-729#> .
+ @prefix www27: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-ws-rest-2018-734#> .
+ @prefix www28: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-matnet-756#> .
+ @prefix www29: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-smerp-701#> .
+ @prefix www3: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-hqa18-782#> .
+ @prefix www30: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-socialnlp-2018-674#> .
+ @prefix www31: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-aw4city-771#> .
+ @prefix www32: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-rod-727#> .
+ @prefix www33: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-bignet-2018-544#> .
+ @prefix www34: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-smerp-626#> .
+ @prefix www35: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-matnet-664#> .
+ @prefix www36: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-rcblackmirror2018-828#> .
+ @prefix www37: <https://www.acm-digitalhealth.org/> .
+ @prefix www38: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-smerp-697#> .
+ @prefix www39: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-hqa18-770#> .
+ @prefix www4: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-bignet-2018-758#> .
+ @prefix www40: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-ssei-844#> .
+ @prefix www41: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-ld-dl-785#> .
+ @prefix www42: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-ws-rest-2018-713#> .
+ @prefix www43: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-hqa18-790#> .
+ @prefix www44: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-ws-rest-2018-648#> .
+ @prefix www45: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-matnet-766#> .
+ @prefix www46: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-orsum-671#> .
+ @prefix www47: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-orsum-717#> .
+ @prefix www48: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-wsp-819#> .
+ @prefix www49: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-wsp-718#> .
+ @prefix www5: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-aw4city-768#> .
+ @prefix www50: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-hqa18-778#> .
+ @prefix www51: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-socialnlp-2018-667#> .
+ @prefix www52: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-bignet-2018-845#> .
+ @prefix www53: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-matnet-675#> .
+ @prefix www54: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-huml2018-655#> .
+ @prefix www55: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-ld-dl-731#> .
+ @prefix www56: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-hqa18-805#> .
+ @prefix www57: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-orsum-660#> .
+ @prefix www58: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-bignet-2018-266#> .
+ @prefix www59: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-rcblackmirror2018-834#> .
+ @prefix www6: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-rcblackmirror2018-826#> .
+ @prefix www60: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-bignet-2018-274#> .
+ @prefix www61: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-ssei-842#> .
+ @prefix www62: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-aw4city-799#> .
+ @prefix www63: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-wsp-720#> .
+ @prefix www64: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-bignet-2018-765#> .
+ @prefix www65: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-xmlc-823#> .
+ @prefix www66: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-aw4city-764#> .
+ @prefix www67: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-orsum-732#> .
+ @prefix www68: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-huml2018-709#> .
+ @prefix www69: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-orsum-721#> .
+ @prefix www7: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-xmlc-800#> .
+ @prefix www70: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-matnet-751#> .
+ @prefix www71: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-ekm-797#> .
+ @prefix www72: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-hqa18-780#> .
+ @prefix www73: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-ws-rest-2018-714#> .
+ @prefix www74: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-rod-705#> .
+ @prefix www75: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-ld-dl-776#> .
+ @prefix www76: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-rod-719#> .
+ @prefix www77: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-rcblackmirror2018-821#> .
+ @prefix www78: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-rcblackmirror2018-839#> .
+ @prefix www79: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-hqa18-763#> .
+ @prefix www8: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-bignet-2018-761#> .
+ @prefix www80: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-matnet-680#> .
+ @prefix www81: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-ekm-798#> .
+ @prefix www82: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-aw4city-855#> .
+ @prefix www83: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-smerp-630#> .
+ @prefix www84: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-ld-dl-789#> .
+ @prefix www85: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-matnet-689#> .
+ @prefix www86: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-socialnlp-2018-684#> .
+ @prefix www87: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-matnet-659#> .
+ @prefix www88: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-aw4city-779#> .
+ @prefix www89: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-rcblackmirror2018-840#> .
+ @prefix www9: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-wsp-632#> .
+ @prefix www90: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-bignet-2018-286#> .
+ @prefix www91: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-aw4city-854#> .
+ @prefix www92: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-matnet-753#> .
+ @prefix www93: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-socialnlp-2018-673#> .
+ @prefix www94: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-ssei-769#> .
+ @prefix www95: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-rcblackmirror2018-833#> .
  @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+ 
+ <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/1> :hasSubEvent www57:talk,
+ www46:talk,
+ www47:talk,
+ www69:talk,
+ www19:talk,
+ www26:talk,
+ www67:talk,
+ www14:talk .
+ 
+ <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/10> :hasSubEvent www79:talk,
+ www39:talk,
+ www50:talk,
+ www72:talk,
+ www3:talk,
+ www43:talk,
+ www:talk,
+ www56:talk .
+ 
+ <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/13> :hasSubEvent ww:talk,
+ www94:talk,
+ www25:talk,
+ www61:talk,
+ www40:talk .
+ 
+ <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/14> :hasSubEvent www11:talk,
+ www66:talk,
+ www5:talk,
+ www31:talk,
+ www88:talk,
+ www62:talk,
+ www91:talk,
+ www82:talk,
+ www24:talk .
+ 
+ <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/15> :hasSubEvent www87:talk,
+ www35:talk,
+ www53:talk,
+ www80:talk,
+ www85:talk,
+ www70:talk,
+ www92:talk,
+ www28:talk,
+ www45:talk .
+ 
+ <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/16> :hasSubEvent www34:talk,
+ www83:talk,
+ www23:talk,
+ www38:talk,
+ www29:talk .
+ 
+ <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/29> :hasSubEvent www77:talk,
+ www6:talk,
+ www36:talk,
+ www21:talk,
+ www18:talk,
+ www95:talk,
+ www59:talk,
+ www12:talk,
+ www78:talk,
+ www89:talk .
+ 
+ <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/33> :hasSubEvent www2:talk,
+ www54:talk,
+ www10:talk,
+ www13:talk,
+ www68:talk .
+ 
+ <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/42> :hasSubEvent www9:talk,
+ www17:talk,
+ www49:talk,
+ www63:talk,
+ www48:talk .
+ 
+ <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/43> :hasSubEvent www55:talk,
+ www75:talk,
+ www41:talk,
+ www84:talk .
+ 
+ <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/48> :hasSubEvent www16:talk,
+ www74:talk,
+ www22:talk,
+ www76:talk,
+ www32:talk .
+ 
+ <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/49> :hasSubEvent www58:talk,
+ www60:talk,
+ www90:talk,
+ www33:talk,
+ w:talk,
+ www4:talk,
+ www8:talk,
+ www64:talk,
+ www15:talk,
+ www52:talk .
+ 
+ <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/5> :hasSubEvent www7:talk,
+ www65:talk .
+ 
+ <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/7> :hasSubEvent www51:talk,
+ www93:talk,
+ www30:talk,
+ www86:talk .
+ 
+ <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/8> :hasSubEvent www44:talk,
+ www42:talk,
+ www73:talk,
+ www27:talk .
+ 
+ <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/9> :hasSubEvent www20:talk,
+ www71:talk,
+ www81:talk .
  
  alt:1 a :AcademicEvent,
  :OrganisedEvent,
@@ -9973,7 +10181,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
- foaf:homepage www:;
+ foaf:homepage www37:;
  :description "Digital-Health 2018";
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Gratte-Ciel>;
@@ -9984,7 +10192,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
- foaf:homepage www:;
+ foaf:homepage www37:;
  :description "Digital-Health 2018";
  :hasSite <#room/Salon_Gratte-Ciel>;
  :isSubEventOf confe:the-web-conf2018 .
@@ -9993,7 +10201,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
- foaf:homepage www:;
+ foaf:homepage www37:;
  :description "Digital-Health 2018";
  :hasSite <#room/Salon_Gratte-Ciel>;
  :isSubEventOf confe:the-web-conf2018 .
@@ -10002,7 +10210,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
- foaf:homepage www:;
+ foaf:homepage www37:;
  :description "Digital-Health 2018";
  :hasSite <#room/Salle_Gratte-Ciel_1>;
  :isSubEventOf confe:the-web-conf2018 .
@@ -10011,7 +10219,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
- foaf:homepage www:;
+ foaf:homepage www37:;
  :description "Digital-Health 2018";
  :hasSite <#room/Salle_Gratte-Ciel_1>;
  :isSubEventOf confe:the-web-conf2018 .
@@ -10020,7 +10228,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
- foaf:homepage www:;
+ foaf:homepage www37:;
  :description "Digital-Health 2018";
  :hasSite <#room/Salle_Gratte-Ciel_1>;
  :isSubEventOf confe:the-web-conf2018 .
@@ -10029,7 +10237,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
- foaf:homepage www:;
+ foaf:homepage www37:;
  :description "Digital-Health 2018";
  :hasSite <#room/Salle_Gratte-Ciel_2>;
  :isSubEventOf confe:the-web-conf2018 .
@@ -10038,7 +10246,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
- foaf:homepage www:;
+ foaf:homepage www37:;
  :description "Digital-Health 2018";
  :hasSite <#room/Salle_Gratte-Ciel_2>;
  :isSubEventOf confe:the-web-conf2018 .
@@ -10047,7 +10255,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
- foaf:homepage www:;
+ foaf:homepage www37:;
  :description "Digital-Health 2018";
  :hasSite <#room/Salle_Gratte-Ciel_2>;
  :isSubEventOf confe:the-web-conf2018 .
@@ -10068,7 +10276,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
- foaf:homepage www:;
+ foaf:homepage www37:;
  :description "Digital-Health 2018";
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Gratte-Ciel_3>;
@@ -10079,7 +10287,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
- foaf:homepage www:;
+ foaf:homepage www37:;
  :description "Digital-Health 2018";
  :hasSite <#room/Salle_Gratte-Ciel_3>;
  :isSubEventOf confe:the-web-conf2018 .
@@ -10088,7 +10296,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
- foaf:homepage www:;
+ foaf:homepage www37:;
  :description "Digital-Health 2018";
  :hasSite <#room/Salle_Gratte-Ciel_3>;
  :isSubEventOf confe:the-web-conf2018 .
@@ -10619,7 +10827,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018 - PhD Track";
- foaf:homepage www:;
+ foaf:homepage www37:;
  :description "Digital-Health 2018 - PhD Track";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_4>;
@@ -11691,7 +11899,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
- foaf:homepage www:;
+ foaf:homepage www37:;
  :description "Digital-Health 2018";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Gratte-Ciel>;
@@ -11702,7 +11910,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
- foaf:homepage www:;
+ foaf:homepage www37:;
  :description "Digital-Health 2018";
  :hasSite <#room/Salle_Gratte-Ciel_1>;
  :isSubEventOf confe:the-web-conf2018 .
@@ -11711,7 +11919,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
- foaf:homepage www:;
+ foaf:homepage www37:;
  :description "Digital-Health 2018";
  :hasSite <#room/Salle_Gratte-Ciel_2>;
  :isSubEventOf confe:the-web-conf2018 .
@@ -11720,7 +11928,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
- foaf:homepage www:;
+ foaf:homepage www37:;
  :description "Digital-Health 2018";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Gratte-Ciel_3>;
@@ -12273,7 +12481,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
- foaf:homepage www:;
+ foaf:homepage www37:;
  :description "Digital-Health 2018";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Gratte-Ciel>;
@@ -12296,7 +12504,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
- foaf:homepage www:;
+ foaf:homepage www37:;
  :description "Digital-Health 2018";
  :hasSite <#room/Salle_Gratte-Ciel_1>;
  :isSubEventOf confe:the-web-conf2018 .
@@ -12305,7 +12513,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
- foaf:homepage www:;
+ foaf:homepage www37:;
  :description "Digital-Health 2018";
  :hasSite <#room/Salle_Gratte-Ciel_2>;
  :isSubEventOf confe:the-web-conf2018 .
@@ -12314,7 +12522,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital-Health 2018";
- foaf:homepage www:;
+ foaf:homepage www37:;
  :description "Digital-Health 2018";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Gratte-Ciel_3>;
@@ -16147,6 +16355,966 @@
  
  inp:www-webprog-2018-webprog-73 :relatesToEvent alt:85 .
  
+ inp:www-workshops-2018-aw4city-707 :relatesToEvent www11:talk .
+ 
+ www11:talk a :Talk;
+ rdfs:label "Towards a Framework for Context-Aware Intelligent Traffic Management System in Smart Cities";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-aw4city-707;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/14>;
+ :relatesToTrack wo:www-workshops-2018-aw4city;
+ :startDate "2018-04-23T11:40:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-aw4city-764 :relatesToEvent www66:talk .
+ 
+ www66:talk a :Talk;
+ rdfs:label "Increasing Information Transparency through Web Maps";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-aw4city-764;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/14>;
+ :relatesToTrack wo:www-workshops-2018-aw4city;
+ :startDate "2018-04-23T11:40:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-aw4city-768 :relatesToEvent www5:talk .
+ 
+ www5:talk a :Talk;
+ rdfs:label "Smart Cities at Risk!: Privacy and Security Borderlines from Social Networking in Cities";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-aw4city-768;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/14>;
+ :relatesToTrack wo:www-workshops-2018-aw4city;
+ :startDate "2018-04-23T11:40:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-aw4city-771 :relatesToEvent www31:talk .
+ 
+ www31:talk a :Talk;
+ rdfs:label "The role of digital technologies in promoting smart city governance: The case of SmartGov";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-aw4city-771;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/14>;
+ :relatesToTrack wo:www-workshops-2018-aw4city;
+ :startDate "2018-04-23T11:40:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-aw4city-779 :relatesToEvent www88:talk .
+ 
+ www88:talk a :Talk;
+ rdfs:label "Citizen Participation: Case Study on participatory apps in Germany";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-aw4city-779;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/14>;
+ :relatesToTrack wo:www-workshops-2018-aw4city;
+ :startDate "2018-04-23T11:40:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-aw4city-799 :relatesToEvent www62:talk .
+ 
+ www62:talk a :Talk;
+ rdfs:label "A Feasibility Study on Crowdsourced Urban Municipal Resources Monitoring System for Smart Cities";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-aw4city-799;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/14>;
+ :relatesToTrack wo:www-workshops-2018-aw4city;
+ :startDate "2018-04-23T11:40:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-aw4city-854 :relatesToEvent www91:talk .
+ 
+ www91:talk a :Talk;
+ rdfs:label "Smart transportation applications' business models: a comparison";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-aw4city-854;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/14>;
+ :relatesToTrack wo:www-workshops-2018-aw4city;
+ :startDate "2018-04-23T11:40:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-aw4city-855 :relatesToEvent www82:talk .
+ 
+ www82:talk a :Talk;
+ rdfs:label "Reflections regarding the future path of Smart Sustainable Cities";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-aw4city-855;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/14>;
+ :relatesToTrack wo:www-workshops-2018-aw4city;
+ :startDate "2018-04-23T11:40:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-aw4city-856 :relatesToEvent www24:talk .
+ 
+ www24:talk a :Talk;
+ rdfs:label "A Case Study on Smart City Projects in India: An analysis of Nagpur, Allahabad and Dehradun";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-aw4city-856;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/14>;
+ :relatesToTrack wo:www-workshops-2018-aw4city;
+ :startDate "2018-04-23T11:40:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-bignet-2018-266 :relatesToEvent www58:talk .
+ 
+ www58:talk a :Talk;
+ rdfs:label "Towards Interpretation of Node Embeddings";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-bignet-2018-266;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/49>;
+ :relatesToTrack wo:www-workshops-2018-bignet-2018;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-bignet-2018-274 :relatesToEvent www60:talk .
+ 
+ www60:talk a :Talk;
+ rdfs:label "Deep Inductive Network Representation Learning";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-bignet-2018-274;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/49>;
+ :relatesToTrack wo:www-workshops-2018-bignet-2018;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-bignet-2018-286 :relatesToEvent www90:talk .
+ 
+ www90:talk a :Talk;
+ rdfs:label "Representation Learning for Sentiment Lexicon Generation from User Reviews";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-bignet-2018-286;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/49>;
+ :relatesToTrack wo:www-workshops-2018-bignet-2018;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-bignet-2018-544 :relatesToEvent www33:talk .
+ 
+ www33:talk a :Talk;
+ rdfs:label "Network Model Selection Using Task-Focused Minimum Description Length";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-bignet-2018-544;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/49>;
+ :relatesToTrack wo:www-workshops-2018-bignet-2018;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-bignet-2018-582 :relatesToEvent w:talk .
+ 
+ w:talk a :Talk;
+ rdfs:label "Continuous-Time Dynamic Network Embeddings";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-bignet-2018-582;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/49>;
+ :relatesToTrack wo:www-workshops-2018-bignet-2018;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-bignet-2018-758 :relatesToEvent www4:talk .
+ 
+ www4:talk a :Talk;
+ rdfs:label "VERSE: Versatile Graph Embeddings from Similarity Measures";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-bignet-2018-758;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/49>;
+ :relatesToTrack wo:www-workshops-2018-bignet-2018;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-bignet-2018-761 :relatesToEvent www8:talk .
+ 
+ www8:talk a :Talk;
+ rdfs:label "Social Rank Regulated Large-scale Network Embedding";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-bignet-2018-761;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/49>;
+ :relatesToTrack wo:www-workshops-2018-bignet-2018;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-bignet-2018-765 :relatesToEvent www64:talk .
+ 
+ www64:talk a :Talk;
+ rdfs:label "SIDE: Representation Learning in Signed Directed Networks";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-bignet-2018-765;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/49>;
+ :relatesToTrack wo:www-workshops-2018-bignet-2018;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-bignet-2018-807 :relatesToEvent www15:talk .
+ 
+ www15:talk a :Talk;
+ rdfs:label "Combining RDF Graph Data and Embedding Models for an Augmented Knowledge Graph";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-bignet-2018-807;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/49>;
+ :relatesToTrack wo:www-workshops-2018-bignet-2018;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-bignet-2018-845 :relatesToEvent www52:talk .
+ 
+ www52:talk a :Talk;
+ rdfs:label "Heterogeneous Network Embedding";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-bignet-2018-845;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/49>;
+ :relatesToTrack wo:www-workshops-2018-bignet-2018;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-ekm-784 :relatesToEvent www20:talk .
+ 
+ www20:talk a :Talk;
+ rdfs:label "Construction and Applications of TeKnowbase – A Knowledge Base of Computer Science concepts";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-ekm-784;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/9>;
+ :relatesToTrack wo:www-workshops-2018-ekm;
+ :startDate "2018-04-23T11:40:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-ekm-797 :relatesToEvent www71:talk .
+ 
+ www71:talk a :Talk;
+ rdfs:label "Ontology-based recommender system in higher education";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-ekm-797;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/9>;
+ :relatesToTrack wo:www-workshops-2018-ekm;
+ :startDate "2018-04-23T11:40:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-ekm-798 :relatesToEvent www81:talk .
+ 
+ www81:talk a :Talk;
+ rdfs:label "Automatic Generation of Quizzes from DBpedia According to Educational Standards";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-ekm-798;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/9>;
+ :relatesToTrack wo:www-workshops-2018-ekm;
+ :startDate "2018-04-23T11:40:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-hqa18-763 :relatesToEvent www79:talk .
+ 
+ www79:talk a :Talk;
+ rdfs:label "A Factoid Question Answering System for Vietnamese";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-hqa18-763;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/10>;
+ :relatesToTrack wo:www-workshops-2018-hqa18;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-hqa18-770 :relatesToEvent www39:talk .
+ 
+ www39:talk a :Talk;
+ rdfs:label "TempQuestions: A Benchmark for Temporal Question Answering";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-hqa18-770;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/10>;
+ :relatesToTrack wo:www-workshops-2018-hqa18;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-hqa18-778 :relatesToEvent www50:talk .
+ 
+ www50:talk a :Talk;
+ rdfs:label "Query Expansion with Neural Question-to-Answer Translation for FAQ-based Question Answering";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-hqa18-778;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/10>;
+ :relatesToTrack wo:www-workshops-2018-hqa18;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-hqa18-780 :relatesToEvent www72:talk .
+ 
+ www72:talk a :Talk;
+ rdfs:label "Patient Selection for Clinical Trials Using Temporalized Ontology-Mediated Query Answering";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-hqa18-780;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/10>;
+ :relatesToTrack wo:www-workshops-2018-hqa18;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-hqa18-782 :relatesToEvent www3:talk .
+ 
+ www3:talk a :Talk;
+ rdfs:label "Multi-turn QA: A RNN-based Approach for a Goal-oriented Conversational Agent";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-hqa18-782;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/10>;
+ :relatesToTrack wo:www-workshops-2018-hqa18;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-hqa18-790 :relatesToEvent www43:talk .
+ 
+ www43:talk a :Talk;
+ rdfs:label "A corpus for Hybrid Question Answering Systems";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-hqa18-790;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/10>;
+ :relatesToTrack wo:www-workshops-2018-hqa18;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-hqa18-801 :relatesToEvent www:talk .
+ 
+ www:talk a :Talk;
+ rdfs:label "WDAqua-core1: a Question Answering service for RDF Knowledge Bases";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-hqa18-801;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/10>;
+ :relatesToTrack wo:www-workshops-2018-hqa18;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-hqa18-805 :relatesToEvent www56:talk .
+ 
+ www56:talk a :Talk;
+ rdfs:label "Verification of the Expected Answer Type for Biomedical Question Answering";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-hqa18-805;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/10>;
+ :relatesToTrack wo:www-workshops-2018-hqa18;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-huml2018-629 :relatesToEvent www2:talk .
+ 
+ www2:talk a :Talk;
+ rdfs:label "CrowdED: Guideline for optimal Crowdsourcing Experimental Design";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-huml2018-629;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/33>;
+ :relatesToTrack wo:www-workshops-2018-huml2018;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-huml2018-655 :relatesToEvent www54:talk .
+ 
+ www54:talk a :Talk;
+ rdfs:label "WITH: Human-computer collaboration for data annotation and enrichment";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-huml2018-655;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/33>;
+ :relatesToTrack wo:www-workshops-2018-huml2018;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-huml2018-658 :relatesToEvent www10:talk .
+ 
+ www10:talk a :Talk;
+ rdfs:label "Outlier Detection vs. Control Questions to ensure reliable results in Crowdsourcing. A Speech Quality Assessment Case Study";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-huml2018-658;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/33>;
+ :relatesToTrack wo:www-workshops-2018-huml2018;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-huml2018-661 :relatesToEvent www13:talk .
+ 
+ www13:talk a :Talk;
+ rdfs:label "Exploring the efficiency of batch active learning for human-in-the-loop relation extraction.";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-huml2018-661;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/33>;
+ :relatesToTrack wo:www-workshops-2018-huml2018;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-huml2018-709 :relatesToEvent www68:talk .
+ 
+ www68:talk a :Talk;
+ rdfs:label "A Gamified Approach to Naïve Bayes Classification: A Case Study for Newswires and Systematic Medical Reviews";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-huml2018-709;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/33>;
+ :relatesToTrack wo:www-workshops-2018-huml2018;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-ld-dl-731 :relatesToEvent www55:talk .
+ 
+ www55:talk a :Talk;
+ rdfs:label "When trust saves energy: A Reference Framework for Proof of Trust (PoT) Blockchains";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-ld-dl-731;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/43>;
+ :relatesToTrack wo:www-workshops-2018-ld-dl;
+ :startDate "2018-04-24T11:40:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-ld-dl-776 :relatesToEvent www75:talk .
+ 
+ www75:talk a :Talk;
+ rdfs:label "GraphChain - A distributed database with explicit semantics and chained RDF graphs";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-ld-dl-776;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/43>;
+ :relatesToTrack wo:www-workshops-2018-ld-dl;
+ :startDate "2018-04-24T11:40:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-ld-dl-785 :relatesToEvent www41:talk .
+ 
+ www41:talk a :Talk;
+ rdfs:label "Can Blockchains and Linked Data Advance Taxation?";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-ld-dl-785;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/43>;
+ :relatesToTrack wo:www-workshops-2018-ld-dl;
+ :startDate "2018-04-24T11:40:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-ld-dl-789 :relatesToEvent www84:talk .
+ 
+ www84:talk a :Talk;
+ rdfs:label "ScienceMiles - Digital currency for researchers";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-ld-dl-789;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/43>;
+ :relatesToTrack wo:www-workshops-2018-ld-dl;
+ :startDate "2018-04-24T11:40:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-matnet-659 :relatesToEvent www87:talk .
+ 
+ www87:talk a :Talk;
+ rdfs:label "Towards Recommendation Using Interest-Based Communities in Attributed Social Networks";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-matnet-659;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/15>;
+ :relatesToTrack wo:www-workshops-2018-matnet;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-matnet-664 :relatesToEvent www35:talk .
+ 
+ www35:talk a :Talk;
+ rdfs:label "A3embed: Attribute Association Aware Network Embedding";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-matnet-664;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/15>;
+ :relatesToTrack wo:www-workshops-2018-matnet;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-matnet-675 :relatesToEvent www53:talk .
+ 
+ www53:talk a :Talk;
+ rdfs:label "Investigating similarity of nodes’ attributes in topological based communities.";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-matnet-675;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/15>;
+ :relatesToTrack wo:www-workshops-2018-matnet;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-matnet-680 :relatesToEvent www80:talk .
+ 
+ www80:talk a :Talk;
+ rdfs:label "MELL : Effective Embedding Method for Multiplex Networks";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-matnet-680;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/15>;
+ :relatesToTrack wo:www-workshops-2018-matnet;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-matnet-689 :relatesToEvent www85:talk .
+ 
+ www85:talk a :Talk;
+ rdfs:label "An efficient immunization strategy using overlapping nodes and its neighborhoods.";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-matnet-689;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/15>;
+ :relatesToTrack wo:www-workshops-2018-matnet;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-matnet-751 :relatesToEvent www70:talk .
+ 
+ www70:talk a :Talk;
+ rdfs:label "Towards Quantifying Sampling Bias in Network Inference";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-matnet-751;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/15>;
+ :relatesToTrack wo:www-workshops-2018-matnet;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-matnet-753 :relatesToEvent www92:talk .
+ 
+ www92:talk a :Talk;
+ rdfs:label "Bi-pattern Mining of Two Mode and Directed Networks";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-matnet-753;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/15>;
+ :relatesToTrack wo:www-workshops-2018-matnet;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-matnet-756 :relatesToEvent www28:talk .
+ 
+ www28:talk a :Talk;
+ rdfs:label "Information propagation routes between countries in social media";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-matnet-756;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/15>;
+ :relatesToTrack wo:www-workshops-2018-matnet;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-matnet-766 :relatesToEvent www45:talk .
+ 
+ www45:talk a :Talk;
+ rdfs:label "Community detection in Attributed Network";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-matnet-766;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/15>;
+ :relatesToTrack wo:www-workshops-2018-matnet;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-orsum-660 :relatesToEvent www57:talk .
+ 
+ www57:talk a :Talk;
+ rdfs:label "Crowdsourcing Multi-Objective Recommendation System";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-orsum-660;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/1>;
+ :relatesToTrack wo:www-workshops-2018-orsum;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-orsum-671 :relatesToEvent www46:talk .
+ 
+ www46:talk a :Talk;
+ rdfs:label "A User-Centric Diversity by Design Recommender System for the Movie Application Domain";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-orsum-671;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/1>;
+ :relatesToTrack wo:www-workshops-2018-orsum;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-orsum-717 :relatesToEvent www47:talk .
+ 
+ www47:talk a :Talk;
+ rdfs:label "Efficient context-aware sequential recommender system";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-orsum-717;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/1>;
+ :relatesToTrack wo:www-workshops-2018-orsum;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-orsum-721 :relatesToEvent www69:talk .
+ 
+ www69:talk a :Talk;
+ rdfs:label "Session-based News Recommendations";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-orsum-721;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/1>;
+ :relatesToTrack wo:www-workshops-2018-orsum;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-orsum-725 :relatesToEvent www19:talk .
+ 
+ www19:talk a :Talk;
+ rdfs:label "Happiness is a Choice: Sentiment and Activity-Aware Location Recommendation";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-orsum-725;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/1>;
+ :relatesToTrack wo:www-workshops-2018-orsum;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-orsum-729 :relatesToEvent www26:talk .
+ 
+ www26:talk a :Talk;
+ rdfs:label "The Whole-Page Optimization via Dynamic Ad Allocation";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-orsum-729;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/1>;
+ :relatesToTrack wo:www-workshops-2018-orsum;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-orsum-732 :relatesToEvent www67:talk .
+ 
+ www67:talk a :Talk;
+ rdfs:label "Incremental Matrix Co-factorization for Recommendation with Implicit Feedback";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-orsum-732;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/1>;
+ :relatesToTrack wo:www-workshops-2018-orsum;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-orsum-736 :relatesToEvent www14:talk .
+ 
+ www14:talk a :Talk;
+ rdfs:label "Dynamic Local Models for Online Recommendation";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-orsum-736;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/1>;
+ :relatesToTrack wo:www-workshops-2018-orsum;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-rcblackmirror2018-821 :relatesToEvent www77:talk .
+ 
+ www77:talk a :Talk;
+ rdfs:label "May I Have Your Attention, Please? - Building a Dystopian Attention Economy";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-rcblackmirror2018-821;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/29>;
+ :relatesToTrack wo:www-workshops-2018-rcblackmirror2018;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-rcblackmirror2018-826 :relatesToEvent www6:talk .
+ 
+ www6:talk a :Talk;
+ rdfs:label "Digital Zombies - the Reanimation of our Digital Selves";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-rcblackmirror2018-826;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/29>;
+ :relatesToTrack wo:www-workshops-2018-rcblackmirror2018;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-rcblackmirror2018-828 :relatesToEvent www36:talk .
+ 
+ www36:talk a :Talk;
+ rdfs:label "The Rise of Emotion-aware Conversational Agents: Threats in Digital Emotions";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-rcblackmirror2018-828;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/29>;
+ :relatesToTrack wo:www-workshops-2018-rcblackmirror2018;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-rcblackmirror2018-829 :relatesToEvent www21:talk .
+ 
+ www21:talk a :Talk;
+ rdfs:label "Towards Trust-based Decentralized Ad-Hoc Social Networks";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-rcblackmirror2018-829;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/29>;
+ :relatesToTrack wo:www-workshops-2018-rcblackmirror2018;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-rcblackmirror2018-831 :relatesToEvent www18:talk .
+ 
+ www18:talk a :Talk;
+ rdfs:label "Shut up and run: the never-ending quest for social fitness";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-rcblackmirror2018-831;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/29>;
+ :relatesToTrack wo:www-workshops-2018-rcblackmirror2018;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-rcblackmirror2018-833 :relatesToEvent www95:talk .
+ 
+ www95:talk a :Talk;
+ rdfs:label "Is this the Era of Misinformation yet? Combining Social Bots and Fake News to Deceive the Masses";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-rcblackmirror2018-833;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/29>;
+ :relatesToTrack wo:www-workshops-2018-rcblackmirror2018;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-rcblackmirror2018-834 :relatesToEvent www59:talk .
+ 
+ www59:talk a :Talk;
+ rdfs:label "Pitfalls of Affective Computing";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-rcblackmirror2018-834;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/29>;
+ :relatesToTrack wo:www-workshops-2018-rcblackmirror2018;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-rcblackmirror2018-838 :relatesToEvent www12:talk .
+ 
+ www12:talk a :Talk;
+ rdfs:label "Gnirut: The Trouble With Being Born Human In An Autonomous World";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-rcblackmirror2018-838;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/29>;
+ :relatesToTrack wo:www-workshops-2018-rcblackmirror2018;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-rcblackmirror2018-839 :relatesToEvent www78:talk .
+ 
+ www78:talk a :Talk;
+ rdfs:label "MMM: May I Mine Your Mind?";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-rcblackmirror2018-839;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/29>;
+ :relatesToTrack wo:www-workshops-2018-rcblackmirror2018;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-rcblackmirror2018-840 :relatesToEvent www89:talk .
+ 
+ www89:talk a :Talk;
+ rdfs:label "Ease and Ethics of User Profiling in Black Mirror";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-rcblackmirror2018-840;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/29>;
+ :relatesToTrack wo:www-workshops-2018-rcblackmirror2018;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-rod-345 :relatesToEvent www16:talk .
+ 
+ www16:talk a :Talk;
+ rdfs:label "Web Reasoning Using Fact Tagging";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-rod-345;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/48>;
+ :relatesToTrack wo:www-workshops-2018-rod;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-rod-705 :relatesToEvent www74:talk .
+ 
+ www74:talk a :Talk;
+ rdfs:label "Towards a Benchmark for Fact Checking with Knowledge Bases";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-rod-705;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/48>;
+ :relatesToTrack wo:www-workshops-2018-rod;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-rod-712 :relatesToEvent www22:talk .
+ 
+ www22:talk a :Talk;
+ rdfs:label "Evaluation of query transformations without data";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-rod-712;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/48>;
+ :relatesToTrack wo:www-workshops-2018-rod;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-rod-719 :relatesToEvent www76:talk .
+ 
+ www76:talk a :Talk;
+ rdfs:label "The Data Complexity of Answering Instance Queries in FL0";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-rod-719;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/48>;
+ :relatesToTrack wo:www-workshops-2018-rod;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-rod-727 :relatesToEvent www32:talk .
+ 
+ www32:talk a :Talk;
+ rdfs:label "Distribution of Semantic Reasoning on the Edge of Internet of Things";
+ :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-rod-727;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/48>;
+ :relatesToTrack wo:www-workshops-2018-rod;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-smerp-626 :relatesToEvent www34:talk .
+ 
+ www34:talk a :Talk;
+ rdfs:label "Modeling evacuation behavior of NYC Twitter users during Hurricane Sandy";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-smerp-626;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/16>;
+ :relatesToTrack wo:www-workshops-2018-smerp;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-smerp-630 :relatesToEvent www83:talk .
+ 
+ www83:talk a :Talk;
+ rdfs:label "Flood relevance estimation from visual and textual content in social media streams";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-smerp-630;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/16>;
+ :relatesToTrack wo:www-workshops-2018-smerp;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-smerp-679 :relatesToEvent www23:talk .
+ 
+ www23:talk a :Talk;
+ rdfs:label "Class Specific TF-IDF Boosting for Short-text Classification";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-smerp-679;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/16>;
+ :relatesToTrack wo:www-workshops-2018-smerp;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-smerp-697 :relatesToEvent www38:talk .
+ 
+ www38:talk a :Talk;
+ rdfs:label "Gold Standard Creation for Microblog Retrieval: Challenges of Completeness in IRMiDis 2017";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-smerp-697;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/16>;
+ :relatesToTrack wo:www-workshops-2018-smerp;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-smerp-701 :relatesToEvent www29:talk .
+ 
+ www29:talk a :Talk;
+ rdfs:label "SAVITR: A System for Real-time Location Extraction from Microblogs during Emergencies";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-smerp-701;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/16>;
+ :relatesToTrack wo:www-workshops-2018-smerp;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-socialnlp-2018-667 :relatesToEvent www51:talk .
+ 
+ www51:talk a :Talk;
+ rdfs:label "What about Mood Swings? Identifying Depression on Twitter with Temporal Measures of Emotions";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-socialnlp-2018-667;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/7>;
+ :relatesToTrack wo:www-workshops-2018-socialnlp-2018;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-socialnlp-2018-673 :relatesToEvent www93:talk .
+ 
+ www93:talk a :Talk;
+ rdfs:label "Emerging Product Topics Prediction in Social Media without Social Structure Information";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-socialnlp-2018-673;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/7>;
+ :relatesToTrack wo:www-workshops-2018-socialnlp-2018;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-socialnlp-2018-674 :relatesToEvent www30:talk .
+ 
+ www30:talk a :Talk;
+ rdfs:label "Blurb Mining : Discovering Interesting Excerpts from E-commerce Product Reviews";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-socialnlp-2018-674;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/7>;
+ :relatesToTrack wo:www-workshops-2018-socialnlp-2018;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-socialnlp-2018-684 :relatesToEvent www86:talk .
+ 
+ www86:talk a :Talk;
+ rdfs:label "Detection of Stress and Relaxation Magnitudes for Tweets";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-socialnlp-2018-684;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/7>;
+ :relatesToTrack wo:www-workshops-2018-socialnlp-2018;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-ssei-754 :relatesToEvent ww:talk .
+ 
+ ww:talk a :Talk;
+ rdfs:label "Customer Sentiment in Web-Based Service Interactions: Automated Analyses and New Insights";
+ :endDate "2018-04-23T10:20:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-ssei-754;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/13>;
+ :relatesToTrack wo:www-workshops-2018-ssei;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-ssei-769 :relatesToEvent www94:talk .
+ 
+ www94:talk a :Talk;
+ rdfs:label "LDA Meets Word2Vec: A Novel Model for Academic Abstract Clustering";
+ :endDate "2018-04-23T10:20:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-ssei-769;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/13>;
+ :relatesToTrack wo:www-workshops-2018-ssei;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-ssei-818 :relatesToEvent www25:talk .
+ 
+ www25:talk a :Talk;
+ rdfs:label "Stochastic Multi-path Routing Problem: Building PayU’s Dynamic Routing";
+ :endDate "2018-04-23T10:20:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-ssei-818;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/13>;
+ :relatesToTrack wo:www-workshops-2018-ssei;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-ssei-842 :relatesToEvent www61:talk .
+ 
+ www61:talk a :Talk;
+ rdfs:label "An Evaluation of Performance and Competition in Customer Services on Twitter: A UK Telecoms Case Study";
+ :endDate "2018-04-23T10:20:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-ssei-842;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/13>;
+ :relatesToTrack wo:www-workshops-2018-ssei;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-ssei-844 :relatesToEvent www40:talk .
+ 
+ www40:talk a :Talk;
+ rdfs:label "Mapping Ordinances and Tweets using Smart City Characteristics to Aid Opinion Mining";
+ :endDate "2018-04-23T10:20:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-ssei-844;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/13>;
+ :relatesToTrack wo:www-workshops-2018-ssei;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-ws-rest-2018-648 :relatesToEvent www44:talk .
+ 
+ www44:talk a :Talk;
+ rdfs:label "A Natural Language Driven Approach for Automated Web API Development";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-ws-rest-2018-648;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/8>;
+ :relatesToTrack wo:www-workshops-2018-ws-rest-2018;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-ws-rest-2018-713 :relatesToEvent www42:talk .
+ 
+ www42:talk a :Talk;
+ rdfs:label "Towards Offline Support for RESTful Systems";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-ws-rest-2018-713;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/8>;
+ :relatesToTrack wo:www-workshops-2018-ws-rest-2018;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-ws-rest-2018-714 :relatesToEvent www73:talk .
+ 
+ www73:talk a :Talk;
+ rdfs:label "Verification of Hypermedia Characteristic of RESTful Finite-State Machines";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-ws-rest-2018-714;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/8>;
+ :relatesToTrack wo:www-workshops-2018-ws-rest-2018;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-ws-rest-2018-734 :relatesToEvent www27:talk .
+ 
+ www27:talk a :Talk;
+ rdfs:label "Virtual Representations for an Iterative IoT Deployment";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-ws-rest-2018-734;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/8>;
+ :relatesToTrack wo:www-workshops-2018-ws-rest-2018;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-wsp-632 :relatesToEvent www9:talk .
+ 
+ www9:talk a :Talk;
+ rdfs:label "Personalized Real-Time Monitoring of Amateur Cyclists on Low-End Devices: Proof-of-Concept & Performance Evaluation";
+ :endDate "2018-04-24T10:20:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-wsp-632;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/42>;
+ :relatesToTrack wo:www-workshops-2018-wsp;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-wsp-633 :relatesToEvent www17:talk .
+ 
+ www17:talk a :Talk;
+ rdfs:label "Spatio-Temporal Analysis for Smart City Data";
+ :endDate "2018-04-24T10:20:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-wsp-633;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/42>;
+ :relatesToTrack wo:www-workshops-2018-wsp;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-wsp-718 :relatesToEvent www49:talk .
+ 
+ www49:talk a :Talk;
+ rdfs:label "A preliminary Open Data publishing strategy for real-time data in Flanders";
+ :endDate "2018-04-24T10:20:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-wsp-718;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/42>;
+ :relatesToTrack wo:www-workshops-2018-wsp;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-wsp-720 :relatesToEvent www63:talk .
+ 
+ www63:talk a :Talk;
+ rdfs:label "Analysis of Sub-Topic Discovery Algorithms for Real-Time Information Summarization";
+ :endDate "2018-04-24T10:20:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-wsp-720;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/42>;
+ :relatesToTrack wo:www-workshops-2018-wsp;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-wsp-819 :relatesToEvent www48:talk .
+ 
+ www48:talk a :Talk;
+ rdfs:label "Adaptive Optimisation for Continuous Multi-way Joins over RDF Streams";
+ :endDate "2018-04-24T10:20:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-wsp-819;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/42>;
+ :relatesToTrack wo:www-workshops-2018-wsp;
+ :startDate "2018-04-24T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-xmlc-800 :relatesToEvent www7:talk .
+ 
+ www7:talk a :Talk;
+ rdfs:label "Learning Large Scale Ordinal Ranking Model via Divide-and-Conquer Technique";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-xmlc-800;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/5>;
+ :relatesToTrack wo:www-workshops-2018-xmlc;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
+ inp:www-workshops-2018-xmlc-823 :relatesToEvent www65:talk .
+ 
+ www65:talk a :Talk;
+ rdfs:label "Cold Start Thread Recommendation as Extreme Multi-label Classification";
+ :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
+ :isEventRelatedTo inp:www-workshops-2018-xmlc-823;
+ :isSubEventOf <http://172.18.0.1:9999/blazegraph/namespace/www2018/#session/5>;
+ :relatesToTrack wo:www-workshops-2018-xmlc;
+ :startDate "2018-04-23T07:00:00.000Z"^^xsd:dateTime .
+ 
  track:TODO-W3C-future :isTrackRelatedTo se:170 .
  
  track:TODO-W3C-std :isTrackRelatedTo se:169 .
@@ -16364,45 +17532,130 @@
  
  wo:www-workshops-2018-TODO-rcsc :isTrackRelatedTo se:44 .
  
- wo:www-workshops-2018-aw4city :isTrackRelatedTo se:14 .
+ wo:www-workshops-2018-aw4city :isTrackRelatedTo se:14,
+ www11:talk,
+ www66:talk,
+ www5:talk,
+ www31:talk,
+ www88:talk,
+ www62:talk,
+ www91:talk,
+ www82:talk,
+ www24:talk .
  
- wo:www-workshops-2018-bignet-2018 :isTrackRelatedTo se:49 .
+ wo:www-workshops-2018-bignet-2018 :isTrackRelatedTo se:49,
+ www58:talk,
+ www60:talk,
+ www90:talk,
+ www33:talk,
+ w:talk,
+ www4:talk,
+ www8:talk,
+ www64:talk,
+ www15:talk,
+ www52:talk .
  
  wo:www-workshops-2018-cybersafety :isTrackRelatedTo se:34 .
  
- wo:www-workshops-2018-ekm :isTrackRelatedTo se:9 .
+ wo:www-workshops-2018-ekm :isTrackRelatedTo se:9,
+ www20:talk,
+ www71:talk,
+ www81:talk .
  
- wo:www-workshops-2018-hqa18 :isTrackRelatedTo se:10 .
+ wo:www-workshops-2018-hqa18 :isTrackRelatedTo se:10,
+ www79:talk,
+ www39:talk,
+ www50:talk,
+ www72:talk,
+ www3:talk,
+ www43:talk,
+ www:talk,
+ www56:talk .
  
- wo:www-workshops-2018-huml2018 :isTrackRelatedTo se:33 .
+ wo:www-workshops-2018-huml2018 :isTrackRelatedTo se:33,
+ www2:talk,
+ www54:talk,
+ www10:talk,
+ www13:talk,
+ www68:talk .
  
- wo:www-workshops-2018-ld-dl :isTrackRelatedTo se:43 .
+ wo:www-workshops-2018-ld-dl :isTrackRelatedTo se:43,
+ www55:talk,
+ www75:talk,
+ www41:talk,
+ www84:talk .
  
  wo:www-workshops-2018-ldow :isTrackRelatedTo se:2 .
  
  wo:www-workshops-2018-locweb-2018 :isTrackRelatedTo se:46 .
  
- wo:www-workshops-2018-matnet :isTrackRelatedTo se:15 .
+ wo:www-workshops-2018-matnet :isTrackRelatedTo se:15,
+ www87:talk,
+ www35:talk,
+ www53:talk,
+ www80:talk,
+ www85:talk,
+ www70:talk,
+ www92:talk,
+ www28:talk,
+ www45:talk .
  
  wo:www-workshops-2018-msm-2018 :isTrackRelatedTo se:30 .
  
- wo:www-workshops-2018-orsum :isTrackRelatedTo se:1 .
+ wo:www-workshops-2018-orsum :isTrackRelatedTo se:1,
+ www57:talk,
+ www46:talk,
+ www47:talk,
+ www69:talk,
+ www19:talk,
+ www26:talk,
+ www67:talk,
+ www14:talk .
  
  wo:www-workshops-2018-osned-2018 :isTrackRelatedTo se:47 .
  
  wo:www-workshops-2018-profiles :isTrackRelatedTo se:28 .
  
- wo:www-workshops-2018-rcblackmirror2018 :isTrackRelatedTo se:29 .
+ wo:www-workshops-2018-rcblackmirror2018 :isTrackRelatedTo se:29,
+ www77:talk,
+ www6:talk,
+ www36:talk,
+ www21:talk,
+ www18:talk,
+ www95:talk,
+ www59:talk,
+ www12:talk,
+ www78:talk,
+ www89:talk .
  
- wo:www-workshops-2018-rod :isTrackRelatedTo se:48 .
+ wo:www-workshops-2018-rod :isTrackRelatedTo se:48,
+ www16:talk,
+ www74:talk,
+ www22:talk,
+ www76:talk,
+ www32:talk .
  
  wo:www-workshops-2018-save-sd-2018 :isTrackRelatedTo se:45 .
  
- wo:www-workshops-2018-smerp :isTrackRelatedTo se:16 .
+ wo:www-workshops-2018-smerp :isTrackRelatedTo se:16,
+ www34:talk,
+ www83:talk,
+ www23:talk,
+ www38:talk,
+ www29:talk .
  
- wo:www-workshops-2018-socialnlp-2018 :isTrackRelatedTo se:7 .
+ wo:www-workshops-2018-socialnlp-2018 :isTrackRelatedTo se:7,
+ www51:talk,
+ www93:talk,
+ www30:talk,
+ www86:talk .
  
- wo:www-workshops-2018-ssei :isTrackRelatedTo se:13 .
+ wo:www-workshops-2018-ssei :isTrackRelatedTo se:13,
+ ww:talk,
+ www94:talk,
+ www25:talk,
+ www61:talk,
+ www40:talk .
  
  wo:www-workshops-2018-tempweb :isTrackRelatedTo se:6 .
  
@@ -16410,10 +17663,21 @@
  
  wo:www-workshops-2018-winds :isTrackRelatedTo se:55 .
  
- wo:www-workshops-2018-ws-rest-2018 :isTrackRelatedTo se:8 .
+ wo:www-workshops-2018-ws-rest-2018 :isTrackRelatedTo se:8,
+ www44:talk,
+ www42:talk,
+ www73:talk,
+ www27:talk .
  
- wo:www-workshops-2018-wsp :isTrackRelatedTo se:42 .
+ wo:www-workshops-2018-wsp :isTrackRelatedTo se:42,
+ www9:talk,
+ www17:talk,
+ www49:talk,
+ www63:talk,
+ www48:talk .
  
- wo:www-workshops-2018-xmlc :isTrackRelatedTo se:5 .
+ wo:www-workshops-2018-xmlc :isTrackRelatedTo se:5,
+ www7:talk,
+ www65:talk .
  
  #ENDS

@@ -9687,8 +9687,7 @@
  demo:613-3-2;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-demo-2018,
- track:www-demo-2018-demo,
- track:www-posters-2018-posters;
+ track:www-posters-2018;
  :startDate "2018-04-25T12:20:00+02:00"^^xsd:dateTime .
  
  se:1004 a :AcademicEvent,
@@ -9791,8 +9790,7 @@
  demo:613-4-2;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-demo-2018,
- track:www-demo-2018-demo,
- track:www-posters-2018-posters;
+ track:www-posters-2018;
  :startDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime .
  
  se:1005 a :AcademicEvent,
@@ -9895,8 +9893,7 @@
  demo:613-5-2;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-demo-2018,
- track:www-demo-2018-demo,
- track:www-posters-2018-posters;
+ track:www-posters-2018;
  :startDate "2018-04-27T12:20:00+02:00"^^xsd:dateTime .
  
  se:101 a :AcademicEvent,
@@ -11199,8 +11196,7 @@
  demo:613-3-1;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-demo-2018,
- track:www-demo-2018-demo,
- track:www-posters-2018-posters;
+ track:www-posters-2018;
  :startDate "2018-04-25T10:20:00+02:00"^^xsd:dateTime .
  
  se:194 a :AcademicEvent,
@@ -11303,8 +11299,7 @@
  demo:613-3-3;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-demo-2018,
- track:www-demo-2018-demo,
- track:www-posters-2018-posters;
+ track:www-posters-2018;
  :startDate "2018-04-25T15:00:00+02:00"^^xsd:dateTime .
  
  se:195 a :AcademicEvent,
@@ -11407,8 +11402,7 @@
  demo:613-4-1;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-demo-2018,
- track:www-demo-2018-demo,
- track:www-posters-2018-posters;
+ track:www-posters-2018;
  :startDate "2018-04-26T10:20:00+02:00"^^xsd:dateTime .
  
  se:196 a :AcademicEvent,
@@ -11511,8 +11505,7 @@
  demo:613-4-3;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-demo-2018,
- track:www-demo-2018-demo,
- track:www-posters-2018-posters;
+ track:www-posters-2018;
  :startDate "2018-04-26T15:00:00+02:00"^^xsd:dateTime .
  
  se:197 a :AcademicEvent,
@@ -11615,8 +11608,7 @@
  demo:613-5-1;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-demo-2018,
- track:www-demo-2018-demo,
- track:www-posters-2018-posters;
+ track:www-posters-2018;
  :startDate "2018-04-27T10:20:00+02:00"^^xsd:dateTime .
  
  se:198 a :AcademicEvent,
@@ -17370,15 +17362,6 @@
  se:196,
  se:197 .
  
- track:www-demo-2018-demo :isTrackRelatedTo se:1003,
- se:1004,
- se:1005,
- se:193,
- se:194,
- se:195,
- se:196,
- se:197 .
- 
  track:www-dev-2018-dev :isTrackRelatedTo se:112,
  se:113 .
  
@@ -17451,7 +17434,7 @@
  se:159,
  se:60 .
  
- track:www-posters-2018-posters :isTrackRelatedTo se:1003,
+ track:www-posters-2018 :isTrackRelatedTo se:1003,
  se:1004,
  se:1005,
  se:193,

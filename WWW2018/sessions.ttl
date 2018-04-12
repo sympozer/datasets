@@ -12,7 +12,6 @@
  @prefix ds: <#ds-talk/> .
  @prefix foaf: <http://xmlns.com/foaf/0.1/> .
  @prefix inp: <https://w3id.org/scholarlydata/inproceedings/> .
- @prefix p: <#pres-ds/> .
  @prefix pe: <https://w3id.org/scholarlydata/person/> .
  @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
  @prefix sch: <http://schema.org/> .
@@ -8884,7 +8883,6 @@
  :Talk;
  rdfs:label "RGPD : Du sang et des larmes"@fr;
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo p:1;
  :isSubEventOf se:133;
  :startDate "2018-04-26T11:00:00+02:00"^^xsd:dateTime;
  :title "RGPD : Du sang et des larmes"@fr .
@@ -8894,7 +8892,6 @@
  :Talk;
  rdfs:label "IA : dernières avancées et applications"@fr;
  :endDate "2018-04-26T14:30:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo p:10;
  :isSubEventOf se:143;
  :startDate "2018-04-26T13:45:00+02:00"^^xsd:dateTime;
  :title "IA : dernières avancées et applications"@fr .
@@ -8904,7 +8901,6 @@
  :Talk;
  rdfs:label "Ransomware : J'ai été piégé ! Comment faire face à cette attaque ?"@fr;
  :endDate "2018-04-26T15:20:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo p:11;
  :isSubEventOf se:143;
  :startDate "2018-04-26T14:35:00+02:00"^^xsd:dateTime;
  :title "Ransomware : J'ai été piégé ! Comment faire face à cette attaque ?"@fr .
@@ -8914,7 +8910,6 @@
  :Talk;
  rdfs:label "Google est-il l'allié ou l'ennemi de votre marque ?"@fr;
  :endDate "2018-04-26T16:45:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo p:12;
  :isSubEventOf se:144;
  :startDate "2018-04-26T15:45:00+02:00"^^xsd:dateTime;
  :title "Google est-il l'allié ou l'ennemi de votre marque ?"@fr .
@@ -8924,7 +8919,6 @@
  :Talk;
  rdfs:label "Votre positionnement IT sera t-il sucessfull en 2021 ?"@fr;
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo p:13;
  :isSubEventOf se:145;
  :startDate "2018-04-26T11:00:00+02:00"^^xsd:dateTime;
  :title "Votre positionnement IT sera t-il sucessfull en 2021 ?"@fr .
@@ -8934,7 +8928,6 @@
  :Talk;
  rdfs:label "Chef d'entreprise : 1er vendeur de votre société"@fr;
  :endDate "2018-04-26T14:30:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo p:14;
  :isSubEventOf se:146;
  :startDate "2018-04-26T13:45:00+02:00"^^xsd:dateTime;
  :title "Chef d'entreprise : 1er vendeur de votre société"@fr .
@@ -8944,7 +8937,6 @@
  :Talk;
  rdfs:label "Big Data : que faire de mes données ?"@fr;
  :endDate "2018-04-26T15:20:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo p:15;
  :isSubEventOf se:146;
  :startDate "2018-04-26T14:35:00+02:00"^^xsd:dateTime;
  :title "Big Data : que faire de mes données ?"@fr .
@@ -8954,7 +8946,6 @@
  :Talk;
  rdfs:label "Blockchain : Pour qui ? Pour quoi ? Comment ?"@fr;
  :endDate "2018-04-26T16:45:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo p:16;
  :isSubEventOf se:147;
  :startDate "2018-04-26T15:45:00+02:00"^^xsd:dateTime;
  :title "Blockchain : Pour qui ? Pour quoi ? Comment ?"@fr .
@@ -8964,7 +8955,6 @@
  :Talk;
  rdfs:label "Finale Régionale de Pitch 333"@fr;
  :endDate "2018-04-26T17:50:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo p:17;
  :isSubEventOf se:135;
  :startDate "2018-04-26T16:50:00+02:00"^^xsd:dateTime;
  :title "Finale Régionale de Pitch 333"@fr .
@@ -8974,7 +8964,6 @@
  :Talk;
  rdfs:label "Ré-inventer son Business Model pour une PME"@fr;
  :endDate "2018-04-26T14:30:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo p:2;
  :isSubEventOf se:134;
  :startDate "2018-04-26T13:45:00+02:00"^^xsd:dateTime;
  :title "Ré-inventer son Business Model pour une PME"@fr .
@@ -8984,7 +8973,6 @@
  :Talk;
  rdfs:label "Clubs utilisateurs : vos communautés valent de l'or"@fr;
  :endDate "2018-04-26T15:20:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo p:3;
  :isSubEventOf se:134;
  :startDate "2018-04-26T14:35:00+02:00"^^xsd:dateTime;
  :title "Clubs utilisateurs : vos communautés valent de l'or"@fr .
@@ -8994,7 +8982,6 @@
  :Talk;
  rdfs:label "Comment ils sont passés de 1 à 5 puis 10 et 50 M€ de CA ?"@fr;
  :endDate "2018-04-26T16:45:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo p:4;
  :isSubEventOf se:135;
  :startDate "2018-04-26T15:45:00+02:00"^^xsd:dateTime;
  :title "Comment ils sont passés de 1 à 5 puis 10 et 50 M€ de CA ?"@fr .
@@ -9004,7 +8991,6 @@
  :Talk;
  rdfs:label "Gestion du temps : comment perdre du temps à plusieurs ?"@fr;
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo p:5;
  :isSubEventOf se:139;
  :startDate "2018-04-26T11:00:00+02:00"^^xsd:dateTime;
  :title "Gestion du temps : comment perdre du temps à plusieurs ?"@fr .
@@ -9014,7 +9000,6 @@
  :Talk;
  rdfs:label "On-boarding & Welcome Pack : Lancez vous !"@fr;
  :endDate "2018-04-26T14:30:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo p:6;
  :isSubEventOf se:140;
  :startDate "2018-04-26T13:45:00+02:00"^^xsd:dateTime;
  :title "On-boarding & Welcome Pack : Lancez vous !"@fr .
@@ -9024,7 +9009,6 @@
  :Talk;
  rdfs:label "De la compétence à l'intelligence emotionnelle, nouvelle approche du recrutement"@fr;
  :endDate "2018-04-26T15:20:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo p:7;
  :isSubEventOf se:140;
  :startDate "2018-04-26T14:35:00+02:00"^^xsd:dateTime;
  :title "De la compétence à l'intelligence emotionnelle, nouvelle approche du recrutement"@fr .
@@ -9034,7 +9018,6 @@
  :Talk;
  rdfs:label "Engagement & Fidélisation : les nouvelles devises de l'entreprise"@fr;
  :endDate "2018-04-26T16:45:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo p:8;
  :isSubEventOf se:141;
  :startDate "2018-04-26T15:45:00+02:00"^^xsd:dateTime;
  :title "Engagement & Fidélisation : les nouvelles devises de l'entreprise"@fr .
@@ -9044,44 +9027,9 @@
  :Talk;
  rdfs:label "De l'IoT au mobile, vivons dans un monde connecté mais sécurisé"@fr;
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo p:9;
  :isSubEventOf se:142;
  :startDate "2018-04-26T11:00:00+02:00"^^xsd:dateTime;
  :title "De l'IoT au mobile, vivons dans un monde connecté mais sécurisé"@fr .
- 
- p:1 :relatesToEvent ds:1 .
- 
- p:10 :relatesToEvent ds:10 .
- 
- p:11 :relatesToEvent ds:11 .
- 
- p:12 :relatesToEvent ds:12 .
- 
- p:13 :relatesToEvent ds:13 .
- 
- p:14 :relatesToEvent ds:14 .
- 
- p:15 :relatesToEvent ds:15 .
- 
- p:16 :relatesToEvent ds:16 .
- 
- p:17 :relatesToEvent ds:17 .
- 
- p:2 :relatesToEvent ds:2 .
- 
- p:3 :relatesToEvent ds:3 .
- 
- p:4 :relatesToEvent ds:4 .
- 
- p:5 :relatesToEvent ds:5 .
- 
- p:6 :relatesToEvent ds:6 .
- 
- p:7 :relatesToEvent ds:7 .
- 
- p:8 :relatesToEvent ds:8 .
- 
- p:9 :relatesToEvent ds:9 .
  
  <#room/Amphith%C3%A9%C3%A2tre> a sch:MeetingRoom,
  :Site;
@@ -12045,9 +11993,8 @@
  se:49 a :AcademicEvent,
  :OrganisedEvent,
  :Session;
- rdfs:label "The Third International Workshop on Learning Representations for Big Networks (BigNet&nbsp;2018)";
- foaf:homepage <https://aminer.org/bignet_www2018>;
- :description "The Third International Workshop on Learning Representations for Big Networks (BigNet&nbsp;2018)";
+ rdfs:label "The Third International Workshop on Learning Representations for Big Networks (BigNetÂ 2018)";
+ :description "The Third International Workshop on Learning Representations for Big Networks (BigNetÂ 2018)";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_1>;
  :isSubEventOf confe:the-web-conf2018;
@@ -12347,9 +12294,8 @@
  se:7 a :AcademicEvent,
  :OrganisedEvent,
  :Session;
- rdfs:label "The Sixth International Workshop on Natural Language Processing for Social Media (SocialNLP&nbsp;2018)";
- foaf:homepage <https://sites.google.com/site/socialnlp2018/>;
- :description "The Sixth International Workshop on Natural Language Processing for Social Media (SocialNLP&nbsp;2018)";
+ rdfs:label "The Sixth International Workshop on Natural Language Processing for Social Media (SocialNLPÂ 2018)";
+ :description "The Sixth International Workshop on Natural Language Processing for Social Media (SocialNLPÂ 2018)";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Gratte-Ciel>;
  :isSubEventOf confe:the-web-conf2018;

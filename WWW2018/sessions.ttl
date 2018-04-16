@@ -449,7 +449,7 @@
  :keyword "Content Based Image Retrieval",
  "Visual Knowledge Graph",
  "Visual Question Answering";
- :relatesToTrack track:the-web-conf-challenges-2018-visual-question-answering-challenge;
+ :relatesToTrack track:the-web-conf-challenges-2018-vqa-challenge;
  :startDate "2018-04-27T14:20:00+02:00"^^xsd:dateTime;
  :title "Question Answering Mediated by Visual Clues and Knowledge Graphs" .
  
@@ -10904,8 +10904,8 @@
  :hasSubEvent alt:116,
  alt:117;
  :isSubEventOf confe:the-web-conf2018;
- :relatesToTrack track:the-web-conf-challenges-2018-fiqa-challenge,
- track:the-web-conf-challenges-2018-music-challenge,
+ :relatesToTrack track:the-web-conf-challenges-2018-ke4wot-challenge,
+ track:the-web-conf-challenges-2018-vqa-challenge,
  track:the-web-conf-challenges2018,
  track:www-challenges-2018-CHALLENGES;
  :startDate "2018-04-27T13:40:00+02:00"^^xsd:dateTime .
@@ -17414,25 +17414,24 @@
  se:199 .
  
  track:the-web-conf-challenges-2018-fiqa-challenge :isTrackRelatedTo alt:118,
- se:171,
- se:172 .
+ se:171 .
  
  track:the-web-conf-challenges-2018-ke4wot-challenge a :Track;
  rdfs:label "KE4WoT Challenge";
  :description "KE4WoT Challenge";
  :isSubTrackOf track:the-web-conf-challenges2018;
- :isTrackRelatedTo alt:116 .
- 
- track:the-web-conf-challenges-2018-music-challenge :isTrackRelatedTo alt:115,
- se:171,
+ :isTrackRelatedTo alt:116,
  se:172 .
  
- track:the-web-conf-challenges-2018-visual-question-answering-challenge :isTrackRelatedTo alt:117 .
+ track:the-web-conf-challenges-2018-music-challenge :isTrackRelatedTo alt:115,
+ se:171 .
  
  track:the-web-conf-challenges-2018-vqa-challenge a :Track;
  rdfs:label "Visual Question Answering Challenge";
  :description "Visual Question Answering Challenge";
- :isSubTrackOf track:the-web-conf-challenges2018 .
+ :isSubTrackOf track:the-web-conf-challenges2018;
+ :isTrackRelatedTo alt:117,
+ se:172 .
  
  track:the-web-conf-challenges2018 :hasSubTrack track:the-web-conf-challenges-2018-ke4wot-challenge,
  track:the-web-conf-challenges-2018-vqa-challenge;

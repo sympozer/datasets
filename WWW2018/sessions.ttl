@@ -18,7 +18,6 @@
  @prefix se: <#session/> .
  @prefix ses: <#session-chair/> .
  @prefix talk: <#talk/> .
- @prefix the: <https://www2018.thewebconf.org/program/the-big-web-track/> .
  @prefix track: <https://w3id.org/scholarlydata/track/> .
  @prefix tuto: <#tutorial/> .
  @prefix w: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-bignet-2018-582#> .
@@ -922,7 +921,6 @@
  :Talk;
  rdfs:label "The Web and the war for attention: how shall we get our children prepared?";
  :endDate "2018-04-27T11:20:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:www-local-eco-2018-4001;
  :isSubEventOf se:209;
  :startDate "2018-04-27T11:00:00+02:00"^^xsd:dateTime;
  :title "The Web and the war for attention: how shall we get our children prepared?" .
@@ -932,7 +930,6 @@
  :Talk;
  rdfs:label "Decentralizing the Web, but not without decentralizing the AI";
  :endDate "2018-04-27T11:20:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:www-local-eco-2018-4002;
  :isSubEventOf se:206;
  :startDate "2018-04-27T11:00:00+02:00"^^xsd:dateTime;
  :title "Decentralizing the Web, but not without decentralizing the AI" .
@@ -942,7 +939,6 @@
  :Talk;
  rdfs:label "Towards open IoT ecosystems: Ambition, Challenges & Opportunities";
  :endDate "2018-04-27T14:00:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:www-local-eco-2018-4003;
  :isSubEventOf se:207;
  :startDate "2018-04-27T13:40:00+02:00"^^xsd:dateTime;
  :title "Towards open IoT ecosystems: Ambition, Challenges & Opportunities" .
@@ -963,7 +959,6 @@
  rdfs:comment "big-opening";
  rdfs:label "Opening: Evgeniy Gabrilovich, Kira Radinsky, Kuansan Wang (BIG Web co-chairs)";
  :endDate "2018-04-23T09:20:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:big-2018-big-6001;
  :isSubEventOf se:210;
  :startDate "2018-04-23T09:00:00+02:00"^^xsd:dateTime;
  :title "Opening: Evgeniy Gabrilovich, Kira Radinsky, Kuansan Wang (BIG Web co-chairs)" .
@@ -974,7 +969,6 @@
  rdfs:comment "big-keynote";
  rdfs:label "Keynote 1: Alessandro Vespignani (Northeastern)";
  :endDate "2018-04-23T09:40:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:big-2018-big-6002;
  :isSubEventOf se:210;
  :startDate "2018-04-23T09:20:00+02:00"^^xsd:dateTime;
  :title "Keynote 1: Alessandro Vespignani (Northeastern)" .
@@ -985,7 +979,6 @@
  rdfs:comment "big-keynote";
  rdfs:label "Keynote 2: Jon Kleinberg (Cornell)";
  :endDate "2018-04-24T09:20:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:big-2018-big-6003;
  :isSubEventOf se:214;
  :startDate "2018-04-24T09:00:00+02:00"^^xsd:dateTime;
  :title "Keynote 2: Jon Kleinberg (Cornell)" .
@@ -996,7 +989,6 @@
  rdfs:comment "big-panel";
  rdfs:label "PANEL: Machine learning in the medicine program";
  :endDate "2018-04-23T16:00:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:big-2018-big-6004;
  :isSubEventOf se:213;
  :startDate "2018-04-23T15:40:00+02:00"^^xsd:dateTime;
  :title "PANEL: Machine learning in the medicine program" .
@@ -1030,7 +1022,6 @@
  :Talk;
  rdfs:label "Invited talk 1: Bebo White";
  :endDate "2018-04-27T11:20:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:www-history-2018-9001;
  :isSubEventOf se:175;
  :startDate "2018-04-27T11:00:00+02:00"^^xsd:dateTime;
  :title "Invited talk 1: Bebo White" .
@@ -1050,7 +1041,6 @@
  :Talk;
  rdfs:label "Invited talk 2: Jean-François Abramatic";
  :endDate "2018-04-27T11:40:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:www-history-2018-9002;
  :isSubEventOf se:175;
  :startDate "2018-04-27T11:20:00+02:00"^^xsd:dateTime;
  :title "Invited talk 2: Jean-François Abramatic" .
@@ -1060,7 +1050,6 @@
  :Talk;
  rdfs:label "Invited talk 3: Prof. Dame Wendy Hall";
  :endDate "2018-04-27T12:00:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:www-history-2018-9003;
  :isSubEventOf se:175;
  :startDate "2018-04-27T11:40:00+02:00"^^xsd:dateTime;
  :title "Invited talk 3: Prof. Dame Wendy Hall" .
@@ -1070,7 +1059,6 @@
  :Talk;
  rdfs:label "Testimonies";
  :endDate "2018-04-27T14:00:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:www-history-2018-9005;
  :isSubEventOf se:176;
  :startDate "2018-04-27T13:40:00+02:00"^^xsd:dateTime;
  :title "Testimonies" .
@@ -1080,7 +1068,6 @@
  :Talk;
  rdfs:label "Question / Answer";
  :endDate "2018-04-27T14:20:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:www-history-2018-9006;
  :isSubEventOf se:176;
  :startDate "2018-04-27T14:00:00+02:00"^^xsd:dateTime;
  :title "Question / Answer" .
@@ -1421,7 +1408,6 @@
  rdfs:comment "invited speaker";
  rdfs:label "Of Nets and Neighbors: making ML systems correctable in production";
  :endDate "2018-04-23T11:20:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:big-2018-big-1;
  :isSubEventOf se:211;
  :startDate "2018-04-23T11:00:00+02:00"^^xsd:dateTime;
  :title "Of Nets and Neighbors: making ML systems correctable in production" .
@@ -1432,7 +1418,6 @@
  rdfs:comment "invited speaker";
  rdfs:label "Teaching Machines to understand natural Language";
  :endDate "2018-04-24T14:40:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:big-2018-big-2;
  :isSubEventOf se:216;
  :startDate "2018-04-24T14:20:00+02:00"^^xsd:dateTime;
  :title "Teaching Machines to understand natural Language" .
@@ -1453,7 +1438,6 @@
  rdfs:comment "invited speaker";
  rdfs:label "The European Science Cloud: from vision to reality";
  :endDate "2018-04-24T09:40:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:big-2018-big-3;
  :isSubEventOf se:214;
  :startDate "2018-04-24T09:20:00+02:00"^^xsd:dateTime;
  :title "The European Science Cloud: from vision to reality" .
@@ -1464,7 +1448,6 @@
  rdfs:comment "invited speaker";
  rdfs:label "Discovering Polygamous Relationships in Spatio-Temporal Datasets";
  :endDate "2018-04-24T14:20:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:big-2018-big-4;
  :isSubEventOf se:216;
  :startDate "2018-04-24T14:00:00+02:00"^^xsd:dateTime;
  :title "Discovering Polygamous Relationships in Spatio-Temporal Datasets" .
@@ -1475,7 +1458,6 @@
  rdfs:comment "invited speaker";
  rdfs:label "Challenges and Innovations in Building a Product Knowledge Graph";
  :endDate "2018-04-23T14:40:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:big-2018-big-5;
  :isSubEventOf se:212;
  :startDate "2018-04-23T14:20:00+02:00"^^xsd:dateTime;
  :title "Challenges and Innovations in Building a Product Knowledge Graph" .
@@ -1486,7 +1468,6 @@
  rdfs:comment "invited speaker";
  rdfs:label "Speech and Language to AI Evolution";
  :endDate "2018-04-24T16:20:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:big-2018-big-6;
  :isSubEventOf se:217;
  :startDate "2018-04-24T16:00:00+02:00"^^xsd:dateTime;
  :title "Speech and Language to AI Evolution" .
@@ -1497,7 +1478,6 @@
  rdfs:comment "invited speaker";
  rdfs:label "Machine Learning Practice: The Past Decade";
  :endDate "2018-04-24T16:00:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:big-2018-big-7;
  :isSubEventOf se:217;
  :startDate "2018-04-24T15:40:00+02:00"^^xsd:dateTime;
  :title "Machine Learning Practice: The Past Decade" .
@@ -1508,7 +1488,6 @@
  rdfs:comment "invited speaker";
  rdfs:label "Empowering the Quantum Revolution";
  :endDate "2018-04-23T14:00:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:big-2018-big-8;
  :isSubEventOf se:212;
  :startDate "2018-04-23T13:40:00+02:00"^^xsd:dateTime;
  :title "Empowering the Quantum Revolution" .
@@ -1519,7 +1498,6 @@
  rdfs:comment "invited speaker";
  rdfs:label "Efficient Evaluation of Interactive Systems with Theoretical Guarantees";
  :endDate "2018-04-24T14:00:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:big-2018-big-9;
  :isSubEventOf se:216;
  :startDate "2018-04-24T13:40:00+02:00"^^xsd:dateTime;
  :title "Efficient Evaluation of Interactive Systems with Theoretical Guarantees" .
@@ -1530,7 +1508,6 @@
  rdfs:comment "invited speaker";
  rdfs:label "Doctor AI - Interpretable Deep Learning Methods for modeling Electronic Health Records";
  :endDate "2018-04-23T10:00:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:big-2018-big-10;
  :isSubEventOf se:210;
  :startDate "2018-04-23T09:40:00+02:00"^^xsd:dateTime;
  :title "Doctor AI - Interpretable Deep Learning Methods for modeling Electronic Health Records" .
@@ -1541,7 +1518,6 @@
  rdfs:comment "invited speaker";
  rdfs:label "Applying Machine Learning to next generation Networks for Threat Detection, Cognitive and Predictive Analytics";
  :endDate "2018-04-23T14:20:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:big-2018-big-11;
  :isSubEventOf se:212;
  :startDate "2018-04-23T14:00:00+02:00"^^xsd:dateTime;
  :title "Applying Machine Learning to next generation Networks for Threat Detection, Cognitive and Predictive Analytics" .
@@ -1551,7 +1527,6 @@
  :Talk;
  rdfs:label "Positivity Bias in Customer Satisfaction Ratings";
  :endDate "2018-04-24T11:20:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:big-2018-big-258;
  :isSubEventOf se:215;
  :startDate "2018-04-24T11:00:00+02:00"^^xsd:dateTime;
  :title "Positivity Bias in Customer Satisfaction Ratings" .
@@ -1571,7 +1546,6 @@
  :Talk;
  rdfs:label "Anomaly Detection with Partially Observed Anomalies";
  :endDate "2018-04-24T11:40:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:big-2018-big-368;
  :isSubEventOf se:215;
  :startDate "2018-04-24T11:20:00+02:00"^^xsd:dateTime;
  :title "Anomaly Detection with Partially Observed Anomalies" .
@@ -1581,7 +1555,6 @@
  :Talk;
  rdfs:label "Urban Perception of Commercial Activeness from Satellite Images and Streetscapes";
  :endDate "2018-04-23T12:00:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:big-2018-big-371;
  :isSubEventOf se:211;
  :startDate "2018-04-23T11:40:00+02:00"^^xsd:dateTime;
  :title "Urban Perception of Commercial Activeness from Satellite Images and Streetscapes" .
@@ -1591,7 +1564,6 @@
  :Talk;
  rdfs:label "Automated Extractions for Machine Generated Mail";
  :endDate "2018-04-24T12:00:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:big-2018-big-443;
  :isSubEventOf se:215;
  :startDate "2018-04-24T11:40:00+02:00"^^xsd:dateTime;
  :title "Automated Extractions for Machine Generated Mail" .
@@ -1601,7 +1573,6 @@
  :Talk;
  rdfs:label "Post Purchase Search Engine Marketing";
  :endDate "2018-04-24T12:20:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:big-2018-big-563;
  :isSubEventOf se:215;
  :startDate "2018-04-24T12:00:00+02:00"^^xsd:dateTime;
  :title "Post Purchase Search Engine Marketing" .
@@ -1611,7 +1582,6 @@
  :Talk;
  rdfs:label "Fine-grained Video Attractiveness Prediction Using Multimodal Deep Learning on a Large Real-world Dataset";
  :endDate "2018-04-23T11:40:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:big-2018-big-573;
  :isSubEventOf se:211;
  :startDate "2018-04-23T11:20:00+02:00"^^xsd:dateTime;
  :title "Fine-grained Video Attractiveness Prediction Using Multimodal Deep Learning on a Large Real-world Dataset" .
@@ -10135,18 +10105,6 @@
  :relatesToTrack track:www-research-2018-search;
  :startDate "2018-04-26T13:40:00+02:00"^^xsd:dateTime .
  
- se:11 a :AcademicEvent,
- :OrganisedEvent,
- :Session;
- rdfs:label "The BIG Web (formerly BigData Innovators Gathering)";
- foaf:homepage the:;
- :description "The BIG Web (formerly BigData Innovators Gathering)";
- :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Auditorium_Pasteur>;
- :isSubEventOf confe:the-web-conf2018;
- :relatesToTrack track:big-2018-big;
- :startDate "2018-04-23T09:00:00+02:00"^^xsd:dateTime .
- 
  se:110 a :AcademicEvent,
  :OrganisedEvent,
  :Session;
@@ -10954,7 +10912,8 @@
  alt:121,
  alt:122;
  :isSubEventOf confe:the-web-conf2018;
- :relatesToTrack track:TODO-W3C-std;
+ :relatesToTrack track:TODO-W3C-std,
+ track:www-w3c-2018;
  :startDate "2018-04-27T11:00:00+02:00"^^xsd:dateTime .
  
  se:17 a :AcademicEvent,
@@ -10979,7 +10938,8 @@
  alt:124,
  alt:125;
  :isSubEventOf confe:the-web-conf2018;
- :relatesToTrack track:TODO-W3C-future;
+ :relatesToTrack track:TODO-W3C-future,
+ track:www-w3c-2018;
  :startDate "2018-04-27T13:40:00+02:00"^^xsd:dateTime .
  
  se:171 a :AcademicEvent,
@@ -11049,7 +11009,6 @@
  alt:260,
  alt:261;
  :isSubEventOf confe:the-web-conf2018;
- :relatesToTrack track:www-history-2018;
  :startDate "2018-04-27T11:00:00+02:00"^^xsd:dateTime .
  
  se:176 a :AcademicEvent,
@@ -11062,7 +11021,6 @@
  :hasSubEvent alt:262,
  alt:263;
  :isSubEventOf confe:the-web-conf2018;
- :relatesToTrack track:www-history-2018;
  :startDate "2018-04-27T13:40:00+02:00"^^xsd:dateTime .
  
  se:177 a :AcademicEvent,
@@ -11115,7 +11073,6 @@
  :endDate "2018-04-23T19:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/TBD>;
  :isSubEventOf confe:the-web-conf2018;
- :relatesToTrack track:big-2018-big;
  :startDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime .
  
  se:182 a :NonAcademicEvent,
@@ -11816,7 +11773,8 @@
  :hasSite <#room/Salle_Bellecour_3>;
  :hasSubEvent alt:244;
  :isSubEventOf confe:the-web-conf2018;
- :relatesToTrack track:TODO-W3C-tuto;
+ :relatesToTrack track:TODO-W3C-tuto,
+ track:www-w3c-2018;
  :startDate "2018-04-24T13:40:00+02:00"^^xsd:dateTime .
  
  se:206 a :AcademicEvent,
@@ -11828,7 +11786,6 @@
  :hasSite <#room/Salle_St_Clair_4>;
  :hasSubEvent alt:248;
  :isSubEventOf confe:the-web-conf2018;
- :relatesToTrack track:www-local-eco-2018;
  :startDate "2018-04-27T11:00:00+02:00"^^xsd:dateTime .
  
  se:207 a :AcademicEvent,
@@ -11840,7 +11797,6 @@
  :hasSite <#room/Salle_St_Clair_4>;
  :hasSubEvent alt:249;
  :isSubEventOf confe:the-web-conf2018;
- :relatesToTrack track:www-local-eco-2018;
  :startDate "2018-04-27T13:40:00+02:00"^^xsd:dateTime .
  
  se:208 a :AcademicEvent,
@@ -11864,7 +11820,6 @@
  :hasSite <#room/Salle_Rh%C3%B4ne_3A>;
  :hasSubEvent alt:247;
  :isSubEventOf confe:the-web-conf2018;
- :relatesToTrack track:www-local-eco-2018;
  :startDate "2018-04-27T11:00:00+02:00"^^xsd:dateTime .
  
  se:210 a :AcademicEvent,
@@ -12081,7 +12036,8 @@
  :hasSite <#room/Salle_Bellecour_3>;
  :hasSubEvent alt:242;
  :isSubEventOf confe:the-web-conf2018;
- :relatesToTrack track:TODO-W3C-tuto;
+ :relatesToTrack track:TODO-W3C-tuto,
+ track:www-w3c-2018;
  :startDate "2018-04-23T09:00:00+02:00"^^xsd:dateTime .
  
  se:30 a :AcademicEvent,
@@ -12105,7 +12061,8 @@
  :hasSite <#room/Salle_Bellecour_3>;
  :hasSubEvent alt:243;
  :isSubEventOf confe:the-web-conf2018;
- :relatesToTrack track:TODO-W3C-tuto;
+ :relatesToTrack track:TODO-W3C-tuto,
+ track:www-w3c-2018;
  :startDate "2018-04-24T09:00:00+02:00"^^xsd:dateTime .
  
  se:33 a :AcademicEvent,
@@ -12182,18 +12139,6 @@
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Gratte-Ciel_3>;
  :isSubEventOf confe:the-web-conf2018;
- :startDate "2018-04-24T09:00:00+02:00"^^xsd:dateTime .
- 
- se:40 a :AcademicEvent,
- :OrganisedEvent,
- :Session;
- rdfs:label "The BIG Web (formerly BigData Innovators Gathering)";
- foaf:homepage the:;
- :description "The BIG Web (formerly BigData Innovators Gathering)";
- :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Auditorium_Pasteur>;
- :isSubEventOf confe:the-web-conf2018;
- :relatesToTrack track:big-2018-big;
  :startDate "2018-04-24T09:00:00+02:00"^^xsd:dateTime .
  
  se:41 a :AcademicEvent,
@@ -12862,7 +12807,6 @@
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Pasteur>;
  :isSubEventOf confe:the-web-conf2018;
- :relatesToTrack track:www-min-of-madness-2018;
  :startDate "2018-04-25T15:40:00+02:00"^^xsd:dateTime .
  
  se:89 a :AcademicEvent,
@@ -14926,7 +14870,6 @@
  se:107,
  se:108,
  se:109,
- se:11,
  se:110,
  se:112,
  se:113,
@@ -15054,7 +14997,6 @@
  se:37,
  se:38,
  se:39,
- se:40,
  se:41,
  se:42,
  se:43,
@@ -15139,48 +15081,6 @@
  inp:TODO-W3C-tuto-2 :relatesToEvent alt:243 .
  
  inp:TODO-W3C-tuto-3 :relatesToEvent alt:244 .
- 
- inp:big-2018-big-1 :relatesToEvent alt:68 .
- 
- inp:big-2018-big-10 :relatesToEvent alt:77 .
- 
- inp:big-2018-big-11 :relatesToEvent alt:78 .
- 
- inp:big-2018-big-2 :relatesToEvent alt:69 .
- 
- inp:big-2018-big-258 :relatesToEvent alt:79 .
- 
- inp:big-2018-big-3 :relatesToEvent alt:70 .
- 
- inp:big-2018-big-368 :relatesToEvent alt:80 .
- 
- inp:big-2018-big-371 :relatesToEvent alt:81 .
- 
- inp:big-2018-big-4 :relatesToEvent alt:71 .
- 
- inp:big-2018-big-443 :relatesToEvent alt:82 .
- 
- inp:big-2018-big-5 :relatesToEvent alt:72 .
- 
- inp:big-2018-big-563 :relatesToEvent alt:83 .
- 
- inp:big-2018-big-573 :relatesToEvent alt:84 .
- 
- inp:big-2018-big-6 :relatesToEvent alt:73 .
- 
- inp:big-2018-big-6001 :relatesToEvent alt:250 .
- 
- inp:big-2018-big-6002 :relatesToEvent alt:251 .
- 
- inp:big-2018-big-6003 :relatesToEvent alt:252 .
- 
- inp:big-2018-big-6004 :relatesToEvent alt:253 .
- 
- inp:big-2018-big-7 :relatesToEvent alt:74 .
- 
- inp:big-2018-big-8 :relatesToEvent alt:75 .
- 
- inp:big-2018-big-9 :relatesToEvent alt:76 .
  
  inp:cogcomp-2018-cognitive-104 :relatesToEvent alt:10 .
  
@@ -15526,16 +15426,6 @@
  
  inp:www-dev-2018-dev-646 :relatesToEvent alt:135 .
  
- inp:www-history-2018-9001 :relatesToEvent alt:259 .
- 
- inp:www-history-2018-9002 :relatesToEvent alt:260 .
- 
- inp:www-history-2018-9003 :relatesToEvent alt:261 .
- 
- inp:www-history-2018-9005 :relatesToEvent alt:262 .
- 
- inp:www-history-2018-9006 :relatesToEvent alt:263 .
- 
  inp:www-industry-2018-1050 :relatesToEvent alt:106 .
  
  inp:www-industry-2018-1079 :relatesToEvent alt:107 .
@@ -15621,12 +15511,6 @@
  inp:www-journal-2018-journal-69 :relatesToEvent alt:42 .
  
  inp:www-journal-2018-journal-70 :relatesToEvent alt:43 .
- 
- inp:www-local-eco-2018-4001 :relatesToEvent alt:247 .
- 
- inp:www-local-eco-2018-4002 :relatesToEvent alt:248 .
- 
- inp:www-local-eco-2018-4003 :relatesToEvent alt:249 .
  
  inp:www-misinfo-2018-fake-news-20 :relatesToEvent alt:245 .
  
@@ -17603,17 +17487,14 @@
  se:3,
  se:31 .
  
- track:big-2018-big :isTrackRelatedTo se:11,
- se:181,
- se:210,
+ track:big-2018-big :isTrackRelatedTo se:210,
  se:211,
  se:212,
  se:213,
  se:214,
  se:215,
  se:216,
- se:217,
- se:40 .
+ se:217 .
  
  track:cogcomp-2018-cognitive :isTrackRelatedTo se:136,
  se:137,
@@ -17667,9 +17548,7 @@
  track:www-history-2018 a :Track;
  rdfs:label "Web History";
  :description "Web History";
- :isSubTrackOf track:www-other2018;
- :isTrackRelatedTo se:175,
- se:176 .
+ :isSubTrackOf track:www-other2018 .
  
  track:www-industry-2018 :isTrackRelatedTo se:115,
  se:116,
@@ -17698,16 +17577,12 @@
  track:www-local-eco-2018 a :Track;
  rdfs:label "Local Ecosystem";
  :description "Local Ecosystem";
- :isSubTrackOf track:www-other2018;
- :isTrackRelatedTo se:206,
- se:207,
- se:209 .
+ :isSubTrackOf track:www-other2018 .
  
  track:www-min-of-madness-2018 a :Track;
  rdfs:label "Minute of Madness";
  :description "Minute of Madness";
- :isSubTrackOf track:www-other2018;
- :isTrackRelatedTo se:88 .
+ :isSubTrackOf track:www-other2018 .
  
  track:www-misinfo-2018-fake-news :isTrackRelatedTo se:92,
  se:93,
@@ -17719,7 +17594,8 @@
  track:www-job-fair-2018,
  track:www-local-eco-2018,
  track:www-min-of-madness-2018,
- track:www-town-hall-meeting-2018 .
+ track:www-town-hall-meeting-2018,
+ track:www-w3c-2018 .
  
  track:www-panels-2018-panels :isTrackRelatedTo se:192,
  se:208,
@@ -17830,6 +17706,16 @@
  se:57,
  se:58,
  se:59 .
+ 
+ track:www-w3c-2018 a :Track;
+ rdfs:label "W3C Track";
+ :description "W3C track";
+ :isSubTrackOf track:www-other2018;
+ :isTrackRelatedTo se:169,
+ se:170,
+ se:201,
+ se:3,
+ se:31 .
  
  track:www-webprog-2018-webprog :isTrackRelatedTo se:165,
  se:166 .

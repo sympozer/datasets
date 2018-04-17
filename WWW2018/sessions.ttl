@@ -9353,12 +9353,12 @@
  
  <#room/Salle_Bellecour_1> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salle Bellecour 1";
+ rdfs:label "🅱 Salle Bellecour 1";
  :description "Salle Bellecour 1" .
  
  <#room/Salle_Bellecour_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salle Bellecour 2";
+ rdfs:label "\U0001F171 Salle Bellecour 2";
  :description "Salle Bellecour 2" .
  
  <#room/Salle_Bellecour_3> a sch:MeetingRoom,

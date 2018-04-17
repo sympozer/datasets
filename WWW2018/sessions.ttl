@@ -9233,17 +9233,17 @@
  
  <#room/Amphith%C3%A9%C3%A2tre> a sch:MeetingRoom,
  :Site;
- rdfs:label "Amphithéâtre";
+ rdfs:label "🅱 Amphithéâtre";
  :description "Amphithéâtre" .
  
  <#room/Auditorium_Pasteur> a sch:MeetingRoom,
  :Site;
- rdfs:label "Auditorium Pasteur";
+ rdfs:label "🆃 Auditorium Pasteur";
  :description "Auditorium Pasteur" .
  
  <#room/Bureau_Bellecour> a sch:MeetingRoom,
  :Site;
- rdfs:label "Bureau Bellecour";
+ rdfs:label "🅱 Bureau Bellecour";
  :description "Bureau Bellecour" .
  
  <#room/City_Hall> a sch:CityHall,
@@ -9331,12 +9331,12 @@
  
  <#room/Loge_Bellecour_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "Loge Bellecour 2";
+ rdfs:label "🅱 Loge Bellecour 2";
  :description "Loge Bellecour 2" .
  
  <#room/Place_Haute%2C_Niveau_Pasteur-Rh%C3%B4ne> a sch:MeetingRoom,
  :Site;
- rdfs:label "Place Haute, Niveau Pasteur-Rhône";
+ rdfs:label "🆃 Place Haute, Niveau Pasteur-Rhône";
  :description "Place Haute, Niveau Pasteur-Rhône" .
  
  <#room/Region_Head_Quarter> a sch:LegislativeBuilding,
@@ -9358,92 +9358,92 @@
  
  <#room/Salle_Bellecour_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "\U0001F171 Salle Bellecour 2";
+ rdfs:label "🅱 Salle Bellecour 2";
  :description "Salle Bellecour 2" .
  
  <#room/Salle_Bellecour_3> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salle Bellecour 3";
+ rdfs:label "🅱 Salle Bellecour 3";
  :description "Salle Bellecour 3" .
  
  <#room/Salle_Gratte-Ciel_1> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salle Gratte-Ciel 1";
+ rdfs:label "🅱 Salle Gratte-Ciel 1";
  :description "Salle Gratte-Ciel 1" .
  
  <#room/Salle_Gratte-Ciel_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salle Gratte-Ciel 2";
+ rdfs:label "🅱 Salle Gratte-Ciel 2";
  :description "Salle Gratte-Ciel 2" .
  
  <#room/Salle_Gratte-Ciel_3> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salle Gratte-Ciel 3";
+ rdfs:label "🅱 Salle Gratte-Ciel 3";
  :description "Salle Gratte-Ciel 3" .
  
  <#room/Salle_Rh%C3%B4ne_1> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salle Rhône 1";
+ rdfs:label "🆃 Salle Rhône 1";
  :description "Salle Rhône 1" .
  
  <#room/Salle_Rh%C3%B4ne_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salle Rhône 2";
+ rdfs:label "🆃 Salle Rhône 2";
  :description "Salle Rhône 2" .
  
  <#room/Salle_Rh%C3%B4ne_3A> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salle Rhône 3A";
+ rdfs:label "🆃 Salle Rhône 3A";
  :description "Salle Rhône 3A" .
  
  <#room/Salle_Rh%C3%B4ne_3B> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salle Rhône 3B";
+ rdfs:label "🆃 Salle Rhône 3B";
  :description "Salle Rhône 3B" .
  
  <#room/Salle_Rh%C3%B4ne_4> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salle Rhône 4";
+ rdfs:label "🆃 Salle Rhône 4";
  :description "Salle Rhône 4" .
  
  <#room/Salle_St_Clair_1> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salle St Clair 1";
+ rdfs:label "🆃 Salle St Clair 1";
  :description "Salle St Clair 1" .
  
  <#room/Salle_St_Clair_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salle St Clair 2";
+ rdfs:label "🆃 Salle St Clair 2";
  :description "Salle St Clair 2" .
  
  <#room/Salle_St_Clair_3A> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salle St Clair 3A";
+ rdfs:label "🆃 Salle St Clair 3A";
  :description "Salle St Clair 3A" .
  
  <#room/Salle_St_Clair_3B> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salle St Clair 3B";
+ rdfs:label "🆃 Salle St Clair 3B";
  :description "Salle St Clair 3B" .
  
  <#room/Salle_St_Clair_4> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salle St Clair 4";
+ rdfs:label "🆃 Salle St Clair 4";
  :description "Salle St Clair 4" .
  
  <#room/Salle_T%C3%AAte_d%27Or_1> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salle Tête d'Or 1";
+ rdfs:label "🅱 Salle Tête d'Or 1";
  :description "Salle Tête d'Or 1" .
  
  <#room/Salle_T%C3%AAte_d%27Or_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salle Tête d'Or 2";
+ rdfs:label "🅱 Salle Tête d'Or 2";
  :description "Salle Tête d'Or 2" .
  
  <#room/Salon_Gratte-Ciel> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salon Gratte-Ciel";
+ rdfs:label "🅱 Salon Gratte-Ciel";
  :description "Salon Gratte-Ciel" .
  
  <#room/Salon_Lumi%C3%A8re> a sch:MeetingRoom,
@@ -9453,27 +9453,27 @@
  
  <#room/Salon_Pasteur> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salon Pasteur";
+ rdfs:label "🆃 Salon Pasteur";
  :description "Salon Pasteur" .
  
  <#room/Salon_Roseraie_1> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salon Roseraie 1";
+ rdfs:label "🆃 Salon Roseraie 1";
  :description "Salon Roseraie 1" .
  
  <#room/Salon_Roseraie_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salon Roseraie 2";
+ rdfs:label "🆃 Salon Roseraie 2";
  :description "Salon Roseraie 2" .
  
  <#room/Salon_Roseraie_3> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salon Roseraie 3";
+ rdfs:label "🆃 Salon Roseraie 3";
  :description "Salon Roseraie 3" .
  
  <#room/Salon_T%C3%AAte_d%27Or> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salon Tête d'Or";
+ rdfs:label "🅱 Salon Tête d'Or";
  :description "Salon Tête d'Or" .
  
  <#room/TBD> a sch:MeetingRoom,

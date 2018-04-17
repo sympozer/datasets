@@ -17521,7 +17521,7 @@
  se:176 .
  
  track:www-honorable-mention-2018 a :Track;
- rdfs:label "☆ ★ Honorable Mention";
+ rdfs:label "★ Honorable Mention";
  :description "★ Honorable Mention";
  :isSubTrackOf track:www-awards-2018;
  :isTrackRelatedTo inp:www-research-2018-content-analysis-100,

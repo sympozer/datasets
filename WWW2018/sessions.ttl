@@ -475,12 +475,12 @@
  alt:119 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Invited talk 1: Extensible Web Apps (Kenneth R. Christiansen, Intel)";
+ rdfs:label "Invited talk 1: New Trends on the Web Platform (Kenneth Rohde Christiansen, Intel)";
  :endDate "2018-04-27T11:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:TODO-W3C-std-1;
  :isSubEventOf se:169;
  :startDate "2018-04-27T11:00:00+02:00"^^xsd:dateTime;
- :title "Invited talk 1: Extensible Web Apps (Kenneth R. Christiansen, Intel)" .
+ :title "Invited talk 1: New Trends on the Web Platform (Kenneth Rohde Christiansen, Intel)" .
  
  alt:12 a :AcademicEvent,
  :OrganisedEvent,
@@ -515,12 +515,12 @@
  alt:122 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Invited talk 4: WoT in Industry (Victor Charpenary, Siemens)";
+ rdfs:label "Invited talk 4: The Web of Things for Industrial System Integration (Victor Charpenary, Siemens)";
  :endDate "2018-04-27T12:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:TODO-W3C-std-4;
  :isSubEventOf se:169;
  :startDate "2018-04-27T12:00:00+02:00"^^xsd:dateTime;
- :title "Invited talk 4: WoT in Industry (Victor Charpenary, Siemens)" .
+ :title "Invited talk 4: The Web of Things for Industrial System Integration (Victor Charpenary, Siemens)" .
  
  alt:123 a :AcademicEvent,
  :OrganisedEvent,
@@ -696,7 +696,10 @@
  :OrganisedEvent,
  :Talk;
  rdfs:label "Truth or Lie ? Automatically fact checking news";
+ :endDate "2018-04-25T16:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-phdsymposium-2018-phd-235;
+ :isSubEventOf se:72;
+ :startDate "2018-04-25T16:00:00+02:00"^^xsd:dateTime;
  :title "Truth or Lie ? Automatically fact checking news" .
  
  alt:14 a :AcademicEvent,
@@ -713,70 +716,100 @@
  :OrganisedEvent,
  :Talk;
  rdfs:label "Monetization Strategies for the Web of Data";
+ :endDate "2018-04-25T16:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-phdsymposium-2018-phd-278;
+ :isSubEventOf se:72;
+ :startDate "2018-04-25T16:20:00+02:00"^^xsd:dateTime;
  :title "Monetization Strategies for the Web of Data" .
  
  alt:141 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
  rdfs:label "Compromised account detection based on clickstream data";
+ :endDate "2018-04-25T16:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-phdsymposium-2018-phd-290;
+ :isSubEventOf se:72;
+ :startDate "2018-04-25T15:40:00+02:00"^^xsd:dateTime;
  :title "Compromised account detection based on clickstream data" .
  
  alt:142 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
  rdfs:label "Web Performance Automation for The People";
+ :endDate "2018-04-25T11:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-phdsymposium-2018-phd-293;
+ :isSubEventOf se:70;
+ :startDate "2018-04-25T11:00:00+02:00"^^xsd:dateTime;
  :title "Web Performance Automation for The People" .
  
  alt:143 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
  rdfs:label "Concept Embedded Topic Modeling Technique";
+ :endDate "2018-04-25T14:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-phdsymposium-2018-phd-301;
+ :isSubEventOf se:71;
+ :startDate "2018-04-25T13:40:00+02:00"^^xsd:dateTime;
  :title "Concept Embedded Topic Modeling Technique" .
  
  alt:144 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
  rdfs:label "Detection of Strength and Causal Agents of Stress and Relaxation for tweets";
+ :endDate "2018-04-25T12:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-phdsymposium-2018-phd-313;
+ :isSubEventOf se:70;
+ :startDate "2018-04-25T11:40:00+02:00"^^xsd:dateTime;
  :title "Detection of Strength and Causal Agents of Stress and Relaxation for tweets" .
  
  alt:145 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
  rdfs:label "Query for streaming information: dynamic processing and incremental maintenance of RDF stream";
+ :endDate "2018-04-25T15:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-phdsymposium-2018-phd-320;
+ :isSubEventOf se:71;
+ :startDate "2018-04-25T14:40:00+02:00"^^xsd:dateTime;
  :title "Query for streaming information: dynamic processing and incremental maintenance of RDF stream" .
  
  alt:146 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
  rdfs:label "A User Centred Perspective on Structured Data Discovery";
+ :endDate "2018-04-25T14:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-phdsymposium-2018-phd-324;
+ :isSubEventOf se:71;
+ :startDate "2018-04-25T14:00:00+02:00"^^xsd:dateTime;
  :title "A User Centred Perspective on Structured Data Discovery" .
  
  alt:147 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
  rdfs:label "Automatic Translation of Competency Questions into SPARQL-OWL Queries";
+ :endDate "2018-04-25T14:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-phdsymposium-2018-phd-330;
+ :isSubEventOf se:71;
+ :startDate "2018-04-25T14:20:00+02:00"^^xsd:dateTime;
  :title "Automatic Translation of Competency Questions into SPARQL-OWL Queries" .
  
  alt:148 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
  rdfs:label "Mining the Web of Life Sciences Linked Open Data for Mechanism-Based Pharmacovigilance";
+ :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-phdsymposium-2018-phd-333;
+ :isSubEventOf se:72;
+ :startDate "2018-04-25T16:40:00+02:00"^^xsd:dateTime;
  :title "Mining the Web of Life Sciences Linked Open Data for Mechanism-Based Pharmacovigilance" .
  
  alt:149 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
  rdfs:label "Modeling formation of online temporal communities";
+ :endDate "2018-04-25T11:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-phdsymposium-2018-phd-342;
+ :isSubEventOf se:70;
+ :startDate "2018-04-25T11:20:00+02:00"^^xsd:dateTime;
  :title "Modeling formation of online temporal communities" .
  
  alt:15 a :AcademicEvent,
@@ -793,7 +826,10 @@
  :OrganisedEvent,
  :Talk;
  rdfs:label "Privacy Preserving Distributed Analysis of Social Networks";
+ :endDate "2018-04-25T12:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-phdsymposium-2018-phd-347;
+ :isSubEventOf se:70;
+ :startDate "2018-04-25T12:00:00+02:00"^^xsd:dateTime;
  :title "Privacy Preserving Distributed Analysis of Social Networks" .
  
  alt:16 a :AcademicEvent,
@@ -1021,18 +1057,6 @@
  :isSubEventOf se:213;
  :startDate "2018-04-23T15:40:00+02:00"^^xsd:dateTime;
  :title "PANEL: Machine learning in the medicine program" .
- 
- alt:254 a :AcademicEvent,
- :OrganisedEvent,
- :Talk;
- rdfs:label "Invited Talk";
- :title "Invited Talk" .
- 
- alt:255 a :AcademicEvent,
- :OrganisedEvent,
- :Talk;
- rdfs:label "Mentors Panel";
- :title "Mentors Panel" .
  
  alt:257 a :AcademicEvent,
  :OrganisedEvent,
@@ -10682,8 +10706,8 @@
  se:159 a :AcademicEvent,
  :OrganisedEvent,
  :Session;
- rdfs:label "Awards, Keynote and Closing";
- :description "Awards, Keynote and Closing";
+ rdfs:label "Take Home Message, Awards, Closing";
+ :description "Take Home Message, Awards, Closing";
  :endDate "2018-04-27T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Amphith%C3%A9%C3%A2tre>;
  :isSubEventOf confe:the-web-conf2018;
@@ -12487,6 +12511,10 @@
  :description "PhD Symposium I";
  :endDate "2018-04-25T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_T%C3%AAte_d%27Or_1>;
+ :hasSubEvent alt:142,
+ alt:144,
+ alt:149,
+ alt:150;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-phdsymposium-2018-phd;
  :startDate "2018-04-25T11:00:00+02:00"^^xsd:dateTime .
@@ -12498,6 +12526,10 @@
  :description "PhD Symposium II";
  :endDate "2018-04-25T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_T%C3%AAte_d%27Or_1>;
+ :hasSubEvent alt:143,
+ alt:145,
+ alt:146,
+ alt:147;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-phdsymposium-2018-phd;
  :startDate "2018-04-25T13:40:00+02:00"^^xsd:dateTime .
@@ -12509,6 +12541,10 @@
  :description "PhD Symposium III";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_T%C3%AAte_d%27Or_1>;
+ :hasSubEvent alt:139,
+ alt:140,
+ alt:141,
+ alt:148;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-phdsymposium-2018-phd;
  :startDate "2018-04-25T15:40:00+02:00"^^xsd:dateTime .
@@ -16024,7 +16060,8 @@
  
  inp:www-research-2018-content-analysis-1 :relatesToEvent talk:1 .
  
- inp:www-research-2018-content-analysis-100 :relatesToEvent talk:100 .
+ inp:www-research-2018-content-analysis-100 :relatesToEvent talk:100;
+ :relatesToTrack track:www-honorable-mention-2018 .
  
  inp:www-research-2018-content-analysis-1047 :relatesToEvent talk:1047 .
  
@@ -16120,7 +16157,8 @@
  
  inp:www-research-2018-economics-638 :relatesToEvent talk:638 .
  
- inp:www-research-2018-economics-670 :relatesToEvent talk:670 .
+ inp:www-research-2018-economics-670 :relatesToEvent talk:670;
+ :relatesToTrack track:www-honorable-mention-2018 .
  
  inp:www-research-2018-economics-762 :relatesToEvent talk:762 .
  
@@ -16129,7 +16167,8 @@
  inp:www-research-2018-health-1308 :relatesToEvent talk:1308;
  :relatesToTrack track:www-research-2018-user-modeling .
  
- inp:www-research-2018-health-1353 :relatesToEvent talk:1353 .
+ inp:www-research-2018-health-1353 :relatesToEvent talk:1353;
+ :relatesToTrack track:www-honorable-mention-2018 .
  
  inp:www-research-2018-health-253 :relatesToEvent talk:253 .
  
@@ -16143,7 +16182,8 @@
  
  inp:www-research-2018-mobile-1026 :relatesToEvent talk:1026 .
  
- inp:www-research-2018-mobile-1125 :relatesToEvent talk:1125 .
+ inp:www-research-2018-mobile-1125 :relatesToEvent talk:1125;
+ :relatesToTrack track:www-honorable-mention-2018 .
  
  inp:www-research-2018-mobile-1374 :relatesToEvent talk:1374 .
  
@@ -16221,13 +16261,15 @@
  
  inp:www-research-2018-security-1503 :relatesToEvent talk:1503 .
  
- inp:www-research-2018-security-218 :relatesToEvent talk:218 .
+ inp:www-research-2018-security-218 :relatesToEvent talk:218;
+ :relatesToTrack track:www-honorable-mention-2018 .
  
  inp:www-research-2018-security-430 :relatesToEvent talk:430 .
  
  inp:www-research-2018-security-624 :relatesToEvent talk:624 .
  
- inp:www-research-2018-security-672 :relatesToEvent talk:672 .
+ inp:www-research-2018-security-672 :relatesToEvent talk:672;
+ :relatesToTrack track:www-honorable-mention-2018 .
  
  inp:www-research-2018-security-678 :relatesToEvent talk:678 .
  
@@ -16241,7 +16283,8 @@
  
  inp:www-research-2018-social-network-analysis-1104 :relatesToEvent talk:1104 .
  
- inp:www-research-2018-social-network-analysis-1136 :relatesToEvent talk:1136 .
+ inp:www-research-2018-social-network-analysis-1136 :relatesToEvent talk:1136;
+ :relatesToTrack track:www-honorable-mention-2018 .
  
  inp:www-research-2018-social-network-analysis-1160 :relatesToEvent talk:1160 .
  
@@ -16257,7 +16300,8 @@
  
  inp:www-research-2018-social-network-analysis-145 :relatesToEvent talk:145 .
  
- inp:www-research-2018-social-network-analysis-181 :relatesToEvent talk:181 .
+ inp:www-research-2018-social-network-analysis-181 :relatesToEvent talk:181;
+ :relatesToTrack track:www-honorable-mention-2018 .
  
  inp:www-research-2018-social-network-analysis-219 :relatesToEvent talk:219 .
  
@@ -16326,7 +16370,8 @@
  
  inp:www-research-2018-society-933 :relatesToEvent talk:933 .
  
- inp:www-research-2018-society-94 :relatesToEvent talk:94 .
+ inp:www-research-2018-society-94 :relatesToEvent talk:94;
+ :relatesToTrack track:www-honorable-mention-2018 .
  
  inp:www-research-2018-user-modeling-1063 :relatesToEvent talk:1063 .
  
@@ -16334,7 +16379,8 @@
  
  inp:www-research-2018-user-modeling-1419 :relatesToEvent talk:1419 .
  
- inp:www-research-2018-user-modeling-212 :relatesToEvent talk:212 .
+ inp:www-research-2018-user-modeling-212 :relatesToEvent talk:212;
+ :relatesToTrack track:www-honorable-mention-2018 .
  
  inp:www-research-2018-user-modeling-29 :relatesToEvent talk:29 .
  
@@ -17438,6 +17484,11 @@
  :isTrackRelatedTo se:171,
  se:172 .
  
+ track:www-awards-2018 a :Track;
+ rdfs:label "Awards";
+ :description "Awards";
+ :hasSubTrack track:www-honorable-mention-2018 .
+ 
  track:www-challenges-2018-CHALLENGES :isTrackRelatedTo se:171,
  se:172 .
  
@@ -17468,6 +17519,21 @@
  :isSubTrackOf track:www-other2018;
  :isTrackRelatedTo se:175,
  se:176 .
+ 
+ track:www-honorable-mention-2018 a :Track;
+ rdfs:label "☆ ★ Honorable Mention";
+ :description "★ Honorable Mention";
+ :isSubTrackOf track:www-awards-2018;
+ :isTrackRelatedTo inp:www-research-2018-content-analysis-100,
+ inp:www-research-2018-economics-670,
+ inp:www-research-2018-health-1353,
+ inp:www-research-2018-mobile-1125,
+ inp:www-research-2018-security-218,
+ inp:www-research-2018-security-672,
+ inp:www-research-2018-social-network-analysis-1136,
+ inp:www-research-2018-social-network-analysis-181,
+ inp:www-research-2018-society-94,
+ inp:www-research-2018-user-modeling-212 .
  
  track:www-industry-2018 :isTrackRelatedTo se:115,
  se:116,

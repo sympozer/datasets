@@ -501,12 +501,12 @@
  alt:121 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Invited talk 3: Better UI - WebXR (Dominique Hazael-Massieux, W3C)";
+ rdfs:label "Invited talk 3: WebXR: Bringing immersivity to the Web (Dominique Hazael-Massieux, W3C)";
  :endDate "2018-04-27T12:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:TODO-W3C-std-3;
  :isSubEventOf se:169;
  :startDate "2018-04-27T11:40:00+02:00"^^xsd:dateTime;
- :title "Invited talk 3: Better UI - WebXR (Dominique Hazael-Massieux, W3C)" .
+ :title "Invited talk 3: WebXR: Bringing immersivity to the Web (Dominique Hazael-Massieux, W3C)" .
  
  alt:122 a :AcademicEvent,
  :OrganisedEvent,
@@ -9229,253 +9229,204 @@
  
  <#room/Amphith%C3%A9%C3%A2tre> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Amphithéâtre";
- :description "Amphithéâtre" .
+ rdfs:label "🅱 Amphithéâtre" .
  
  <#room/Auditorium_Pasteur> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Auditorium Pasteur";
- :description "Auditorium Pasteur" .
+ rdfs:label "🆃 Auditorium Pasteur" .
  
  <#room/Bureau_Bellecour> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Bureau Bellecour";
- :description "Bureau Bellecour" .
+ rdfs:label "🅱 Bureau Bellecour" .
  
  <#room/City_Hall> a sch:CityHall,
  :Site;
  sch:geo <geo:45.7677,4.835673>;
- rdfs:label "City Hall";
- :description "City Hall" .
+ rdfs:label "City Hall" .
  
  <#room/Convention_Center> a sch:MeetingRoom,
  :Site;
- rdfs:label "Convention Center";
- :description "Convention Center" .
+ rdfs:label "Convention Center" .
  
  <#room/Forum_1> a sch:MeetingRoom,
  :Site;
- rdfs:label "Forum 1";
- :description "Forum 1" .
+ rdfs:label "Forum 1" .
  
  <#room/Forum_1-2> a sch:MeetingRoom,
  :Site;
- rdfs:label "Forum 1-2";
- :description "Forum 1-2" .
+ rdfs:label "Forum 1-2" .
  
  <#room/Forum_1-2-3> a sch:MeetingRoom,
  :Site;
- rdfs:label "Forum 1-2-3";
- :description "Forum 1-2-3" .
+ rdfs:label "Forum 1-2-3" .
  
  <#room/Forum_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "Forum 2";
- :description "Forum 2" .
+ rdfs:label "Forum 2" .
  
  <#room/Forum_2-3> a sch:MeetingRoom,
  :Site;
- rdfs:label "Forum 2-3";
- :description "Forum 2-3" .
+ rdfs:label "Forum 2-3" .
  
  <#room/Forum_3> a sch:MeetingRoom,
  :Site;
- rdfs:label "Forum 3";
- :description "Forum 3" .
+ rdfs:label "Forum 3" .
  
  <#room/Forum_4> a sch:MeetingRoom,
  :Site;
- rdfs:label "Forum 4";
- :description "Forum 4" .
+ rdfs:label "Forum 4" .
  
  <#room/Forum_4-5> a sch:MeetingRoom,
  :Site;
- rdfs:label "Forum 4-5";
- :description "Forum 4-5" .
+ rdfs:label "Forum 4-5" .
  
  <#room/Forum_4-5-6> a sch:MeetingRoom,
  :Site;
- rdfs:label "Forum 4-5-6";
- :description "Forum 4-5-6" .
+ rdfs:label "Forum 4-5-6" .
  
  <#room/Forum_5> a sch:MeetingRoom,
  :Site;
- rdfs:label "Forum 5";
- :description "Forum 5" .
+ rdfs:label "Forum 5" .
  
  <#room/Forum_5-6> a sch:MeetingRoom,
  :Site;
- rdfs:label "Forum 5-6";
- :description "Forum 5-6" .
+ rdfs:label "Forum 5-6" .
  
  <#room/Forum_6> a sch:MeetingRoom,
  :Site;
- rdfs:label "Forum 6";
- :description "Forum 6" .
+ rdfs:label "Forum 6" .
  
  <#room/Halles_Paul_Bocuse> a sch:FoodEstablishment,
  :Site;
- sch:geo <geo:45.763386,4.850440>;
- rdfs:label "Halles Paul Bocuse";
- :description "Halles Paul Bocuse" .
+ sch:geo <geo:45.762319,4.8506>;
+ rdfs:label "Halles Paul Bocuse" .
  
  <#room/Hard_Rock_Cafe> a sch:Restaurant,
  :Site;
  sch:geo <geo:45.763020,4.837946>;
- rdfs:label "Hard Rock Cafe";
- :description "Hard Rock Cafe" .
+ rdfs:label "Hard Rock Cafe" .
  
  <#room/Loge_Bellecour_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Loge Bellecour 2";
- :description "Loge Bellecour 2" .
+ rdfs:label "🅱 Loge Bellecour 2" .
  
  <#room/Place_Haute%2C_Niveau_Pasteur-Rh%C3%B4ne> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Place Haute, Niveau Pasteur-Rhône";
- :description "Place Haute, Niveau Pasteur-Rhône" .
+ rdfs:label "🆃 Place Haute, Niveau Pasteur-Rhône" .
  
  <#room/Region_Head_Quarter> a sch:LegislativeBuilding,
  :Site;
  sch:geo <geo:45.740184,4.819485>;
- rdfs:label "Region Head Quarter";
- :description "Region Head Quarter" .
- 
- <#room/Restaurant_La_Maison> a sch:Restaurant,
- :Site;
- sch:geo <geo:45.73138,4.82299>;
- rdfs:label "Restaurant La Maison";
- :description "Restaurant La Maison" .
+ rdfs:label "Region Head Quarter" .
  
  <#room/Salle_Bellecour_1> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Salle Bellecour 1";
- :description "Salle Bellecour 1" .
+ rdfs:label "🅱 Salle Bellecour 1" .
  
  <#room/Salle_Bellecour_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Salle Bellecour 2";
- :description "Salle Bellecour 2" .
+ rdfs:label "🅱 Salle Bellecour 2" .
  
  <#room/Salle_Bellecour_3> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Salle Bellecour 3";
- :description "Salle Bellecour 3" .
+ rdfs:label "🅱 Salle Bellecour 3" .
  
  <#room/Salle_Gratte-Ciel_1> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Salle Gratte-Ciel 1";
- :description "Salle Gratte-Ciel 1" .
+ rdfs:label "🅱 Salle Gratte-Ciel 1" .
  
  <#room/Salle_Gratte-Ciel_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Salle Gratte-Ciel 2";
- :description "Salle Gratte-Ciel 2" .
+ rdfs:label "🅱 Salle Gratte-Ciel 2" .
  
  <#room/Salle_Gratte-Ciel_3> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Salle Gratte-Ciel 3";
- :description "Salle Gratte-Ciel 3" .
+ rdfs:label "🅱 Salle Gratte-Ciel 3" .
  
  <#room/Salle_Rh%C3%B4ne_1> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salle Rhône 1";
- :description "Salle Rhône 1" .
+ rdfs:label "🆃 Salle Rhône 1" .
  
  <#room/Salle_Rh%C3%B4ne_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salle Rhône 2";
- :description "Salle Rhône 2" .
+ rdfs:label "🆃 Salle Rhône 2" .
  
  <#room/Salle_Rh%C3%B4ne_3A> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salle Rhône 3A";
- :description "Salle Rhône 3A" .
+ rdfs:label "🆃 Salle Rhône 3A" .
  
  <#room/Salle_Rh%C3%B4ne_3B> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salle Rhône 3B";
- :description "Salle Rhône 3B" .
+ rdfs:label "🆃 Salle Rhône 3B" .
  
  <#room/Salle_Rh%C3%B4ne_4> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salle Rhône 4";
- :description "Salle Rhône 4" .
+ rdfs:label "🆃 Salle Rhône 4" .
  
  <#room/Salle_St_Clair_1> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salle St Clair 1";
- :description "Salle St Clair 1" .
+ rdfs:label "🆃 Salle St Clair 1" .
  
  <#room/Salle_St_Clair_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salle St Clair 2";
- :description "Salle St Clair 2" .
+ rdfs:label "🆃 Salle St Clair 2" .
  
  <#room/Salle_St_Clair_3A> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salle St Clair 3A";
- :description "Salle St Clair 3A" .
+ rdfs:label "🆃 Salle St Clair 3A" .
  
  <#room/Salle_St_Clair_3B> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salle St Clair 3B";
- :description "Salle St Clair 3B" .
+ rdfs:label "🆃 Salle St Clair 3B" .
  
  <#room/Salle_St_Clair_4> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salle St Clair 4";
- :description "Salle St Clair 4" .
+ rdfs:label "🆃 Salle St Clair 4" .
  
  <#room/Salle_T%C3%AAte_d%27Or_1> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Salle Tête d'Or 1";
- :description "Salle Tête d'Or 1" .
+ rdfs:label "🅱 Salle Tête d'Or 1" .
  
  <#room/Salle_T%C3%AAte_d%27Or_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Salle Tête d'Or 2";
- :description "Salle Tête d'Or 2" .
+ rdfs:label "🅱 Salle Tête d'Or 2" .
  
  <#room/Salon_Gratte-Ciel> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Salon Gratte-Ciel";
- :description "Salon Gratte-Ciel" .
+ rdfs:label "🅱 Salon Gratte-Ciel" .
  
  <#room/Salon_Lumi%C3%A8re> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salon Lumière";
- :description "Salon Lumière" .
+ rdfs:label "Salon Lumière" .
  
  <#room/Salon_Pasteur> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salon Pasteur";
- :description "Salon Pasteur" .
+ rdfs:label "🆃 Salon Pasteur" .
  
  <#room/Salon_Roseraie_1> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salon Roseraie 1";
- :description "Salon Roseraie 1" .
+ rdfs:label "🆃 Salon Roseraie 1" .
  
  <#room/Salon_Roseraie_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salon Roseraie 2";
- :description "Salon Roseraie 2" .
+ rdfs:label "🆃 Salon Roseraie 2" .
  
  <#room/Salon_Roseraie_3> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salon Roseraie 3";
- :description "Salon Roseraie 3" .
+ rdfs:label "🆃 Salon Roseraie 3" .
  
  <#room/Salon_T%C3%AAte_d%27Or> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Salon Tête d'Or";
- :description "Salon Tête d'Or" .
+ rdfs:label "🅱 Salon Tête d'Or" .
+ 
+ <#room/TBC> a sch:Restaurant,
+ :Site;
+ sch:geo <geo:45.73138,4.82299>;
+ rdfs:label "TBC" .
  
  <#room/TBD> a sch:MeetingRoom,
  :Site;
- rdfs:label "TBD";
- :description "TBD" .
+ rdfs:label "TBD" .
  
  ses:1-1 a :RoleDuringEvent;
  :during se:163;
@@ -11718,10 +11669,10 @@
  :SocialEvent;
  rdfs:label "Digital-Health Gala Dinner";
  :description "Digital-Health Gala Dinner";
- :endDate "2018-04-24T23:59:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Restaurant_La_Maison>;
+ :endDate "2018-04-24T00:00:00+02:00"^^xsd:dateTime;
+ :hasSite <#room/TBC>;
  :isSubEventOf confe:the-web-conf2018;
- :startDate "2018-04-24T20:00:00+02:00"^^xsd:dateTime .
+ :startDate "2018-04-24T00:00:00+02:00"^^xsd:dateTime .
  
  se:201 a :AcademicEvent,
  :OrganisedEvent,

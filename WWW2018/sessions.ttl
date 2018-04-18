@@ -12,13 +12,14 @@
  @prefix ds: <#ds-talk/> .
  @prefix foaf: <http://xmlns.com/foaf/0.1/> .
  @prefix inp: <https://w3id.org/scholarlydata/inproceedings/> .
- @prefix loc: <#> .
  @prefix out: <http://output.jsbin.com/> .
  @prefix pe: <https://w3id.org/scholarlydata/person/> .
+ @prefix plena: <#plenary/> .
  @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
  @prefix sch: <http://schema.org/> .
  @prefix se: <#session/> .
- @prefix ses: <#session-chair/> .
+ @prefix ses: <#sessions/> .
+ @prefix sess: <#session-chair/> .
  @prefix talk: <#talk/> .
  @prefix track: <https://w3id.org/scholarlydata/track/> .
  @prefix tuto: <#tutorial/> .
@@ -9247,60 +9248,69 @@
  :startDate "2018-04-26T11:00:00+02:00"^^xsd:dateTime;
  :title "De l'IoT au mobile, vivons dans un monde connecté mais sécurisé"@fr .
  
- loc:plenary-awards a :AcademicEvent;
+ plena:awards a :AcademicEvent;
  rdfs:label "Awards Ceremony";
  :endDate "2018-04-27T16:10:00+02:00"^^xsd:dateTime;
+ :isSubEventOf ses:159;
  :startDate "2018-04-27T15:55:00+02:00"^^xsd:dateTime .
  
- loc:plenary-closing a :AcademicEvent;
+ plena:closing a :AcademicEvent;
  rdfs:label "Closing Ceremony";
  :endDate "2018-04-27T16:30:00+02:00"^^xsd:dateTime;
+ :isSubEventOf ses:159;
  :startDate "2018-04-27T16:10:00+02:00"^^xsd:dateTime .
  
- loc:plenary-keynote1 a :Talk;
+ plena:keynote1 a :Talk;
  rdfs:label "The good web – some challenges and strategies to realise it (Luciano Floridi)";
  foaf:homepage <https://www2018.thewebconf.org/keynotes/#luciano-floridi>;
  :description """The web is polluted. Not very much. And certainly neither inevitably nor irreversibly. But enough to raise concerns. Disinformation (including fake news), intolerance, and extremisms of all sorts exploit some of the most cherished features of the web (accessibility, availability, openness, ease of communication, freedom of speech) to undermine its value and damage the foundations of the liberal societies that have created it.
  In this talk, I will analyse the more conceptual nature of the some of the challenges in question, and look at the potential strategies that may be adopted to cope with them successfully.""";
  :endDate "2018-04-25T10:20:00+02:00"^^xsd:dateTime;
+ :isSubEventOf ses:60;
  :startDate "2018-04-25T09:10:00+02:00"^^xsd:dateTime;
  :title "The good web – some challenges and strategies to realise it" .
  
- loc:plenary-keynote2 a :Talk;
+ plena:keynote2 a :Talk;
  rdfs:label "Conversational AI for Interacting with Digital and Physical World (Ruhi Sarikaya)";
  foaf:homepage <https://www2018.thewebconf.org/keynotes/#ruhi-sarikaya>;
  :description """The way humans communicate with machines is at an inflection point where natural language is emerging as a key mode of interaction with digital and physical world and accessing the Web through intelligent assistants and agents. Even though there are strong secular trends behind this change and encouraging progress, some core challenges remain to be addressed. These challenges manifest themselves as ‘frictions’ in user’s interactions with these systems. Some of these challenges include application/service discovery, lack of applications knowledge, and limited understanding and modeling of user’s context. For example, users do not know the coverage of these systems in terms of the supported domains/applications with regards to their requests and they also do not know how to interact with these applications in a natural way. Moreover, these systems have a limited understanding of the user’s context to accurately reason about and understand their intent and serve the best answer. Unlike Web search, providing a single precise answer to a user’s request is a key requirement.
  In this talk, we will give an overview of the intelligent assistants, how they work and key components powering them. We will also discuss the core challenges and explain what is needed to fully redefine human machine interaction through natural language.""";
  :endDate "2018-04-26T09:10:00+02:00"^^xsd:dateTime;
+ :isSubEventOf ses:104;
  :startDate "2018-04-26T08:15:00+02:00"^^xsd:dateTime;
  :title "Conversational AI for Interacting with Digital and Physical World" .
  
- loc:plenary-keynote3 a :Talk;
+ plena:keynote3 a :Talk;
  rdfs:label "Web Privacy and Security: The User Experience (Lorrie Faith Cranor)";
  foaf:homepage <https://www2018.thewebconf.org/keynotes/#lorrie-faith-cranor>;
  :description """Numerous web browser features, plugins, and industry efforts focus on improving web privacy and security for users. For example, the major web browsers offer tools designed to prevent tracking, reduce the amount of browsing information stored on a user’s computer, generate and store strong passwords, and alert users to potential security problems. Industry organizations have created websites to allow users to opt-out of tracking by their members, and regulations in Europe and elsewhere require websites to post clear privacy notices before collecting personal data from users. However, despite an abundance of tools and rules, web security and privacy remains difficult for users to achieve.
  In this talk I will discuss empirical studies that provide insights into users’ experiences with web privacy and security, including online and laboratory studies, and longitudinal studies of users’ interactions with security and privacy tools.""";
  :endDate "2018-04-27T09:10:00+02:00"^^xsd:dateTime;
+ :isSubEventOf ses:158;
  :startDate "2018-04-27T08:15:00+02:00"^^xsd:dateTime;
  :title "Web Privacy and Security: The User Experience" .
  
- loc:plenary-opening a :AcademicEvent;
+ plena:opening a :AcademicEvent;
  rdfs:label "Opening & Seoul Test of Time Award";
  :endDate "2018-04-25T09:10:00+02:00"^^xsd:dateTime;
+ :isSubEventOf ses:60;
  :startDate "2018-04-25T08:15:00+02:00"^^xsd:dateTime .
  
- loc:plenary-panel1 a :Panel;
+ plena:panel1 a :Panel;
  rdfs:label "AI and the future of the Web and the Internet",
  "Privacy and Security, remaining challenges for the Web";
  foaf:homepage <https://www2018.thewebconf.org/plenary-panels/>;
  :endDate "2018-04-26T10:20:00+02:00"^^xsd:dateTime,
  "2018-04-27T10:20:00+02:00"^^xsd:dateTime;
+ :isSubEventOf ses:104,
+ ses:158;
  :startDate "2018-04-26T09:10:00+02:00"^^xsd:dateTime,
  "2018-04-27T09:10:00+02:00"^^xsd:dateTime .
  
- loc:plenary-takehomemsh a :Talk;
+ plena:take-home-message a :Talk;
  rdfs:label "Take home message (Robert Caillau, IW3C2 founder)";
  :endDate "2018-04-27T15:55:00+02:00"^^xsd:dateTime;
+ :isSubEventOf ses:159;
  :startDate "2018-04-27T15:40:00+02:00"^^xsd:dateTime .
  
  <#room/Amphith%C3%A9%C3%A2tre> a sch:MeetingRoom,
@@ -9504,217 +9514,217 @@
  :Site;
  rdfs:label "TBD" .
  
- ses:1-1 a :RoleDuringEvent;
+ sess:1-1 a :RoleDuringEvent;
  :during se:163;
  :isHeldBy pe:jae-gil-lee;
  :withRole :session-chair .
  
- ses:1-2 a :RoleDuringEvent;
+ sess:1-2 a :RoleDuringEvent;
  :during se:164;
  :isHeldBy pe:erik-wilde;
  :withRole :session-chair .
  
- ses:10-1 a :RoleDuringEvent;
+ sess:10-1 a :RoleDuringEvent;
  :during se:62;
  :isHeldBy pe:martin-rezk;
  :withRole :session-chair .
  
- ses:10-2 a :RoleDuringEvent;
+ sess:10-2 a :RoleDuringEvent;
  :during se:63;
  :isHeldBy pe:hossein-vahabi;
  :withRole :session-chair .
  
- ses:10-3 a :RoleDuringEvent;
+ sess:10-3 a :RoleDuringEvent;
  :during se:106;
  :isHeldBy pe:ioannis-arapakis;
  :withRole :session-chair .
  
- ses:11-1 a :RoleDuringEvent;
+ sess:11-1 a :RoleDuringEvent;
  :during se:160;
  :isHeldBy pe:william-hersh;
  :withRole :session-chair .
  
- ses:11-2 a :RoleDuringEvent;
+ sess:11-2 a :RoleDuringEvent;
  :during se:161;
  :isHeldBy pe:elad-yom-tov;
  :withRole :session-chair .
  
- ses:2-0 a :RoleDuringEvent;
+ sess:2-0 a :RoleDuringEvent;
  :during se:105;
  :isHeldBy pe:chris-welty;
  :withRole :session-chair .
  
- ses:3-1 a :RoleDuringEvent;
+ sess:3-1 a :RoleDuringEvent;
  :during se:64;
  :isHeldBy pe:jie-tang;
  :withRole :session-chair .
  
- ses:3-2 a :RoleDuringEvent;
+ sess:3-2 a :RoleDuringEvent;
  :during se:65;
  :isHeldBy pe:harith-alani;
  :withRole :session-chair .
  
- ses:3-3 a :RoleDuringEvent;
+ sess:3-3 a :RoleDuringEvent;
  :during se:66;
  :isHeldBy pe:carlos-castillo;
  :withRole :session-chair .
  
- ses:3-4 a :RoleDuringEvent;
+ sess:3-4 a :RoleDuringEvent;
  :during se:162;
  :isHeldBy pe:hideaki-takeda;
  :withRole :session-chair .
  
- ses:4-1 a :RoleDuringEvent;
+ sess:4-1 a :RoleDuringEvent;
  :during se:83;
  :isHeldBy pe:fabrizio-silvestri;
  :withRole :session-chair .
  
- ses:4-2 a :RoleDuringEvent;
+ sess:4-2 a :RoleDuringEvent;
  :during se:84;
  :isHeldBy pe:ricardo-baeza-yates;
  :withRole :session-chair .
  
- ses:4-3 a :RoleDuringEvent;
+ sess:4-3 a :RoleDuringEvent;
  :during se:85;
  :isHeldBy pe:haggai-roitman;
  :withRole :session-chair .
  
- ses:4-4 a :RoleDuringEvent;
+ sess:4-4 a :RoleDuringEvent;
  :during se:108;
  :isHeldBy pe:ido-guy;
  :withRole :session-chair .
  
- ses:4-5 a :RoleDuringEvent;
+ sess:4-5 a :RoleDuringEvent;
  :during se:109;
  :isHeldBy pe:aparna-varde;
  :withRole :session-chair .
  
- ses:4-6 a :RoleDuringEvent;
+ sess:4-6 a :RoleDuringEvent;
  :during se:110;
  :isHeldBy pe:pavel-serdyukov;
  :withRole :session-chair .
  
- ses:5-1 a :RoleDuringEvent;
+ sess:5-1 a :RoleDuringEvent;
  :during se:86;
  :isHeldBy pe:manuel-gomez-rodriguez;
  :withRole :session-chair .
  
- ses:5-2 a :RoleDuringEvent;
+ sess:5-2 a :RoleDuringEvent;
  :during se:87;
  :isHeldBy pe:b-aditya-prakash;
  :withRole :session-chair .
  
- ses:5-3 a :RoleDuringEvent;
+ sess:5-3 a :RoleDuringEvent;
  :during se:148;
  :isHeldBy pe:alessandro-epasto;
  :withRole :session-chair .
  
- ses:5-4 a :RoleDuringEvent;
+ sess:5-4 a :RoleDuringEvent;
  :during se:149;
  :isHeldBy pe:robert-west;
  :withRole :session-chair .
  
- ses:5-5 a :RoleDuringEvent;
+ sess:5-5 a :RoleDuringEvent;
  :during se:150;
  :isHeldBy pe:andreas-kaltenbrunner;
  :withRole :session-chair .
  
- ses:5-6 a :RoleDuringEvent;
+ sess:5-6 a :RoleDuringEvent;
  :during se:173;
  :isHeldBy pe:saeedeh-shekarpour;
  :withRole :session-chair .
  
- ses:5-7 a :RoleDuringEvent;
+ sess:5-7 a :RoleDuringEvent;
  :during se:174;
  :isHeldBy pe:alessandro-epasto;
  :withRole :session-chair .
  
- ses:6-1 a :RoleDuringEvent;
+ sess:6-1 a :RoleDuringEvent;
  :during se:76;
  :isHeldBy pe:paul-groth;
  :withRole :session-chair .
  
- ses:6-2 a :RoleDuringEvent;
+ sess:6-2 a :RoleDuringEvent;
  :during se:77;
  :isHeldBy pe:agnieszka-lawrynowicz;
  :withRole :session-chair .
  
- ses:6-3 a :RoleDuringEvent;
+ sess:6-3 a :RoleDuringEvent;
  :during se:78;
  :isHeldBy pe:gerard-de-melo;
  :withRole :session-chair .
  
- ses:6-4 a :RoleDuringEvent;
+ sess:6-4 a :RoleDuringEvent;
  :during se:118;
  :isHeldBy pe:filip-radlinski;
  :withRole :session-chair .
  
- ses:6-5 a :RoleDuringEvent;
+ sess:6-5 a :RoleDuringEvent;
  :during se:119;
  :isHeldBy pe:miriam-redi;
  :withRole :session-chair .
  
- ses:6-6 a :RoleDuringEvent;
+ sess:6-6 a :RoleDuringEvent;
  :during se:120;
  :isHeldBy pe:steffen-staab;
  :withRole :session-chair .
  
- ses:6-7 a :RoleDuringEvent;
+ sess:6-7 a :RoleDuringEvent;
  :during se:167;
  :isHeldBy pe:rishabh-mehrotra;
  :withRole :session-chair .
  
- ses:6-8 a :RoleDuringEvent;
+ sess:6-8 a :RoleDuringEvent;
  :during se:168;
  :isHeldBy pe:raphael-troncy;
  :withRole :session-chair .
  
- ses:7-1 a :RoleDuringEvent;
+ sess:7-1 a :RoleDuringEvent;
  :during se:99;
  :isHeldBy pe:neil-shah;
  :withRole :session-chair .
  
- ses:7-2 a :RoleDuringEvent;
+ sess:7-2 a :RoleDuringEvent;
  :during se:154;
  :isHeldBy pe:emiliano-de-cristofaro;
  :withRole :session-chair .
  
- ses:7-3 a :RoleDuringEvent;
+ sess:7-3 a :RoleDuringEvent;
  :during se:155;
  :isHeldBy pe:jeremy-blackburn;
  :withRole :session-chair .
  
- ses:7-4 a :RoleDuringEvent;
+ sess:7-4 a :RoleDuringEvent;
  :during se:156;
  :isHeldBy pe:dali-kaafar;
  :withRole :session-chair .
  
- ses:8-1 a :RoleDuringEvent;
+ sess:8-1 a :RoleDuringEvent;
  :during se:61;
  :isHeldBy pe:alessandro-bozzon;
  :withRole :session-chair .
  
- ses:8-2 a :RoleDuringEvent;
+ sess:8-2 a :RoleDuringEvent;
  :during se:107;
  :isHeldBy pe:lora-aroyo;
  :withRole :session-chair .
  
- ses:9-1 a :RoleDuringEvent;
+ sess:9-1 a :RoleDuringEvent;
  :during se:100;
  :isHeldBy pe:deguang-kong;
  :withRole :session-chair .
  
- ses:9-2 a :RoleDuringEvent;
+ sess:9-2 a :RoleDuringEvent;
  :during se:101;
  :isHeldBy pe:evangelos-kanoulas;
  :withRole :session-chair .
  
- ses:9-3 a :RoleDuringEvent;
+ sess:9-3 a :RoleDuringEvent;
  :during se:177;
  :isHeldBy pe:jie-yang;
  :withRole :session-chair .
  
- ses:9-4 a :RoleDuringEvent;
+ sess:9-4 a :RoleDuringEvent;
  :during se:178;
  :isHeldBy pe:min-zhang;
  :withRole :session-chair .
@@ -12936,6 +12946,19 @@
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-research-2018-security;
  :startDate "2018-04-25T11:00:00+02:00"^^xsd:dateTime .
+ 
+ ses:104 :hasSubEvent plena:keynote2,
+ plena:panel1 .
+ 
+ ses:158 :hasSubEvent plena:keynote3,
+ plena:panel1 .
+ 
+ ses:159 :hasSubEvent plena:awards,
+ plena:closing,
+ plena:take-home-message .
+ 
+ ses:60 :hasSubEvent plena:keynote1,
+ plena:opening .
  
  talk:1 a :AcademicEvent,
  :OrganisedEvent,

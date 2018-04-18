@@ -9229,204 +9229,253 @@
  
  <#room/Amphith%C3%A9%C3%A2tre> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Amphithéâtre" .
+ rdfs:label "🅱 Amphithéâtre";
+ :description "Amphithéâtre" .
  
  <#room/Auditorium_Pasteur> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Auditorium Pasteur" .
+ rdfs:label "🆃 Auditorium Pasteur";
+ :description "Auditorium Pasteur" .
  
  <#room/Bureau_Bellecour> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Bureau Bellecour" .
+ rdfs:label "🅱 Bureau Bellecour";
+ :description "Bureau Bellecour" .
  
  <#room/City_Hall> a sch:CityHall,
  :Site;
  sch:geo <geo:45.7677,4.835673>;
- rdfs:label "City Hall" .
+ rdfs:label "City Hall";
+ :description "City Hall" .
  
  <#room/Convention_Center> a sch:MeetingRoom,
  :Site;
- rdfs:label "Convention Center" .
+ rdfs:label "Convention Center";
+ :description "Convention Center" .
  
  <#room/Forum_1> a sch:MeetingRoom,
  :Site;
- rdfs:label "Forum 1" .
+ rdfs:label "Forum 1";
+ :description "Forum 1" .
  
  <#room/Forum_1-2> a sch:MeetingRoom,
  :Site;
- rdfs:label "Forum 1-2" .
+ rdfs:label "Forum 1-2";
+ :description "Forum 1-2" .
  
  <#room/Forum_1-2-3> a sch:MeetingRoom,
  :Site;
- rdfs:label "Forum 1-2-3" .
+ rdfs:label "Forum 1-2-3";
+ :description "Forum 1-2-3" .
  
  <#room/Forum_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "Forum 2" .
+ rdfs:label "Forum 2";
+ :description "Forum 2" .
  
  <#room/Forum_2-3> a sch:MeetingRoom,
  :Site;
- rdfs:label "Forum 2-3" .
+ rdfs:label "Forum 2-3";
+ :description "Forum 2-3" .
  
  <#room/Forum_3> a sch:MeetingRoom,
  :Site;
- rdfs:label "Forum 3" .
+ rdfs:label "Forum 3";
+ :description "Forum 3" .
  
  <#room/Forum_4> a sch:MeetingRoom,
  :Site;
- rdfs:label "Forum 4" .
+ rdfs:label "Forum 4";
+ :description "Forum 4" .
  
  <#room/Forum_4-5> a sch:MeetingRoom,
  :Site;
- rdfs:label "Forum 4-5" .
+ rdfs:label "Forum 4-5";
+ :description "Forum 4-5" .
  
  <#room/Forum_4-5-6> a sch:MeetingRoom,
  :Site;
- rdfs:label "Forum 4-5-6" .
+ rdfs:label "Forum 4-5-6";
+ :description "Forum 4-5-6" .
  
  <#room/Forum_5> a sch:MeetingRoom,
  :Site;
- rdfs:label "Forum 5" .
+ rdfs:label "Forum 5";
+ :description "Forum 5" .
  
  <#room/Forum_5-6> a sch:MeetingRoom,
  :Site;
- rdfs:label "Forum 5-6" .
+ rdfs:label "Forum 5-6";
+ :description "Forum 5-6" .
  
  <#room/Forum_6> a sch:MeetingRoom,
  :Site;
- rdfs:label "Forum 6" .
+ rdfs:label "Forum 6";
+ :description "Forum 6" .
  
  <#room/Halles_Paul_Bocuse> a sch:FoodEstablishment,
  :Site;
  sch:geo <geo:45.763386,4.850440>;
- rdfs:label "Halles Paul Bocuse" .
+ rdfs:label "Halles Paul Bocuse";
+ :description "Halles Paul Bocuse" .
  
  <#room/Hard_Rock_Cafe> a sch:Restaurant,
  :Site;
  sch:geo <geo:45.763020,4.837946>;
- rdfs:label "Hard Rock Cafe" .
+ rdfs:label "Hard Rock Cafe";
+ :description "Hard Rock Cafe" .
  
  <#room/Loge_Bellecour_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Loge Bellecour 2" .
+ rdfs:label "🅱 Loge Bellecour 2";
+ :description "Loge Bellecour 2" .
  
  <#room/Place_Haute%2C_Niveau_Pasteur-Rh%C3%B4ne> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Place Haute, Niveau Pasteur-Rhône" .
+ rdfs:label "🆃 Place Haute, Niveau Pasteur-Rhône";
+ :description "Place Haute, Niveau Pasteur-Rhône" .
  
  <#room/Region_Head_Quarter> a sch:LegislativeBuilding,
  :Site;
  sch:geo <geo:45.740184,4.819485>;
- rdfs:label "Region Head Quarter" .
+ rdfs:label "Region Head Quarter";
+ :description "Region Head Quarter" .
  
  <#room/Restaurant_La_Maison> a sch:Restaurant,
  :Site;
  sch:geo <geo:45.73138,4.82299>;
- rdfs:label "Restaurant La Maison" .
+ rdfs:label "Restaurant La Maison";
+ :description "Restaurant La Maison" .
  
  <#room/Salle_Bellecour_1> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Salle Bellecour 1" .
+ rdfs:label "🅱 Salle Bellecour 1";
+ :description "Salle Bellecour 1" .
  
  <#room/Salle_Bellecour_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Salle Bellecour 2" .
+ rdfs:label "🅱 Salle Bellecour 2";
+ :description "Salle Bellecour 2" .
  
  <#room/Salle_Bellecour_3> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Salle Bellecour 3" .
+ rdfs:label "🅱 Salle Bellecour 3";
+ :description "Salle Bellecour 3" .
  
  <#room/Salle_Gratte-Ciel_1> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Salle Gratte-Ciel 1" .
+ rdfs:label "🅱 Salle Gratte-Ciel 1";
+ :description "Salle Gratte-Ciel 1" .
  
  <#room/Salle_Gratte-Ciel_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Salle Gratte-Ciel 2" .
+ rdfs:label "🅱 Salle Gratte-Ciel 2";
+ :description "Salle Gratte-Ciel 2" .
  
  <#room/Salle_Gratte-Ciel_3> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Salle Gratte-Ciel 3" .
+ rdfs:label "🅱 Salle Gratte-Ciel 3";
+ :description "Salle Gratte-Ciel 3" .
  
  <#room/Salle_Rh%C3%B4ne_1> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salle Rhône 1" .
+ rdfs:label "🆃 Salle Rhône 1";
+ :description "Salle Rhône 1" .
  
  <#room/Salle_Rh%C3%B4ne_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salle Rhône 2" .
+ rdfs:label "🆃 Salle Rhône 2";
+ :description "Salle Rhône 2" .
  
  <#room/Salle_Rh%C3%B4ne_3A> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salle Rhône 3A" .
+ rdfs:label "🆃 Salle Rhône 3A";
+ :description "Salle Rhône 3A" .
  
  <#room/Salle_Rh%C3%B4ne_3B> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salle Rhône 3B" .
+ rdfs:label "🆃 Salle Rhône 3B";
+ :description "Salle Rhône 3B" .
  
  <#room/Salle_Rh%C3%B4ne_4> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salle Rhône 4" .
+ rdfs:label "🆃 Salle Rhône 4";
+ :description "Salle Rhône 4" .
  
  <#room/Salle_St_Clair_1> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salle St Clair 1" .
+ rdfs:label "🆃 Salle St Clair 1";
+ :description "Salle St Clair 1" .
  
  <#room/Salle_St_Clair_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salle St Clair 2" .
+ rdfs:label "🆃 Salle St Clair 2";
+ :description "Salle St Clair 2" .
  
  <#room/Salle_St_Clair_3A> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salle St Clair 3A" .
+ rdfs:label "🆃 Salle St Clair 3A";
+ :description "Salle St Clair 3A" .
  
  <#room/Salle_St_Clair_3B> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salle St Clair 3B" .
+ rdfs:label "🆃 Salle St Clair 3B";
+ :description "Salle St Clair 3B" .
  
  <#room/Salle_St_Clair_4> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salle St Clair 4" .
+ rdfs:label "🆃 Salle St Clair 4";
+ :description "Salle St Clair 4" .
  
  <#room/Salle_T%C3%AAte_d%27Or_1> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Salle Tête d'Or 1" .
+ rdfs:label "🅱 Salle Tête d'Or 1";
+ :description "Salle Tête d'Or 1" .
  
  <#room/Salle_T%C3%AAte_d%27Or_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Salle Tête d'Or 2" .
+ rdfs:label "🅱 Salle Tête d'Or 2";
+ :description "Salle Tête d'Or 2" .
  
  <#room/Salon_Gratte-Ciel> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Salon Gratte-Ciel" .
+ rdfs:label "🅱 Salon Gratte-Ciel";
+ :description "Salon Gratte-Ciel" .
  
  <#room/Salon_Lumi%C3%A8re> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salon Lumière" .
+ rdfs:label "Salon Lumière";
+ :description "Salon Lumière" .
  
  <#room/Salon_Pasteur> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salon Pasteur" .
+ rdfs:label "🆃 Salon Pasteur";
+ :description "Salon Pasteur" .
  
  <#room/Salon_Roseraie_1> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salon Roseraie 1" .
+ rdfs:label "🆃 Salon Roseraie 1";
+ :description "Salon Roseraie 1" .
  
  <#room/Salon_Roseraie_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salon Roseraie 2" .
+ rdfs:label "🆃 Salon Roseraie 2";
+ :description "Salon Roseraie 2" .
  
  <#room/Salon_Roseraie_3> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salon Roseraie 3" .
+ rdfs:label "🆃 Salon Roseraie 3";
+ :description "Salon Roseraie 3" .
  
  <#room/Salon_T%C3%AAte_d%27Or> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Salon Tête d'Or" .
+ rdfs:label "🅱 Salon Tête d'Or";
+ :description "Salon Tête d'Or" .
  
  <#room/TBD> a sch:MeetingRoom,
  :Site;
- rdfs:label "TBD" .
+ rdfs:label "TBD";
+ :description "TBD" .
  
  ses:1-1 a :RoleDuringEvent;
  :during se:163;
@@ -9648,6 +9697,7 @@
  :Session;
  rdfs:label "ORSUM: Workshop on Online Recommender Systems and User Modeling";
  foaf:homepage <http://webesitix.inesctec.pt/orsum2018>;
+ :description "ORSUM: Workshop on Online Recommender Systems and User Modeling";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Bellecour_1>;
  :isSubEventOf confe:the-web-conf2018;
@@ -9659,6 +9709,7 @@
  :Session;
  rdfs:label "First International Workshop on Hybrid Question Answering with Structured and Unstructured Knowledge (HQA’18)";
  foaf:homepage <https://goasq.lri.fr/workshop/hqa18.html>;
+ :description "First International Workshop on Hybrid Question Answering with Structured and Unstructured Knowledge (HQA’18)";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Gratte-Ciel_3>;
  :isSubEventOf confe:the-web-conf2018;
@@ -9669,6 +9720,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "User Modeling, Interaction and Experience on the Web I";
+ :description "User Modeling, Interaction and Experience on the Web I";
  :endDate "2018-04-25T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_3A>;
  :hasSubEvent talk:1074,
@@ -9683,6 +9735,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Demos and posters presentation during lunch";
+ :description "Demos and posters presentation during lunch";
  :endDate "2018-04-25T13:40:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Forum_4-5-6>;
  :hasSubEvent demo:150-3-2,
@@ -9785,6 +9838,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Demos and posters presentation during lunch";
+ :description "Demos and posters presentation during lunch";
  :endDate "2018-04-26T13:40:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Forum_4-5-6>;
  :hasSubEvent demo:150-4-2,
@@ -9887,6 +9941,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Demos and posters presentation during lunch";
+ :description "Demos and posters presentation during lunch";
  :endDate "2018-04-27T13:40:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Forum_4-5-6>;
  :hasSubEvent demo:150-5-2,
@@ -9989,6 +10044,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "User Modeling, Interaction and Experience on the Web II";
+ :description "User Modeling, Interaction and Experience on the Web II";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_3A>;
  :hasSubEvent talk:1419,
@@ -10004,6 +10060,7 @@
  :Session;
  rdfs:label "Web4All Unconference";
  foaf:homepage <https://www.w4a.info/2018/>;
+ :description "Web4All Unconference";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_4>;
  :isSubEventOf confe:the-web-conf2018;
@@ -10013,6 +10070,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Keynote and Panel";
+ :description "Keynote and Panel";
  :endDate "2018-04-26T10:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Amphith%C3%A9%C3%A2tre>;
  :isSubEventOf confe:the-web-conf2018;
@@ -10023,6 +10081,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Intelligent and Autonomous systems on the Web";
+ :description "Intelligent and Autonomous systems on the Web";
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Bellecour_1>;
  :hasSubEvent talk:1346,
@@ -10037,6 +10096,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web Economics, Monetisation, and Online Markets III";
+ :description "Web Economics, Monetisation, and Online Markets III";
  :endDate "2018-04-26T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Bellecour_1>;
  :hasSubEvent talk:154,
@@ -10051,6 +10111,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Crowdsourcing and Human Computation for the Web II";
+ :description "Crowdsourcing and Human Computation for the Web II";
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Bellecour_1>;
  :hasSubEvent talk:188,
@@ -10064,6 +10125,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web Search and Mining IV";
+ :description "Web Search and Mining IV";
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Bellecour_2>;
  :hasSubEvent talk:268,
@@ -10078,6 +10140,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web Search and Mining V";
+ :description "Web Search and Mining V";
  :endDate "2018-04-26T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Bellecour_2>;
  :hasSubEvent talk:1384,
@@ -10092,6 +10155,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web Search and Mining VI";
+ :description "Web Search and Mining VI";
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Bellecour_2>;
  :hasSubEvent talk:1116,
@@ -10106,6 +10170,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Developers I";
+ :description "Developers I";
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_T%C3%AAte_d%27Or_1>;
  :hasSubEvent alt:126,
@@ -10121,6 +10186,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Developers II";
+ :description "Developers II";
  :endDate "2018-04-26T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_T%C3%AAte_d%27Or_1>;
  :hasSubEvent alt:127,
@@ -10136,6 +10202,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Town Hall Meeting";
+ :description "Town Hall Meeting";
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_T%C3%AAte_d%27Or_1>;
  :isSubEventOf confe:the-web-conf2018;
@@ -10146,6 +10213,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Industry IV";
+ :description "Industry IV";
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_T%C3%AAte_d%27Or_2>;
  :hasSubEvent alt:101,
@@ -10159,6 +10227,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Industry V";
+ :description "Industry V";
  :endDate "2018-04-26T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_T%C3%AAte_d%27Or_2>;
  :hasSubEvent alt:106,
@@ -10172,6 +10241,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Industry VI";
+ :description "Industry VI";
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_T%C3%AAte_d%27Or_2>;
  :hasSubEvent alt:100,
@@ -10185,6 +10255,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web Content Analysis, Semantics and Knowledge IV";
+ :description "Web Content Analysis, Semantics and Knowledge IV";
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_T%C3%AAte_d%27Or>;
  :hasSubEvent talk:1075,
@@ -10199,6 +10270,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web Content Analysis, Semantics and Knowledge V";
+ :description "Web Content Analysis, Semantics and Knowledge V";
  :endDate "2018-04-26T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_T%C3%AAte_d%27Or>;
  :hasSubEvent talk:115,
@@ -10214,6 +10286,7 @@
  :Session;
  rdfs:label "Web4All";
  foaf:homepage <https://www.w4a.info/2018/>;
+ :description "Web4All";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Pasteur>;
  :isSubEventOf confe:the-web-conf2018;
@@ -10223,6 +10296,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web Content Analysis, Semantics and Knowledge VI";
+ :description "Web Content Analysis, Semantics and Knowledge VI";
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_T%C3%AAte_d%27Or>;
  :hasSubEvent talk:1153,
@@ -10238,6 +10312,7 @@
  :Session;
  rdfs:label "Digital-Health 2018";
  foaf:homepage www37:;
+ :description "Digital-Health 2018";
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Gratte-Ciel>;
  :isSubEventOf confe:the-web-conf2018;
@@ -10248,6 +10323,7 @@
  :Session;
  rdfs:label "Social Sensing and Enterprise Intelligence : Towards a Smart Enterprise Transformation";
  foaf:homepage <https://web.rniapps.net/ssei2018>;
+ :description "Social Sensing and Enterprise Intelligence : Towards a Smart Enterprise Transformation";
  :endDate "2018-04-23T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_1>;
  :isSubEventOf confe:the-web-conf2018;
@@ -10259,6 +10335,7 @@
  :Session;
  rdfs:label "Digital-Health 2018";
  foaf:homepage www37:;
+ :description "Digital-Health 2018";
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Gratte-Ciel_3>;
  :isSubEventOf confe:the-web-conf2018;
@@ -10268,6 +10345,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital Summ'R";
+ :description "Digital Summ'R";
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Auditorium_Pasteur>;
  :hasSubEvent ds:1;
@@ -10279,6 +10357,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital Summ'R";
+ :description "Digital Summ'R";
  :endDate "2018-04-26T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Auditorium_Pasteur>;
  :hasSubEvent ds:2,
@@ -10291,6 +10370,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital Summ'R";
+ :description "Digital Summ'R";
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Auditorium_Pasteur>;
  :hasSubEvent ds:17,
@@ -10303,6 +10383,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Cognitive Computing IV";
+ :description "Cognitive Computing IV";
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_1>;
  :hasSubEvent alt:12,
@@ -10318,6 +10399,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Cognitive Computing V";
+ :description "Cognitive Computing V";
  :endDate "2018-04-26T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_1>;
  :hasSubEvent alt:16,
@@ -10332,6 +10414,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Cognitive Computing VI";
+ :description "Cognitive Computing VI";
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_1>;
  :hasSubEvent alt:20,
@@ -10345,6 +10428,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital Summ'R";
+ :description "Digital Summ'R";
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_2>;
  :hasSubEvent ds:5;
@@ -10357,6 +10441,7 @@
  :Session;
  rdfs:label "4th AW4city - Enhancing Citizen Centricity with Web Applications";
  foaf:homepage <https://aw4city2018.wordpress.com/call-for-papers/>;
+ :description "4th AW4city - Enhancing Citizen Centricity with Web Applications";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_1>;
  :isSubEventOf confe:the-web-conf2018;
@@ -10367,6 +10452,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital Summ'R";
+ :description "Digital Summ'R";
  :endDate "2018-04-26T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_2>;
  :hasSubEvent ds:6,
@@ -10379,6 +10465,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital Summ'R";
+ :description "Digital Summ'R";
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_2>;
  :hasSubEvent ds:8;
@@ -10390,6 +10477,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital Summ'R";
+ :description "Digital Summ'R";
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_3A>;
  :hasSubEvent ds:9;
@@ -10401,6 +10489,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital Summ'R";
+ :description "Digital Summ'R";
  :endDate "2018-04-26T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_3A>;
  :hasSubEvent ds:10,
@@ -10413,6 +10502,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital Summ'R";
+ :description "Digital Summ'R";
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_3A>;
  :hasSubEvent ds:12;
@@ -10424,6 +10514,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital Summ'R";
+ :description "Digital Summ'R";
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_3B>;
  :hasSubEvent ds:13;
@@ -10435,6 +10526,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital Summ'R";
+ :description "Digital Summ'R";
  :endDate "2018-04-26T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_3B>;
  :hasSubEvent ds:14,
@@ -10447,6 +10539,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Digital Summ'R";
+ :description "Digital Summ'R";
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_3B>;
  :hasSubEvent ds:16;
@@ -10458,6 +10551,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Social Network Analysis and Graph Algorithms for the Web III";
+ :description "Social Network Analysis and Graph Algorithms for the Web III";
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Pasteur>;
  :hasSubEvent talk:1232,
@@ -10472,6 +10566,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Social Network Analysis and Graph Algorithms for the Web IV";
+ :description "Social Network Analysis and Graph Algorithms for the Web IV";
  :endDate "2018-04-26T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Pasteur>;
  :hasSubEvent talk:1136,
@@ -10487,6 +10582,7 @@
  :Session;
  rdfs:label "Mining Attributed Networks Workshop";
  foaf:homepage <https://lipn.fr/man-www2018>;
+ :description "Mining Attributed Networks Workshop";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_3A>;
  :isSubEventOf confe:the-web-conf2018;
@@ -10497,6 +10593,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Social Network Analysis and Graph Algorithms for the Web V";
+ :description "Social Network Analysis and Graph Algorithms for the Web V";
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Pasteur>;
  :hasSubEvent talk:607,
@@ -10511,6 +10608,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "International project IV";
+ :description "International project IV";
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_4>;
  :hasSubEvent alt:25,
@@ -10523,6 +10621,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "International project V";
+ :description "International project V";
  :endDate "2018-04-26T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_4>;
  :hasSubEvent alt:23,
@@ -10535,6 +10634,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "International project VI";
+ :description "International project VI";
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_4>;
  :hasSubEvent alt:26,
@@ -10547,6 +10647,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Security and Privacy on the Web II";
+ :description "Security and Privacy on the Web II";
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_3A>;
  :hasSubEvent talk:1121,
@@ -10561,6 +10662,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Security and Privacy on the Web III";
+ :description "Security and Privacy on the Web III";
  :endDate "2018-04-26T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_3A>;
  :hasSubEvent talk:1186,
@@ -10575,6 +10677,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Security and Privacy on the Web IV";
+ :description "Security and Privacy on the Web IV";
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_3A>;
  :hasSubEvent talk:672,
@@ -10589,6 +10692,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Keynote and Panel";
+ :description "Keynote and Panel";
  :endDate "2018-04-27T10:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Amphith%C3%A9%C3%A2tre>;
  :isSubEventOf confe:the-web-conf2018;
@@ -10599,6 +10703,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Take home message, Awards and Closing";
+ :description "Take home message, Awards and Closing";
  :endDate "2018-04-27T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Amphith%C3%A9%C3%A2tre>;
  :isSubEventOf confe:the-web-conf2018;
@@ -10610,6 +10715,7 @@
  :Session;
  rdfs:label "Exploitation of Social Media for Emergency Relief and Preparedness";
  foaf:homepage <https://www.cse.iitk.ac.in/users/kripa/smerp2018>;
+ :description "Exploitation of Social Media for Emergency Relief and Preparedness";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_3B>;
  :isSubEventOf confe:the-web-conf2018;
@@ -10620,6 +10726,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Health on the Web I";
+ :description "Health on the Web I";
  :endDate "2018-04-27T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Bellecour_1>;
  :hasSubEvent talk:1353,
@@ -10634,6 +10741,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Health on the Web II";
+ :description "Health on the Web II";
  :endDate "2018-04-27T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Bellecour_1>;
  :hasSubEvent talk:1308,
@@ -10647,6 +10755,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web and Society IV";
+ :description "Web and Society IV";
  :endDate "2018-04-27T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Bellecour_2>;
  :hasSubEvent talk:1065,
@@ -10661,6 +10770,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web of Things, Mobile and Ubiquitous Computing I";
+ :description "Web of Things, Mobile and Ubiquitous Computing I";
  :endDate "2018-04-27T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Bellecour_3>;
  :hasSubEvent talk:1125,
@@ -10675,6 +10785,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web of Things, Mobile and Ubiquitous Computing II";
+ :description "Web of Things, Mobile and Ubiquitous Computing II";
  :endDate "2018-04-27T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Bellecour_3>;
  :hasSubEvent talk:1026,
@@ -10689,6 +10800,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web Programming I";
+ :description "Web Programming I";
  :endDate "2018-04-27T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_T%C3%AAte_d%27Or_2>;
  :hasSubEvent alt:257,
@@ -10703,6 +10815,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web Programming II";
+ :description "Web Programming II";
  :endDate "2018-04-27T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_T%C3%AAte_d%27Or_2>;
  :hasSubEvent alt:88,
@@ -10717,6 +10830,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web Content Analysis, Semantics and Knowledge VII";
+ :description "Web Content Analysis, Semantics and Knowledge VII";
  :endDate "2018-04-27T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_T%C3%AAte_d%27Or>;
  :hasSubEvent talk:1,
@@ -10731,6 +10845,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web Content Analysis, Semantics and Knowledge VIII";
+ :description "Web Content Analysis, Semantics and Knowledge VIII";
  :endDate "2018-04-27T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_T%C3%AAte_d%27Or>;
  :hasSubEvent talk:1047,
@@ -10745,6 +10860,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "W3C - Highlights of Web Standards";
+ :description "W3C - Highlights of Web Standards";
  :endDate "2018-04-27T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Gratte-Ciel_2>;
  :hasSubEvent alt:119,
@@ -10761,6 +10877,7 @@
  :Session;
  rdfs:label "Digital-Health 2018 - PhD Track";
  foaf:homepage www37:;
+ :description "Digital-Health 2018 - PhD Track";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_4>;
  :isSubEventOf confe:the-web-conf2018;
@@ -10770,6 +10887,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "W3C - The Next Big Thing of Web: Future Web Outlook";
+ :description "W3C - The Next Big Thing of Web: Future Web Outlook";
  :endDate "2018-04-27T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Gratte-Ciel_2>;
  :hasSubEvent alt:123,
@@ -10784,6 +10902,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Challenges I";
+ :description "Challenges I";
  :endDate "2018-04-27T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Gratte-Ciel_3>;
  :hasSubEvent alt:115,
@@ -10796,6 +10915,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Challenges II";
+ :description "Challenges II";
  :endDate "2018-04-27T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Gratte-Ciel_3>;
  :hasSubEvent alt:116,
@@ -10808,6 +10928,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Social Network Analysis and Graph Algorithms for the Web VI";
+ :description "Social Network Analysis and Graph Algorithms for the Web VI";
  :endDate "2018-04-27T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Pasteur>;
  :hasSubEvent talk:1213,
@@ -10822,6 +10943,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Social Network Analysis and Graph Algorithms for the Web VII";
+ :description "Social Network Analysis and Graph Algorithms for the Web VII";
  :endDate "2018-04-27T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Pasteur>;
  :hasSubEvent talk:311,
@@ -10836,6 +10958,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web History I";
+ :description "Web History I";
  :endDate "2018-04-27T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Gratte-Ciel_1>;
  :hasSubEvent alt:259,
@@ -10849,6 +10972,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web History II";
+ :description "Web History II";
  :endDate "2018-04-27T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Gratte-Ciel_1>;
  :hasSubEvent alt:262,
@@ -10861,6 +10985,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "User Modeling, Interaction and Experience on the Web III";
+ :description "User Modeling, Interaction and Experience on the Web III";
  :endDate "2018-04-27T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_3A>;
  :hasSubEvent talk:212,
@@ -10875,6 +11000,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "User Modeling, Interaction and Experience on the Web IV";
+ :description "User Modeling, Interaction and Experience on the Web IV";
  :endDate "2018-04-27T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_3A>;
  :hasSubEvent talk:1063,
@@ -10889,6 +11015,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Large Scale Distributed Data Science from scratch using Apache Spark 2.2";
+ :description "Large Scale Distributed Data Science from scratch using Apache Spark 2.2";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_1>;
  :hasSubEvent tuto:229;
@@ -10900,6 +11027,7 @@
  :OrganisedEvent,
  :SocialEvent;
  rdfs:label "The BIG Web Cocktail";
+ :description "The BIG Web Cocktail";
  :endDate "2018-04-23T19:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/TBD>;
  :isSubEventOf confe:the-web-conf2018;
@@ -10910,6 +11038,7 @@
  :OrganisedEvent,
  :SocialEvent;
  rdfs:label "Web4ALL Dinner";
+ :description "Web4ALL Dinner";
  :endDate "2018-04-23T23:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/TBD>;
  :isSubEventOf confe:the-web-conf2018;
@@ -10919,6 +11048,7 @@
  :OrganisedEvent,
  :SocialEvent;
  rdfs:label "Le Banquet de La Cuisine du Web";
+ :description "Le Banquet de La Cuisine du Web";
  :endDate "2018-04-23T23:59:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Hard_Rock_Cafe>;
  :isSubEventOf confe:the-web-conf2018;
@@ -10928,6 +11058,7 @@
  :OrganisedEvent,
  :SocialEvent;
  rdfs:label "Welcome Reception";
+ :description "Welcome Reception";
  :endDate "2018-04-24T22:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Region_Head_Quarter>;
  :isSubEventOf confe:the-web-conf2018;
@@ -10937,6 +11068,7 @@
  :OrganisedEvent,
  :SocialEvent;
  rdfs:label "Opening Reception";
+ :description "Opening Reception";
  :endDate "2018-04-25T23:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/City_Hall>;
  :isSubEventOf confe:the-web-conf2018;
@@ -10946,6 +11078,7 @@
  :OrganisedEvent,
  :SocialEvent;
  rdfs:label "Gala Dinner";
+ :description "Gala Dinner";
  :endDate "2018-04-26T23:59:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Halles_Paul_Bocuse>;
  :isSubEventOf confe:the-web-conf2018;
@@ -10955,6 +11088,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Exhibition";
+ :description "Exhibition";
  :endDate "2018-04-24T18:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Forum_4-5-6>;
  :isSubEventOf confe:the-web-conf2018;
@@ -10965,6 +11099,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Exhibition";
+ :description "Exhibition";
  :endDate "2018-04-25T18:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Forum_4-5-6>;
  :isSubEventOf confe:the-web-conf2018;
@@ -10975,6 +11110,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Complex Recommendations";
+ :description "Complex Recommendations";
  :endDate "2018-04-23T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_2>;
  :hasSubEvent tuto:211;
@@ -10986,6 +11122,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Exhibition";
+ :description "Exhibition";
  :endDate "2018-04-26T18:30:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Forum_4-5-6>;
  :isSubEventOf confe:the-web-conf2018;
@@ -10996,6 +11133,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Exhibition";
+ :description "Exhibition";
  :endDate "2018-04-27T14:30:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Forum_4-5-6>;
  :isSubEventOf confe:the-web-conf2018;
@@ -11006,6 +11144,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Panels III";
+ :description "Panels III";
  :endDate "2018-04-27T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_1>;
  :hasSubEvent alt:138;
@@ -11017,6 +11156,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Demos and posters presentations during break";
+ :description "Demos and posters presentations during break";
  :endDate "2018-04-25T11:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Forum_4-5-6>;
  :hasSubEvent demo:150-3-1,
@@ -11119,6 +11259,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Demos and posters presentations during break";
+ :description "Demos and posters presentations during break";
  :endDate "2018-04-25T15:40:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Forum_4-5-6>;
  :hasSubEvent demo:150-3-3,
@@ -11221,6 +11362,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Demos and posters presentations during break";
+ :description "Demos and posters presentations during break";
  :endDate "2018-04-26T11:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Forum_4-5-6>;
  :hasSubEvent demo:150-4-1,
@@ -11323,6 +11465,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Demos and posters presentations during break";
+ :description "Demos and posters presentations during break";
  :endDate "2018-04-26T15:40:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Forum_4-5-6>;
  :hasSubEvent demo:150-4-3,
@@ -11425,6 +11568,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Demos and posters presentations during break";
+ :description "Demos and posters presentations during break";
  :endDate "2018-04-27T11:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Forum_4-5-6>;
  :hasSubEvent demo:150-5-1,
@@ -11527,6 +11671,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Job Fair";
+ :description "Job Fair";
  :endDate "2018-04-26T18:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Convention_Center>;
  :isSubEventOf confe:the-web-conf2018;
@@ -11537,6 +11682,7 @@
  :OrganisedEvent,
  :SocialEvent;
  rdfs:label "Digital Summ'R Cocktail";
+ :description "Digital Summ'R Cocktail";
  :endDate "2018-04-26T20:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Forum_4-5-6>;
  :isSubEventOf confe:the-web-conf2018;
@@ -11548,6 +11694,7 @@
  :Session;
  rdfs:label "11th International Workshop on Linked Data on the Web";
  foaf:homepage <http://events.linkeddata.org/ldow2018/>;
+ :description "11th International Workshop on Linked Data on the Web";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Bellecour_2>;
  :isSubEventOf confe:the-web-conf2018;
@@ -11558,6 +11705,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Computational fact-checking: problems, state of the art, and perspectives";
+ :description "Computational fact-checking: problems, state of the art, and perspectives";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_2>;
  :hasSubEvent tuto:204;
@@ -11569,6 +11717,7 @@
  :OrganisedEvent,
  :SocialEvent;
  rdfs:label "Digital-Health Gala Dinner";
+ :description "Digital-Health Gala Dinner";
  :endDate "2018-04-24T23:59:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Restaurant_La_Maison>;
  :isSubEventOf confe:the-web-conf2018;
@@ -11578,6 +11727,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "W3C - Tutorials III";
+ :description "W3C - Tutorials III";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Bellecour_3>;
  :hasSubEvent alt:244;
@@ -11590,6 +11740,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Local Ecosystem II";
+ :description "Local Ecosystem II";
  :endDate "2018-04-27T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_4>;
  :hasSubEvent alt:248;
@@ -11601,6 +11752,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Local Ecosystem III";
+ :description "Local Ecosystem III";
  :endDate "2018-04-27T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_4>;
  :hasSubEvent alt:249;
@@ -11612,6 +11764,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Panels II";
+ :description "Panels II";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_1>;
  :hasSubEvent alt:136;
@@ -11623,6 +11776,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Local Ecosystem I";
+ :description "Local Ecosystem I";
  :endDate "2018-04-27T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_3A>;
  :hasSubEvent alt:247;
@@ -11634,6 +11788,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "The BIG Web I";
+ :description "The BIG Web I";
  :endDate "2018-04-23T10:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Auditorium_Pasteur>;
  :hasSubEvent alt:250,
@@ -11647,6 +11802,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "The BIG Web II";
+ :description "The BIG Web II";
  :endDate "2018-04-23T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Auditorium_Pasteur>;
  :hasSubEvent alt:68,
@@ -11660,6 +11816,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "The BIG Web III";
+ :description "The BIG Web III";
  :endDate "2018-04-23T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Auditorium_Pasteur>;
  :hasSubEvent alt:72,
@@ -11673,6 +11830,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "The BIG Web IV";
+ :description "The BIG Web IV";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Auditorium_Pasteur>;
  :hasSubEvent alt:253;
@@ -11684,6 +11842,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "The BIG Web V";
+ :description "The BIG Web V";
  :endDate "2018-04-24T10:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Auditorium_Pasteur>;
  :hasSubEvent alt:252,
@@ -11696,6 +11855,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "The BIG Web VI";
+ :description "The BIG Web VI";
  :endDate "2018-04-24T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Auditorium_Pasteur>;
  :hasSubEvent alt:79,
@@ -11710,6 +11870,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "The BIG Web VII";
+ :description "The BIG Web VII";
  :endDate "2018-04-24T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Auditorium_Pasteur>;
  :hasSubEvent alt:69,
@@ -11723,6 +11884,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "The BIG Web VIII";
+ :description "The BIG Web VIII";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Auditorium_Pasteur>;
  :hasSubEvent alt:73,
@@ -11735,6 +11897,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Building AI Applications using Knowledge Graphs";
+ :description "Building AI Applications using Knowledge Graphs";
  :endDate "2018-04-23T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_3B>;
  :hasSubEvent tuto:201;
@@ -11746,6 +11909,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Deep Learning for Matching in Search and Recommendation";
+ :description "Deep Learning for Matching in Search and Recommendation";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_3B>;
  :hasSubEvent tuto:191;
@@ -11757,6 +11921,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "A Critical Review of Social Data: Biases, Methodological Pitfalls, and Ethical Boundaries";
+ :description "A Critical Review of Social Data: Biases, Methodological Pitfalls, and Ethical Boundaries";
  :endDate "2018-04-23T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_4>;
  :hasSubEvent tuto:214;
@@ -11768,6 +11933,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web-scale, Schema-Agnostic, End-to-End Entity Resolution";
+ :description "Web-scale, Schema-Agnostic, End-to-End Entity Resolution";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_4>;
  :hasSubEvent tuto:224;
@@ -11779,6 +11945,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Social Media Analysis for Situation Awareness during Crises";
+ :description "Social Media Analysis for Situation Awareness during Crises";
  :endDate "2018-04-23T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Roseraie_2>;
  :hasSubEvent tuto:219;
@@ -11790,6 +11957,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Polarization on Social Media";
+ :description "Polarization on Social Media";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Roseraie_2>;
  :hasSubEvent tuto:202;
@@ -11802,6 +11970,7 @@
  :Session;
  rdfs:label "PROFILES & Data:Search - International Workshop on Profiling and Searching Data on the Web";
  foaf:homepage <https://profiles-datasearch.github.io/2018/>;
+ :description "PROFILES & Data:Search - International Workshop on Profiling and Searching Data on the Web";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Bellecour_1>;
  :isSubEventOf confe:the-web-conf2018;
@@ -11813,6 +11982,7 @@
  :Session;
  rdfs:label "#RCBlackMirror2018: Re-Coding Black Mirror";
  foaf:homepage <https://kmitd.github.io/recoding-black-mirror/>;
+ :description "#RCBlackMirror2018: Re-Coding Black Mirror";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_T%C3%AAte_d%27Or_1>;
  :isSubEventOf confe:the-web-conf2018;
@@ -11823,6 +11993,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "W3C - Tutorials I";
+ :description "W3C - Tutorials I";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Bellecour_3>;
  :hasSubEvent alt:242;
@@ -11836,6 +12007,7 @@
  :Session;
  rdfs:label "9th International Workshop on Modeling Social Media (MSM 2018): Applying Machine Learning and AI for Modeling Social Media";
  foaf:homepage <https://msm2018.github.io/>;
+ :description "9th International Workshop on Modeling Social Media (MSM 2018): Applying Machine Learning and AI for Modeling Social Media";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Bellecour_2>;
  :isSubEventOf confe:the-web-conf2018;
@@ -11846,6 +12018,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "W3C - Tutorials II";
+ :description "W3C - Tutorials II";
  :endDate "2018-04-24T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Bellecour_3>;
  :hasSubEvent alt:243;
@@ -11859,6 +12032,7 @@
  :Session;
  rdfs:label "Augmenting Intelligence with Humans-in-the-Loop (HumL2018)";
  foaf:homepage <https://w3id.org/huml>;
+ :description "Augmenting Intelligence with Humans-in-the-Loop (HumL2018)";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_T%C3%AAte_d%27Or_2>;
  :isSubEventOf confe:the-web-conf2018;
@@ -11870,6 +12044,7 @@
  :Session;
  rdfs:label "The Third International Workshop on Computational Methods for CyberSafety";
  foaf:homepage <https://cybersafety2018.github.io/>;
+ :description "The Third International Workshop on Computational Methods for CyberSafety";
  :endDate "2018-04-24T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Bellecour_2>;
  :isSubEventOf confe:the-web-conf2018;
@@ -11881,6 +12056,7 @@
  :Session;
  rdfs:label "Wiki Workshop";
  foaf:homepage <http://wikiworkshop.org/2018/>;
+ :description "Wiki Workshop";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_2>;
  :isSubEventOf confe:the-web-conf2018;
@@ -11892,6 +12068,7 @@
  :Session;
  rdfs:label "Digital-Health 2018";
  foaf:homepage www37:;
+ :description "Digital-Health 2018";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Gratte-Ciel>;
  :isSubEventOf confe:the-web-conf2018;
@@ -11902,6 +12079,7 @@
  :Session;
  rdfs:label "Digital-Health 2018";
  foaf:homepage www37:;
+ :description "Digital-Health 2018";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Gratte-Ciel_3>;
  :isSubEventOf confe:the-web-conf2018;
@@ -11912,6 +12090,7 @@
  :Session;
  rdfs:label "Web4All";
  foaf:homepage <https://www.w4a.info/2018/>;
+ :description "Web4All";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Pasteur>;
  :isSubEventOf confe:the-web-conf2018;
@@ -11922,6 +12101,7 @@
  :Session;
  rdfs:label "Web Stream Processing";
  foaf:homepage <http://www.webstreams.eu/wsp/2018/>;
+ :description "Web Stream Processing";
  :endDate "2018-04-24T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_1>;
  :isSubEventOf confe:the-web-conf2018;
@@ -11933,6 +12113,7 @@
  :Session;
  rdfs:label "3rd Workshop on Linked Data & Distributed Ledgers (LD-DL)";
  foaf:homepage <https://sites.google.com/view/lddl-3/home>;
+ :description "3rd Workshop on Linked Data & Distributed Ledgers (LD-DL)";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_1>;
  :isSubEventOf confe:the-web-conf2018;
@@ -11944,6 +12125,7 @@
  :Session;
  rdfs:label "Researcher Centric Scholarly Communication";
  foaf:homepage <https://linkedresearch.org/events/the-web-conf-2018/>;
+ :description "Researcher Centric Scholarly Communication";
  :endDate "2018-04-24T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_T%C3%AAte_d%27Or>;
  :isSubEventOf confe:the-web-conf2018;
@@ -11955,6 +12137,7 @@
  :Session;
  rdfs:label """2018 Workshop on "Semantics, Analytics and Visualisation: Enhancing Scholarly Dissemination" (SAVE-SD 2018)""";
  foaf:homepage <https://save-sd.github.io/2018/index.html>;
+ :description """2018 Workshop on "Semantics, Analytics and Visualisation: Enhancing Scholarly Dissemination" (SAVE-SD 2018)""";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_T%C3%AAte_d%27Or>;
  :isSubEventOf confe:the-web-conf2018;
@@ -11966,6 +12149,7 @@
  :Session;
  rdfs:label "LocWeb 2018: Eighth International Workshop on Location and the Web";
  foaf:homepage <http://dhere.de/locweb2018/>;
+ :description "LocWeb 2018: Eighth International Workshop on Location and the Web";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_3A>;
  :isSubEventOf confe:the-web-conf2018;
@@ -11977,6 +12161,7 @@
  :Session;
  rdfs:label "Online Social Networks and Media: Network Properties and Dynamics (ONSED)";
  foaf:homepage <https://osned.netsons.org>;
+ :description "Online Social Networks and Media: Network Properties and Dynamics (ONSED)";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_3B>;
  :isSubEventOf confe:the-web-conf2018;
@@ -11988,6 +12173,7 @@
  :Session;
  rdfs:label "RoD: Reasoning on Data";
  foaf:homepage <https://sites.google.com/site/2018rod/>;
+ :description "RoD: Reasoning on Data";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_4>;
  :isSubEventOf confe:the-web-conf2018;
@@ -11999,6 +12185,7 @@
  :Session;
  rdfs:label "The Third International Workshop on Learning Representations for Big Networks (BigNet 2018)";
  foaf:homepage <https://aminer.org/bignet_www2018>;
+ :description "The Third International Workshop on Learning Representations for Big Networks (BigNet 2018)";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_1>;
  :isSubEventOf confe:the-web-conf2018;
@@ -12010,6 +12197,7 @@
  :Session;
  rdfs:label "Extreme Multilabel Classification for Social Media";
  foaf:homepage <https://sites.google.com/view/xmlc/home>;
+ :description "Extreme Multilabel Classification for Social Media";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_T%C3%AAte_d%27Or_2>;
  :isSubEventOf confe:the-web-conf2018;
@@ -12020,6 +12208,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Online Evaluation for Effective Web Service Development";
+ :description "Online Evaluation for Effective Web Service Development";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_2>;
  :hasSubEvent tuto:212;
@@ -12031,6 +12220,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Scalable Construction and Querying of Massive Knowledge Bases";
+ :description "Scalable Construction and Querying of Massive Knowledge Bases";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_3A>;
  :hasSubEvent tuto:232;
@@ -12042,6 +12232,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Understanding & Inferring User Tasks and Needs";
+ :description "Understanding & Inferring User Tasks and Needs";
  :endDate "2018-04-24T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_3B>;
  :hasSubEvent tuto:222;
@@ -12053,6 +12244,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Data Management Platforms for Digital Advertising";
+ :description "Data Management Platforms for Digital Advertising";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_3B>;
  :hasSubEvent tuto:234;
@@ -12064,6 +12256,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Graph-based Text Representations: Boosting Text Mining, NLP and Information Retrieval with Graphs";
+ :description "Graph-based Text Representations: Boosting Text Mining, NLP and Information Retrieval with Graphs";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_T%C3%AAte_d%27Or_1>;
  :hasSubEvent tuto:213;
@@ -12076,6 +12269,7 @@
  :Session;
  rdfs:label "Second Women in Data Science (WinDS) Workshop";
  foaf:homepage <https://sites.google.com/site/winds2018/home>;
+ :description "Second Women in Data Science (WinDS) Workshop";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_4>;
  :isSubEventOf confe:the-web-conf2018;
@@ -12086,6 +12280,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Knowledge Graph Completion";
+ :description "Knowledge Graph Completion";
  :endDate "2018-04-24T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Roseraie_1>;
  :hasSubEvent tuto:215;
@@ -12097,6 +12292,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Mining Attributed Networks Tutorial";
+ :description "Mining Attributed Networks Tutorial";
  :endDate "2018-04-24T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Roseraie_2>;
  :hasSubEvent tuto:230;
@@ -12108,6 +12304,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Representation Learning on Networks";
+ :description "Representation Learning on Networks";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Roseraie_1>;
  :hasSubEvent tuto:225;
@@ -12119,6 +12316,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web Tracking Technologies and Protection Mechanisms";
+ :description "Web Tracking Technologies and Protection Mechanisms";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Roseraie_2>;
  :hasSubEvent tuto:203;
@@ -12131,6 +12329,7 @@
  :Session;
  rdfs:label "8th Temporal Web Analytics Workshop (TempWeb)";
  foaf:homepage <http://www.temporalweb.net/>;
+ :description "8th Temporal Web Analytics Workshop (TempWeb)";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_T%C3%AAte_d%27Or>;
  :isSubEventOf confe:the-web-conf2018;
@@ -12141,6 +12340,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Opening and Keynote";
+ :description "Opening and Keynote";
  :endDate "2018-04-25T10:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Amphith%C3%A9%C3%A2tre>;
  :isSubEventOf confe:the-web-conf2018;
@@ -12151,6 +12351,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Crowdsourcing and Human Computation for the Web I";
+ :description "Crowdsourcing and Human Computation for the Web I";
  :endDate "2018-04-25T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Bellecour_1>;
  :hasSubEvent talk:1018,
@@ -12165,6 +12366,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web Economics, Monetisation, and Online Markets I";
+ :description "Web Economics, Monetisation, and Online Markets I";
  :endDate "2018-04-25T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Bellecour_1>;
  :hasSubEvent talk:1281,
@@ -12179,6 +12381,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web Economics, Monetisation, and Online Markets II";
+ :description "Web Economics, Monetisation, and Online Markets II";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Bellecour_1>;
  :hasSubEvent talk:1127,
@@ -12193,6 +12396,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web and Society I";
+ :description "Web and Society I";
  :endDate "2018-04-25T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Bellecour_2>;
  :hasSubEvent talk:1411,
@@ -12207,6 +12411,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web and Society II";
+ :description "Web and Society II";
  :endDate "2018-04-25T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Bellecour_2>;
  :hasSubEvent talk:1373,
@@ -12221,6 +12426,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web and Society III";
+ :description "Web and Society III";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Bellecour_2>;
  :hasSubEvent talk:1053,
@@ -12235,6 +12441,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Journal Paper I";
+ :description "Journal Paper I";
  :endDate "2018-04-25T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Bellecour_3>;
  :hasSubEvent alt:32,
@@ -12249,6 +12456,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Journal Paper II";
+ :description "Journal Paper II";
  :endDate "2018-04-25T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Bellecour_3>;
  :hasSubEvent alt:33,
@@ -12263,6 +12471,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Journal Paper III";
+ :description "Journal Paper III";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Bellecour_3>;
  :hasSubEvent alt:35,
@@ -12278,6 +12487,7 @@
  :Session;
  rdfs:label "The Sixth International Workshop on Natural Language Processing for Social Media (SocialNLP 2018)";
  foaf:homepage <https://sites.google.com/site/socialnlp2018/>;
+ :description "The Sixth International Workshop on Natural Language Processing for Social Media (SocialNLP 2018)";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Gratte-Ciel>;
  :isSubEventOf confe:the-web-conf2018;
@@ -12288,6 +12498,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "PhD Symposium I";
+ :description "PhD Symposium I";
  :endDate "2018-04-25T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_T%C3%AAte_d%27Or_1>;
  :hasSubEvent alt:142,
@@ -12302,6 +12513,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "PhD Symposium II";
+ :description "PhD Symposium II";
  :endDate "2018-04-25T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_T%C3%AAte_d%27Or_1>;
  :hasSubEvent alt:143,
@@ -12316,6 +12528,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "PhD Symposium III";
+ :description "PhD Symposium III";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_T%C3%AAte_d%27Or_1>;
  :hasSubEvent alt:139,
@@ -12330,6 +12543,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Industry I";
+ :description "Industry I";
  :endDate "2018-04-25T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_T%C3%AAte_d%27Or_2>;
  :hasSubEvent alt:105,
@@ -12344,6 +12558,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Industry II";
+ :description "Industry II";
  :endDate "2018-04-25T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_T%C3%AAte_d%27Or_2>;
  :hasSubEvent alt:103,
@@ -12358,6 +12573,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Industry III";
+ :description "Industry III";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_T%C3%AAte_d%27Or_2>;
  :hasSubEvent alt:102,
@@ -12371,6 +12587,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web Content Analysis, Semantics and Knowledge I";
+ :description "Web Content Analysis, Semantics and Knowledge I";
  :endDate "2018-04-25T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_T%C3%AAte_d%27Or>;
  :hasSubEvent talk:1221,
@@ -12385,6 +12602,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web Content Analysis, Semantics and Knowledge II";
+ :description "Web Content Analysis, Semantics and Knowledge II";
  :endDate "2018-04-25T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_T%C3%AAte_d%27Or>;
  :hasSubEvent talk:1431,
@@ -12399,6 +12617,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web Content Analysis, Semantics and Knowledge III";
+ :description "Web Content Analysis, Semantics and Knowledge III";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_T%C3%AAte_d%27Or>;
  :hasSubEvent talk:100,
@@ -12414,6 +12633,7 @@
  :Session;
  rdfs:label "Digital-Health 2018";
  foaf:homepage www37:;
+ :description "Digital-Health 2018";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Gratte-Ciel>;
  :isSubEventOf confe:the-web-conf2018;
@@ -12424,6 +12644,7 @@
  :Session;
  rdfs:label "WS-REST 2018: Ninth International Workshop on Web APIs and Service Architecture";
  foaf:homepage <http://ws-rest.org/2018/index.html>;
+ :description "WS-REST 2018: Ninth International Workshop on Web APIs and Service Architecture";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Gratte-Ciel_1>;
  :isSubEventOf confe:the-web-conf2018;
@@ -12435,6 +12656,7 @@
  :Session;
  rdfs:label "Digital-Health 2018";
  foaf:homepage www37:;
+ :description "Digital-Health 2018";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Gratte-Ciel_3>;
  :isSubEventOf confe:the-web-conf2018;
@@ -12444,6 +12666,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web Search and Mining I";
+ :description "Web Search and Mining I";
  :endDate "2018-04-25T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Auditorium_Pasteur>;
  :hasSubEvent talk:1045,
@@ -12458,6 +12681,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web Search and Mining II";
+ :description "Web Search and Mining II";
  :endDate "2018-04-25T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Auditorium_Pasteur>;
  :hasSubEvent talk:215,
@@ -12472,6 +12696,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Web Search and Mining III";
+ :description "Web Search and Mining III";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Auditorium_Pasteur>;
  :hasSubEvent talk:376,
@@ -12486,6 +12711,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Social Network Analysis and Graph Algorithms for the Web I";
+ :description "Social Network Analysis and Graph Algorithms for the Web I";
  :endDate "2018-04-25T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Pasteur>;
  :hasSubEvent talk:1104,
@@ -12500,6 +12726,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Social Network Analysis and Graph Algorithms for the Web II";
+ :description "Social Network Analysis and Graph Algorithms for the Web II";
  :endDate "2018-04-25T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Pasteur>;
  :hasSubEvent talk:1160,
@@ -12514,6 +12741,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Minute of Madness";
+ :description "Minute of Madness";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salon_Pasteur>;
  :isSubEventOf confe:the-web-conf2018;
@@ -12524,6 +12752,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Cognitive Computing I";
+ :description "Cognitive Computing I";
  :endDate "2018-04-25T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_1>;
  :hasSubEvent alt:1,
@@ -12540,6 +12769,7 @@
  :Session;
  rdfs:label "The third edition of Educational Knowledge Management workshop";
  foaf:homepage <http://uni.gsu.edu.tr/EKM2018/>;
+ :description "The third edition of Educational Knowledge Management workshop";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_2>;
  :isSubEventOf confe:the-web-conf2018;
@@ -12550,6 +12780,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Cognitive Computing II";
+ :description "Cognitive Computing II";
  :endDate "2018-04-25T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_1>;
  :hasSubEvent alt:5,
@@ -12564,6 +12795,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Cognitive Computing III";
+ :description "Cognitive Computing III";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_1>;
  :hasSubEvent alt:2,
@@ -12576,6 +12808,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Journalism, Misinformation and Fact Checking I";
+ :description "Journalism, Misinformation and Fact Checking I";
  :endDate "2018-04-25T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_2>;
  :hasSubEvent alt:245,
@@ -12589,6 +12822,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Journalism, Misinformation and Fact Checking II";
+ :description "Journalism, Misinformation and Fact Checking II";
  :endDate "2018-04-25T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_2>;
  :hasSubEvent alt:44,
@@ -12604,6 +12838,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Journalism, Misinformation and Fact Checking III";
+ :description "Journalism, Misinformation and Fact Checking III";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_2>;
  :hasSubEvent alt:47,
@@ -12619,6 +12854,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "International project I";
+ :description "International project I";
  :endDate "2018-04-25T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_4>;
  :hasSubEvent alt:92;
@@ -12630,6 +12866,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "International project II";
+ :description "International project II";
  :endDate "2018-04-25T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_4>;
  :hasSubEvent alt:24,
@@ -12642,6 +12879,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "International project III";
+ :description "International project III";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_4>;
  :hasSubEvent alt:29,
@@ -12654,6 +12892,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Panels I";
+ :description "Panels I";
  :endDate "2018-04-25T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_1>;
  :hasSubEvent alt:137;
@@ -12665,6 +12904,7 @@
  :OrganisedEvent,
  :Session;
  rdfs:label "Security and Privacy on the Web I";
+ :description "Security and Privacy on the Web I";
  :endDate "2018-04-25T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_3A>;
  :hasSubEvent talk:1046,

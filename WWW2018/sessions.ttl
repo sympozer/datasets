@@ -21,6 +21,7 @@
  @prefix se: <#session/> .
  @prefix ses: <#session-chair/> .
  @prefix talk: <#talk/> .
+ @prefix te: <http://open.vocab.org/terms/> .
  @prefix track: <https://w3id.org/scholarlydata/track/> .
  @prefix tuto: <#tutorial/> .
  @prefix w: <https://w3id.org/scholarlydata/inproceedings/www-workshops-2018-bignet-2018-582#> .
@@ -17583,12 +17584,16 @@
  :isSubTrackOf track:the-web-conf-challenges2018;
  :isTrackRelatedTo alt:117 .
  
- track:the-web-conf-challenges2018 :hasSubTrack track:the-web-conf-challenges-2018-ke4wot-challenge,
+ track:the-web-conf-challenges2018 te:sortLabel "3. Challenges";
+ :hasSubTrack track:the-web-conf-challenges-2018-ke4wot-challenge,
  track:the-web-conf-challenges-2018-vqa-challenge;
  :isTrackRelatedTo se:171,
  se:172 .
  
+ track:www-alternate-papers2018 te:sortLabel "2. Alternate tracks" .
+ 
  track:www-awards-2018 a :Track;
+ te:sortLabel "7. Awards";
  rdfs:label "Awards";
  :description "Awards";
  :hasSubTrack track:www-honorable-mention-2018 .
@@ -17678,7 +17683,8 @@
  se:93,
  se:94 .
  
- track:www-other2018 :hasSubTrack track:digital-summr-2018,
+ track:www-other2018 te:sortLabel "6. Other tracks";
+ :hasSubTrack track:digital-summr-2018,
  track:www-exhibition-2018,
  track:www-history-2018,
  track:www-job-fair-2018,
@@ -17772,6 +17778,8 @@
  inp:www-research-2018-health-1308,
  inp:www-research-2018-mobile-983 .
  
+ track:www-research2018 te:sortLabel "1. Research tracks" .
+ 
  track:www-town-hall-meeting-2018 a :Track;
  rdfs:label "Town Hall Meeting";
  :description "Town Hall Meeting";
@@ -17797,6 +17805,8 @@
  se:58,
  se:59 .
  
+ track:www-tutorials2018 te:sortLabel "4. Tutorials" .
+ 
  track:www-w3c-2018 a :Track;
  rdfs:label "W3C Track";
  :description "W3C track";
@@ -17809,6 +17819,8 @@
  
  track:www-webprog-2018-webprog :isTrackRelatedTo se:165,
  se:166 .
+ 
+ track:www-workshops2018 te:sortLabel "5. Workshopes" .
  
  wo:www-workshops-2018-aw4city :isTrackRelatedTo se:14,
  www11:talk,

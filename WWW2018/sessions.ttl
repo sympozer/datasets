@@ -14,6 +14,7 @@
  @prefix inp: <https://w3id.org/scholarlydata/inproceedings/> .
  @prefix out: <http://output.jsbin.com/> .
  @prefix pe: <https://w3id.org/scholarlydata/person/> .
+ @prefix ple: <https://www2018.thewebconf.org/plenary-panels/> .
  @prefix plena: <#plenary/> .
  @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
  @prefix sch: <http://schema.org/> .
@@ -9296,15 +9297,18 @@
  :startDate "2018-04-25T08:15:00+02:00"^^xsd:dateTime .
  
  plena:panel1 a :Panel;
- rdfs:label "AI and the future of the Web and the Internet",
- "Privacy and Security, remaining challenges for the Web";
- foaf:homepage <https://www2018.thewebconf.org/plenary-panels/>;
- :endDate "2018-04-26T10:20:00+02:00"^^xsd:dateTime,
- "2018-04-27T10:20:00+02:00"^^xsd:dateTime;
- :isSubEventOf se:104,
- se:158;
- :startDate "2018-04-26T09:10:00+02:00"^^xsd:dateTime,
- "2018-04-27T09:10:00+02:00"^^xsd:dateTime .
+ rdfs:label "AI and the future of the Web and the Internet";
+ foaf:homepage ple:;
+ :endDate "2018-04-26T10:20:00+02:00"^^xsd:dateTime;
+ :isSubEventOf se:104;
+ :startDate "2018-04-26T09:10:00+02:00"^^xsd:dateTime .
+ 
+ plena:panel2 a :Panel;
+ rdfs:label "Privacy and Security, remaining challenges for the Web";
+ foaf:homepage ple:;
+ :endDate "2018-04-27T10:20:00+02:00"^^xsd:dateTime;
+ :isSubEventOf se:158;
+ :startDate "2018-04-27T09:10:00+02:00"^^xsd:dateTime .
  
  plena:take-home-message a :Talk;
  rdfs:label "Take home message (Robert Caillau, IW3C2 founder)";
@@ -10734,7 +10738,7 @@
  :endDate "2018-04-27T10:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Amphith%C3%A9%C3%A2tre>;
  :hasSubEvent plena:keynote3,
- plena:panel1;
+ plena:panel2;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-plenary-2018;
  :startDate "2018-04-27T08:15:00+02:00"^^xsd:dateTime .

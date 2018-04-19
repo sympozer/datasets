@@ -13,6 +13,7 @@
  @prefix foaf: <http://xmlns.com/foaf/0.1/> .
  @prefix inp: <https://w3id.org/scholarlydata/inproceedings/> .
  @prefix out: <http://output.jsbin.com/> .
+ @prefix p: <https://www.digitalsummr.com/programme/programme/> .
  @prefix pe: <https://w3id.org/scholarlydata/person/> .
  @prefix ple: <https://www2018.thewebconf.org/plenary-panels/> .
  @prefix plena: <#plenary/> .
@@ -10404,7 +10405,8 @@
  se:133 a :AcademicEvent,
  :OrganisedEvent,
  :Session;
- rdfs:label "Digital Summ'R";
+ rdfs:label "[fr] Digital Summ'R";
+ foaf:homepage p:14;
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Auditorium_Pasteur>;
  :hasSubEvent ds:1;
@@ -10415,7 +10417,8 @@
  se:134 a :AcademicEvent,
  :OrganisedEvent,
  :Session;
- rdfs:label "Digital Summ'R";
+ rdfs:label "[fr] Digital Summ'R";
+ foaf:homepage p:14;
  :endDate "2018-04-26T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Auditorium_Pasteur>;
  :hasSubEvent ds:2,
@@ -10427,7 +10430,8 @@
  se:135 a :AcademicEvent,
  :OrganisedEvent,
  :Session;
- rdfs:label "Digital Summ'R";
+ rdfs:label "[fr] Digital Summ'R";
+ foaf:homepage p:14;
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Auditorium_Pasteur>;
  :hasSubEvent ds:17,
@@ -10481,7 +10485,8 @@
  se:139 a :AcademicEvent,
  :OrganisedEvent,
  :Session;
- rdfs:label "Digital Summ'R";
+ rdfs:label "[fr] Digital Summ'R";
+ foaf:homepage p:14;
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_2>;
  :hasSubEvent ds:5;
@@ -10503,7 +10508,8 @@
  se:140 a :AcademicEvent,
  :OrganisedEvent,
  :Session;
- rdfs:label "Digital Summ'R";
+ rdfs:label "[fr] Digital Summ'R";
+ foaf:homepage p:14;
  :endDate "2018-04-26T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_2>;
  :hasSubEvent ds:6,
@@ -10515,7 +10521,8 @@
  se:141 a :AcademicEvent,
  :OrganisedEvent,
  :Session;
- rdfs:label "Digital Summ'R";
+ rdfs:label "[fr] Digital Summ'R";
+ foaf:homepage p:14;
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_2>;
  :hasSubEvent ds:8;
@@ -10526,7 +10533,8 @@
  se:142 a :AcademicEvent,
  :OrganisedEvent,
  :Session;
- rdfs:label "Digital Summ'R";
+ rdfs:label "[fr] Digital Summ'R";
+ foaf:homepage p:14;
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_3A>;
  :hasSubEvent ds:9;
@@ -10537,7 +10545,8 @@
  se:143 a :AcademicEvent,
  :OrganisedEvent,
  :Session;
- rdfs:label "Digital Summ'R";
+ rdfs:label "[fr] Digital Summ'R";
+ foaf:homepage p:14;
  :endDate "2018-04-26T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_3A>;
  :hasSubEvent ds:10,
@@ -10549,7 +10558,8 @@
  se:144 a :AcademicEvent,
  :OrganisedEvent,
  :Session;
- rdfs:label "Digital Summ'R";
+ rdfs:label "[fr] Digital Summ'R";
+ foaf:homepage p:14;
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_3A>;
  :hasSubEvent ds:12;
@@ -10560,7 +10570,8 @@
  se:145 a :AcademicEvent,
  :OrganisedEvent,
  :Session;
- rdfs:label "Digital Summ'R";
+ rdfs:label "[fr] Digital Summ'R";
+ foaf:homepage p:14;
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_3B>;
  :hasSubEvent ds:13;
@@ -10571,7 +10582,8 @@
  se:146 a :AcademicEvent,
  :OrganisedEvent,
  :Session;
- rdfs:label "Digital Summ'R";
+ rdfs:label "[fr] Digital Summ'R";
+ foaf:homepage p:14;
  :endDate "2018-04-26T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_3B>;
  :hasSubEvent ds:14,
@@ -10583,7 +10595,8 @@
  se:147 a :AcademicEvent,
  :OrganisedEvent,
  :Session;
- rdfs:label "Digital Summ'R";
+ rdfs:label "[fr] Digital Summ'R";
+ foaf:homepage p:14;
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_Rh%C3%B4ne_3B>;
  :hasSubEvent ds:16;

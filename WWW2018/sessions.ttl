@@ -9099,16 +9099,21 @@
  ds:1 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "RGPD : Du sang et des larmes"@fr;
+ rdfs:label "[fr] RGPD : Du sang et des larmes"@fr;
+ :description """26 mai 2018 le jour d’après : 80% de vos prospects et clients ont refusé de vous accorder leur consentement à la prospection.
+ Comment survivre alors que votre stratégie historique de mass marketing devient du jour au lendemain hors la loi ? Illégale !
+ Inversez l’équation : devenez désirable pour susciter l’engagement.""";
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
  :isSubEventOf se:133;
  :startDate "2018-04-26T11:00:00+02:00"^^xsd:dateTime;
- :title "RGPD : Du sang et des larmes"@fr .
+ :title "RGPD : Du sang et des larmes"@fr .
  
  ds:10 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "IA : dernières avancées et applications"@fr;
+ rdfs:label "[fr] IA : dernières avancées et applications"@fr;
+ :description """Après un rapide état des lieux vulgarisé de l’Intelligence Artificielle, vous découvrirez dans cette conférence les dernières avancées scientifiques et techniques dans le domaine : génération d'images, reconnaissance temps réel, synthèse vocale, traduction automatique, dessin automatique… Grâce à la création de bases de données publiques et de librairies Open Source, ces technologies, qui étaient auparavant réservées aux GAFAM, nous sont aujourd’hui accessibles !
+ En partenariat avec Imaginove.""";
  :endDate "2018-04-26T14:30:00+02:00"^^xsd:dateTime;
  :isSubEventOf se:143;
  :startDate "2018-04-26T13:45:00+02:00"^^xsd:dateTime;
@@ -9117,7 +9122,10 @@
  ds:11 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Ransomware : J'ai été piégé ! Comment faire face à cette attaque ?"@fr;
+ rdfs:label "[fr] Ransomware : J'ai été piégé ! Comment faire face à cette attaque ?"@fr;
+ :description """2018 est l’année du RGPD, d’accord… mais cette actualité juridique a tendance à occulter la réalité des cyber attaques. 90 % d’entre elles sont des RANSOMWARE et la conformité au RGPD n’y changera rien. Ca vous étonne ? Les prestataires numériques sont insuffisamment préparés et personne ne veut témoigner sur ces crises ultra confidentielles, le sujet reste donc tabou.
+ Pour y remédier, nous allons vous raconter l’histoire vraie d’une PME du Numérique qui s’est faite piégée, avec les conséquences pour elle et ses clients et la façon dont nous l’avons aidée à faire face à cette attaque.
+ Longue vie aux entreprises du numérique !!!""";
  :endDate "2018-04-26T15:20:00+02:00"^^xsd:dateTime;
  :isSubEventOf se:143;
  :startDate "2018-04-26T14:35:00+02:00"^^xsd:dateTime;
@@ -9126,7 +9134,8 @@
  ds:12 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Google est-il l'allié ou l'ennemi de votre marque ?"@fr;
+ rdfs:label "[fr] Google est-il l'allié ou l'ennemi de votre marque ?"@fr;
+ :description "Plus qu'un moteur de recherche, Google est désormais un moteur de réponses. Son assistant dialogue avec chaque internaute. La conséquence directe et visible de ce changement est l'évolution spectaculaire de la physionomie des réponses de Google. Elles sont personnalisées, contextualisées et révèlent ainsi tout leur pouvoir prescripteur auprès de l'internaute. WAM et Cojécom représentés par David Eichholtzer et Jérôme Soleymieux nous indiqueront comment saisir les opportunités de visibilité sur Google afin d'en faire un allié.";
  :endDate "2018-04-26T16:45:00+02:00"^^xsd:dateTime;
  :isSubEventOf se:144;
  :startDate "2018-04-26T15:45:00+02:00"^^xsd:dateTime;
@@ -9135,7 +9144,9 @@
  ds:13 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Votre positionnement IT sera t-il sucessfull en 2021 ?"@fr;
+ rdfs:label "[fr] Votre positionnement IT sera t-il sucessfull en 2021 ?"@fr;
+ :description """Pour les entreprises du numérique, dés que l'on a la maitrise de quelques briques technologiques intéressantes, les sollicitations et les tentations ne manquent pas d'aller explorer d'autres opportunités au risque de se disperser...
+ Ces exploration font grandir si, à un moment, elles permettent de décider, définir, préciser et assumer son métier pour avancer !""";
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
  :isSubEventOf se:145;
  :startDate "2018-04-26T11:00:00+02:00"^^xsd:dateTime;
@@ -9144,7 +9155,8 @@
  ds:14 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Chef d'entreprise : 1er vendeur de votre société"@fr;
+ rdfs:label "[fr] Chef d'entreprise : 1er vendeur de votre société"@fr;
+ :description "Un entrepreneur est rarement un commercial né. Et pourtant il va devoir apprendre à le devenir d’abord pour lancer sa boite, puis pour la représenter et motiver ses forces de vente. Heureusement, la vente ça s’apprend ! Venez découvrir les secrets des meilleurs vendeurs à l’heure où le digital a modifié considérablement les habitudes des acheteurs : comment s’organiser pour couvrir son marché, quelles techniques utiliser pour conclure, comment garantir ses marges ? Autant de méthodes que vous pourrez mettre en pratique immédiatement au sein de vos organisations.";
  :endDate "2018-04-26T14:30:00+02:00"^^xsd:dateTime;
  :isSubEventOf se:146;
  :startDate "2018-04-26T13:45:00+02:00"^^xsd:dateTime;
@@ -9153,7 +9165,9 @@
  ds:15 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Big Data : que faire de mes données ?"@fr;
+ rdfs:label "[fr] Big Data : que faire de mes données ?"@fr;
+ :description """L’abondance des données permet aux entreprises d’envisager des nouvelles pistes de valorisation, mais comment s’y prendre ? Un ensemble d’outils et techniques se positionnent autour du terme « Big Data », comment s’y retrouver ? Découvrez à travers cet atelier quels pré-requis, accompagnements et quelles compétences et technologies peuvent être mobilisés. Un retour d’expérience illustrera concrètement un exemple de développement de solution innovante pour améliorer ses processus métier et son service client.
+ En partenariat avec Minalogic.""";
  :endDate "2018-04-26T15:20:00+02:00"^^xsd:dateTime;
  :isSubEventOf se:146;
  :startDate "2018-04-26T14:35:00+02:00"^^xsd:dateTime;
@@ -9162,7 +9176,8 @@
  ds:16 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Blockchain : Pour qui ? Pour quoi ? Comment ?"@fr;
+ rdfs:label "[fr] Blockchain : Pour qui ? Pour quoi ? Comment ?"@fr;
+ :description "L'objectif est de présenter les fondamentaux des blockchains et l’intérêt de leur usage grâce au retour d’expérience de la société DomRaider. Cette session sera également l’occasion d’explorer plus en détails ce que suppose l’implémentation d’une ÐApp : la définition et de le développement de Smart Contract, le déploiement d’une blockchain de consortium de type Ethereum, l’architecture globale de la solution et l’industrialisation de sa mise en production.";
  :endDate "2018-04-26T16:45:00+02:00"^^xsd:dateTime;
  :isSubEventOf se:147;
  :startDate "2018-04-26T15:45:00+02:00"^^xsd:dateTime;
@@ -9171,7 +9186,8 @@
  ds:17 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Finale Régionale de Pitch 333"@fr;
+ rdfs:label "[fr] Finale Régionale de Pitch 333"@fr;
+ :description "Les vainqueurs des 6 territoires de la Région se retrouvent pour la finale régionale du Pitch333 !";
  :endDate "2018-04-26T17:50:00+02:00"^^xsd:dateTime;
  :isSubEventOf se:135;
  :startDate "2018-04-26T16:50:00+02:00"^^xsd:dateTime;
@@ -9180,16 +9196,20 @@
  ds:2 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Ré-inventer son Business Model pour une PME"@fr;
+ rdfs:label "[fr] Inventer son Business Model pour une PME"@fr;
+ :description """De PME à ReStart-Up : Pourquoi et comment j’ai fait pivoter ma PME : Changement de business model / retour d’expériences et conseils pratiques »
+ Les retours d'expériences de Doing et IPM France seront décrytés par les expertises de RSM et Sogedev.""";
  :endDate "2018-04-26T14:30:00+02:00"^^xsd:dateTime;
  :isSubEventOf se:134;
  :startDate "2018-04-26T13:45:00+02:00"^^xsd:dateTime;
- :title "Ré-inventer son Business Model pour une PME"@fr .
+ :title "Inventer son Business Model pour une PME"@fr .
  
  ds:3 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Clubs utilisateurs : vos communautés valent de l'or"@fr;
+ rdfs:label "[fr] Clubs utilisateurs : vos communautés valent de l'or"@fr;
+ :description """Quelles que soient leur forme et la fréquence des groupes de travail, les clubs utilisateurs sont de précieux outils pour les éditeurs (ou pour mieux connaitre vos clients et donc mieux les satisfaire). Au service de l'expérience client, ils enrichissent les approches commerciales, marketing, produit... et donnent les trajectoires de demain.
+ Venez échanger aux côtés de nos trois intervenants et de l’animateur de cette table ronde, autour de leur vision du club utilisateur : Qu'est-ce qu'un club utilisateur ? Quand le commencer ? Comment le faire vivre ? Découvrez les raisons qui pourraient vous permettre de mobiliser à votre tour vos communautés.""";
  :endDate "2018-04-26T15:20:00+02:00"^^xsd:dateTime;
  :isSubEventOf se:134;
  :startDate "2018-04-26T14:35:00+02:00"^^xsd:dateTime;
@@ -9198,7 +9218,9 @@
  ds:4 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Comment ils sont passés de 1 à 5 puis 10 et 50 M€ de CA ?"@fr;
+ rdfs:label "[fr] Comment ils sont passés de 1 à 5 puis 10 et 50 M€ de CA ?"@fr;
+ :description """Les passages à l’échelle nous font rêver autant qu’ils nous angoissent. Comment les préparer, les suivre et les pérenniser ?
+ Venez enrichir votre connaissance des expériences de 3 entrepreneurs qui ont su passer le cap des 1, 3, 5, 10 ou 50M€ de chiffre d’affaire.""";
  :endDate "2018-04-26T16:45:00+02:00"^^xsd:dateTime;
  :isSubEventOf se:135;
  :startDate "2018-04-26T15:45:00+02:00"^^xsd:dateTime;
@@ -9207,7 +9229,10 @@
  ds:5 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Gestion du temps : comment perdre du temps à plusieurs ?"@fr;
+ rdfs:label "[fr] Gestion du temps : comment perdre du temps à plusieurs ?"@fr;
+ :description """Vous êtes les animateurs d’un club de vacances qui a de l’ambition et dont l'objectif est d'obtenir 5 étoiles ! Saurez-vous trouver la bonne stratégie pour faire face à un flot incessant de demandes et élever votre club de vacances au rang de lieu incontournable ? Deadline est un jeu d'apprentissage de la gestion du temps en entreprise. Pendant cette atelier, tous les joueurs vivrons l'expérience de voir comment nous passons collectivement notre temps à prendre des décisions qui nous faire perdre notre temps alors que nous cherchons toujours à bien faire.
+ 
+ Attention cet atelier est limitée en terme de participation.""";
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
  :isSubEventOf se:139;
  :startDate "2018-04-26T11:00:00+02:00"^^xsd:dateTime;
@@ -9216,16 +9241,19 @@
  ds:6 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "On-boarding & Welcome Pack : Lancez vous !"@fr;
+ rdfs:label "[fr] Onboarding & Welcome Pack : Lancez vous !"@fr;
+ :description """Les compétences sont rares dans l’univers du numérique, surtout dans les fonctions de développement logiciel, d’architecture IT et de management pour les sociétés qui connaissent des croissances rapides qu'il est nécessaire de contrôler. Intégrer un programme d'on-boarding pour associer et développer l’engagement des nouveaux collaborateurs dès la signature de leur contrat de travail est un facteur de réussite. Anne-Charlotte Vaillant précisera les grandes tendances du on-boarding en France et à l’international ainsi que les éléments clés du succès d’un programme d'on-boarding auprès des collaborateurs d'une entreprise.
+ Visiativ et Cegid dévoileront lors de cette conférence, les résultats de leurs programmes d’on-boarding pour faciliter l’immersion dans l’entreprise, mettre en valeur les échanges entre leurs collaborateurs et créer les conditions nécessaires à leur épanouissement, facteur clé de leur performance future.""";
  :endDate "2018-04-26T14:30:00+02:00"^^xsd:dateTime;
  :isSubEventOf se:140;
  :startDate "2018-04-26T13:45:00+02:00"^^xsd:dateTime;
- :title "On-boarding & Welcome Pack : Lancez vous !"@fr .
+ :title "Onboarding & Welcome Pack : Lancez vous !"@fr .
  
  ds:7 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "De la compétence à l'intelligence emotionnelle, nouvelle approche du recrutement"@fr;
+ rdfs:label "[fr] De la compétence à l'intelligence emotionnelle, nouvelle approche du recrutement"@fr;
+ :description "A l’ère de la révolution digitale, les modèles d’organisation traditionnels, fondés sur des structures hiérarchiques et des pratiques managériales « command and control », sont aujourd’hui profondément remis en cause au profit de modèles qui mobilisent beaucoup plus la coopération et la bienveillance en faisant appel à d’autres ressources que la compétence technique et notamment l’intelligence émotionnelle . Charles-Henri et Françoise présenteront tout d’abord les principales dimensions humaines et organisationnelles de la révolution digitale notamment dans le domaine de la gestion des ressources humaines avant de mettre le focus sur la transformation des approches du recrutement de plus en plus basées sur des facteurs de type « soft skills » et dont l’intelligence émotionnelle en est l’une des composantes les plus importantes. Ils illustreront cette intervention par des exemples d’outils digitaux et d’entreprises utilisant l’intelligence émotionnelle comme l’un des critères de sélection parmi les plus déterminants.";
  :endDate "2018-04-26T15:20:00+02:00"^^xsd:dateTime;
  :isSubEventOf se:140;
  :startDate "2018-04-26T14:35:00+02:00"^^xsd:dateTime;
@@ -9234,7 +9262,8 @@
  ds:8 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Engagement & Fidélisation : les nouvelles devises de l'entreprise"@fr;
+ rdfs:label "[fr] Engagement & Fidélisation : les nouvelles devises de l'entreprise"@fr;
+ :description "A l’heure de la transformation digitale, les talents IT deviennent toujours plus difficile à capter et à fidéliser. Pourtant, certaines entreprises éprouvent moins de difficultés. Jérémie, fondateur de FLEXJOB vous propose d’explorer les points communs de ces d’organisations qui construisent de nouvelles façons de travailler ! Christophe Gard nous donnera son retour d’expérience pour fidéliser et engager les collaborateurs de Dimo Software.";
  :endDate "2018-04-26T16:45:00+02:00"^^xsd:dateTime;
  :isSubEventOf se:141;
  :startDate "2018-04-26T15:45:00+02:00"^^xsd:dateTime;
@@ -9243,7 +9272,8 @@
  ds:9 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "De l'IoT au mobile, vivons dans un monde connecté mais sécurisé"@fr;
+ rdfs:label "[fr] De l'IoT au mobile, vivons dans un monde connecté mais sécurisé"@fr;
+ :description "IoT et mobile, deux termes qui englobent aujourd’hui beaucoup d’usages et de produits. Quelles sont les bonnes pratiques liées à ces projets connectés ? Quelles sont les considérations à prendre en compte en matière de sécurité ? Sécurité, confidentialité : démystifions une approche afin de construire ensemble des produits connectés plus éthiques.";
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
  :isSubEventOf se:142;
  :startDate "2018-04-26T11:00:00+02:00"^^xsd:dateTime;

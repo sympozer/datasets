@@ -9249,19 +9249,23 @@
  :startDate "2018-04-26T11:00:00+02:00"^^xsd:dateTime;
  :title "De l'IoT au mobile, vivons dans un monde connecté mais sécurisé"@fr .
  
- plena:awards a :AcademicEvent;
+ plena:awards a :AcademicEvent,
+ :OrganisedEvent;
  rdfs:label "Awards Ceremony";
  :endDate "2018-04-27T16:10:00+02:00"^^xsd:dateTime;
  :isSubEventOf se:159;
  :startDate "2018-04-27T15:55:00+02:00"^^xsd:dateTime .
  
- plena:closing a :AcademicEvent;
+ plena:closing a :AcademicEvent,
+ :OrganisedEvent;
  rdfs:label "Closing Ceremony";
  :endDate "2018-04-27T16:30:00+02:00"^^xsd:dateTime;
  :isSubEventOf se:159;
  :startDate "2018-04-27T16:10:00+02:00"^^xsd:dateTime .
  
- plena:keynote1 a :Talk;
+ plena:keynote1 a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "The good web – some challenges and strategies to realise it (Luciano Floridi)";
  foaf:homepage <https://www2018.thewebconf.org/keynotes/#luciano-floridi>;
  :description """The web is polluted. Not very much. And certainly neither inevitably nor irreversibly. But enough to raise concerns. Disinformation (including fake news), intolerance, and extremisms of all sorts exploit some of the most cherished features of the web (accessibility, availability, openness, ease of communication, freedom of speech) to undermine its value and damage the foundations of the liberal societies that have created it.
@@ -9271,7 +9275,9 @@
  :startDate "2018-04-25T09:10:00+02:00"^^xsd:dateTime;
  :title "The good web – some challenges and strategies to realise it" .
  
- plena:keynote2 a :Talk;
+ plena:keynote2 a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Conversational AI for Interacting with Digital and Physical World (Ruhi Sarikaya)";
  foaf:homepage <https://www2018.thewebconf.org/keynotes/#ruhi-sarikaya>;
  :description """The way humans communicate with machines is at an inflection point where natural language is emerging as a key mode of interaction with digital and physical world and accessing the Web through intelligent assistants and agents. Even though there are strong secular trends behind this change and encouraging progress, some core challenges remain to be addressed. These challenges manifest themselves as ‘frictions’ in user’s interactions with these systems. Some of these challenges include application/service discovery, lack of applications knowledge, and limited understanding and modeling of user’s context. For example, users do not know the coverage of these systems in terms of the supported domains/applications with regards to their requests and they also do not know how to interact with these applications in a natural way. Moreover, these systems have a limited understanding of the user’s context to accurately reason about and understand their intent and serve the best answer. Unlike Web search, providing a single precise answer to a user’s request is a key requirement.
@@ -9281,37 +9287,46 @@
  :startDate "2018-04-26T08:15:00+02:00"^^xsd:dateTime;
  :title "Conversational AI for Interacting with Digital and Physical World" .
  
- plena:keynote3 a :Talk;
+ plena:keynote3 a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Web Privacy and Security: The User Experience (Lorrie Faith Cranor)";
  foaf:homepage <https://www2018.thewebconf.org/keynotes/#lorrie-faith-cranor>;
  :description """Numerous web browser features, plugins, and industry efforts focus on improving web privacy and security for users. For example, the major web browsers offer tools designed to prevent tracking, reduce the amount of browsing information stored on a user’s computer, generate and store strong passwords, and alert users to potential security problems. Industry organizations have created websites to allow users to opt-out of tracking by their members, and regulations in Europe and elsewhere require websites to post clear privacy notices before collecting personal data from users. However, despite an abundance of tools and rules, web security and privacy remains difficult for users to achieve.
  In this talk I will discuss empirical studies that provide insights into users’ experiences with web privacy and security, including online and laboratory studies, and longitudinal studies of users’ interactions with security and privacy tools.""";
- :endDate "2018-04-27T09:10:00+02:00"^^xsd:dateTime;
+ :endDate "2018-04-27T09:25:00+02:00"^^xsd:dateTime;
  :isSubEventOf se:158;
- :startDate "2018-04-27T08:15:00+02:00"^^xsd:dateTime;
+ :startDate "2018-04-27T08:35:00+02:00"^^xsd:dateTime;
  :title "Web Privacy and Security: The User Experience" .
  
- plena:opening a :AcademicEvent;
+ plena:opening a :AcademicEvent,
+ :OrganisedEvent;
  rdfs:label "Opening & Seoul Test of Time Award";
  :endDate "2018-04-25T09:10:00+02:00"^^xsd:dateTime;
  :isSubEventOf se:60;
  :startDate "2018-04-25T08:15:00+02:00"^^xsd:dateTime .
  
- plena:panel1 a :Panel;
+ plena:panel1 a :AcademicEvent,
+ :OrganisedEvent,
+ :Panel;
  rdfs:label "AI and the future of the Web and the Internet";
  foaf:homepage ple:;
  :endDate "2018-04-26T10:20:00+02:00"^^xsd:dateTime;
  :isSubEventOf se:104;
  :startDate "2018-04-26T09:10:00+02:00"^^xsd:dateTime .
  
- plena:panel2 a :Panel;
+ plena:panel2 a :AcademicEvent,
+ :OrganisedEvent,
+ :Panel;
  rdfs:label "Privacy and Security, remaining challenges for the Web";
  foaf:homepage ple:;
  :endDate "2018-04-27T10:20:00+02:00"^^xsd:dateTime;
  :isSubEventOf se:158;
- :startDate "2018-04-27T09:10:00+02:00"^^xsd:dateTime .
+ :startDate "2018-04-27T09:25:00+02:00"^^xsd:dateTime .
  
- plena:take-home-message a :Talk;
+ plena:take-home-message a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Take home message (Robert Caillau, IW3C2 founder)";
  :endDate "2018-04-27T15:55:00+02:00"^^xsd:dateTime;
  :isSubEventOf se:159;
@@ -16575,7 +16590,9 @@
  
  inp:www-workshops-2018-aw4city-707 :relatesToEvent www11:talk .
  
- www11:talk a :Talk;
+ www11:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Towards a Framework for Context-Aware Intelligent Traffic Management System in Smart Cities";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-aw4city-707;
@@ -16585,7 +16602,9 @@
  
  inp:www-workshops-2018-aw4city-764 :relatesToEvent www66:talk .
  
- www66:talk a :Talk;
+ www66:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Increasing Information Transparency through Web Maps";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-aw4city-764;
@@ -16595,7 +16614,9 @@
  
  inp:www-workshops-2018-aw4city-768 :relatesToEvent www5:talk .
  
- www5:talk a :Talk;
+ www5:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Smart Cities at Risk!: Privacy and Security Borderlines from Social Networking in Cities";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-aw4city-768;
@@ -16605,7 +16626,9 @@
  
  inp:www-workshops-2018-aw4city-771 :relatesToEvent www31:talk .
  
- www31:talk a :Talk;
+ www31:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "The role of digital technologies in promoting smart city governance: The case of SmartGov";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-aw4city-771;
@@ -16615,7 +16638,9 @@
  
  inp:www-workshops-2018-aw4city-779 :relatesToEvent www88:talk .
  
- www88:talk a :Talk;
+ www88:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Citizen Participation: Case Study on participatory apps in Germany";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-aw4city-779;
@@ -16625,7 +16650,9 @@
  
  inp:www-workshops-2018-aw4city-799 :relatesToEvent www62:talk .
  
- www62:talk a :Talk;
+ www62:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "A Feasibility Study on Crowdsourced Urban Municipal Resources Monitoring System for Smart Cities";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-aw4city-799;
@@ -16635,7 +16662,9 @@
  
  inp:www-workshops-2018-aw4city-854 :relatesToEvent www91:talk .
  
- www91:talk a :Talk;
+ www91:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Smart transportation applications' business models: a comparison";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-aw4city-854;
@@ -16645,7 +16674,9 @@
  
  inp:www-workshops-2018-aw4city-855 :relatesToEvent www82:talk .
  
- www82:talk a :Talk;
+ www82:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Reflections regarding the future path of Smart Sustainable Cities";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-aw4city-855;
@@ -16655,7 +16686,9 @@
  
  inp:www-workshops-2018-aw4city-856 :relatesToEvent www24:talk .
  
- www24:talk a :Talk;
+ www24:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "A Case Study on Smart City Projects in India: An analysis of Nagpur, Allahabad and Dehradun";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-aw4city-856;
@@ -16665,7 +16698,9 @@
  
  inp:www-workshops-2018-bignet-2018-266 :relatesToEvent www58:talk .
  
- www58:talk a :Talk;
+ www58:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Towards Interpretation of Node Embeddings";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-bignet-2018-266;
@@ -16675,7 +16710,9 @@
  
  inp:www-workshops-2018-bignet-2018-274 :relatesToEvent www60:talk .
  
- www60:talk a :Talk;
+ www60:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Deep Inductive Network Representation Learning";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-bignet-2018-274;
@@ -16685,7 +16722,9 @@
  
  inp:www-workshops-2018-bignet-2018-286 :relatesToEvent www90:talk .
  
- www90:talk a :Talk;
+ www90:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Representation Learning for Sentiment Lexicon Generation from User Reviews";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-bignet-2018-286;
@@ -16695,7 +16734,9 @@
  
  inp:www-workshops-2018-bignet-2018-544 :relatesToEvent www33:talk .
  
- www33:talk a :Talk;
+ www33:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Network Model Selection Using Task-Focused Minimum Description Length";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-bignet-2018-544;
@@ -16705,7 +16746,9 @@
  
  inp:www-workshops-2018-bignet-2018-582 :relatesToEvent w:talk .
  
- w:talk a :Talk;
+ w:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Continuous-Time Dynamic Network Embeddings";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-bignet-2018-582;
@@ -16715,7 +16758,9 @@
  
  inp:www-workshops-2018-bignet-2018-758 :relatesToEvent www4:talk .
  
- www4:talk a :Talk;
+ www4:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "VERSE: Versatile Graph Embeddings from Similarity Measures";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-bignet-2018-758;
@@ -16725,7 +16770,9 @@
  
  inp:www-workshops-2018-bignet-2018-761 :relatesToEvent www8:talk .
  
- www8:talk a :Talk;
+ www8:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Social Rank Regulated Large-scale Network Embedding";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-bignet-2018-761;
@@ -16735,7 +16782,9 @@
  
  inp:www-workshops-2018-bignet-2018-765 :relatesToEvent www64:talk .
  
- www64:talk a :Talk;
+ www64:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "SIDE: Representation Learning in Signed Directed Networks";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-bignet-2018-765;
@@ -16745,7 +16794,9 @@
  
  inp:www-workshops-2018-bignet-2018-807 :relatesToEvent www15:talk .
  
- www15:talk a :Talk;
+ www15:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Combining RDF Graph Data and Embedding Models for an Augmented Knowledge Graph";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-bignet-2018-807;
@@ -16755,7 +16806,9 @@
  
  inp:www-workshops-2018-bignet-2018-845 :relatesToEvent www52:talk .
  
- www52:talk a :Talk;
+ www52:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Heterogeneous Network Embedding";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-bignet-2018-845;
@@ -16765,7 +16818,9 @@
  
  inp:www-workshops-2018-ekm-784 :relatesToEvent www20:talk .
  
- www20:talk a :Talk;
+ www20:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Construction and Applications of TeKnowbase – A Knowledge Base of Computer Science concepts";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-ekm-784;
@@ -16775,7 +16830,9 @@
  
  inp:www-workshops-2018-ekm-797 :relatesToEvent www71:talk .
  
- www71:talk a :Talk;
+ www71:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Ontology-based recommender system in higher education";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-ekm-797;
@@ -16785,7 +16842,9 @@
  
  inp:www-workshops-2018-ekm-798 :relatesToEvent www81:talk .
  
- www81:talk a :Talk;
+ www81:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Automatic Generation of Quizzes from DBpedia According to Educational Standards";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-ekm-798;
@@ -16795,7 +16854,9 @@
  
  inp:www-workshops-2018-hqa18-763 :relatesToEvent www79:talk .
  
- www79:talk a :Talk;
+ www79:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "A Factoid Question Answering System for Vietnamese";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-hqa18-763;
@@ -16805,7 +16866,9 @@
  
  inp:www-workshops-2018-hqa18-770 :relatesToEvent www39:talk .
  
- www39:talk a :Talk;
+ www39:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "TempQuestions: A Benchmark for Temporal Question Answering";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-hqa18-770;
@@ -16815,7 +16878,9 @@
  
  inp:www-workshops-2018-hqa18-778 :relatesToEvent www50:talk .
  
- www50:talk a :Talk;
+ www50:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Query Expansion with Neural Question-to-Answer Translation for FAQ-based Question Answering";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-hqa18-778;
@@ -16825,7 +16890,9 @@
  
  inp:www-workshops-2018-hqa18-780 :relatesToEvent www72:talk .
  
- www72:talk a :Talk;
+ www72:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Patient Selection for Clinical Trials Using Temporalized Ontology-Mediated Query Answering";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-hqa18-780;
@@ -16835,7 +16902,9 @@
  
  inp:www-workshops-2018-hqa18-782 :relatesToEvent www3:talk .
  
- www3:talk a :Talk;
+ www3:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Multi-turn QA: A RNN-based Approach for a Goal-oriented Conversational Agent";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-hqa18-782;
@@ -16845,7 +16914,9 @@
  
  inp:www-workshops-2018-hqa18-790 :relatesToEvent www43:talk .
  
- www43:talk a :Talk;
+ www43:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "A corpus for Hybrid Question Answering Systems";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-hqa18-790;
@@ -16855,7 +16926,9 @@
  
  inp:www-workshops-2018-hqa18-801 :relatesToEvent www:talk .
  
- www:talk a :Talk;
+ www:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "WDAqua-core1: a Question Answering service for RDF Knowledge Bases";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-hqa18-801;
@@ -16865,7 +16938,9 @@
  
  inp:www-workshops-2018-hqa18-805 :relatesToEvent www56:talk .
  
- www56:talk a :Talk;
+ www56:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Verification of the Expected Answer Type for Biomedical Question Answering";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-hqa18-805;
@@ -16875,7 +16950,9 @@
  
  inp:www-workshops-2018-huml2018-629 :relatesToEvent www2:talk .
  
- www2:talk a :Talk;
+ www2:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "CrowdED: Guideline for optimal Crowdsourcing Experimental Design";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-huml2018-629;
@@ -16885,7 +16962,9 @@
  
  inp:www-workshops-2018-huml2018-655 :relatesToEvent www54:talk .
  
- www54:talk a :Talk;
+ www54:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "WITH: Human-computer collaboration for data annotation and enrichment";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-huml2018-655;
@@ -16895,7 +16974,9 @@
  
  inp:www-workshops-2018-huml2018-658 :relatesToEvent www10:talk .
  
- www10:talk a :Talk;
+ www10:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Outlier Detection vs. Control Questions to ensure reliable results in Crowdsourcing. A Speech Quality Assessment Case Study";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-huml2018-658;
@@ -16905,7 +16986,9 @@
  
  inp:www-workshops-2018-huml2018-661 :relatesToEvent www13:talk .
  
- www13:talk a :Talk;
+ www13:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Exploring the efficiency of batch active learning for human-in-the-loop relation extraction.";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-huml2018-661;
@@ -16915,7 +16998,9 @@
  
  inp:www-workshops-2018-huml2018-709 :relatesToEvent www68:talk .
  
- www68:talk a :Talk;
+ www68:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "A Gamified Approach to Naïve Bayes Classification: A Case Study for Newswires and Systematic Medical Reviews";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-huml2018-709;
@@ -16925,7 +17010,9 @@
  
  inp:www-workshops-2018-ld-dl-731 :relatesToEvent www55:talk .
  
- www55:talk a :Talk;
+ www55:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "When trust saves energy: A Reference Framework for Proof of Trust (PoT) Blockchains";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-ld-dl-731;
@@ -16935,7 +17022,9 @@
  
  inp:www-workshops-2018-ld-dl-776 :relatesToEvent www75:talk .
  
- www75:talk a :Talk;
+ www75:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "GraphChain - A distributed database with explicit semantics and chained RDF graphs";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-ld-dl-776;
@@ -16945,7 +17034,9 @@
  
  inp:www-workshops-2018-ld-dl-785 :relatesToEvent www41:talk .
  
- www41:talk a :Talk;
+ www41:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Can Blockchains and Linked Data Advance Taxation?";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-ld-dl-785;
@@ -16955,7 +17046,9 @@
  
  inp:www-workshops-2018-ld-dl-789 :relatesToEvent www84:talk .
  
- www84:talk a :Talk;
+ www84:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "ScienceMiles - Digital currency for researchers";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-ld-dl-789;
@@ -16965,7 +17058,9 @@
  
  inp:www-workshops-2018-matnet-659 :relatesToEvent www87:talk .
  
- www87:talk a :Talk;
+ www87:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Towards Recommendation Using Interest-Based Communities in Attributed Social Networks";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-matnet-659;
@@ -16975,7 +17070,9 @@
  
  inp:www-workshops-2018-matnet-664 :relatesToEvent www35:talk .
  
- www35:talk a :Talk;
+ www35:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "A3embed: Attribute Association Aware Network Embedding";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-matnet-664;
@@ -16985,7 +17082,9 @@
  
  inp:www-workshops-2018-matnet-675 :relatesToEvent www53:talk .
  
- www53:talk a :Talk;
+ www53:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Investigating similarity of nodes’ attributes in topological based communities.";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-matnet-675;
@@ -16995,7 +17094,9 @@
  
  inp:www-workshops-2018-matnet-680 :relatesToEvent www80:talk .
  
- www80:talk a :Talk;
+ www80:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "MELL : Effective Embedding Method for Multiplex Networks";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-matnet-680;
@@ -17005,7 +17106,9 @@
  
  inp:www-workshops-2018-matnet-689 :relatesToEvent www85:talk .
  
- www85:talk a :Talk;
+ www85:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "An efficient immunization strategy using overlapping nodes and its neighborhoods.";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-matnet-689;
@@ -17015,7 +17118,9 @@
  
  inp:www-workshops-2018-matnet-751 :relatesToEvent www70:talk .
  
- www70:talk a :Talk;
+ www70:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Towards Quantifying Sampling Bias in Network Inference";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-matnet-751;
@@ -17025,7 +17130,9 @@
  
  inp:www-workshops-2018-matnet-753 :relatesToEvent www92:talk .
  
- www92:talk a :Talk;
+ www92:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Bi-pattern Mining of Two Mode and Directed Networks";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-matnet-753;
@@ -17035,7 +17142,9 @@
  
  inp:www-workshops-2018-matnet-756 :relatesToEvent www28:talk .
  
- www28:talk a :Talk;
+ www28:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Information propagation routes between countries in social media";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-matnet-756;
@@ -17045,7 +17154,9 @@
  
  inp:www-workshops-2018-matnet-766 :relatesToEvent www45:talk .
  
- www45:talk a :Talk;
+ www45:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Community detection in Attributed Network";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-matnet-766;
@@ -17055,7 +17166,9 @@
  
  inp:www-workshops-2018-orsum-660 :relatesToEvent www57:talk .
  
- www57:talk a :Talk;
+ www57:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Crowdsourcing Multi-Objective Recommendation System";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-orsum-660;
@@ -17065,7 +17178,9 @@
  
  inp:www-workshops-2018-orsum-671 :relatesToEvent www46:talk .
  
- www46:talk a :Talk;
+ www46:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "A User-Centric Diversity by Design Recommender System for the Movie Application Domain";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-orsum-671;
@@ -17075,7 +17190,9 @@
  
  inp:www-workshops-2018-orsum-717 :relatesToEvent www47:talk .
  
- www47:talk a :Talk;
+ www47:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Efficient context-aware sequential recommender system";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-orsum-717;
@@ -17085,7 +17202,9 @@
  
  inp:www-workshops-2018-orsum-721 :relatesToEvent www69:talk .
  
- www69:talk a :Talk;
+ www69:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Session-based News Recommendations";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-orsum-721;
@@ -17095,7 +17214,9 @@
  
  inp:www-workshops-2018-orsum-725 :relatesToEvent www19:talk .
  
- www19:talk a :Talk;
+ www19:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Happiness is a Choice: Sentiment and Activity-Aware Location Recommendation";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-orsum-725;
@@ -17105,7 +17226,9 @@
  
  inp:www-workshops-2018-orsum-729 :relatesToEvent www26:talk .
  
- www26:talk a :Talk;
+ www26:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "The Whole-Page Optimization via Dynamic Ad Allocation";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-orsum-729;
@@ -17115,7 +17238,9 @@
  
  inp:www-workshops-2018-orsum-732 :relatesToEvent www67:talk .
  
- www67:talk a :Talk;
+ www67:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Incremental Matrix Co-factorization for Recommendation with Implicit Feedback";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-orsum-732;
@@ -17125,7 +17250,9 @@
  
  inp:www-workshops-2018-orsum-736 :relatesToEvent www14:talk .
  
- www14:talk a :Talk;
+ www14:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Dynamic Local Models for Online Recommendation";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-orsum-736;
@@ -17135,7 +17262,9 @@
  
  inp:www-workshops-2018-rcblackmirror2018-821 :relatesToEvent www77:talk .
  
- www77:talk a :Talk;
+ www77:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "May I Have Your Attention, Please? - Building a Dystopian Attention Economy";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-rcblackmirror2018-821;
@@ -17145,7 +17274,9 @@
  
  inp:www-workshops-2018-rcblackmirror2018-826 :relatesToEvent www6:talk .
  
- www6:talk a :Talk;
+ www6:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Digital Zombies - the Reanimation of our Digital Selves";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-rcblackmirror2018-826;
@@ -17155,7 +17286,9 @@
  
  inp:www-workshops-2018-rcblackmirror2018-828 :relatesToEvent www36:talk .
  
- www36:talk a :Talk;
+ www36:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "The Rise of Emotion-aware Conversational Agents: Threats in Digital Emotions";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-rcblackmirror2018-828;
@@ -17165,7 +17298,9 @@
  
  inp:www-workshops-2018-rcblackmirror2018-829 :relatesToEvent www21:talk .
  
- www21:talk a :Talk;
+ www21:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Towards Trust-based Decentralized Ad-Hoc Social Networks";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-rcblackmirror2018-829;
@@ -17175,7 +17310,9 @@
  
  inp:www-workshops-2018-rcblackmirror2018-831 :relatesToEvent www18:talk .
  
- www18:talk a :Talk;
+ www18:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Shut up and run: the never-ending quest for social fitness";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-rcblackmirror2018-831;
@@ -17185,7 +17322,9 @@
  
  inp:www-workshops-2018-rcblackmirror2018-833 :relatesToEvent www95:talk .
  
- www95:talk a :Talk;
+ www95:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Is this the Era of Misinformation yet? Combining Social Bots and Fake News to Deceive the Masses";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-rcblackmirror2018-833;
@@ -17195,7 +17334,9 @@
  
  inp:www-workshops-2018-rcblackmirror2018-834 :relatesToEvent www59:talk .
  
- www59:talk a :Talk;
+ www59:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Pitfalls of Affective Computing";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-rcblackmirror2018-834;
@@ -17205,7 +17346,9 @@
  
  inp:www-workshops-2018-rcblackmirror2018-838 :relatesToEvent www12:talk .
  
- www12:talk a :Talk;
+ www12:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Gnirut: The Trouble With Being Born Human In An Autonomous World";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-rcblackmirror2018-838;
@@ -17215,7 +17358,9 @@
  
  inp:www-workshops-2018-rcblackmirror2018-839 :relatesToEvent www78:talk .
  
- www78:talk a :Talk;
+ www78:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "MMM: May I Mine Your Mind?";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-rcblackmirror2018-839;
@@ -17225,7 +17370,9 @@
  
  inp:www-workshops-2018-rcblackmirror2018-840 :relatesToEvent www89:talk .
  
- www89:talk a :Talk;
+ www89:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Ease and Ethics of User Profiling in Black Mirror";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-rcblackmirror2018-840;
@@ -17235,7 +17382,9 @@
  
  inp:www-workshops-2018-rod-345 :relatesToEvent www16:talk .
  
- www16:talk a :Talk;
+ www16:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Web Reasoning Using Fact Tagging";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-rod-345;
@@ -17245,7 +17394,9 @@
  
  inp:www-workshops-2018-rod-705 :relatesToEvent www74:talk .
  
- www74:talk a :Talk;
+ www74:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Towards a Benchmark for Fact Checking with Knowledge Bases";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-rod-705;
@@ -17255,7 +17406,9 @@
  
  inp:www-workshops-2018-rod-712 :relatesToEvent www22:talk .
  
- www22:talk a :Talk;
+ www22:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Evaluation of query transformations without data";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-rod-712;
@@ -17265,7 +17418,9 @@
  
  inp:www-workshops-2018-rod-719 :relatesToEvent www76:talk .
  
- www76:talk a :Talk;
+ www76:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "The Data Complexity of Answering Instance Queries in FL0";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-rod-719;
@@ -17275,7 +17430,9 @@
  
  inp:www-workshops-2018-rod-727 :relatesToEvent www32:talk .
  
- www32:talk a :Talk;
+ www32:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Distribution of Semantic Reasoning on the Edge of Internet of Things";
  :endDate "2018-04-24T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-rod-727;
@@ -17285,7 +17442,9 @@
  
  inp:www-workshops-2018-smerp-626 :relatesToEvent www34:talk .
  
- www34:talk a :Talk;
+ www34:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Modeling evacuation behavior of NYC Twitter users during Hurricane Sandy";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-smerp-626;
@@ -17295,7 +17454,9 @@
  
  inp:www-workshops-2018-smerp-630 :relatesToEvent www83:talk .
  
- www83:talk a :Talk;
+ www83:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Flood relevance estimation from visual and textual content in social media streams";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-smerp-630;
@@ -17305,7 +17466,9 @@
  
  inp:www-workshops-2018-smerp-679 :relatesToEvent www23:talk .
  
- www23:talk a :Talk;
+ www23:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Class Specific TF-IDF Boosting for Short-text Classification";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-smerp-679;
@@ -17315,7 +17478,9 @@
  
  inp:www-workshops-2018-smerp-697 :relatesToEvent www38:talk .
  
- www38:talk a :Talk;
+ www38:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Gold Standard Creation for Microblog Retrieval: Challenges of Completeness in IRMiDis 2017";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-smerp-697;
@@ -17325,7 +17490,9 @@
  
  inp:www-workshops-2018-smerp-701 :relatesToEvent www29:talk .
  
- www29:talk a :Talk;
+ www29:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "SAVITR: A System for Real-time Location Extraction from Microblogs during Emergencies";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-smerp-701;
@@ -17335,7 +17502,9 @@
  
  inp:www-workshops-2018-socialnlp-2018-667 :relatesToEvent www51:talk .
  
- www51:talk a :Talk;
+ www51:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "What about Mood Swings? Identifying Depression on Twitter with Temporal Measures of Emotions";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-socialnlp-2018-667;
@@ -17345,7 +17514,9 @@
  
  inp:www-workshops-2018-socialnlp-2018-673 :relatesToEvent www93:talk .
  
- www93:talk a :Talk;
+ www93:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Emerging Product Topics Prediction in Social Media without Social Structure Information";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-socialnlp-2018-673;
@@ -17355,7 +17526,9 @@
  
  inp:www-workshops-2018-socialnlp-2018-674 :relatesToEvent www30:talk .
  
- www30:talk a :Talk;
+ www30:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Blurb Mining : Discovering Interesting Excerpts from E-commerce Product Reviews";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-socialnlp-2018-674;
@@ -17365,7 +17538,9 @@
  
  inp:www-workshops-2018-socialnlp-2018-684 :relatesToEvent www86:talk .
  
- www86:talk a :Talk;
+ www86:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Detection of Stress and Relaxation Magnitudes for Tweets";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-socialnlp-2018-684;
@@ -17375,7 +17550,9 @@
  
  inp:www-workshops-2018-ssei-754 :relatesToEvent ww:talk .
  
- ww:talk a :Talk;
+ ww:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Customer Sentiment in Web-Based Service Interactions: Automated Analyses and New Insights";
  :endDate "2018-04-23T10:20:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-ssei-754;
@@ -17385,7 +17562,9 @@
  
  inp:www-workshops-2018-ssei-769 :relatesToEvent www94:talk .
  
- www94:talk a :Talk;
+ www94:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "LDA Meets Word2Vec: A Novel Model for Academic Abstract Clustering";
  :endDate "2018-04-23T10:20:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-ssei-769;
@@ -17395,7 +17574,9 @@
  
  inp:www-workshops-2018-ssei-818 :relatesToEvent www25:talk .
  
- www25:talk a :Talk;
+ www25:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Stochastic Multi-path Routing Problem: Building PayU’s Dynamic Routing";
  :endDate "2018-04-23T10:20:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-ssei-818;
@@ -17405,7 +17586,9 @@
  
  inp:www-workshops-2018-ssei-842 :relatesToEvent www61:talk .
  
- www61:talk a :Talk;
+ www61:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "An Evaluation of Performance and Competition in Customer Services on Twitter: A UK Telecoms Case Study";
  :endDate "2018-04-23T10:20:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-ssei-842;
@@ -17415,7 +17598,9 @@
  
  inp:www-workshops-2018-ssei-844 :relatesToEvent www40:talk .
  
- www40:talk a :Talk;
+ www40:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Mapping Ordinances and Tweets using Smart City Characteristics to Aid Opinion Mining";
  :endDate "2018-04-23T10:20:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-ssei-844;
@@ -17425,7 +17610,9 @@
  
  inp:www-workshops-2018-ws-rest-2018-648 :relatesToEvent www44:talk .
  
- www44:talk a :Talk;
+ www44:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "A Natural Language Driven Approach for Automated Web API Development";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-ws-rest-2018-648;
@@ -17435,7 +17622,9 @@
  
  inp:www-workshops-2018-ws-rest-2018-713 :relatesToEvent www42:talk .
  
- www42:talk a :Talk;
+ www42:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Towards Offline Support for RESTful Systems";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-ws-rest-2018-713;
@@ -17445,7 +17634,9 @@
  
  inp:www-workshops-2018-ws-rest-2018-714 :relatesToEvent www73:talk .
  
- www73:talk a :Talk;
+ www73:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Verification of Hypermedia Characteristic of RESTful Finite-State Machines";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-ws-rest-2018-714;
@@ -17455,7 +17646,9 @@
  
  inp:www-workshops-2018-ws-rest-2018-734 :relatesToEvent www27:talk .
  
- www27:talk a :Talk;
+ www27:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Virtual Representations for an Iterative IoT Deployment";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-ws-rest-2018-734;
@@ -17465,7 +17658,9 @@
  
  inp:www-workshops-2018-wsp-632 :relatesToEvent www9:talk .
  
- www9:talk a :Talk;
+ www9:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Personalized Real-Time Monitoring of Amateur Cyclists on Low-End Devices: Proof-of-Concept & Performance Evaluation";
  :endDate "2018-04-24T10:20:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-wsp-632;
@@ -17475,7 +17670,9 @@
  
  inp:www-workshops-2018-wsp-633 :relatesToEvent www17:talk .
  
- www17:talk a :Talk;
+ www17:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Spatio-Temporal Analysis for Smart City Data";
  :endDate "2018-04-24T10:20:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-wsp-633;
@@ -17485,7 +17682,9 @@
  
  inp:www-workshops-2018-wsp-718 :relatesToEvent www49:talk .
  
- www49:talk a :Talk;
+ www49:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "A preliminary Open Data publishing strategy for real-time data in Flanders";
  :endDate "2018-04-24T10:20:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-wsp-718;
@@ -17495,7 +17694,9 @@
  
  inp:www-workshops-2018-wsp-720 :relatesToEvent www63:talk .
  
- www63:talk a :Talk;
+ www63:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Analysis of Sub-Topic Discovery Algorithms for Real-Time Information Summarization";
  :endDate "2018-04-24T10:20:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-wsp-720;
@@ -17505,7 +17706,9 @@
  
  inp:www-workshops-2018-wsp-819 :relatesToEvent www48:talk .
  
- www48:talk a :Talk;
+ www48:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Adaptive Optimisation for Continuous Multi-way Joins over RDF Streams";
  :endDate "2018-04-24T10:20:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-wsp-819;
@@ -17515,7 +17718,9 @@
  
  inp:www-workshops-2018-xmlc-800 :relatesToEvent www7:talk .
  
- www7:talk a :Talk;
+ www7:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Learning Large Scale Ordinal Ranking Model via Divide-and-Conquer Technique";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-xmlc-800;
@@ -17525,7 +17730,9 @@
  
  inp:www-workshops-2018-xmlc-823 :relatesToEvent www65:talk .
  
- www65:talk a :Talk;
+ www65:talk a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
  rdfs:label "Cold Start Thread Recommendation as Extreme Multi-label Classification";
  :endDate "2018-04-23T15:00:00.000Z"^^xsd:dateTime;
  :isEventRelatedTo inp:www-workshops-2018-xmlc-823;
@@ -17690,6 +17897,7 @@
  track:www-job-fair-2018,
  track:www-local-eco-2018,
  track:www-min-of-madness-2018,
+ track:www-plenary-2018,
  track:www-town-hall-meeting-2018,
  track:www-w3c-2018 .
  
@@ -17704,6 +17912,7 @@
  track:www-plenary-2018 a :Track;
  rdfs:label "Plenary sessions";
  :description "Plenary sessions";
+ :isSubTrackOf track:www-other2018;
  :isTrackRelatedTo se:104,
  se:158,
  se:159,

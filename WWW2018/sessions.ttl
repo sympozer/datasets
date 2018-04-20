@@ -984,6 +984,7 @@
  alt:245 a :AcademicEvent,
  :OrganisedEvent,
  :Panel;
+ rdfs:comment "panel";
  rdfs:label """PANEL: The effects of "Fake News" on Journalism and Democracy""";
  :endDate "2018-04-25T11:48:00+02:00"^^xsd:dateTime;
  :isSubEventOf se:92;
@@ -1433,12 +1434,12 @@
  alt:53 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Defining and Annotating Credibility Indicators in News Articles";
+ rdfs:label "A Structured Response to Misinformation: Defining and Annotating Credibility Indicators in News Articles";
  :endDate "2018-04-25T14:12:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-misinfo-2018-fake-news-356;
  :isSubEventOf se:93;
  :startDate "2018-04-25T13:56:00+02:00"^^xsd:dateTime;
- :title "Defining and Annotating Credibility Indicators in News Articles" .
+ :title "A Structured Response to Misinformation: Defining and Annotating Credibility Indicators in News Articles" .
  
  alt:54 a :AcademicEvent,
  :OrganisedEvent,
@@ -1602,12 +1603,12 @@
  alt:8 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "A Context-Aware NeuRetrieval Model for Human-Computer Conversation";
+ rdfs:label "A NeuRetrieval Model for Human-Computer Conversation";
  :endDate "2018-04-25T15:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:cogcomp-2018-cognitive-91;
  :isSubEventOf se:90;
  :startDate "2018-04-25T14:40:00+02:00"^^xsd:dateTime;
- :title "A Context-Aware NeuRetrieval Model for Human-Computer Conversation" .
+ :title "A NeuRetrieval Model for Human-Computer Conversation" .
  
  alt:80 a :AcademicEvent,
  :OrganisedEvent,
@@ -1657,12 +1658,12 @@
  alt:85 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Tierless Modules";
+ rdfs:label "Tierless Web programming in the large";
  :endDate "2018-04-27T11:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-webprog-2018-webprog-73;
  :isSubEventOf se:165;
  :startDate "2018-04-27T11:20:00+02:00"^^xsd:dateTime;
- :title "Tierless Modules" .
+ :title "Tierless Web programming in the large" .
  
  alt:86 a :AcademicEvent,
  :OrganisedEvent,
@@ -9362,7 +9363,7 @@
  
  <#room/Amphith%C3%A9%C3%A2tre> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Amphithéâtre" .
+ rdfs:label "Amphithéâtre" .
  
  <#room/Auditorium_Pasteur> a sch:MeetingRoom,
  :Site;
@@ -9478,23 +9479,23 @@
  
  <#room/Salle_Rh%C3%B4ne_1> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salle Rhône 1" .
+ rdfs:label "Salle Rhône 1" .
  
  <#room/Salle_Rh%C3%B4ne_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salle Rhône 2" .
+ rdfs:label "Salle Rhône 2" .
  
  <#room/Salle_Rh%C3%B4ne_3A> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salle Rhône 3A" .
+ rdfs:label "Salle Rhône 3A" .
  
  <#room/Salle_Rh%C3%B4ne_3B> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salle Rhône 3B" .
+ rdfs:label "Salle Rhône 3B" .
  
  <#room/Salle_Rh%C3%B4ne_4> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Salle Rhône 4" .
+ rdfs:label "Salle Rhône 4" .
  
  <#room/Salle_St_Clair_1> a sch:MeetingRoom,
  :Site;
@@ -9782,7 +9783,7 @@
  rdfs:label "ORSUM: Workshop on Online Recommender Systems and User Modeling";
  foaf:homepage <http://webesitix.inesctec.pt/orsum2018>;
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_Bellecour_1>;
+ :hasSite <#room/Salle_Gratte-Ciel_2>;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack wo:www-workshops-2018-orsum;
  :startDate "2018-04-23T09:00:00+02:00"^^xsd:dateTime .
@@ -10270,11 +10271,10 @@
  se:114 a :AcademicEvent,
  :OrganisedEvent,
  :Session;
- rdfs:label "Town Hall Meeting";
+ rdfs:label "IW3C2 & TheWebConf 2018 Town Hall Meeting";
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_T%C3%AAte_d%27Or_1>;
  :isSubEventOf confe:the-web-conf2018;
- :relatesToTrack track:www-town-hall-meeting-2018;
  :startDate "2018-04-26T15:40:00+02:00"^^xsd:dateTime .
  
  se:115 a :AcademicEvent,
@@ -10742,7 +10742,7 @@
  plena:panel2;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-plenary-2018;
- :startDate "2018-04-27T08:15:00+02:00"^^xsd:dateTime .
+ :startDate "2018-04-27T08:35:00+02:00"^^xsd:dateTime .
  
  se:159 a :AcademicEvent,
  :OrganisedEvent,
@@ -10763,7 +10763,7 @@
  rdfs:label "Exploitation of Social Media for Emergency Relief and Preparedness";
  foaf:homepage <https://www.cse.iitk.ac.in/users/kripa/smerp2018>;
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_Rh%C3%B4ne_3B>;
+ :hasSite <#room/Salle_St_Clair_1>;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack wo:www-workshops-2018-smerp;
  :startDate "2018-04-23T09:00:00+02:00"^^xsd:dateTime .
@@ -11040,7 +11040,7 @@
  :Session;
  rdfs:label "Large Scale Distributed Data Science from scratch using Apache Spark 2.2";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_St_Clair_1>;
+ :hasSite <#room/Salle_Rh%C3%B4ne_3B>;
  :hasSubEvent tuto:229;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-tutorials-2018-tutorials;
@@ -11126,7 +11126,7 @@
  :Session;
  rdfs:label "Complex Recommendations";
  :endDate "2018-04-23T12:20:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_St_Clair_2>;
+ :hasSite <#room/Salon_T%C3%AAte_d%27Or>;
  :hasSubEvent tuto:211;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-tutorials-2018-tutorials;
@@ -11678,7 +11678,7 @@
  :Session;
  rdfs:label "Job Fair";
  :endDate "2018-04-26T18:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Convention_Center>;
+ :hasSite <#room/Forum_4-5-6>;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-job-fair-2018;
  :startDate "2018-04-26T14:00:00+02:00"^^xsd:dateTime .
@@ -11709,7 +11709,7 @@
  :Session;
  rdfs:label "Computational fact-checking: problems, state of the art, and perspectives";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_St_Clair_2>;
+ :hasSite <#room/Salle_Bellecour_1>;
  :hasSubEvent tuto:204;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-tutorials-2018-tutorials;
@@ -11720,7 +11720,7 @@
  :SocialEvent;
  rdfs:label "Digital-Health Gala Dinner";
  :endDate "2018-04-24T00:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/TBC>;
+ :hasSite <#room/Region_Head_Quarter>;
  :isSubEventOf confe:the-web-conf2018;
  :startDate "2018-04-24T00:00:00+02:00"^^xsd:dateTime .
  
@@ -11885,7 +11885,7 @@
  :Session;
  rdfs:label "Building AI Applications using Knowledge Graphs";
  :endDate "2018-04-23T12:20:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_St_Clair_3B>;
+ :hasSite <#room/Salon_Gratte-Ciel>;
  :hasSubEvent tuto:201;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-tutorials-2018-tutorials;
@@ -11896,7 +11896,7 @@
  :Session;
  rdfs:label "Deep Learning for Matching in Search and Recommendation";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_St_Clair_3B>;
+ :hasSite <#room/Salon_Gratte-Ciel>;
  :hasSubEvent tuto:191;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-tutorials-2018-tutorials;
@@ -11907,7 +11907,7 @@
  :Session;
  rdfs:label "A Critical Review of Social Data: Biases, Methodological Pitfalls, and Ethical Boundaries";
  :endDate "2018-04-23T12:20:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_St_Clair_4>;
+ :hasSite <#room/Salle_Bellecour_1>;
  :hasSubEvent tuto:214;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-tutorials-2018-tutorials;
@@ -11929,7 +11929,7 @@
  :Session;
  rdfs:label "Social Media Analysis for Situation Awareness during Crises";
  :endDate "2018-04-23T12:20:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salon_Roseraie_2>;
+ :hasSite <#room/Salle_T%C3%AAte_d%27Or_1>;
  :hasSubEvent tuto:219;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-tutorials-2018-tutorials;
@@ -11940,7 +11940,7 @@
  :Session;
  rdfs:label "Polarization on Social Media";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salon_Roseraie_2>;
+ :hasSite <#room/Salle_Rh%C3%B4ne_2>;
  :hasSubEvent tuto:202;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-tutorials-2018-tutorials;
@@ -12212,7 +12212,7 @@
  :Session;
  rdfs:label "Graph-based Text Representations: Boosting Text Mining, NLP and Information Retrieval with Graphs";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_T%C3%AAte_d%27Or_1>;
+ :hasSite <#room/Salon_T%C3%AAte_d%27Or>;
  :hasSubEvent tuto:213;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-tutorials-2018-tutorials;
@@ -12279,7 +12279,7 @@
  rdfs:label "8th Temporal Web Analytics Workshop (TempWeb)";
  foaf:homepage <http://www.temporalweb.net/>;
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salon_T%C3%AAte_d%27Or>;
+ :hasSite <#room/Salle_St_Clair_3A>;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack wo:www-workshops-2018-tempweb;
  :startDate "2018-04-23T09:00:00+02:00"^^xsd:dateTime .
@@ -12428,7 +12428,7 @@
  rdfs:label "The Sixth International Workshop on Natural Language Processing for Social Media (SocialNLP 2018)";
  foaf:homepage <https://sites.google.com/site/socialnlp2018/>;
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salon_Gratte-Ciel>;
+ :hasSite <#room/Salle_Gratte-Ciel_1>;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack wo:www-workshops-2018-socialnlp-2018;
  :startDate "2018-04-23T09:00:00+02:00"^^xsd:dateTime .
@@ -12574,7 +12574,7 @@
  rdfs:label "WS-REST 2018: Ninth International Workshop on Web APIs and Service Architecture";
  foaf:homepage <http://ws-rest.org/2018/index.html>;
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_Gratte-Ciel_1>;
+ :hasSite <#room/Salle_St_Clair_3B>;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack wo:www-workshops-2018-ws-rest-2018;
  :startDate "2018-04-23T09:00:00+02:00"^^xsd:dateTime .
@@ -12690,7 +12690,7 @@
  rdfs:label "The third edition of Educational Knowledge Management workshop";
  foaf:homepage <http://uni.gsu.edu.tr/EKM2018/>;
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_Rh%C3%B4ne_2>;
+ :hasSite <#room/Salon_Roseraie_2>;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack wo:www-workshops-2018-ekm;
  :startDate "2018-04-23T13:40:00+02:00"^^xsd:dateTime .
@@ -12827,12 +12827,12 @@
  talk:1 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Time Expression Recognition Using a Time-related Tagging Scheme";
+ rdfs:label "Time Expression Recognition Using a Constituent-based Tagging Scheme";
  :endDate "2018-04-27T12:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-1;
  :isSubEventOf se:167;
  :startDate "2018-04-27T12:00:00+02:00"^^xsd:dateTime;
- :title "Time Expression Recognition Using a Time-related Tagging Scheme" .
+ :title "Time Expression Recognition Using a Constituent-based Tagging Scheme" .
  
  talk:100 a :AcademicEvent,
  :OrganisedEvent,
@@ -12897,22 +12897,22 @@
  talk:1053 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Algorithmic Glass Ceiling: The effect of social recommender systems on diversity";
+ rdfs:label "Algorithmic Glass Ceiling in Social Networks: The effects of social recommendations on network diversity";
  :endDate "2018-04-25T16:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-society-1053;
  :isSubEventOf se:66;
  :startDate "2018-04-25T15:40:00+02:00"^^xsd:dateTime;
- :title "Algorithmic Glass Ceiling: The effect of social recommender systems on diversity" .
+ :title "Algorithmic Glass Ceiling in Social Networks: The effects of social recommendations on network diversity" .
  
  talk:1063 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "How to Impute Missing Ratings? Claims, Solution, and Its Application to Collaborative Filtering";
+ rdfs:label "How to Impute Missing Ratings?: Claims, Solution, and Its Application to Collaborative Filtering";
  :endDate "2018-04-27T14:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-user-modeling-1063;
  :isSubEventOf se:178;
  :startDate "2018-04-27T13:40:00+02:00"^^xsd:dateTime;
- :title "How to Impute Missing Ratings? Claims, Solution, and Its Application to Collaborative Filtering" .
+ :title "How to Impute Missing Ratings?: Claims, Solution, and Its Application to Collaborative Filtering" .
  
  talk:1065 a :AcademicEvent,
  :OrganisedEvent,
@@ -12977,12 +12977,12 @@
  talk:1116 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Finding Subcube Heavy Hitters in Data Streams";
+ rdfs:label "Finding Subcube Heavy Hitters in Analytics Data Streams";
  :endDate "2018-04-26T16:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-search-1116;
  :isSubEventOf se:110;
  :startDate "2018-04-26T15:40:00+02:00"^^xsd:dateTime;
- :title "Finding Subcube Heavy Hitters in Data Streams" .
+ :title "Finding Subcube Heavy Hitters in Analytics Data Streams" .
  
  talk:1121 a :AcademicEvent,
  :OrganisedEvent,
@@ -12997,12 +12997,12 @@
  talk:1125 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Facebook (A)Live? Are live social broadcasts really broadcasts?";
+ rdfs:label "Facebook (A)Live?: Are live social broadcasts really broadcasts?";
  :endDate "2018-04-27T11:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-mobile-1125;
  :isSubEventOf se:163;
  :startDate "2018-04-27T11:00:00+02:00"^^xsd:dateTime;
- :title "Facebook (A)Live? Are live social broadcasts really broadcasts?" .
+ :title "Facebook (A)Live?: Are live social broadcasts really broadcasts?" .
  
  talk:1127 a :AcademicEvent,
  :OrganisedEvent,
@@ -13077,12 +13077,12 @@
  talk:1189 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Why Reinvent the Wheel – Let’s Build Question Answering Systems Together";
+ rdfs:label "Why Reinvent the Wheel: Let’s Build Question Answering Systems Together";
  :endDate "2018-04-26T14:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-1189;
  :isSubEventOf se:119;
  :startDate "2018-04-26T13:40:00+02:00"^^xsd:dateTime;
- :title "Why Reinvent the Wheel – Let’s Build Question Answering Systems Together" .
+ :title "Why Reinvent the Wheel: Let’s Build Question Answering Systems Together" .
  
  talk:1208 a :AcademicEvent,
  :OrganisedEvent,
@@ -13187,12 +13187,12 @@
  talk:126 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Social Rank Regulated Large-scale Network Embedding";
+ rdfs:label "RaRE: Social Rank Regulated Large-scale Network Embedding";
  :endDate "2018-04-26T11:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-126;
  :isSubEventOf se:148;
  :startDate "2018-04-26T11:20:00+02:00"^^xsd:dateTime;
- :title "Social Rank Regulated Large-scale Network Embedding" .
+ :title "RaRE: Social Rank Regulated Large-scale Network Embedding" .
  
  talk:1265 a :AcademicEvent,
  :OrganisedEvent,
@@ -13257,12 +13257,12 @@
  talk:1353 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Did You Really Just Have a Heart Attack? Towards Robust Detection of Personal Health Mentions in Social Media";
+ rdfs:label "Did You Really Just Have a Heart Attack?: Towards Robust Detection of Personal Health Mentions in Social Media";
  :endDate "2018-04-27T11:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-health-1353;
  :isSubEventOf se:160;
  :startDate "2018-04-27T11:00:00+02:00"^^xsd:dateTime;
- :title "Did You Really Just Have a Heart Attack? Towards Robust Detection of Personal Health Mentions in Social Media" .
+ :title "Did You Really Just Have a Heart Attack?: Towards Robust Detection of Personal Health Mentions in Social Media" .
  
  talk:1373 a :AcademicEvent,
  :OrganisedEvent,
@@ -13457,12 +13457,12 @@
  talk:190 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Field-weighted Factorization Machines for Click-through Rate Prediction in Display Advertising";
+ rdfs:label "Field-weighted Factorization Machines for Click-Through Rate Prediction in Display Advertising";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-economics-190;
  :isSubEventOf se:63;
  :startDate "2018-04-25T16:40:00+02:00"^^xsd:dateTime;
- :title "Field-weighted Factorization Machines for Click-through Rate Prediction in Display Advertising" .
+ :title "Field-weighted Factorization Machines for Click-Through Rate Prediction in Display Advertising" .
  
  talk:203 a :AcademicEvent,
  :OrganisedEvent,
@@ -13567,12 +13567,12 @@
  talk:258 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Query Suggestion With Feedback Memory Network";
+ rdfs:label "Query Suggestion with Feedback Memory Network";
  :endDate "2018-04-25T12:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-search-258;
  :isSubEventOf se:83;
  :startDate "2018-04-25T12:00:00+02:00"^^xsd:dateTime;
- :title "Query Suggestion With Feedback Memory Network" .
+ :title "Query Suggestion with Feedback Memory Network" .
  
  talk:268 a :AcademicEvent,
  :OrganisedEvent,
@@ -13787,12 +13787,12 @@
  talk:454 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "SIR-Hawkes: Linking Epidemic Models and Hawkes Processes for Information Diffusion in a Finite Population";
+ rdfs:label "SIR-Hawkes: Linking Epidemic Models and Hawkes Processes to Model Diffusions in Finite Populations";
  :endDate "2018-04-27T15:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-454;
  :isSubEventOf se:174;
  :startDate "2018-04-27T14:40:00+02:00"^^xsd:dateTime;
- :title "SIR-Hawkes: Linking Epidemic Models and Hawkes Processes for Information Diffusion in a Finite Population" .
+ :title "SIR-Hawkes: Linking Epidemic Models and Hawkes Processes to Model Diffusions in Finite Populations" .
  
  talk:457 a :AcademicEvent,
  :OrganisedEvent,
@@ -13857,12 +13857,12 @@
  talk:548 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Are All People Married? Determining Obligatory Attributes in Knowledge Bases";
+ rdfs:label "Are All People Married?: Determining Obligatory Attributes in Knowledge Bases";
  :endDate "2018-04-25T14:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-548;
  :isSubEventOf se:77;
  :startDate "2018-04-25T14:20:00+02:00"^^xsd:dateTime;
- :title "Are All People Married? Determining Obligatory Attributes in Knowledge Bases" .
+ :title "Are All People Married?: Determining Obligatory Attributes in Knowledge Bases" .
  
  talk:565 a :AcademicEvent,
  :OrganisedEvent,
@@ -13947,22 +13947,22 @@
  talk:614 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Learning causal effects from many randomized experiments using regularized instrumental variables";
+ rdfs:label "Learning Causal Effects From Many Randomized Experiments Using Regularized Instrumental Variables";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-user-modeling-614;
  :isSubEventOf se:101;
  :startDate "2018-04-25T16:40:00+02:00"^^xsd:dateTime;
- :title "Learning causal effects from many randomized experiments using regularized instrumental variables" .
+ :title "Learning Causal Effects From Many Randomized Experiments Using Regularized Instrumental Variables" .
  
  talk:621 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Socioeconomic dependencies of linguistic patterns in Twitter: a multivariate analysis";
+ rdfs:label "Socioeconomic Dependencies of Linguistic Patterns in Twitter: a Multivariate Analysis";
  :endDate "2018-04-27T12:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-621;
  :isSubEventOf se:167;
  :startDate "2018-04-27T11:40:00+02:00"^^xsd:dateTime;
- :title "Socioeconomic dependencies of linguistic patterns in Twitter: a multivariate analysis" .
+ :title "Socioeconomic Dependencies of Linguistic Patterns in Twitter: a Multivariate Analysis" .
  
  talk:624 a :AcademicEvent,
  :OrganisedEvent,
@@ -13997,12 +13997,12 @@
  talk:665 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Provable and practical approximations for the degree distribution using sublinear graph samples";
+ rdfs:label "Provable and Practical Approximations for the Degree Distribution using Sublinear Graph Samples";
  :endDate "2018-04-27T12:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-665;
  :isSubEventOf se:173;
  :startDate "2018-04-27T12:00:00+02:00"^^xsd:dateTime;
- :title "Provable and practical approximations for the degree distribution using sublinear graph samples" .
+ :title "Provable and Practical Approximations for the Degree Distribution using Sublinear Graph Samples" .
  
  talk:670 a :AcademicEvent,
  :OrganisedEvent,
@@ -14027,12 +14027,12 @@
  talk:677 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Mining tours and paths in activity networks";
+ rdfs:label "Mining Tours and Paths in Activity Networks";
  :endDate "2018-04-26T16:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-677;
  :isSubEventOf se:150;
  :startDate "2018-04-26T16:20:00+02:00"^^xsd:dateTime;
- :title "Mining tours and paths in activity networks" .
+ :title "Mining Tours and Paths in Activity Networks" .
  
  talk:678 a :AcademicEvent,
  :OrganisedEvent,
@@ -14107,32 +14107,32 @@
  talk:709 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Strategies for geographical scoping and improving a gazetteer";
+ rdfs:label "Strategies for Geographical Scoping and Improving a Gazetteer";
  :endDate "2018-04-26T12:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-search-709;
  :isSubEventOf se:108;
  :startDate "2018-04-26T12:00:00+02:00"^^xsd:dateTime;
- :title "Strategies for geographical scoping and improving a gazetteer" .
+ :title "Strategies for Geographical Scoping and Improving a Gazetteer" .
  
  talk:722 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Interactive Top-k Tree Pattern Retrieval in Heterogeneous Information Networks";
+ rdfs:label "Any-k: Anytime Top-k Tree Pattern Retrieval in Labeled Graphs";
  :endDate "2018-04-25T15:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-social-network-analysis-722;
  :isSubEventOf se:87;
  :startDate "2018-04-25T14:40:00+02:00"^^xsd:dateTime;
- :title "Interactive Top-k Tree Pattern Retrieval in Heterogeneous Information Networks" .
+ :title "Any-k: Anytime Top-k Tree Pattern Retrieval in Labeled Graphs" .
  
  talk:725 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Panning for gold.com: Understanding the dynamics of domain dropcatching";
+ rdfs:label "Panning for gold.com: Understanding the Dynamics of Domain Dropcatching";
  :endDate "2018-04-26T16:40:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-security-725;
  :isSubEventOf se:156;
  :startDate "2018-04-26T16:20:00+02:00"^^xsd:dateTime;
- :title "Panning for gold.com: Understanding the dynamics of domain dropcatching" .
+ :title "Panning for gold.com: Understanding the Dynamics of Domain Dropcatching" .
  
  talk:726 a :AcademicEvent,
  :OrganisedEvent,
@@ -14237,12 +14237,12 @@
  talk:775 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Find the Conversation Killers: a Predictive Study of Thread-ending Posts";
+ rdfs:label "Find the Conversation Killers: A Predictive Study of Thread-ending Posts";
  :endDate "2018-04-27T11:20:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-content-analysis-775;
  :isSubEventOf se:167;
  :startDate "2018-04-27T11:00:00+02:00"^^xsd:dateTime;
- :title "Find the Conversation Killers: a Predictive Study of Thread-ending Posts" .
+ :title "Find the Conversation Killers: A Predictive Study of Thread-ending Posts" .
  
  talk:776 a :AcademicEvent,
  :OrganisedEvent,
@@ -14317,12 +14317,12 @@
  talk:869 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
- rdfs:label "Platform Criminalism - The 'Last-Mile' Geography of the Darknet Market Supply Chain";
+ rdfs:label "Platform Criminalism: The 'Last-Mile' Geography of the Darknet Market Supply Chain";
  :endDate "2018-04-26T15:00:00+02:00"^^xsd:dateTime;
  :isEventRelatedTo inp:www-research-2018-security-869;
  :isSubEventOf se:155;
  :startDate "2018-04-26T14:40:00+02:00"^^xsd:dateTime;
- :title "Platform Criminalism - The 'Last-Mile' Geography of the Darknet Market Supply Chain" .
+ :title "Platform Criminalism: The 'Last-Mile' Geography of the Darknet Market Supply Chain" .
  
  talk:88 a :AcademicEvent,
  :OrganisedEvent,
@@ -17835,8 +17835,7 @@
  track:www-town-hall-meeting-2018 a :Track;
  rdfs:label "Town Hall Meeting";
  :description "Town Hall Meeting";
- :isSubTrackOf track:www-other2018;
- :isTrackRelatedTo se:114 .
+ :isSubTrackOf track:www-other2018 .
  
  track:www-tutorials-2018-tutorials :isTrackRelatedTo se:18,
  se:19,

@@ -986,7 +986,6 @@
  :Panel;
  rdfs:label """PANEL: The effects of "Fake News" on Journalism and Democracy""";
  :endDate "2018-04-25T11:48:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:www-misinfo-2018-fake-news-20;
  :isSubEventOf se:92;
  :startDate "2018-04-25T11:00:00+02:00"^^xsd:dateTime;
  :title """PANEL: The effects of "Fake News" on Journalism and Democracy""" .
@@ -1741,7 +1740,6 @@
  rdfs:comment "panel";
  rdfs:label "Panel: Next Generation Internet";
  :endDate "2018-04-25T12:20:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:www-international-projects-2018-intl-projects-0;
  :isSubEventOf se:95;
  :startDate "2018-04-25T11:00:00+02:00"^^xsd:dateTime;
  :title "Panel: Next Generation Internet" .
@@ -1752,7 +1750,6 @@
  rdfs:comment "panel";
  rdfs:label "Panel: International Projects";
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
- :isEventRelatedTo inp:www-international-projects-2018-intl-projects-10;
  :isSubEventOf se:97;
  :startDate "2018-04-25T16:20:00+02:00"^^xsd:dateTime;
  :title "Panel: International Projects" .
@@ -15291,10 +15288,6 @@
  
  inp:www-industry-2018-987 :relatesToEvent alt:105 .
  
- inp:www-international-projects-2018-intl-projects-0 :relatesToEvent alt:92 .
- 
- inp:www-international-projects-2018-intl-projects-10 :relatesToEvent alt:93 .
- 
  inp:www-international-projects-2018-intl-projects-149 :relatesToEvent alt:25 .
  
  inp:www-international-projects-2018-intl-projects-181 :relatesToEvent alt:26 .
@@ -15336,8 +15329,6 @@
  inp:www-journal-2018-journal-69 :relatesToEvent alt:42 .
  
  inp:www-journal-2018-journal-70 :relatesToEvent alt:43 .
- 
- inp:www-misinfo-2018-fake-news-20 :relatesToEvent alt:245 .
  
  inp:www-misinfo-2018-fake-news-253 :relatesToEvent alt:44 .
  

@@ -14926,49 +14926,83 @@
  se:98,
  se:99 .
  
- inp:cogcomp-2018-cognitive-104 :relatesToEvent alt:10 .
+ inp:big-2018-big-258 foaf:homepage <https://dl.acm.org/authorize?N655133> .
  
- inp:cogcomp-2018-cognitive-106 :relatesToEvent alt:11 .
+ inp:big-2018-big-368 foaf:homepage <https://dl.acm.org/authorize?N655134> .
  
- inp:cogcomp-2018-cognitive-107 :relatesToEvent alt:12 .
+ inp:big-2018-big-371 foaf:homepage <https://dl.acm.org/authorize?N655145> .
  
- inp:cogcomp-2018-cognitive-108 :relatesToEvent alt:13 .
+ inp:big-2018-big-443 foaf:homepage <https://dl.acm.org/authorize?N655146> .
  
- inp:cogcomp-2018-cognitive-112 :relatesToEvent alt:14 .
+ inp:big-2018-big-563 foaf:homepage <https://dl.acm.org/authorize?N655147> .
  
- inp:cogcomp-2018-cognitive-118 :relatesToEvent alt:15 .
+ inp:big-2018-big-573 foaf:homepage <https://dl.acm.org/authorize?N655148> .
  
- inp:cogcomp-2018-cognitive-123 :relatesToEvent alt:16 .
+ inp:cogcomp-2018-cognitive-104 foaf:homepage <https://dl.acm.org/authorize?N655183>;
+ :relatesToEvent alt:10 .
  
- inp:cogcomp-2018-cognitive-147 :relatesToEvent alt:17 .
+ inp:cogcomp-2018-cognitive-106 foaf:homepage <https://dl.acm.org/authorize?N655184>;
+ :relatesToEvent alt:11 .
  
- inp:cogcomp-2018-cognitive-151 :relatesToEvent alt:18 .
+ inp:cogcomp-2018-cognitive-107 foaf:homepage <https://dl.acm.org/authorize?N655195>;
+ :relatesToEvent alt:12 .
  
- inp:cogcomp-2018-cognitive-183 :relatesToEvent alt:19 .
+ inp:cogcomp-2018-cognitive-108 foaf:homepage <https://dl.acm.org/authorize?N655196>;
+ :relatesToEvent alt:13 .
  
- inp:cogcomp-2018-cognitive-189 :relatesToEvent alt:20 .
+ inp:cogcomp-2018-cognitive-112 foaf:homepage <https://dl.acm.org/authorize?N655197>;
+ :relatesToEvent alt:14 .
  
- inp:cogcomp-2018-cognitive-192 :relatesToEvent alt:21 .
+ inp:cogcomp-2018-cognitive-118 foaf:homepage <https://dl.acm.org/authorize?N655198>;
+ :relatesToEvent alt:15 .
  
- inp:cogcomp-2018-cognitive-193 :relatesToEvent alt:22 .
+ inp:cogcomp-2018-cognitive-123 foaf:homepage <https://dl.acm.org/authorize?N655199>;
+ :relatesToEvent alt:16 .
  
- inp:cogcomp-2018-cognitive-74 :relatesToEvent alt:1 .
+ inp:cogcomp-2018-cognitive-147 foaf:homepage <https://dl.acm.org/authorize?N655191>;
+ :relatesToEvent alt:17 .
  
- inp:cogcomp-2018-cognitive-78 :relatesToEvent alt:2 .
+ inp:cogcomp-2018-cognitive-151 foaf:homepage <https://dl.acm.org/authorize?N655192>;
+ :relatesToEvent alt:18 .
  
- inp:cogcomp-2018-cognitive-80 :relatesToEvent alt:3 .
+ inp:cogcomp-2018-cognitive-183 foaf:homepage <https://dl.acm.org/authorize?N655193>;
+ :relatesToEvent alt:19 .
  
- inp:cogcomp-2018-cognitive-85 :relatesToEvent alt:4 .
+ inp:cogcomp-2018-cognitive-189 foaf:homepage <https://dl.acm.org/authorize?N655194>;
+ :relatesToEvent alt:20 .
  
- inp:cogcomp-2018-cognitive-86 :relatesToEvent alt:5 .
+ inp:cogcomp-2018-cognitive-192 foaf:homepage <https://dl.acm.org/authorize?N655105>;
+ :relatesToEvent alt:21 .
  
- inp:cogcomp-2018-cognitive-89 :relatesToEvent alt:6 .
+ inp:cogcomp-2018-cognitive-193 foaf:homepage <https://dl.acm.org/authorize?N655106>;
+ :relatesToEvent alt:22 .
  
- inp:cogcomp-2018-cognitive-90 :relatesToEvent alt:7 .
+ inp:cogcomp-2018-cognitive-74 foaf:homepage <https://dl.acm.org/authorize?N655174>;
+ :relatesToEvent alt:1 .
  
- inp:cogcomp-2018-cognitive-91 :relatesToEvent alt:8 .
+ inp:cogcomp-2018-cognitive-78 foaf:homepage <https://dl.acm.org/authorize?N655185>;
+ :relatesToEvent alt:2 .
  
- inp:cogcomp-2018-cognitive-99 :relatesToEvent alt:9 .
+ inp:cogcomp-2018-cognitive-80 foaf:homepage <https://dl.acm.org/authorize?N655186>;
+ :relatesToEvent alt:3 .
+ 
+ inp:cogcomp-2018-cognitive-85 foaf:homepage <https://dl.acm.org/authorize?N655187>;
+ :relatesToEvent alt:4 .
+ 
+ inp:cogcomp-2018-cognitive-86 foaf:homepage <https://dl.acm.org/authorize?N655188>;
+ :relatesToEvent alt:5 .
+ 
+ inp:cogcomp-2018-cognitive-89 foaf:homepage <https://dl.acm.org/authorize?N655189>;
+ :relatesToEvent alt:6 .
+ 
+ inp:cogcomp-2018-cognitive-90 foaf:homepage <https://dl.acm.org/authorize?N655180>;
+ :relatesToEvent alt:7 .
+ 
+ inp:cogcomp-2018-cognitive-91 foaf:homepage <https://dl.acm.org/authorize?N655181>;
+ :relatesToEvent alt:8 .
+ 
+ inp:cogcomp-2018-cognitive-99 foaf:homepage <https://dl.acm.org/authorize?N655182>;
+ :relatesToEvent alt:9 .
  
  inp:www-demo-2018-268 :relatesToEvent demo:268-3-1,
  demo:268-3-2,
@@ -14979,7 +15013,8 @@
  demo:268-5-1,
  demo:268-5-2 .
  
- inp:www-demo-2018-287 :relatesToEvent demo:287-3-1,
+ inp:www-demo-2018-287 foaf:homepage <https://dl.acm.org/authorize?N655044>;
+ :relatesToEvent demo:287-3-1,
  demo:287-3-2,
  demo:287-3-3,
  demo:287-4-1,
@@ -14988,7 +15023,8 @@
  demo:287-5-1,
  demo:287-5-2 .
  
- inp:www-demo-2018-370 :relatesToEvent demo:370-3-1,
+ inp:www-demo-2018-370 foaf:homepage <https://dl.acm.org/authorize?N655155>;
+ :relatesToEvent demo:370-3-1,
  demo:370-3-2,
  demo:370-3-3,
  demo:370-4-1,
@@ -14997,7 +15033,8 @@
  demo:370-5-1,
  demo:370-5-2 .
  
- inp:www-demo-2018-377 :relatesToEvent demo:377-3-1,
+ inp:www-demo-2018-377 foaf:homepage <https://dl.acm.org/authorize?N655156>;
+ :relatesToEvent demo:377-3-1,
  demo:377-3-2,
  demo:377-3-3,
  demo:377-4-1,
@@ -15015,7 +15052,8 @@
  demo:384-5-1,
  demo:384-5-2 .
  
- inp:www-demo-2018-385 :relatesToEvent demo:385-3-1,
+ inp:www-demo-2018-385 foaf:homepage <https://dl.acm.org/authorize?N655158>;
+ :relatesToEvent demo:385-3-1,
  demo:385-3-2,
  demo:385-3-3,
  demo:385-4-1,
@@ -15024,7 +15062,8 @@
  demo:385-5-1,
  demo:385-5-2 .
  
- inp:www-demo-2018-398 :relatesToEvent demo:398-3-1,
+ inp:www-demo-2018-398 foaf:homepage <https://dl.acm.org/authorize?N655159>;
+ :relatesToEvent demo:398-3-1,
  demo:398-3-2,
  demo:398-3-3,
  demo:398-4-1,
@@ -15033,7 +15072,8 @@
  demo:398-5-1,
  demo:398-5-2 .
  
- inp:www-demo-2018-404 :relatesToEvent demo:404-3-1,
+ inp:www-demo-2018-404 foaf:homepage <https://dl.acm.org/authorize?N655150>;
+ :relatesToEvent demo:404-3-1,
  demo:404-3-2,
  demo:404-3-3,
  demo:404-4-1,
@@ -15042,7 +15082,8 @@
  demo:404-5-1,
  demo:404-5-2 .
  
- inp:www-demo-2018-407 :relatesToEvent demo:407-3-1,
+ inp:www-demo-2018-407 foaf:homepage <https://dl.acm.org/authorize?N655151>;
+ :relatesToEvent demo:407-3-1,
  demo:407-3-2,
  demo:407-3-3,
  demo:407-4-1,
@@ -15051,7 +15092,8 @@
  demo:407-5-1,
  demo:407-5-2 .
  
- inp:www-demo-2018-413 :relatesToEvent demo:413-3-1,
+ inp:www-demo-2018-413 foaf:homepage <https://dl.acm.org/authorize?N655152>;
+ :relatesToEvent demo:413-3-1,
  demo:413-3-2,
  demo:413-3-3,
  demo:413-4-1,
@@ -15060,7 +15102,8 @@
  demo:413-5-1,
  demo:413-5-2 .
  
- inp:www-demo-2018-419 :relatesToEvent demo:419-3-1,
+ inp:www-demo-2018-419 foaf:homepage <https://dl.acm.org/authorize?N655153>;
+ :relatesToEvent demo:419-3-1,
  demo:419-3-2,
  demo:419-3-3,
  demo:419-4-1,
@@ -15069,7 +15112,8 @@
  demo:419-5-1,
  demo:419-5-2 .
  
- inp:www-demo-2018-434 :relatesToEvent demo:434-3-1,
+ inp:www-demo-2018-434 foaf:homepage <https://dl.acm.org/authorize?N655154>;
+ :relatesToEvent demo:434-3-1,
  demo:434-3-2,
  demo:434-3-3,
  demo:434-4-1,
@@ -15096,7 +15140,8 @@
  demo:459-5-1,
  demo:459-5-2 .
  
- inp:www-demo-2018-482 :relatesToEvent demo:482-3-1,
+ inp:www-demo-2018-482 foaf:homepage <https://dl.acm.org/authorize?N655167>;
+ :relatesToEvent demo:482-3-1,
  demo:482-3-2,
  demo:482-3-3,
  demo:482-4-1,
@@ -15105,7 +15150,8 @@
  demo:482-5-1,
  demo:482-5-2 .
  
- inp:www-demo-2018-495 :relatesToEvent demo:495-3-1,
+ inp:www-demo-2018-495 foaf:homepage <https://dl.acm.org/authorize?N655168>;
+ :relatesToEvent demo:495-3-1,
  demo:495-3-2,
  demo:495-3-3,
  demo:495-4-1,
@@ -15114,7 +15160,8 @@
  demo:495-5-1,
  demo:495-5-2 .
  
- inp:www-demo-2018-496 :relatesToEvent demo:496-3-1,
+ inp:www-demo-2018-496 foaf:homepage <https://dl.acm.org/authorize?N655169>;
+ :relatesToEvent demo:496-3-1,
  demo:496-3-2,
  demo:496-3-3,
  demo:496-4-1,
@@ -15123,7 +15170,8 @@
  demo:496-5-1,
  demo:496-5-2 .
  
- inp:www-demo-2018-504 :relatesToEvent demo:504-3-1,
+ inp:www-demo-2018-504 foaf:homepage <https://dl.acm.org/authorize?N655160>;
+ :relatesToEvent demo:504-3-1,
  demo:504-3-2,
  demo:504-3-3,
  demo:504-4-1,
@@ -15141,7 +15189,8 @@
  demo:510-5-1,
  demo:510-5-2 .
  
- inp:www-demo-2018-516 :relatesToEvent demo:516-3-1,
+ inp:www-demo-2018-516 foaf:homepage <https://dl.acm.org/authorize?N655162>;
+ :relatesToEvent demo:516-3-1,
  demo:516-3-2,
  demo:516-3-3,
  demo:516-4-1,
@@ -15150,7 +15199,8 @@
  demo:516-5-1,
  demo:516-5-2 .
  
- inp:www-demo-2018-524 :relatesToEvent demo:524-3-1,
+ inp:www-demo-2018-524 foaf:homepage <https://dl.acm.org/authorize?N655163>;
+ :relatesToEvent demo:524-3-1,
  demo:524-3-2,
  demo:524-3-3,
  demo:524-4-1,
@@ -15159,7 +15209,8 @@
  demo:524-5-1,
  demo:524-5-2 .
  
- inp:www-demo-2018-530 :relatesToEvent demo:530-3-1,
+ inp:www-demo-2018-530 foaf:homepage <https://dl.acm.org/authorize?N655164>;
+ :relatesToEvent demo:530-3-1,
  demo:530-3-2,
  demo:530-3-3,
  demo:530-4-1,
@@ -15168,7 +15219,8 @@
  demo:530-5-1,
  demo:530-5-2 .
  
- inp:www-demo-2018-539 :relatesToEvent demo:539-3-1,
+ inp:www-demo-2018-539 foaf:homepage <https://dl.acm.org/authorize?N655175>;
+ :relatesToEvent demo:539-3-1,
  demo:539-3-2,
  demo:539-3-3,
  demo:539-4-1,
@@ -15177,7 +15229,8 @@
  demo:539-5-1,
  demo:539-5-2 .
  
- inp:www-demo-2018-541 :relatesToEvent demo:541-3-1,
+ inp:www-demo-2018-541 foaf:homepage <https://dl.acm.org/authorize?N655176>;
+ :relatesToEvent demo:541-3-1,
  demo:541-3-2,
  demo:541-3-3,
  demo:541-4-1,
@@ -15195,7 +15248,8 @@
  demo:560-5-1,
  demo:560-5-2 .
  
- inp:www-demo-2018-571 :relatesToEvent demo:571-3-1,
+ inp:www-demo-2018-571 foaf:homepage <https://dl.acm.org/authorize?N655178>;
+ :relatesToEvent demo:571-3-1,
  demo:571-3-2,
  demo:571-3-3,
  demo:571-4-1,
@@ -15204,7 +15258,8 @@
  demo:571-5-1,
  demo:571-5-2 .
  
- inp:www-demo-2018-578 :relatesToEvent demo:578-3-1,
+ inp:www-demo-2018-578 foaf:homepage <https://dl.acm.org/authorize?N655179>;
+ :relatesToEvent demo:578-3-1,
  demo:578-3-2,
  demo:578-3-3,
  demo:578-4-1,
@@ -15213,7 +15268,8 @@
  demo:578-5-1,
  demo:578-5-2 .
  
- inp:www-demo-2018-587 :relatesToEvent demo:587-3-1,
+ inp:www-demo-2018-587 foaf:homepage <https://dl.acm.org/authorize?N655170>;
+ :relatesToEvent demo:587-3-1,
  demo:587-3-2,
  demo:587-3-3,
  demo:587-4-1,
@@ -15231,7 +15287,8 @@
  demo:599-5-1,
  demo:599-5-2 .
  
- inp:www-demo-2018-613 :relatesToEvent demo:613-3-1,
+ inp:www-demo-2018-613 foaf:homepage <https://dl.acm.org/authorize?N655172>;
+ :relatesToEvent demo:613-3-1,
  demo:613-3-2,
  demo:613-3-3,
  demo:613-4-1,
@@ -15240,7 +15297,8 @@
  demo:613-5-1,
  demo:613-5-2 .
  
- inp:www-dev-2018-dev-237 :relatesToEvent alt:126 .
+ inp:www-dev-2018-dev-237 foaf:homepage <https://dl.acm.org/authorize?N655258>;
+ :relatesToEvent alt:126 .
  
  inp:www-dev-2018-dev-239 :relatesToEvent alt:127 .
  
@@ -15248,7 +15306,8 @@
  
  inp:www-dev-2018-dev-627 :relatesToEvent alt:129 .
  
- inp:www-dev-2018-dev-641 :relatesToEvent alt:130 .
+ inp:www-dev-2018-dev-641 foaf:homepage <https://dl.acm.org/authorize?N655250>;
+ :relatesToEvent alt:130 .
  
  inp:www-dev-2018-dev-642 :relatesToEvent alt:131 .
  
@@ -15258,7 +15317,8 @@
  
  inp:www-dev-2018-dev-645 :relatesToEvent alt:134 .
  
- inp:www-dev-2018-dev-646 :relatesToEvent alt:135 .
+ inp:www-dev-2018-dev-646 foaf:homepage <https://dl.acm.org/authorize?N655254>;
+ :relatesToEvent alt:135 .
  
  inp:www-industry-2018-1050 :relatesToEvent alt:106 .
  
@@ -15300,103 +15360,149 @@
  
  inp:www-industry-2018-987 :relatesToEvent alt:105 .
  
- inp:www-international-projects-2018-intl-projects-149 :relatesToEvent alt:25 .
+ inp:www-international-projects-2018-intl-projects-149 foaf:homepage <https://dl.acm.org/authorize?N655109>;
+ :relatesToEvent alt:25 .
  
- inp:www-international-projects-2018-intl-projects-181 :relatesToEvent alt:26 .
+ inp:www-international-projects-2018-intl-projects-181 foaf:homepage <https://dl.acm.org/authorize?N655100>;
+ :relatesToEvent alt:26 .
  
- inp:www-international-projects-2018-intl-projects-185 :relatesToEvent alt:27 .
+ inp:www-international-projects-2018-intl-projects-185 foaf:homepage <https://dl.acm.org/authorize?N655101>;
+ :relatesToEvent alt:27 .
  
- inp:www-international-projects-2018-intl-projects-186 :relatesToEvent alt:28 .
+ inp:www-international-projects-2018-intl-projects-186 foaf:homepage <https://dl.acm.org/authorize?N655102>;
+ :relatesToEvent alt:28 .
  
- inp:www-international-projects-2018-intl-projects-187 :relatesToEvent alt:29 .
+ inp:www-international-projects-2018-intl-projects-187 foaf:homepage <https://dl.acm.org/authorize?N655103>;
+ :relatesToEvent alt:29 .
  
- inp:www-international-projects-2018-intl-projects-188 :relatesToEvent alt:30 .
+ inp:www-international-projects-2018-intl-projects-188 foaf:homepage <https://dl.acm.org/authorize?N655104>;
+ :relatesToEvent alt:30 .
  
- inp:www-international-projects-2018-intl-projects-190 :relatesToEvent alt:31 .
+ inp:www-international-projects-2018-intl-projects-190 foaf:homepage <https://dl.acm.org/authorize?N655115>;
+ :relatesToEvent alt:31 .
  
- inp:www-international-projects-2018-intl-projects-22 :relatesToEvent alt:23 .
+ inp:www-international-projects-2018-intl-projects-22 foaf:homepage <https://dl.acm.org/authorize?N655107>;
+ :relatesToEvent alt:23 .
  
- inp:www-international-projects-2018-intl-projects-92 :relatesToEvent alt:24 .
+ inp:www-international-projects-2018-intl-projects-92 foaf:homepage <https://dl.acm.org/authorize?N655108>;
+ :relatesToEvent alt:24 .
  
- inp:www-journal-2018-journal-11 :relatesToEvent alt:32 .
+ inp:www-journal-2018-journal-11 foaf:homepage <https://dl.acm.org/authorize?N655117>;
+ :relatesToEvent alt:32 .
  
- inp:www-journal-2018-journal-13 :relatesToEvent alt:33 .
+ inp:www-journal-2018-journal-13 foaf:homepage <https://dl.acm.org/authorize?N655118>;
+ :relatesToEvent alt:33 .
  
- inp:www-journal-2018-journal-16 :relatesToEvent alt:34 .
+ inp:www-journal-2018-journal-16 foaf:homepage <https://dl.acm.org/authorize?N655119>;
+ :relatesToEvent alt:34 .
  
- inp:www-journal-2018-journal-20 :relatesToEvent alt:35 .
+ inp:www-journal-2018-journal-20 foaf:homepage <https://dl.acm.org/authorize?N655110>;
+ :relatesToEvent alt:35 .
  
- inp:www-journal-2018-journal-41 :relatesToEvent alt:36 .
+ inp:www-journal-2018-journal-41 foaf:homepage <https://dl.acm.org/authorize?N655111>;
+ :relatesToEvent alt:36 .
  
- inp:www-journal-2018-journal-45 :relatesToEvent alt:37 .
+ inp:www-journal-2018-journal-45 foaf:homepage <https://dl.acm.org/authorize?N655112>;
+ :relatesToEvent alt:37 .
  
- inp:www-journal-2018-journal-47 :relatesToEvent alt:38 .
+ inp:www-journal-2018-journal-47 foaf:homepage <https://dl.acm.org/authorize?N655113>;
+ :relatesToEvent alt:38 .
  
- inp:www-journal-2018-journal-50 :relatesToEvent alt:39 .
+ inp:www-journal-2018-journal-50 foaf:homepage <https://dl.acm.org/authorize?N655114>;
+ :relatesToEvent alt:39 .
  
- inp:www-journal-2018-journal-64 :relatesToEvent alt:40 .
+ inp:www-journal-2018-journal-64 foaf:homepage <https://dl.acm.org/authorize?N655125>;
+ :relatesToEvent alt:40 .
  
- inp:www-journal-2018-journal-66 :relatesToEvent alt:41 .
+ inp:www-journal-2018-journal-66 foaf:homepage <https://dl.acm.org/authorize?N655126>;
+ :relatesToEvent alt:41 .
  
- inp:www-journal-2018-journal-69 :relatesToEvent alt:42 .
+ inp:www-journal-2018-journal-69 foaf:homepage <https://dl.acm.org/authorize?N655127>;
+ :relatesToEvent alt:42 .
  
- inp:www-journal-2018-journal-70 :relatesToEvent alt:43 .
+ inp:www-journal-2018-journal-70 foaf:homepage <https://dl.acm.org/authorize?N655128>;
+ :relatesToEvent alt:43 .
  
- inp:www-misinfo-2018-fake-news-253 :relatesToEvent alt:44 .
+ inp:www-misinfo-2018-fake-news-253 foaf:homepage <https://dl.acm.org/authorize?N655120>;
+ :relatesToEvent alt:44 .
  
- inp:www-misinfo-2018-fake-news-300 :relatesToEvent alt:45 .
+ inp:www-misinfo-2018-fake-news-300 foaf:homepage <https://dl.acm.org/authorize?N655121>;
+ :relatesToEvent alt:45 .
  
- inp:www-misinfo-2018-fake-news-325 :relatesToEvent alt:46 .
+ inp:www-misinfo-2018-fake-news-325 foaf:homepage <https://dl.acm.org/authorize?N655122>;
+ :relatesToEvent alt:46 .
  
- inp:www-misinfo-2018-fake-news-331 :relatesToEvent alt:47 .
+ inp:www-misinfo-2018-fake-news-331 foaf:homepage <https://dl.acm.org/authorize?N655123>;
+ :relatesToEvent alt:47 .
  
- inp:www-misinfo-2018-fake-news-336 :relatesToEvent alt:48 .
+ inp:www-misinfo-2018-fake-news-336 foaf:homepage <https://dl.acm.org/authorize?N655124>;
+ :relatesToEvent alt:48 .
  
- inp:www-misinfo-2018-fake-news-337 :relatesToEvent alt:49 .
+ inp:www-misinfo-2018-fake-news-337 foaf:homepage <https://dl.acm.org/authorize?N655135>;
+ :relatesToEvent alt:49 .
  
- inp:www-misinfo-2018-fake-news-343 :relatesToEvent alt:50 .
+ inp:www-misinfo-2018-fake-news-343 foaf:homepage <https://dl.acm.org/authorize?N655136>;
+ :relatesToEvent alt:50 .
  
- inp:www-misinfo-2018-fake-news-346 :relatesToEvent alt:51 .
+ inp:www-misinfo-2018-fake-news-346 foaf:homepage <https://dl.acm.org/authorize?N655137>;
+ :relatesToEvent alt:51 .
  
- inp:www-misinfo-2018-fake-news-352 :relatesToEvent alt:52 .
+ inp:www-misinfo-2018-fake-news-352 foaf:homepage <https://dl.acm.org/authorize?N655138>;
+ :relatesToEvent alt:52 .
  
- inp:www-misinfo-2018-fake-news-356 :relatesToEvent alt:53 .
+ inp:www-misinfo-2018-fake-news-356 foaf:homepage <https://dl.acm.org/authorize?N655139>;
+ :relatesToEvent alt:53 .
  
- inp:www-misinfo-2018-fake-news-357 :relatesToEvent alt:54 .
+ inp:www-misinfo-2018-fake-news-357 foaf:homepage <https://dl.acm.org/authorize?N655130>;
+ :relatesToEvent alt:54 .
  
- inp:www-misinfo-2018-fake-news-360 :relatesToEvent alt:55 .
+ inp:www-misinfo-2018-fake-news-360 foaf:homepage <https://dl.acm.org/authorize?N655131>;
+ :relatesToEvent alt:55 .
  
- inp:www-panels-2018-panels-696 :relatesToEvent alt:136 .
+ inp:www-panels-2018-panels-696 foaf:homepage <https://dl.acm.org/authorize?N655279>;
+ :relatesToEvent alt:136 .
  
- inp:www-panels-2018-panels-849 :relatesToEvent alt:137 .
+ inp:www-panels-2018-panels-849 foaf:homepage <https://dl.acm.org/authorize?N655270>;
+ :relatesToEvent alt:137 .
  
- inp:www-panels-2018-panels-850 :relatesToEvent alt:138 .
+ inp:www-panels-2018-panels-850 foaf:homepage <https://dl.acm.org/authorize?N655271>;
+ :relatesToEvent alt:138 .
  
  inp:www-phdsymposium-2018-phd-235 :relatesToEvent alt:139 .
  
- inp:www-phdsymposium-2018-phd-278 :relatesToEvent alt:140 .
+ inp:www-phdsymposium-2018-phd-278 foaf:homepage <https://dl.acm.org/authorize?N655267>;
+ :relatesToEvent alt:140 .
  
- inp:www-phdsymposium-2018-phd-290 :relatesToEvent alt:141 .
+ inp:www-phdsymposium-2018-phd-290 foaf:homepage <https://dl.acm.org/authorize?N655268>;
+ :relatesToEvent alt:141 .
  
- inp:www-phdsymposium-2018-phd-293 :relatesToEvent alt:142 .
+ inp:www-phdsymposium-2018-phd-293 foaf:homepage <https://dl.acm.org/authorize?N655269>;
+ :relatesToEvent alt:142 .
  
- inp:www-phdsymposium-2018-phd-301 :relatesToEvent alt:143 .
+ inp:www-phdsymposium-2018-phd-301 foaf:homepage <https://dl.acm.org/authorize?N655260>;
+ :relatesToEvent alt:143 .
  
- inp:www-phdsymposium-2018-phd-313 :relatesToEvent alt:144 .
+ inp:www-phdsymposium-2018-phd-313 foaf:homepage <https://dl.acm.org/authorize?N655261>;
+ :relatesToEvent alt:144 .
  
  inp:www-phdsymposium-2018-phd-320 :relatesToEvent alt:145 .
  
- inp:www-phdsymposium-2018-phd-324 :relatesToEvent alt:146 .
+ inp:www-phdsymposium-2018-phd-324 foaf:homepage <https://dl.acm.org/authorize?N655263>;
+ :relatesToEvent alt:146 .
  
- inp:www-phdsymposium-2018-phd-330 :relatesToEvent alt:147 .
+ inp:www-phdsymposium-2018-phd-330 foaf:homepage <https://dl.acm.org/authorize?N655264>;
+ :relatesToEvent alt:147 .
  
- inp:www-phdsymposium-2018-phd-333 :relatesToEvent alt:148 .
+ inp:www-phdsymposium-2018-phd-333 foaf:homepage <https://dl.acm.org/authorize?N655275>;
+ :relatesToEvent alt:148 .
  
  inp:www-phdsymposium-2018-phd-342 :relatesToEvent alt:149 .
  
- inp:www-phdsymposium-2018-phd-347 :relatesToEvent alt:150 .
+ inp:www-phdsymposium-2018-phd-347 foaf:homepage <https://dl.acm.org/authorize?N655277>;
+ :relatesToEvent alt:150 .
  
- inp:www-posters-2018-150 :relatesToEvent demo:150-3-1,
+ inp:www-posters-2018-150 foaf:homepage <https://dl.acm.org/authorize?N655081>;
+ :relatesToEvent demo:150-3-1,
  demo:150-3-2,
  demo:150-3-3,
  demo:150-4-1,
@@ -15405,7 +15511,8 @@
  demo:150-5-1,
  demo:150-5-2 .
  
- inp:www-posters-2018-233 :relatesToEvent demo:233-3-1,
+ inp:www-posters-2018-233 foaf:homepage <https://dl.acm.org/authorize?N655082>;
+ :relatesToEvent demo:233-3-1,
  demo:233-3-2,
  demo:233-3-3,
  demo:233-4-1,
@@ -15414,7 +15521,8 @@
  demo:233-5-1,
  demo:233-5-2 .
  
- inp:www-posters-2018-243 :relatesToEvent demo:243-3-1,
+ inp:www-posters-2018-243 foaf:homepage <https://dl.acm.org/authorize?N655083>;
+ :relatesToEvent demo:243-3-1,
  demo:243-3-2,
  demo:243-3-3,
  demo:243-4-1,
@@ -15441,7 +15549,8 @@
  demo:248-5-1,
  demo:248-5-2 .
  
- inp:www-posters-2018-255 :relatesToEvent demo:255-3-1,
+ inp:www-posters-2018-255 foaf:homepage <https://dl.acm.org/authorize?N655096>;
+ :relatesToEvent demo:255-3-1,
  demo:255-3-2,
  demo:255-3-3,
  demo:255-4-1,
@@ -15450,7 +15559,8 @@
  demo:255-5-1,
  demo:255-5-2 .
  
- inp:www-posters-2018-257 :relatesToEvent demo:257-3-1,
+ inp:www-posters-2018-257 foaf:homepage <https://dl.acm.org/authorize?N655097>;
+ :relatesToEvent demo:257-3-1,
  demo:257-3-2,
  demo:257-3-3,
  demo:257-4-1,
@@ -15459,7 +15569,8 @@
  demo:257-5-1,
  demo:257-5-2 .
  
- inp:www-posters-2018-302 :relatesToEvent demo:302-3-1,
+ inp:www-posters-2018-302 foaf:homepage <https://dl.acm.org/authorize?N655098>;
+ :relatesToEvent demo:302-3-1,
  demo:302-3-2,
  demo:302-3-3,
  demo:302-4-1,
@@ -15468,7 +15579,8 @@
  demo:302-5-1,
  demo:302-5-2 .
  
- inp:www-posters-2018-315 :relatesToEvent demo:315-3-1,
+ inp:www-posters-2018-315 foaf:homepage <https://dl.acm.org/authorize?N655099>;
+ :relatesToEvent demo:315-3-1,
  demo:315-3-2,
  demo:315-3-3,
  demo:315-4-1,
@@ -15477,7 +15589,8 @@
  demo:315-5-1,
  demo:315-5-2 .
  
- inp:www-posters-2018-316 :relatesToEvent demo:316-3-1,
+ inp:www-posters-2018-316 foaf:homepage <https://dl.acm.org/authorize?N655090>;
+ :relatesToEvent demo:316-3-1,
  demo:316-3-2,
  demo:316-3-3,
  demo:316-4-1,
@@ -15486,7 +15599,8 @@
  demo:316-5-1,
  demo:316-5-2 .
  
- inp:www-posters-2018-351 :relatesToEvent demo:351-3-1,
+ inp:www-posters-2018-351 foaf:homepage <https://dl.acm.org/authorize?N655091>;
+ :relatesToEvent demo:351-3-1,
  demo:351-3-2,
  demo:351-3-3,
  demo:351-4-1,
@@ -15495,7 +15609,8 @@
  demo:351-5-1,
  demo:351-5-2 .
  
- inp:www-posters-2018-364 :relatesToEvent demo:364-3-1,
+ inp:www-posters-2018-364 foaf:homepage <https://dl.acm.org/authorize?N655092>;
+ :relatesToEvent demo:364-3-1,
  demo:364-3-2,
  demo:364-3-3,
  demo:364-4-1,
@@ -15504,7 +15619,8 @@
  demo:364-5-1,
  demo:364-5-2 .
  
- inp:www-posters-2018-369 :relatesToEvent demo:369-3-1,
+ inp:www-posters-2018-369 foaf:homepage <https://dl.acm.org/authorize?N655093>;
+ :relatesToEvent demo:369-3-1,
  demo:369-3-2,
  demo:369-3-3,
  demo:369-4-1,
@@ -15513,7 +15629,8 @@
  demo:369-5-1,
  demo:369-5-2 .
  
- inp:www-posters-2018-389 :relatesToEvent demo:389-3-1,
+ inp:www-posters-2018-389 foaf:homepage <https://dl.acm.org/authorize?N655094>;
+ :relatesToEvent demo:389-3-1,
  demo:389-3-2,
  demo:389-3-3,
  demo:389-4-1,
@@ -15522,7 +15639,8 @@
  demo:389-5-1,
  demo:389-5-2 .
  
- inp:www-posters-2018-394 :relatesToEvent demo:394-3-1,
+ inp:www-posters-2018-394 foaf:homepage <https://dl.acm.org/authorize?N655005>;
+ :relatesToEvent demo:394-3-1,
  demo:394-3-2,
  demo:394-3-3,
  demo:394-4-1,
@@ -15540,7 +15658,8 @@
  demo:402-5-1,
  demo:402-5-2 .
  
- inp:www-posters-2018-405 :relatesToEvent demo:405-3-1,
+ inp:www-posters-2018-405 foaf:homepage <https://dl.acm.org/authorize?N655007>;
+ :relatesToEvent demo:405-3-1,
  demo:405-3-2,
  demo:405-3-3,
  demo:405-4-1,
@@ -15549,7 +15668,8 @@
  demo:405-5-1,
  demo:405-5-2 .
  
- inp:www-posters-2018-415 :relatesToEvent demo:415-3-1,
+ inp:www-posters-2018-415 foaf:homepage <https://dl.acm.org/authorize?N655008>;
+ :relatesToEvent demo:415-3-1,
  demo:415-3-2,
  demo:415-3-3,
  demo:415-4-1,
@@ -15558,7 +15678,8 @@
  demo:415-5-1,
  demo:415-5-2 .
  
- inp:www-posters-2018-421 :relatesToEvent demo:421-3-1,
+ inp:www-posters-2018-421 foaf:homepage <https://dl.acm.org/authorize?N655009>;
+ :relatesToEvent demo:421-3-1,
  demo:421-3-2,
  demo:421-3-3,
  demo:421-4-1,
@@ -15567,7 +15688,8 @@
  demo:421-5-1,
  demo:421-5-2 .
  
- inp:www-posters-2018-426 :relatesToEvent demo:426-3-1,
+ inp:www-posters-2018-426 foaf:homepage <https://dl.acm.org/authorize?N655000>;
+ :relatesToEvent demo:426-3-1,
  demo:426-3-2,
  demo:426-3-3,
  demo:426-4-1,
@@ -15576,7 +15698,8 @@
  demo:426-5-1,
  demo:426-5-2 .
  
- inp:www-posters-2018-429 :relatesToEvent demo:429-3-1,
+ inp:www-posters-2018-429 foaf:homepage <https://dl.acm.org/authorize?N655001>;
+ :relatesToEvent demo:429-3-1,
  demo:429-3-2,
  demo:429-3-3,
  demo:429-4-1,
@@ -15585,7 +15708,8 @@
  demo:429-5-1,
  demo:429-5-2 .
  
- inp:www-posters-2018-432 :relatesToEvent demo:432-3-1,
+ inp:www-posters-2018-432 foaf:homepage <https://dl.acm.org/authorize?N655002>;
+ :relatesToEvent demo:432-3-1,
  demo:432-3-2,
  demo:432-3-3,
  demo:432-4-1,
@@ -15594,7 +15718,8 @@
  demo:432-5-1,
  demo:432-5-2 .
  
- inp:www-posters-2018-438 :relatesToEvent demo:438-3-1,
+ inp:www-posters-2018-438 foaf:homepage <https://dl.acm.org/authorize?N655003>;
+ :relatesToEvent demo:438-3-1,
  demo:438-3-2,
  demo:438-3-3,
  demo:438-4-1,
@@ -15603,7 +15728,8 @@
  demo:438-5-1,
  demo:438-5-2 .
  
- inp:www-posters-2018-439 :relatesToEvent demo:439-3-1,
+ inp:www-posters-2018-439 foaf:homepage <https://dl.acm.org/authorize?N655004>;
+ :relatesToEvent demo:439-3-1,
  demo:439-3-2,
  demo:439-3-3,
  demo:439-4-1,
@@ -15621,7 +15747,8 @@
  demo:442-5-1,
  demo:442-5-2 .
  
- inp:www-posters-2018-446 :relatesToEvent demo:446-3-1,
+ inp:www-posters-2018-446 foaf:homepage <https://dl.acm.org/authorize?N655016>;
+ :relatesToEvent demo:446-3-1,
  demo:446-3-2,
  demo:446-3-3,
  demo:446-4-1,
@@ -15639,7 +15766,8 @@
  demo:458-5-1,
  demo:458-5-2 .
  
- inp:www-posters-2018-462 :relatesToEvent demo:462-3-1,
+ inp:www-posters-2018-462 foaf:homepage <https://dl.acm.org/authorize?N655018>;
+ :relatesToEvent demo:462-3-1,
  demo:462-3-2,
  demo:462-3-3,
  demo:462-4-1,
@@ -15648,7 +15776,8 @@
  demo:462-5-1,
  demo:462-5-2 .
  
- inp:www-posters-2018-463 :relatesToEvent demo:463-3-1,
+ inp:www-posters-2018-463 foaf:homepage <https://dl.acm.org/authorize?N655019>;
+ :relatesToEvent demo:463-3-1,
  demo:463-3-2,
  demo:463-3-3,
  demo:463-4-1,
@@ -15657,7 +15786,8 @@
  demo:463-5-1,
  demo:463-5-2 .
  
- inp:www-posters-2018-468 :relatesToEvent demo:468-3-1,
+ inp:www-posters-2018-468 foaf:homepage <https://dl.acm.org/authorize?N655010>;
+ :relatesToEvent demo:468-3-1,
  demo:468-3-2,
  demo:468-3-3,
  demo:468-4-1,
@@ -15675,7 +15805,8 @@
  demo:470-5-1,
  demo:470-5-2 .
  
- inp:www-posters-2018-473 :relatesToEvent demo:473-3-1,
+ inp:www-posters-2018-473 foaf:homepage <https://dl.acm.org/authorize?N655012>;
+ :relatesToEvent demo:473-3-1,
  demo:473-3-2,
  demo:473-3-3,
  demo:473-4-1,
@@ -15684,7 +15815,8 @@
  demo:473-5-1,
  demo:473-5-2 .
  
- inp:www-posters-2018-474 :relatesToEvent demo:474-3-1,
+ inp:www-posters-2018-474 foaf:homepage <https://dl.acm.org/authorize?N655013>;
+ :relatesToEvent demo:474-3-1,
  demo:474-3-2,
  demo:474-3-3,
  demo:474-4-1,
@@ -15693,7 +15825,8 @@
  demo:474-5-1,
  demo:474-5-2 .
  
- inp:www-posters-2018-476 :relatesToEvent demo:476-3-1,
+ inp:www-posters-2018-476 foaf:homepage <https://dl.acm.org/authorize?N655014>;
+ :relatesToEvent demo:476-3-1,
  demo:476-3-2,
  demo:476-3-3,
  demo:476-4-1,
@@ -15702,7 +15835,8 @@
  demo:476-5-1,
  demo:476-5-2 .
  
- inp:www-posters-2018-477 :relatesToEvent demo:477-3-1,
+ inp:www-posters-2018-477 foaf:homepage <https://dl.acm.org/authorize?N655025>;
+ :relatesToEvent demo:477-3-1,
  demo:477-3-2,
  demo:477-3-3,
  demo:477-4-1,
@@ -15711,7 +15845,8 @@
  demo:477-5-1,
  demo:477-5-2 .
  
- inp:www-posters-2018-487 :relatesToEvent demo:487-3-1,
+ inp:www-posters-2018-487 foaf:homepage <https://dl.acm.org/authorize?N655026>;
+ :relatesToEvent demo:487-3-1,
  demo:487-3-2,
  demo:487-3-3,
  demo:487-4-1,
@@ -15720,7 +15855,8 @@
  demo:487-5-1,
  demo:487-5-2 .
  
- inp:www-posters-2018-490 :relatesToEvent demo:490-3-1,
+ inp:www-posters-2018-490 foaf:homepage <https://dl.acm.org/authorize?N655027>;
+ :relatesToEvent demo:490-3-1,
  demo:490-3-2,
  demo:490-3-3,
  demo:490-4-1,
@@ -15729,7 +15865,8 @@
  demo:490-5-1,
  demo:490-5-2 .
  
- inp:www-posters-2018-493 :relatesToEvent demo:493-3-1,
+ inp:www-posters-2018-493 foaf:homepage <https://dl.acm.org/authorize?N655028>;
+ :relatesToEvent demo:493-3-1,
  demo:493-3-2,
  demo:493-3-3,
  demo:493-4-1,
@@ -15738,7 +15875,8 @@
  demo:493-5-1,
  demo:493-5-2 .
  
- inp:www-posters-2018-497 :relatesToEvent demo:497-3-1,
+ inp:www-posters-2018-497 foaf:homepage <https://dl.acm.org/authorize?N655029>;
+ :relatesToEvent demo:497-3-1,
  demo:497-3-2,
  demo:497-3-3,
  demo:497-4-1,
@@ -15756,7 +15894,8 @@
  demo:503-5-1,
  demo:503-5-2 .
  
- inp:www-posters-2018-514 :relatesToEvent demo:514-3-1,
+ inp:www-posters-2018-514 foaf:homepage <https://dl.acm.org/authorize?N655021>;
+ :relatesToEvent demo:514-3-1,
  demo:514-3-2,
  demo:514-3-3,
  demo:514-4-1,
@@ -15765,7 +15904,8 @@
  demo:514-5-1,
  demo:514-5-2 .
  
- inp:www-posters-2018-517 :relatesToEvent demo:517-3-1,
+ inp:www-posters-2018-517 foaf:homepage <https://dl.acm.org/authorize?N655022>;
+ :relatesToEvent demo:517-3-1,
  demo:517-3-2,
  demo:517-3-3,
  demo:517-4-1,
@@ -15774,7 +15914,8 @@
  demo:517-5-1,
  demo:517-5-2 .
  
- inp:www-posters-2018-518 :relatesToEvent demo:518-3-1,
+ inp:www-posters-2018-518 foaf:homepage <https://dl.acm.org/authorize?N655023>;
+ :relatesToEvent demo:518-3-1,
  demo:518-3-2,
  demo:518-3-3,
  demo:518-4-1,
@@ -15783,7 +15924,8 @@
  demo:518-5-1,
  demo:518-5-2 .
  
- inp:www-posters-2018-519 :relatesToEvent demo:519-3-1,
+ inp:www-posters-2018-519 foaf:homepage <https://dl.acm.org/authorize?N655024>;
+ :relatesToEvent demo:519-3-1,
  demo:519-3-2,
  demo:519-3-3,
  demo:519-4-1,
@@ -15792,7 +15934,8 @@
  demo:519-5-1,
  demo:519-5-2 .
  
- inp:www-posters-2018-527 :relatesToEvent demo:527-3-1,
+ inp:www-posters-2018-527 foaf:homepage <https://dl.acm.org/authorize?N655035>;
+ :relatesToEvent demo:527-3-1,
  demo:527-3-2,
  demo:527-3-3,
  demo:527-4-1,
@@ -15801,7 +15944,8 @@
  demo:527-5-1,
  demo:527-5-2 .
  
- inp:www-posters-2018-529 :relatesToEvent demo:529-3-1,
+ inp:www-posters-2018-529 foaf:homepage <https://dl.acm.org/authorize?N655036>;
+ :relatesToEvent demo:529-3-1,
  demo:529-3-2,
  demo:529-3-3,
  demo:529-4-1,
@@ -15810,7 +15954,8 @@
  demo:529-5-1,
  demo:529-5-2 .
  
- inp:www-posters-2018-532 :relatesToEvent demo:532-3-1,
+ inp:www-posters-2018-532 foaf:homepage <https://dl.acm.org/authorize?N655037>;
+ :relatesToEvent demo:532-3-1,
  demo:532-3-2,
  demo:532-3-3,
  demo:532-4-1,
@@ -15819,7 +15964,8 @@
  demo:532-5-1,
  demo:532-5-2 .
  
- inp:www-posters-2018-534 :relatesToEvent demo:534-3-1,
+ inp:www-posters-2018-534 foaf:homepage <https://dl.acm.org/authorize?N655038>;
+ :relatesToEvent demo:534-3-1,
  demo:534-3-2,
  demo:534-3-3,
  demo:534-4-1,
@@ -15828,7 +15974,8 @@
  demo:534-5-1,
  demo:534-5-2 .
  
- inp:www-posters-2018-540 :relatesToEvent demo:540-3-1,
+ inp:www-posters-2018-540 foaf:homepage <https://dl.acm.org/authorize?N655039>;
+ :relatesToEvent demo:540-3-1,
  demo:540-3-2,
  demo:540-3-3,
  demo:540-4-1,
@@ -15837,7 +15984,8 @@
  demo:540-5-1,
  demo:540-5-2 .
  
- inp:www-posters-2018-542 :relatesToEvent demo:542-3-1,
+ inp:www-posters-2018-542 foaf:homepage <https://dl.acm.org/authorize?N655030>;
+ :relatesToEvent demo:542-3-1,
  demo:542-3-2,
  demo:542-3-3,
  demo:542-4-1,
@@ -15846,7 +15994,8 @@
  demo:542-5-1,
  demo:542-5-2 .
  
- inp:www-posters-2018-543 :relatesToEvent demo:543-3-1,
+ inp:www-posters-2018-543 foaf:homepage <https://dl.acm.org/authorize?N655031>;
+ :relatesToEvent demo:543-3-1,
  demo:543-3-2,
  demo:543-3-3,
  demo:543-4-1,
@@ -15855,7 +16004,8 @@
  demo:543-5-1,
  demo:543-5-2 .
  
- inp:www-posters-2018-545 :relatesToEvent demo:545-3-1,
+ inp:www-posters-2018-545 foaf:homepage <https://dl.acm.org/authorize?N655032>;
+ :relatesToEvent demo:545-3-1,
  demo:545-3-2,
  demo:545-3-3,
  demo:545-4-1,
@@ -15864,7 +16014,8 @@
  demo:545-5-1,
  demo:545-5-2 .
  
- inp:www-posters-2018-550 :relatesToEvent demo:550-3-1,
+ inp:www-posters-2018-550 foaf:homepage <https://dl.acm.org/authorize?N655033>;
+ :relatesToEvent demo:550-3-1,
  demo:550-3-2,
  demo:550-3-3,
  demo:550-4-1,
@@ -15873,7 +16024,8 @@
  demo:550-5-1,
  demo:550-5-2 .
  
- inp:www-posters-2018-551 :relatesToEvent demo:551-3-1,
+ inp:www-posters-2018-551 foaf:homepage <https://dl.acm.org/authorize?N655034>;
+ :relatesToEvent demo:551-3-1,
  demo:551-3-2,
  demo:551-3-3,
  demo:551-4-1,
@@ -15882,7 +16034,8 @@
  demo:551-5-1,
  demo:551-5-2 .
  
- inp:www-posters-2018-555 :relatesToEvent demo:555-3-1,
+ inp:www-posters-2018-555 foaf:homepage <https://dl.acm.org/authorize?N655045>;
+ :relatesToEvent demo:555-3-1,
  demo:555-3-2,
  demo:555-3-3,
  demo:555-4-1,
@@ -15891,7 +16044,8 @@
  demo:555-5-1,
  demo:555-5-2 .
  
- inp:www-posters-2018-559 :relatesToEvent demo:559-3-1,
+ inp:www-posters-2018-559 foaf:homepage <https://dl.acm.org/authorize?N655046>;
+ :relatesToEvent demo:559-3-1,
  demo:559-3-2,
  demo:559-3-3,
  demo:559-4-1,
@@ -15909,7 +16063,8 @@
  demo:568-5-1,
  demo:568-5-2 .
  
- inp:www-posters-2018-590 :relatesToEvent demo:590-3-1,
+ inp:www-posters-2018-590 foaf:homepage <https://dl.acm.org/authorize?N655048>;
+ :relatesToEvent demo:590-3-1,
  demo:590-3-2,
  demo:590-3-3,
  demo:590-4-1,
@@ -15918,7 +16073,8 @@
  demo:590-5-1,
  demo:590-5-2 .
  
- inp:www-posters-2018-593 :relatesToEvent demo:593-3-1,
+ inp:www-posters-2018-593 foaf:homepage <https://dl.acm.org/authorize?N655049>;
+ :relatesToEvent demo:593-3-1,
  demo:593-3-2,
  demo:593-3-3,
  demo:593-4-1,
@@ -15945,361 +16101,531 @@
  demo:605-5-1,
  demo:605-5-2 .
  
- inp:www-research-2018-ai-1346 :relatesToEvent talk:1346 .
+ inp:www-research-2018-ai-1346 foaf:homepage <https://dl.acm.org/authorize?N655818>;
+ :relatesToEvent talk:1346 .
  
- inp:www-research-2018-ai-183 :relatesToEvent talk:183 .
+ inp:www-research-2018-ai-183 foaf:homepage <https://dl.acm.org/authorize?N655815>;
+ :relatesToEvent talk:183 .
  
- inp:www-research-2018-ai-769 :relatesToEvent talk:769 .
+ inp:www-research-2018-ai-769 foaf:homepage <https://dl.acm.org/authorize?N655816>;
+ :relatesToEvent talk:769 .
  
- inp:www-research-2018-ai-930 :relatesToEvent talk:930 .
+ inp:www-research-2018-ai-930 foaf:homepage <https://dl.acm.org/authorize?N655817>;
+ :relatesToEvent talk:930 .
  
- inp:www-research-2018-content-analysis-1 :relatesToEvent talk:1 .
+ inp:www-research-2018-content-analysis-1 foaf:homepage <https://dl.acm.org/authorize?N655996>;
+ :relatesToEvent talk:1 .
  
- inp:www-research-2018-content-analysis-100 :relatesToEvent talk:100;
+ inp:www-research-2018-content-analysis-100 foaf:homepage <https://dl.acm.org/authorize?N655999>;
+ :relatesToEvent talk:100;
  :relatesToTrack track:www-honorable-mention-2018 .
  
- inp:www-research-2018-content-analysis-1047 :relatesToEvent talk:1047 .
+ inp:www-research-2018-content-analysis-1047 foaf:homepage <https://dl.acm.org/authorize?N655917>;
+ :relatesToEvent talk:1047 .
  
- inp:www-research-2018-content-analysis-1075 :relatesToEvent talk:1075 .
+ inp:www-research-2018-content-analysis-1075 foaf:homepage <https://dl.acm.org/authorize?N655919>;
+ :relatesToEvent talk:1075 .
  
- inp:www-research-2018-content-analysis-1097 :relatesToEvent talk:1097 .
+ inp:www-research-2018-content-analysis-1097 foaf:homepage <https://dl.acm.org/authorize?N655910>;
+ :relatesToEvent talk:1097 .
  
- inp:www-research-2018-content-analysis-115 :relatesToEvent talk:115 .
+ inp:www-research-2018-content-analysis-115 foaf:homepage <https://dl.acm.org/authorize?N655990>;
+ :relatesToEvent talk:115 .
  
- inp:www-research-2018-content-analysis-1153 :relatesToEvent talk:1153 .
+ inp:www-research-2018-content-analysis-1153 foaf:homepage <https://dl.acm.org/authorize?N655911>;
+ :relatesToEvent talk:1153 .
  
- inp:www-research-2018-content-analysis-1189 :relatesToEvent talk:1189 .
+ inp:www-research-2018-content-analysis-1189 foaf:homepage <https://dl.acm.org/authorize?N655912>;
+ :relatesToEvent talk:1189 .
  
- inp:www-research-2018-content-analysis-1221 :relatesToEvent talk:1221 .
+ inp:www-research-2018-content-analysis-1221 foaf:homepage <https://dl.acm.org/authorize?N655913>;
+ :relatesToEvent talk:1221 .
  
- inp:www-research-2018-content-analysis-1256 :relatesToEvent talk:1256 .
+ inp:www-research-2018-content-analysis-1256 foaf:homepage <https://dl.acm.org/authorize?N655914>;
+ :relatesToEvent talk:1256 .
  
- inp:www-research-2018-content-analysis-1259 :relatesToEvent talk:1259 .
+ inp:www-research-2018-content-analysis-1259 foaf:homepage <https://dl.acm.org/authorize?N655925>;
+ :relatesToEvent talk:1259 .
  
- inp:www-research-2018-content-analysis-1273 :relatesToEvent talk:1273 .
+ inp:www-research-2018-content-analysis-1273 foaf:homepage <https://dl.acm.org/authorize?N655926>;
+ :relatesToEvent talk:1273 .
  
- inp:www-research-2018-content-analysis-1382 :relatesToEvent talk:1382 .
+ inp:www-research-2018-content-analysis-1382 foaf:homepage <https://dl.acm.org/authorize?N655927>;
+ :relatesToEvent talk:1382 .
  
- inp:www-research-2018-content-analysis-1418 :relatesToEvent talk:1418 .
+ inp:www-research-2018-content-analysis-1418 foaf:homepage <https://dl.acm.org/authorize?N655928>;
+ :relatesToEvent talk:1418 .
  
- inp:www-research-2018-content-analysis-1431 :relatesToEvent talk:1431 .
+ inp:www-research-2018-content-analysis-1431 foaf:homepage <https://dl.acm.org/authorize?N655929>;
+ :relatesToEvent talk:1431 .
  
- inp:www-research-2018-content-analysis-179 :relatesToEvent talk:179;
+ inp:www-research-2018-content-analysis-179 foaf:homepage <https://dl.acm.org/authorize?N655804>;
+ :relatesToEvent talk:179;
  :relatesToTrack track:www-research-2018-ai .
  
- inp:www-research-2018-content-analysis-203 :relatesToEvent talk:203 .
+ inp:www-research-2018-content-analysis-203 foaf:homepage <https://dl.acm.org/authorize?N655992>;
+ :relatesToEvent talk:203 .
  
- inp:www-research-2018-content-analysis-272 :relatesToEvent talk:272 .
+ inp:www-research-2018-content-analysis-272 foaf:homepage <https://dl.acm.org/authorize?N655993>;
+ :relatesToEvent talk:272 .
  
- inp:www-research-2018-content-analysis-312 :relatesToEvent talk:312 .
+ inp:www-research-2018-content-analysis-312 foaf:homepage <https://dl.acm.org/authorize?N655994>;
+ :relatesToEvent talk:312 .
  
- inp:www-research-2018-content-analysis-478 :relatesToEvent talk:478 .
+ inp:www-research-2018-content-analysis-478 foaf:homepage <https://dl.acm.org/authorize?N655905>;
+ :relatesToEvent talk:478 .
  
- inp:www-research-2018-content-analysis-495 :relatesToEvent talk:495 .
+ inp:www-research-2018-content-analysis-495 foaf:homepage <https://dl.acm.org/authorize?N655906>;
+ :relatesToEvent talk:495 .
  
- inp:www-research-2018-content-analysis-518 :relatesToEvent talk:518 .
+ inp:www-research-2018-content-analysis-518 foaf:homepage <https://dl.acm.org/authorize?N655907>;
+ :relatesToEvent talk:518 .
  
- inp:www-research-2018-content-analysis-546 :relatesToEvent talk:546 .
+ inp:www-research-2018-content-analysis-546 foaf:homepage <https://dl.acm.org/authorize?N655908>;
+ :relatesToEvent talk:546 .
  
- inp:www-research-2018-content-analysis-548 :relatesToEvent talk:548 .
+ inp:www-research-2018-content-analysis-548 foaf:homepage <https://dl.acm.org/authorize?N655909>;
+ :relatesToEvent talk:548 .
  
- inp:www-research-2018-content-analysis-61 :relatesToEvent talk:61 .
+ inp:www-research-2018-content-analysis-61 foaf:homepage <https://dl.acm.org/authorize?N655998>;
+ :relatesToEvent talk:61 .
  
- inp:www-research-2018-content-analysis-621 :relatesToEvent talk:621 .
+ inp:www-research-2018-content-analysis-621 foaf:homepage <https://dl.acm.org/authorize?N655900>;
+ :relatesToEvent talk:621 .
  
- inp:www-research-2018-content-analysis-740 :relatesToEvent talk:740 .
+ inp:www-research-2018-content-analysis-740 foaf:homepage <https://dl.acm.org/authorize?N655901>;
+ :relatesToEvent talk:740 .
  
- inp:www-research-2018-content-analysis-775 :relatesToEvent talk:775 .
+ inp:www-research-2018-content-analysis-775 foaf:homepage <https://dl.acm.org/authorize?N655902>;
+ :relatesToEvent talk:775 .
  
- inp:www-research-2018-content-analysis-867 :relatesToEvent talk:867 .
+ inp:www-research-2018-content-analysis-867 foaf:homepage <https://dl.acm.org/authorize?N655903>;
+ :relatesToEvent talk:867 .
  
- inp:www-research-2018-content-analysis-913 :relatesToEvent talk:913 .
+ inp:www-research-2018-content-analysis-913 foaf:homepage <https://dl.acm.org/authorize?N655904>;
+ :relatesToEvent talk:913 .
  
- inp:www-research-2018-content-analysis-949 :relatesToEvent talk:949 .
+ inp:www-research-2018-content-analysis-949 foaf:homepage <https://dl.acm.org/authorize?N655915>;
+ :relatesToEvent talk:949 .
  
- inp:www-research-2018-content-analysis-997 :relatesToEvent talk:997 .
+ inp:www-research-2018-content-analysis-997 foaf:homepage <https://dl.acm.org/authorize?N655916>;
+ :relatesToEvent talk:997 .
  
- inp:www-research-2018-crowdsourcing-1018 :relatesToEvent talk:1018 .
+ inp:www-research-2018-crowdsourcing-1018 foaf:homepage <https://dl.acm.org/authorize?N655806>;
+ :relatesToEvent talk:1018 .
  
- inp:www-research-2018-crowdsourcing-1265 :relatesToEvent talk:1265 .
+ inp:www-research-2018-crowdsourcing-1265 foaf:homepage <https://dl.acm.org/authorize?N655807>;
+ :relatesToEvent talk:1265 .
  
- inp:www-research-2018-crowdsourcing-188 :relatesToEvent talk:188 .
+ inp:www-research-2018-crowdsourcing-188 foaf:homepage <https://dl.acm.org/authorize?N655892>;
+ :relatesToEvent talk:188 .
  
- inp:www-research-2018-crowdsourcing-236 :relatesToEvent talk:236 .
+ inp:www-research-2018-crowdsourcing-236 foaf:homepage <https://dl.acm.org/authorize?N655893>;
+ :relatesToEvent talk:236 .
  
- inp:www-research-2018-crowdsourcing-608 :relatesToEvent talk:608 .
+ inp:www-research-2018-crowdsourcing-608 foaf:homepage <https://dl.acm.org/authorize?N655894>;
+ :relatesToEvent talk:608 .
  
- inp:www-research-2018-crowdsourcing-914 :relatesToEvent talk:914 .
+ inp:www-research-2018-crowdsourcing-914 foaf:homepage <https://dl.acm.org/authorize?N655805>;
+ :relatesToEvent talk:914 .
  
- inp:www-research-2018-crowdsourcing-93 :relatesToEvent talk:93 .
+ inp:www-research-2018-crowdsourcing-93 foaf:homepage <https://dl.acm.org/authorize?N655891>;
+ :relatesToEvent talk:93 .
  
- inp:www-research-2018-economics-1127 :relatesToEvent talk:1127 .
+ inp:www-research-2018-economics-1127 foaf:homepage <https://dl.acm.org/authorize?N655939>;
+ :relatesToEvent talk:1127 .
  
- inp:www-research-2018-economics-124 :relatesToEvent talk:124 .
+ inp:www-research-2018-economics-124 foaf:homepage <https://dl.acm.org/authorize?N655920>;
+ :relatesToEvent talk:124 .
  
- inp:www-research-2018-economics-1281 :relatesToEvent talk:1281 .
+ inp:www-research-2018-economics-1281 foaf:homepage <https://dl.acm.org/authorize?N655930>;
+ :relatesToEvent talk:1281 .
  
- inp:www-research-2018-economics-154 :relatesToEvent talk:154 .
+ inp:www-research-2018-economics-154 foaf:homepage <https://dl.acm.org/authorize?N655921>;
+ :relatesToEvent talk:154 .
  
- inp:www-research-2018-economics-168 :relatesToEvent talk:168;
+ inp:www-research-2018-economics-168 foaf:homepage <https://dl.acm.org/authorize?N655991>;
+ :relatesToEvent talk:168;
  :relatesToTrack track:www-research-2018-content-analysis .
  
- inp:www-research-2018-economics-190 :relatesToEvent talk:190 .
+ inp:www-research-2018-economics-190 foaf:homepage <https://dl.acm.org/authorize?N655922>;
+ :relatesToEvent talk:190 .
  
- inp:www-research-2018-economics-457 :relatesToEvent talk:457 .
+ inp:www-research-2018-economics-457 foaf:homepage <https://dl.acm.org/authorize?N655923>;
+ :relatesToEvent talk:457 .
  
- inp:www-research-2018-economics-565 :relatesToEvent talk:565 .
+ inp:www-research-2018-economics-565 foaf:homepage <https://dl.acm.org/authorize?N655924>;
+ :relatesToEvent talk:565 .
  
- inp:www-research-2018-economics-638 :relatesToEvent talk:638 .
+ inp:www-research-2018-economics-638 foaf:homepage <https://dl.acm.org/authorize?N655935>;
+ :relatesToEvent talk:638 .
  
- inp:www-research-2018-economics-670 :relatesToEvent talk:670;
+ inp:www-research-2018-economics-670 foaf:homepage <https://dl.acm.org/authorize?N655936>;
+ :relatesToEvent talk:670;
  :relatesToTrack track:www-honorable-mention-2018 .
  
- inp:www-research-2018-economics-762 :relatesToEvent talk:762 .
+ inp:www-research-2018-economics-762 foaf:homepage <https://dl.acm.org/authorize?N655937>;
+ :relatesToEvent talk:762 .
  
- inp:www-research-2018-economics-884 :relatesToEvent talk:884 .
+ inp:www-research-2018-economics-884 foaf:homepage <https://dl.acm.org/authorize?N655938>;
+ :relatesToEvent talk:884 .
  
- inp:www-research-2018-health-1308 :relatesToEvent talk:1308;
+ inp:www-research-2018-health-1308 foaf:homepage <https://dl.acm.org/authorize?N655979>;
+ :relatesToEvent talk:1308;
  :relatesToTrack track:www-research-2018-user-modeling .
  
- inp:www-research-2018-health-1353 :relatesToEvent talk:1353;
+ inp:www-research-2018-health-1353 foaf:homepage <https://dl.acm.org/authorize?N655803>;
+ :relatesToEvent talk:1353;
  :relatesToTrack track:www-honorable-mention-2018 .
  
- inp:www-research-2018-health-253 :relatesToEvent talk:253 .
+ inp:www-research-2018-health-253 foaf:homepage <https://dl.acm.org/authorize?N655808>;
+ :relatesToEvent talk:253 .
  
- inp:www-research-2018-health-284 :relatesToEvent talk:284 .
+ inp:www-research-2018-health-284 foaf:homepage <https://dl.acm.org/authorize?N655809>;
+ :relatesToEvent talk:284 .
  
- inp:www-research-2018-health-314 :relatesToEvent talk:314 .
+ inp:www-research-2018-health-314 foaf:homepage <https://dl.acm.org/authorize?N655800>;
+ :relatesToEvent talk:314 .
  
- inp:www-research-2018-health-402 :relatesToEvent talk:402 .
+ inp:www-research-2018-health-402 foaf:homepage <https://dl.acm.org/authorize?N655801>;
+ :relatesToEvent talk:402 .
  
- inp:www-research-2018-health-575 :relatesToEvent talk:575 .
+ inp:www-research-2018-health-575 foaf:homepage <https://dl.acm.org/authorize?N655802>;
+ :relatesToEvent talk:575 .
  
- inp:www-research-2018-mobile-1026 :relatesToEvent talk:1026 .
+ inp:www-research-2018-mobile-1026 foaf:homepage <https://dl.acm.org/authorize?N655945>;
+ :relatesToEvent talk:1026 .
  
- inp:www-research-2018-mobile-1125 :relatesToEvent talk:1125;
+ inp:www-research-2018-mobile-1125 foaf:homepage <https://dl.acm.org/authorize?N655946>;
+ :relatesToEvent talk:1125;
  :relatesToTrack track:www-honorable-mention-2018 .
  
- inp:www-research-2018-mobile-1374 :relatesToEvent talk:1374 .
+ inp:www-research-2018-mobile-1374 foaf:homepage <https://dl.acm.org/authorize?N655947>;
+ :relatesToEvent talk:1374 .
  
- inp:www-research-2018-mobile-372 :relatesToEvent talk:372 .
+ inp:www-research-2018-mobile-372 foaf:homepage <https://dl.acm.org/authorize?N655931>;
+ :relatesToEvent talk:372 .
  
- inp:www-research-2018-mobile-704 :relatesToEvent talk:704 .
+ inp:www-research-2018-mobile-704 foaf:homepage <https://dl.acm.org/authorize?N655932>;
+ :relatesToEvent talk:704 .
  
- inp:www-research-2018-mobile-937 :relatesToEvent talk:937 .
+ inp:www-research-2018-mobile-937 foaf:homepage <https://dl.acm.org/authorize?N655933>;
+ :relatesToEvent talk:937 .
  
- inp:www-research-2018-mobile-968 :relatesToEvent talk:968 .
+ inp:www-research-2018-mobile-968 foaf:homepage <https://dl.acm.org/authorize?N655934>;
+ :relatesToEvent talk:968 .
  
- inp:www-research-2018-mobile-983 :relatesToEvent talk:983;
+ inp:www-research-2018-mobile-983 foaf:homepage <https://dl.acm.org/authorize?N655975>;
+ :relatesToEvent talk:983;
  :relatesToTrack track:www-research-2018-user-modeling .
  
- inp:www-research-2018-search-1045 :relatesToEvent talk:1045 .
+ inp:www-research-2018-search-1045 foaf:homepage <https://dl.acm.org/authorize?N655066>;
+ :relatesToEvent talk:1045 .
  
- inp:www-research-2018-search-1116 :relatesToEvent talk:1116 .
+ inp:www-research-2018-search-1116 foaf:homepage <https://dl.acm.org/authorize?N655067>;
+ :relatesToEvent talk:1116 .
  
- inp:www-research-2018-search-1234 :relatesToEvent talk:1234 .
+ inp:www-research-2018-search-1234 foaf:homepage <https://dl.acm.org/authorize?N655068>;
+ :relatesToEvent talk:1234 .
  
- inp:www-research-2018-search-1384 :relatesToEvent talk:1384 .
+ inp:www-research-2018-search-1384 foaf:homepage <https://dl.acm.org/authorize?N655069>;
+ :relatesToEvent talk:1384 .
  
- inp:www-research-2018-search-1521 :relatesToEvent talk:1521 .
+ inp:www-research-2018-search-1521 foaf:homepage <https://dl.acm.org/authorize?N655060>;
+ :relatesToEvent talk:1521 .
  
- inp:www-research-2018-search-210 :relatesToEvent talk:210 .
+ inp:www-research-2018-search-210 foaf:homepage <https://dl.acm.org/authorize?N655941>;
+ :relatesToEvent talk:210 .
  
- inp:www-research-2018-search-215 :relatesToEvent talk:215 .
+ inp:www-research-2018-search-215 foaf:homepage <https://dl.acm.org/authorize?N655942>;
+ :relatesToEvent talk:215 .
  
- inp:www-research-2018-search-24 :relatesToEvent talk:24 .
+ inp:www-research-2018-search-24 foaf:homepage <https://dl.acm.org/authorize?N655948>;
+ :relatesToEvent talk:24 .
  
- inp:www-research-2018-search-258 :relatesToEvent talk:258 .
+ inp:www-research-2018-search-258 foaf:homepage <https://dl.acm.org/authorize?N655943>;
+ :relatesToEvent talk:258 .
  
- inp:www-research-2018-search-268 :relatesToEvent talk:268 .
+ inp:www-research-2018-search-268 foaf:homepage <https://dl.acm.org/authorize?N655944>;
+ :relatesToEvent talk:268 .
  
- inp:www-research-2018-search-283 :relatesToEvent talk:283 .
+ inp:www-research-2018-search-283 foaf:homepage <https://dl.acm.org/authorize?N655055>;
+ :relatesToEvent talk:283 .
  
- inp:www-research-2018-search-376 :relatesToEvent talk:376 .
+ inp:www-research-2018-search-376 foaf:homepage <https://dl.acm.org/authorize?N655056>;
+ :relatesToEvent talk:376 .
  
- inp:www-research-2018-search-396 :relatesToEvent talk:396 .
+ inp:www-research-2018-search-396 foaf:homepage <https://dl.acm.org/authorize?N655057>;
+ :relatesToEvent talk:396 .
  
- inp:www-research-2018-search-40 :relatesToEvent talk:40;
+ inp:www-research-2018-search-40 foaf:homepage <https://dl.acm.org/authorize?N655997>;
+ :relatesToEvent talk:40;
  :relatesToTrack track:www-research-2018-content-analysis .
  
- inp:www-research-2018-search-422 :relatesToEvent talk:422 .
+ inp:www-research-2018-search-422 foaf:homepage <https://dl.acm.org/authorize?N655058>;
+ :relatesToEvent talk:422 .
  
- inp:www-research-2018-search-507 :relatesToEvent talk:507 .
+ inp:www-research-2018-search-507 foaf:homepage <https://dl.acm.org/authorize?N655059>;
+ :relatesToEvent talk:507 .
  
- inp:www-research-2018-search-567 :relatesToEvent talk:567 .
+ inp:www-research-2018-search-567 foaf:homepage <https://dl.acm.org/authorize?N655050>;
+ :relatesToEvent talk:567 .
  
- inp:www-research-2018-search-598 :relatesToEvent talk:598 .
+ inp:www-research-2018-search-598 foaf:homepage <https://dl.acm.org/authorize?N655051>;
+ :relatesToEvent talk:598 .
  
- inp:www-research-2018-search-702 :relatesToEvent talk:702 .
+ inp:www-research-2018-search-702 foaf:homepage <https://dl.acm.org/authorize?N655052>;
+ :relatesToEvent talk:702 .
  
- inp:www-research-2018-search-709 :relatesToEvent talk:709 .
+ inp:www-research-2018-search-709 foaf:homepage <https://dl.acm.org/authorize?N655053>;
+ :relatesToEvent talk:709 .
  
- inp:www-research-2018-search-80 :relatesToEvent talk:80 .
+ inp:www-research-2018-search-80 foaf:homepage <https://dl.acm.org/authorize?N655949>;
+ :relatesToEvent talk:80 .
  
- inp:www-research-2018-search-860 :relatesToEvent talk:860 .
+ inp:www-research-2018-search-860 foaf:homepage <https://dl.acm.org/authorize?N655054>;
+ :relatesToEvent talk:860 .
  
- inp:www-research-2018-search-88 :relatesToEvent talk:88 .
+ inp:www-research-2018-search-88 foaf:homepage <https://dl.acm.org/authorize?N655940>;
+ :relatesToEvent talk:88 .
  
- inp:www-research-2018-search-892 :relatesToEvent talk:892 .
+ inp:www-research-2018-search-892 foaf:homepage <https://dl.acm.org/authorize?N655065>;
+ :relatesToEvent talk:892 .
  
- inp:www-research-2018-security-1046 :relatesToEvent talk:1046 .
+ inp:www-research-2018-security-1046 foaf:homepage <https://dl.acm.org/authorize?N655829>;
+ :relatesToEvent talk:1046 .
  
- inp:www-research-2018-security-1121 :relatesToEvent talk:1121 .
+ inp:www-research-2018-security-1121 foaf:homepage <https://dl.acm.org/authorize?N655820>;
+ :relatesToEvent talk:1121 .
  
- inp:www-research-2018-security-1173 :relatesToEvent talk:1173 .
+ inp:www-research-2018-security-1173 foaf:homepage <https://dl.acm.org/authorize?N655821>;
+ :relatesToEvent talk:1173 .
  
- inp:www-research-2018-security-1186 :relatesToEvent talk:1186 .
+ inp:www-research-2018-security-1186 foaf:homepage <https://dl.acm.org/authorize?N655822>;
+ :relatesToEvent talk:1186 .
  
- inp:www-research-2018-security-125 :relatesToEvent talk:125 .
+ inp:www-research-2018-security-125 foaf:homepage <https://dl.acm.org/authorize?N655819>;
+ :relatesToEvent talk:125 .
  
- inp:www-research-2018-security-1333 :relatesToEvent talk:1333 .
+ inp:www-research-2018-security-1333 foaf:homepage <https://dl.acm.org/authorize?N655823>;
+ :relatesToEvent talk:1333 .
  
- inp:www-research-2018-security-1503 :relatesToEvent talk:1503 .
+ inp:www-research-2018-security-1503 foaf:homepage <https://dl.acm.org/authorize?N655824>;
+ :relatesToEvent talk:1503 .
  
- inp:www-research-2018-security-218 :relatesToEvent talk:218;
+ inp:www-research-2018-security-218 foaf:homepage <https://dl.acm.org/authorize?N655810>;
+ :relatesToEvent talk:218;
  :relatesToTrack track:www-honorable-mention-2018 .
  
- inp:www-research-2018-security-430 :relatesToEvent talk:430 .
+ inp:www-research-2018-security-430 foaf:homepage <https://dl.acm.org/authorize?N655811>;
+ :relatesToEvent talk:430 .
  
- inp:www-research-2018-security-624 :relatesToEvent talk:624 .
+ inp:www-research-2018-security-624 foaf:homepage <https://dl.acm.org/authorize?N655812>;
+ :relatesToEvent talk:624 .
  
- inp:www-research-2018-security-672 :relatesToEvent talk:672;
+ inp:www-research-2018-security-672 foaf:homepage <https://dl.acm.org/authorize?N655813>;
+ :relatesToEvent talk:672;
  :relatesToTrack track:www-honorable-mention-2018 .
  
- inp:www-research-2018-security-678 :relatesToEvent talk:678 .
+ inp:www-research-2018-security-678 foaf:homepage <https://dl.acm.org/authorize?N655814>;
+ :relatesToEvent talk:678 .
  
- inp:www-research-2018-security-725 :relatesToEvent talk:725 .
+ inp:www-research-2018-security-725 foaf:homepage <https://dl.acm.org/authorize?N655825>;
+ :relatesToEvent talk:725 .
  
- inp:www-research-2018-security-738 :relatesToEvent talk:738 .
+ inp:www-research-2018-security-738 foaf:homepage <https://dl.acm.org/authorize?N655826>;
+ :relatesToEvent talk:738 .
  
- inp:www-research-2018-security-869 :relatesToEvent talk:869 .
+ inp:www-research-2018-security-869 foaf:homepage <https://dl.acm.org/authorize?N655827>;
+ :relatesToEvent talk:869 .
  
- inp:www-research-2018-security-895 :relatesToEvent talk:895 .
+ inp:www-research-2018-security-895 foaf:homepage <https://dl.acm.org/authorize?N655828>;
+ :relatesToEvent talk:895 .
  
- inp:www-research-2018-social-network-analysis-1104 :relatesToEvent talk:1104 .
+ inp:www-research-2018-social-network-analysis-1104 foaf:homepage <https://dl.acm.org/authorize?N655956>;
+ :relatesToEvent talk:1104 .
  
- inp:www-research-2018-social-network-analysis-1136 :relatesToEvent talk:1136;
+ inp:www-research-2018-social-network-analysis-1136 foaf:homepage <https://dl.acm.org/authorize?N655957>;
+ :relatesToEvent talk:1136;
  :relatesToTrack track:www-honorable-mention-2018 .
  
- inp:www-research-2018-social-network-analysis-1160 :relatesToEvent talk:1160 .
+ inp:www-research-2018-social-network-analysis-1160 foaf:homepage <https://dl.acm.org/authorize?N655958>;
+ :relatesToEvent talk:1160 .
  
- inp:www-research-2018-social-network-analysis-1208 :relatesToEvent talk:1208 .
+ inp:www-research-2018-social-network-analysis-1208 foaf:homepage <https://dl.acm.org/authorize?N655959>;
+ :relatesToEvent talk:1208 .
  
- inp:www-research-2018-social-network-analysis-1213 :relatesToEvent talk:1213 .
+ inp:www-research-2018-social-network-analysis-1213 foaf:homepage <https://dl.acm.org/authorize?N655950>;
+ :relatesToEvent talk:1213 .
  
- inp:www-research-2018-social-network-analysis-1232 :relatesToEvent talk:1232 .
+ inp:www-research-2018-social-network-analysis-1232 foaf:homepage <https://dl.acm.org/authorize?N655951>;
+ :relatesToEvent talk:1232 .
  
- inp:www-research-2018-social-network-analysis-1250 :relatesToEvent talk:1250 .
+ inp:www-research-2018-social-network-analysis-1250 foaf:homepage <https://dl.acm.org/authorize?N655952>;
+ :relatesToEvent talk:1250 .
  
- inp:www-research-2018-social-network-analysis-126 :relatesToEvent talk:126 .
+ inp:www-research-2018-social-network-analysis-126 foaf:homepage <https://dl.acm.org/authorize?N655835>;
+ :relatesToEvent talk:126 .
  
- inp:www-research-2018-social-network-analysis-145 :relatesToEvent talk:145 .
+ inp:www-research-2018-social-network-analysis-145 foaf:homepage <https://dl.acm.org/authorize?N655836>;
+ :relatesToEvent talk:145 .
  
- inp:www-research-2018-social-network-analysis-181 :relatesToEvent talk:181;
+ inp:www-research-2018-social-network-analysis-181 foaf:homepage <https://dl.acm.org/authorize?N655837>;
+ :relatesToEvent talk:181;
  :relatesToTrack track:www-honorable-mention-2018 .
  
- inp:www-research-2018-social-network-analysis-219 :relatesToEvent talk:219 .
+ inp:www-research-2018-social-network-analysis-219 foaf:homepage <https://dl.acm.org/authorize?N655838>;
+ :relatesToEvent talk:219 .
  
- inp:www-research-2018-social-network-analysis-311 :relatesToEvent talk:311 .
+ inp:www-research-2018-social-network-analysis-311 foaf:homepage <https://dl.acm.org/authorize?N655839>;
+ :relatesToEvent talk:311 .
  
- inp:www-research-2018-social-network-analysis-321 :relatesToEvent talk:321 .
+ inp:www-research-2018-social-network-analysis-321 foaf:homepage <https://dl.acm.org/authorize?N655830>;
+ :relatesToEvent talk:321 .
  
- inp:www-research-2018-social-network-analysis-454 :relatesToEvent talk:454 .
+ inp:www-research-2018-social-network-analysis-454 foaf:homepage <https://dl.acm.org/authorize?N655831>;
+ :relatesToEvent talk:454 .
  
- inp:www-research-2018-social-network-analysis-607 :relatesToEvent talk:607 .
+ inp:www-research-2018-social-network-analysis-607 foaf:homepage <https://dl.acm.org/authorize?N655832>;
+ :relatesToEvent talk:607 .
  
- inp:www-research-2018-social-network-analysis-662 :relatesToEvent talk:662 .
+ inp:www-research-2018-social-network-analysis-662 foaf:homepage <https://dl.acm.org/authorize?N655833>;
+ :relatesToEvent talk:662 .
  
- inp:www-research-2018-social-network-analysis-665 :relatesToEvent talk:665 .
+ inp:www-research-2018-social-network-analysis-665 foaf:homepage <https://dl.acm.org/authorize?N655834>;
+ :relatesToEvent talk:665 .
  
- inp:www-research-2018-social-network-analysis-677 :relatesToEvent talk:677 .
+ inp:www-research-2018-social-network-analysis-677 foaf:homepage <https://dl.acm.org/authorize?N655845>;
+ :relatesToEvent talk:677 .
  
- inp:www-research-2018-social-network-analysis-685 :relatesToEvent talk:685 .
+ inp:www-research-2018-social-network-analysis-685 foaf:homepage <https://dl.acm.org/authorize?N655846>;
+ :relatesToEvent talk:685 .
  
- inp:www-research-2018-social-network-analysis-694 :relatesToEvent talk:694 .
+ inp:www-research-2018-social-network-analysis-694 foaf:homepage <https://dl.acm.org/authorize?N655847>;
+ :relatesToEvent talk:694 .
  
- inp:www-research-2018-social-network-analysis-722 :relatesToEvent talk:722 .
+ inp:www-research-2018-social-network-analysis-722 foaf:homepage <https://dl.acm.org/authorize?N655848>;
+ :relatesToEvent talk:722 .
  
- inp:www-research-2018-social-network-analysis-744 :relatesToEvent talk:744 .
+ inp:www-research-2018-social-network-analysis-744 foaf:homepage <https://dl.acm.org/authorize?N655849>;
+ :relatesToEvent talk:744 .
  
- inp:www-research-2018-social-network-analysis-746 :relatesToEvent talk:746 .
+ inp:www-research-2018-social-network-analysis-746 foaf:homepage <https://dl.acm.org/authorize?N655840>;
+ :relatesToEvent talk:746 .
  
- inp:www-research-2018-social-network-analysis-761 :relatesToEvent talk:761 .
+ inp:www-research-2018-social-network-analysis-761 foaf:homepage <https://dl.acm.org/authorize?N655841>;
+ :relatesToEvent talk:761 .
  
- inp:www-research-2018-social-network-analysis-776 :relatesToEvent talk:776 .
+ inp:www-research-2018-social-network-analysis-776 foaf:homepage <https://dl.acm.org/authorize?N655842>;
+ :relatesToEvent talk:776 .
  
- inp:www-research-2018-social-network-analysis-915 :relatesToEvent talk:915 .
+ inp:www-research-2018-social-network-analysis-915 foaf:homepage <https://dl.acm.org/authorize?N655843>;
+ :relatesToEvent talk:915 .
  
- inp:www-research-2018-social-network-analysis-960 :relatesToEvent talk:960 .
+ inp:www-research-2018-social-network-analysis-960 foaf:homepage <https://dl.acm.org/authorize?N655844>;
+ :relatesToEvent talk:960 .
  
- inp:www-research-2018-social-network-analysis-985 :relatesToEvent talk:985 .
+ inp:www-research-2018-social-network-analysis-985 foaf:homepage <https://dl.acm.org/authorize?N655955>;
+ :relatesToEvent talk:985 .
  
- inp:www-research-2018-society-1053 :relatesToEvent talk:1053 .
+ inp:www-research-2018-society-1053 foaf:homepage <https://dl.acm.org/authorize?N655981>;
+ :relatesToEvent talk:1053 .
  
- inp:www-research-2018-society-1065 :relatesToEvent talk:1065;
+ inp:www-research-2018-society-1065 foaf:homepage <https://dl.acm.org/authorize?N655918>;
+ :relatesToEvent talk:1065;
  :relatesToTrack track:www-research-2018-content-analysis .
  
- inp:www-research-2018-society-1109 :relatesToEvent talk:1109 .
+ inp:www-research-2018-society-1109 foaf:homepage <https://dl.acm.org/authorize?N655982>;
+ :relatesToEvent talk:1109 .
  
- inp:www-research-2018-society-1373 :relatesToEvent talk:1373 .
+ inp:www-research-2018-society-1373 foaf:homepage <https://dl.acm.org/authorize?N655983>;
+ :relatesToEvent talk:1373 .
  
- inp:www-research-2018-society-1411 :relatesToEvent talk:1411 .
+ inp:www-research-2018-society-1411 foaf:homepage <https://dl.acm.org/authorize?N655984>;
+ :relatesToEvent talk:1411 .
  
- inp:www-research-2018-society-1441 :relatesToEvent talk:1441 .
+ inp:www-research-2018-society-1441 foaf:homepage <https://dl.acm.org/authorize?N655995>;
+ :relatesToEvent talk:1441 .
  
- inp:www-research-2018-society-147 :relatesToEvent talk:147 .
+ inp:www-research-2018-society-147 foaf:homepage <https://dl.acm.org/authorize?N655972>;
+ :relatesToEvent talk:147 .
  
- inp:www-research-2018-society-228 :relatesToEvent talk:228 .
+ inp:www-research-2018-society-228 foaf:homepage <https://dl.acm.org/authorize?N655973>;
+ :relatesToEvent talk:228 .
  
- inp:www-research-2018-society-328 :relatesToEvent talk:328 .
+ inp:www-research-2018-society-328 foaf:homepage <https://dl.acm.org/authorize?N655974>;
+ :relatesToEvent talk:328 .
  
- inp:www-research-2018-society-573 :relatesToEvent talk:573 .
+ inp:www-research-2018-society-573 foaf:homepage <https://dl.acm.org/authorize?N655985>;
+ :relatesToEvent talk:573 .
  
- inp:www-research-2018-society-680 :relatesToEvent talk:680 .
+ inp:www-research-2018-society-680 foaf:homepage <https://dl.acm.org/authorize?N655986>;
+ :relatesToEvent talk:680 .
  
- inp:www-research-2018-society-800 :relatesToEvent talk:800 .
+ inp:www-research-2018-society-800 foaf:homepage <https://dl.acm.org/authorize?N655987>;
+ :relatesToEvent talk:800 .
  
- inp:www-research-2018-society-810 :relatesToEvent talk:810 .
+ inp:www-research-2018-society-810 foaf:homepage <https://dl.acm.org/authorize?N655988>;
+ :relatesToEvent talk:810 .
  
- inp:www-research-2018-society-841 :relatesToEvent talk:841 .
+ inp:www-research-2018-society-841 foaf:homepage <https://dl.acm.org/authorize?N655989>;
+ :relatesToEvent talk:841 .
  
- inp:www-research-2018-society-933 :relatesToEvent talk:933 .
+ inp:www-research-2018-society-933 foaf:homepage <https://dl.acm.org/authorize?N655980>;
+ :relatesToEvent talk:933 .
  
- inp:www-research-2018-society-94 :relatesToEvent talk:94;
+ inp:www-research-2018-society-94 foaf:homepage <https://dl.acm.org/authorize?N655971>;
+ :relatesToEvent talk:94;
  :relatesToTrack track:www-honorable-mention-2018 .
  
- inp:www-research-2018-user-modeling-1063 :relatesToEvent talk:1063 .
+ inp:www-research-2018-user-modeling-1063 foaf:homepage <https://dl.acm.org/authorize?N655977>;
+ :relatesToEvent talk:1063 .
  
- inp:www-research-2018-user-modeling-1074 :relatesToEvent talk:1074 .
+ inp:www-research-2018-user-modeling-1074 foaf:homepage <https://dl.acm.org/authorize?N655978>;
+ :relatesToEvent talk:1074 .
  
- inp:www-research-2018-user-modeling-1419 :relatesToEvent talk:1419 .
+ inp:www-research-2018-user-modeling-1419 foaf:homepage <https://dl.acm.org/authorize?N655970>;
+ :relatesToEvent talk:1419 .
  
- inp:www-research-2018-user-modeling-212 :relatesToEvent talk:212;
+ inp:www-research-2018-user-modeling-212 foaf:homepage <https://dl.acm.org/authorize?N655954>;
+ :relatesToEvent talk:212;
  :relatesToTrack track:www-honorable-mention-2018 .
  
- inp:www-research-2018-user-modeling-29 :relatesToEvent talk:29 .
+ inp:www-research-2018-user-modeling-29 foaf:homepage <https://dl.acm.org/authorize?N655953>;
+ :relatesToEvent talk:29 .
  
- inp:www-research-2018-user-modeling-332 :relatesToEvent talk:332 .
+ inp:www-research-2018-user-modeling-332 foaf:homepage <https://dl.acm.org/authorize?N655965>;
+ :relatesToEvent talk:332 .
  
- inp:www-research-2018-user-modeling-411 :relatesToEvent talk:411 .
+ inp:www-research-2018-user-modeling-411 foaf:homepage <https://dl.acm.org/authorize?N655966>;
+ :relatesToEvent talk:411 .
  
- inp:www-research-2018-user-modeling-413 :relatesToEvent talk:413 .
+ inp:www-research-2018-user-modeling-413 foaf:homepage <https://dl.acm.org/authorize?N655967>;
+ :relatesToEvent talk:413 .
  
- inp:www-research-2018-user-modeling-424 :relatesToEvent talk:424 .
+ inp:www-research-2018-user-modeling-424 foaf:homepage <https://dl.acm.org/authorize?N655968>;
+ :relatesToEvent talk:424 .
  
- inp:www-research-2018-user-modeling-614 :relatesToEvent talk:614 .
+ inp:www-research-2018-user-modeling-614 foaf:homepage <https://dl.acm.org/authorize?N655969>;
+ :relatesToEvent talk:614 .
  
- inp:www-research-2018-user-modeling-706 :relatesToEvent talk:706 .
+ inp:www-research-2018-user-modeling-706 foaf:homepage <https://dl.acm.org/authorize?N655960>;
+ :relatesToEvent talk:706 .
  
- inp:www-research-2018-user-modeling-726 :relatesToEvent talk:726 .
+ inp:www-research-2018-user-modeling-726 foaf:homepage <https://dl.acm.org/authorize?N655961>;
+ :relatesToEvent talk:726 .
  
- inp:www-research-2018-user-modeling-743 :relatesToEvent talk:743 .
+ inp:www-research-2018-user-modeling-743 foaf:homepage <https://dl.acm.org/authorize?N655962>;
+ :relatesToEvent talk:743 .
  
- inp:www-research-2018-user-modeling-774 :relatesToEvent talk:774 .
+ inp:www-research-2018-user-modeling-774 foaf:homepage <https://dl.acm.org/authorize?N655963>;
+ :relatesToEvent talk:774 .
  
- inp:www-research-2018-user-modeling-947 :relatesToEvent talk:947 .
+ inp:www-research-2018-user-modeling-947 foaf:homepage <https://dl.acm.org/authorize?N655964>;
+ :relatesToEvent talk:947 .
  
- inp:www-research-2018-user-modeling-998 :relatesToEvent talk:998 .
+ inp:www-research-2018-user-modeling-998 foaf:homepage <https://dl.acm.org/authorize?N655976>;
+ :relatesToEvent talk:998 .
  
  inp:www-tutorials-2018-tutorials-191 :abstract """Matching is the key problem in both search and recommendation, that is to measure the relevance of a document to a query or the interest of a user on an item. Previously, machine learning methods have been exploited to address the problem, which learns a matching function from labeled data, also referred to as “learning to match”. In recent years, deep learning has been successfully applied to matching and significant progresses have been made. Deep semantic matching models for search and neural collaborative filtering models for recommendation are becoming the state-of-the-art technologies.
  
@@ -16429,19 +16755,26 @@
  This tutorial will cover in detail the challenges involved in building a modern data management platform for digital advertising, and some of the high-impact research opportunities that exist in this Space.""";
  :relatesToEvent tuto:234 .
  
- inp:www-webprog-2018-webprog-113 :relatesToEvent alt:86 .
+ inp:www-webprog-2018-webprog-113 foaf:homepage <https://dl.acm.org/authorize?N655141>;
+ :relatesToEvent alt:86 .
  
- inp:www-webprog-2018-webprog-116 :relatesToEvent alt:87 .
+ inp:www-webprog-2018-webprog-116 foaf:homepage <https://dl.acm.org/authorize?N655142>;
+ :relatesToEvent alt:87 .
  
- inp:www-webprog-2018-webprog-125 :relatesToEvent alt:88 .
+ inp:www-webprog-2018-webprog-125 foaf:homepage <https://dl.acm.org/authorize?N655143>;
+ :relatesToEvent alt:88 .
  
- inp:www-webprog-2018-webprog-158 :relatesToEvent alt:89 .
+ inp:www-webprog-2018-webprog-158 foaf:homepage <https://dl.acm.org/authorize?N655144>;
+ :relatesToEvent alt:89 .
  
- inp:www-webprog-2018-webprog-162 :relatesToEvent alt:90 .
+ inp:www-webprog-2018-webprog-162 foaf:homepage <https://dl.acm.org/authorize?N655255>;
+ :relatesToEvent alt:90 .
  
- inp:www-webprog-2018-webprog-166 :relatesToEvent alt:91 .
+ inp:www-webprog-2018-webprog-166 foaf:homepage <https://dl.acm.org/authorize?N655256>;
+ :relatesToEvent alt:91 .
  
- inp:www-webprog-2018-webprog-73 :relatesToEvent alt:85 .
+ inp:www-webprog-2018-webprog-73 foaf:homepage <https://dl.acm.org/authorize?N655140>;
+ :relatesToEvent alt:85 .
  
  inp:www-workshops-2018-aw4city-707 :relatesToEvent www11:talk .
  

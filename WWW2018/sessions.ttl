@@ -9363,7 +9363,7 @@
  
  <#room/Amphith%C3%A9%C3%A2tre> a sch:MeetingRoom,
  :Site;
- rdfs:label "Amphithéâtre" .
+ rdfs:label "🅱 Amphithéâtre" .
  
  <#room/Auditorium_Pasteur> a sch:MeetingRoom,
  :Site;
@@ -9479,23 +9479,23 @@
  
  <#room/Salle_Rh%C3%B4ne_1> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salle Rhône 1" .
+ rdfs:label "🆃 Salle Rhône 1" .
  
  <#room/Salle_Rh%C3%B4ne_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salle Rhône 2" .
+ rdfs:label "🆃 Salle Rhône 2" .
  
  <#room/Salle_Rh%C3%B4ne_3A> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salle Rhône 3A" .
+ rdfs:label "🆃 Salle Rhône 3A" .
  
  <#room/Salle_Rh%C3%B4ne_3B> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salle Rhône 3B" .
+ rdfs:label "🆃 Salle Rhône 3B" .
  
  <#room/Salle_Rh%C3%B4ne_4> a sch:MeetingRoom,
  :Site;
- rdfs:label "Salle Rhône 4" .
+ rdfs:label "🆃 Salle Rhône 4" .
  
  <#room/Salle_St_Clair_1> a sch:MeetingRoom,
  :Site;
@@ -11879,6 +11879,15 @@
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:big-2018-big;
  :startDate "2018-04-24T15:40:00+02:00"^^xsd:dateTime .
+ 
+ se:218 a :AcademicEvent,
+ :OrganisedEvent,
+ :Session;
+ rdfs:label "Sponsors Track";
+ :endDate "2018-04-26T15:00:00+02:00"^^xsd:dateTime;
+ :hasSite <#room/Salle_St_Clair_2>;
+ :isSubEventOf confe:the-web-conf2018;
+ :startDate "2018-04-26T13:40:00+02:00"^^xsd:dateTime .
  
  se:22 a :AcademicEvent,
  :OrganisedEvent,
@@ -14835,6 +14844,7 @@
  se:215,
  se:216,
  se:217,
+ se:218,
  se:22,
  se:23,
  se:24,

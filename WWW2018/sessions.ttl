@@ -10275,6 +10275,7 @@
  :endDate "2018-04-26T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_T%C3%AAte_d%27Or_1>;
  :isSubEventOf confe:the-web-conf2018;
+ :relatesToTrack track:www-town-hall-meeting-2018;
  :startDate "2018-04-26T15:40:00+02:00"^^xsd:dateTime .
  
  se:115 a :AcademicEvent,
@@ -11887,6 +11888,7 @@
  :endDate "2018-04-26T15:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Salle_St_Clair_2>;
  :isSubEventOf confe:the-web-conf2018;
+ :relatesToTrack track:www-sponsors-2018;
  :startDate "2018-04-26T13:40:00+02:00"^^xsd:dateTime .
  
  se:22 a :AcademicEvent,
@@ -17751,6 +17753,7 @@
  track:www-local-eco-2018,
  track:www-min-of-madness-2018,
  track:www-plenary-2018,
+ track:www-sponsors-2018,
  track:www-town-hall-meeting-2018,
  track:www-w3c-2018 .
  
@@ -17842,10 +17845,17 @@
  
  track:www-research2018 te:sortLabel "1. Research tracks" .
  
+ track:www-sponsors-2018 a :Track;
+ rdfs:label "Sponsors Track";
+ :description "Sponsors track";
+ :isSubTrackOf track:www-other2018;
+ :isTrackRelatedTo se:218 .
+ 
  track:www-town-hall-meeting-2018 a :Track;
  rdfs:label "Town Hall Meeting";
  :description "Town Hall Meeting";
- :isSubTrackOf track:www-other2018 .
+ :isSubTrackOf track:www-other2018;
+ :isTrackRelatedTo se:114 .
  
  track:www-tutorials-2018-tutorials :isTrackRelatedTo se:18,
  se:19,

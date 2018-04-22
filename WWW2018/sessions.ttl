@@ -11776,7 +11776,7 @@
  :Session;
  rdfs:label "W3C - Tutorials III";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_Bellecour_3>;
+ :hasSite <#room/Salon_Roseraie_1>;
  :hasSubEvent alt:244;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-w3c-2018;
@@ -11881,7 +11881,7 @@
  :Session;
  rdfs:label "The BIG Web V";
  :endDate "2018-04-24T10:20:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Auditorium_Pasteur>;
+ :hasSite <#room/Salle_Rh%C3%B4ne_3A>;
  :hasSubEvent alt:252,
  alt:70;
  :isSubEventOf confe:the-web-conf2018;
@@ -11893,7 +11893,7 @@
  :Session;
  rdfs:label "The BIG Web VI";
  :endDate "2018-04-24T12:20:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Auditorium_Pasteur>;
+ :hasSite <#room/Salle_Rh%C3%B4ne_3A>;
  :hasSubEvent alt:79,
  alt:80,
  alt:82,
@@ -11907,7 +11907,7 @@
  :Session;
  rdfs:label "The BIG Web VII";
  :endDate "2018-04-24T15:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Auditorium_Pasteur>;
+ :hasSite <#room/Salle_Rh%C3%B4ne_3A>;
  :hasSubEvent alt:69,
  alt:71,
  alt:76;
@@ -11920,7 +11920,7 @@
  :Session;
  rdfs:label "The BIG Web VIII";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Auditorium_Pasteur>;
+ :hasSite <#room/Salle_Rh%C3%B4ne_3A>;
  :hasSubEvent alt:73,
  alt:74;
  :isSubEventOf confe:the-web-conf2018;
@@ -12009,7 +12009,7 @@
  rdfs:label "PROFILES & Data:Search - International Workshop on Profiling and Searching Data on the Web";
  foaf:homepage <https://profiles-datasearch.github.io/2018/>;
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_Bellecour_1>;
+ :hasSite <#room/Salle_Bellecour_3>;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack wo:www-workshops-2018-profiles;
  :startDate "2018-04-24T09:00:00+02:00"^^xsd:dateTime .
@@ -12020,7 +12020,7 @@
  rdfs:label "#RCBlackMirror2018: Re-Coding Black Mirror";
  foaf:homepage <https://kmitd.github.io/recoding-black-mirror/>;
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_T%C3%AAte_d%27Or_1>;
+ :hasSite <#room/Salle_Bellecour_1>;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack wo:www-workshops-2018-rcblackmirror2018;
  :startDate "2018-04-24T09:00:00+02:00"^^xsd:dateTime .
@@ -12042,7 +12042,7 @@
  rdfs:label "9th International Workshop on Modeling Social Media (MSM 2018): Applying Machine Learning and AI for Modeling Social Media";
  foaf:homepage <https://msm2018.github.io/>;
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_Bellecour_2>;
+ :hasSite <#room/Salon_Gratte-Ciel>;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack wo:www-workshops-2018-msm-2018;
  :startDate "2018-04-24T13:40:00+02:00"^^xsd:dateTime .
@@ -12052,7 +12052,7 @@
  :Session;
  rdfs:label "W3C - Tutorials II";
  :endDate "2018-04-24T12:20:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_Bellecour_3>;
+ :hasSite <#room/Salon_Roseraie_2>;
  :hasSubEvent alt:243;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-w3c-2018;
@@ -12064,7 +12064,7 @@
  rdfs:label "Augmenting Intelligence with Humans-in-the-Loop (HumL2018)";
  foaf:homepage <https://w3id.org/huml>;
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_T%C3%AAte_d%27Or_2>;
+ :hasSite <#room/Salon_T%C3%AAte_d%27Or>;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack wo:www-workshops-2018-huml2018;
  :startDate "2018-04-24T09:00:00+02:00"^^xsd:dateTime .
@@ -12075,7 +12075,7 @@
  rdfs:label "The Third International Workshop on Computational Methods for CyberSafety";
  foaf:homepage <https://cybersafety2018.github.io/>;
  :endDate "2018-04-24T12:20:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_Bellecour_2>;
+ :hasSite <#room/Salle_Rh%C3%B4ne_4>;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack wo:www-workshops-2018-cybersafety;
  :startDate "2018-04-24T09:00:00+02:00"^^xsd:dateTime .
@@ -12097,7 +12097,7 @@
  rdfs:label "Digital-Health 2018";
  foaf:homepage www37:;
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salon_Gratte-Ciel>;
+ :hasSite <#room/Salle_Gratte-Ciel_3>;
  :isSubEventOf confe:the-web-conf2018;
  :startDate "2018-04-24T09:00:00+02:00"^^xsd:dateTime .
  
@@ -12107,7 +12107,7 @@
  rdfs:label "Digital-Health 2018";
  foaf:homepage www37:;
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_Gratte-Ciel_3>;
+ :hasSite <#room/Salle_T%C3%AAte_d%27Or_1>;
  :isSubEventOf confe:the-web-conf2018;
  :startDate "2018-04-24T09:00:00+02:00"^^xsd:dateTime .
  
@@ -12138,7 +12138,7 @@
  rdfs:label "3rd Workshop on Linked Data & Distributed Ledgers (LD-DL)";
  foaf:homepage <https://sites.google.com/view/lddl-3/home>;
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_Rh%C3%B4ne_1>;
+ :hasSite <#room/Salle_Rh%C3%B4ne_4>;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack wo:www-workshops-2018-ld-dl;
  :startDate "2018-04-24T13:40:00+02:00"^^xsd:dateTime .
@@ -12149,7 +12149,7 @@
  rdfs:label "Researcher Centric Scholarly Communication";
  foaf:homepage <https://linkedresearch.org/events/the-web-conf-2018/>;
  :endDate "2018-04-24T12:20:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salon_T%C3%AAte_d%27Or>;
+ :hasSite <#room/Salle_Bellecour_2>;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack wo:www-workshops-2018-rcsc-2018;
  :startDate "2018-04-24T09:00:00+02:00"^^xsd:dateTime .
@@ -12160,7 +12160,7 @@
  rdfs:label """2018 Workshop on "Semantics, Analytics and Visualisation: Enhancing Scholarly Dissemination" (SAVE-SD 2018)""";
  foaf:homepage <https://save-sd.github.io/2018/index.html>;
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salon_T%C3%AAte_d%27Or>;
+ :hasSite <#room/Salle_T%C3%AAte_d%27Or_2>;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack wo:www-workshops-2018-save-sd-2018;
  :startDate "2018-04-24T13:40:00+02:00"^^xsd:dateTime .
@@ -12171,7 +12171,7 @@
  rdfs:label "LocWeb 2018: Eighth International Workshop on Location and the Web";
  foaf:homepage <http://dhere.de/locweb2018/>;
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_Rh%C3%B4ne_3A>;
+ :hasSite <#room/Salle_St_Clair_2>;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack wo:www-workshops-2018-locweb-2018;
  :startDate "2018-04-24T09:00:00+02:00"^^xsd:dateTime .
@@ -12193,7 +12193,7 @@
  rdfs:label "RoD: Reasoning on Data";
  foaf:homepage <https://sites.google.com/site/2018rod/>;
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_Rh%C3%B4ne_4>;
+ :hasSite <#room/Salle_St_Clair_3B>;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack wo:www-workshops-2018-rod;
  :startDate "2018-04-24T09:00:00+02:00"^^xsd:dateTime .
@@ -12225,7 +12225,7 @@
  :Session;
  rdfs:label "Online Evaluation for Effective Web Service Development";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_St_Clair_2>;
+ :hasSite <#room/Salle_St_Clair_4>;
  :hasSubEvent tuto:212;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-tutorials-2018-tutorials;
@@ -12247,7 +12247,7 @@
  :Session;
  rdfs:label "Understanding & Inferring User Tasks and Needs";
  :endDate "2018-04-24T12:20:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_St_Clair_3B>;
+ :hasSite <#room/Salon_Gratte-Ciel>;
  :hasSubEvent tuto:222;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-tutorials-2018-tutorials;
@@ -12258,7 +12258,7 @@
  :Session;
  rdfs:label "Data Management Platforms for Digital Advertising";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_St_Clair_3B>;
+ :hasSite <#room/Salon_Roseraie_2>;
  :hasSubEvent tuto:234;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-tutorials-2018-tutorials;
@@ -12281,7 +12281,7 @@
  rdfs:label "Second Women in Data Science (WinDS) Workshop";
  foaf:homepage <https://sites.google.com/site/winds2018/home>;
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_St_Clair_4>;
+ :hasSite <#room/Salle_Rh%C3%B4ne_1>;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack wo:www-workshops-2018-winds;
  :startDate "2018-04-24T13:40:00+02:00"^^xsd:dateTime .
@@ -12291,7 +12291,7 @@
  :Session;
  rdfs:label "Knowledge Graph Completion";
  :endDate "2018-04-24T12:20:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salon_Roseraie_1>;
+ :hasSite <#room/Auditorium_Pasteur>;
  :hasSubEvent tuto:215;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-tutorials-2018-tutorials;
@@ -12302,7 +12302,7 @@
  :Session;
  rdfs:label "Mining Attributed Networks Tutorial";
  :endDate "2018-04-24T12:20:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salon_Roseraie_2>;
+ :hasSite <#room/Salle_T%C3%AAte_d%27Or_2>;
  :hasSubEvent tuto:230;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-tutorials-2018-tutorials;
@@ -12313,7 +12313,7 @@
  :Session;
  rdfs:label "Representation Learning on Networks";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salon_Roseraie_1>;
+ :hasSite <#room/Auditorium_Pasteur>;
  :hasSubEvent tuto:225;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-tutorials-2018-tutorials;
@@ -12324,7 +12324,7 @@
  :Session;
  rdfs:label "Web Tracking Technologies and Protection Mechanisms";
  :endDate "2018-04-24T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salon_Roseraie_2>;
+ :hasSite <#room/Salle_Bellecour_2>;
  :hasSubEvent tuto:203;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-tutorials-2018-tutorials;

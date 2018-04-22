@@ -10682,7 +10682,7 @@
  rdfs:label "Mining Attributed Networks Workshop";
  foaf:homepage <https://lipn.fr/man-www2018>;
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_Rh%C3%B4ne_3A>;
+ :hasSite <#room/Salle_Bellecour_1>;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack wo:www-workshops-2018-matnet;
  :startDate "2018-04-23T09:00:00+02:00"^^xsd:dateTime .
@@ -11756,7 +11756,7 @@
  :Session;
  rdfs:label "Computational fact-checking: problems, state of the art, and perspectives";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_Bellecour_1>;
+ :hasSite <#room/Auditorium_Pasteur>;
  :hasSubEvent tuto:204;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-tutorials-2018-tutorials;
@@ -11831,7 +11831,7 @@
  :Session;
  rdfs:label "The BIG Web I";
  :endDate "2018-04-23T10:20:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Auditorium_Pasteur>;
+ :hasSite <#room/Salle_Rh%C3%B4ne_3A>;
  :hasSubEvent alt:250,
  alt:251,
  alt:77;
@@ -11844,7 +11844,7 @@
  :Session;
  rdfs:label "The BIG Web II";
  :endDate "2018-04-23T12:20:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Auditorium_Pasteur>;
+ :hasSite <#room/Salle_Rh%C3%B4ne_3A>;
  :hasSubEvent alt:68,
  alt:81,
  alt:84;
@@ -11857,7 +11857,7 @@
  :Session;
  rdfs:label "The BIG Web III";
  :endDate "2018-04-23T15:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Auditorium_Pasteur>;
+ :hasSite <#room/Salle_Rh%C3%B4ne_3A>;
  :hasSubEvent alt:72,
  alt:75,
  alt:78;
@@ -11870,7 +11870,7 @@
  :Session;
  rdfs:label "The BIG Web IV";
  :endDate "2018-04-23T17:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Auditorium_Pasteur>;
+ :hasSite <#room/Salle_Rh%C3%B4ne_3A>;
  :hasSubEvent alt:253;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:big-2018-big;
@@ -11964,7 +11964,7 @@
  :Session;
  rdfs:label "A Critical Review of Social Data: Biases, Methodological Pitfalls, and Ethical Boundaries";
  :endDate "2018-04-23T12:20:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Salle_Bellecour_1>;
+ :hasSite <#room/Auditorium_Pasteur>;
  :hasSubEvent tuto:214;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:www-tutorials-2018-tutorials;

@@ -11766,10 +11766,10 @@
  :OrganisedEvent,
  :SocialEvent;
  rdfs:label "Digital-Health Gala Dinner";
- :endDate "2018-04-24T00:00:00+02:00"^^xsd:dateTime;
+ :endDate "2018-04-24T22:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/Region_Head_Quarter>;
  :isSubEventOf confe:the-web-conf2018;
- :startDate "2018-04-24T00:00:00+02:00"^^xsd:dateTime .
+ :startDate "2018-04-24T20:30:00+02:00"^^xsd:dateTime .
  
  se:201 a :AcademicEvent,
  :OrganisedEvent,

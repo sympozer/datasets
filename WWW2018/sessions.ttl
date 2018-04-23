@@ -1545,11 +1545,11 @@
  :OrganisedEvent,
  :Talk;
  rdfs:comment "invited speaker";
- rdfs:label "Machine Learning Practice: The Past Decade";
+ rdfs:label "Machine Learning Practice: How to Make a Machine Learning Strategy";
  :endDate "2018-04-24T16:00:00+02:00"^^xsd:dateTime;
  :isSubEventOf se:217;
  :startDate "2018-04-24T15:40:00+02:00"^^xsd:dateTime;
- :title "Machine Learning Practice: The Past Decade" .
+ :title "Machine Learning Practice: How to Make a Machine Learning Strategy" .
  
  alt:75 a :AcademicEvent,
  :OrganisedEvent,

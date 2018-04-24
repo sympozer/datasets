@@ -9373,15 +9373,18 @@
  
  <#room/Bellecour_1> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Bellecour 1" .
+ rdfs:label "🅱 Bellecour 1";
+ :address "Wing 🅱, Level -1 (Bellecour)" .
  
  <#room/Bellecour_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Bellecour 2" .
+ rdfs:label "🅱 Bellecour 2";
+ :address "Wing 🅱, Level -1 (Bellecour)" .
  
  <#room/Bellecour_3> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Bellecour 3" .
+ rdfs:label "🅱 Bellecour 3";
+ :address "Wing 🅱, Level -1 (Bellecour)" .
  
  <#room/Bureau_Bellecour> a sch:MeetingRoom,
  :Site;
@@ -9460,15 +9463,18 @@
  
  <#room/Gratte-Ciel_1> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Gratte-Ciel 1" .
+ rdfs:label "🅱 Gratte-Ciel 1";
+ :address "Wing 🅱, Level 2 (Gratte-Ciel)" .
  
  <#room/Gratte-Ciel_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Gratte-Ciel 2" .
+ rdfs:label "🅱 Gratte-Ciel 2";
+ :address "Wing 🅱, Level 2 (Gratte-Ciel)" .
  
  <#room/Gratte-Ciel_3> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Gratte-Ciel 3" .
+ rdfs:label "🅱 Gratte-Ciel 3";
+ :address "Wing 🅱, Level 2 (Gratte-Ciel)" .
  
  <#room/Halles_Paul_Bocuse> a sch:FoodEstablishment,
  :Site;
@@ -9504,59 +9510,28 @@
  
  <#room/Rh%C3%B4ne_1> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Rhône 1" .
+ rdfs:label "🆃 Rhône 1";
+ :address "Wing 🆃, Level 1 (Rhône-Pasteur)" .
  
  <#room/Rh%C3%B4ne_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Rhône 2" .
+ rdfs:label "🆃 Rhône 2";
+ :address "Wing 🆃, Level 1 (Rhône-Pasteur)" .
  
  <#room/Rh%C3%B4ne_3A> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Rhône 3A" .
+ rdfs:label "🆃 Rhône 3A";
+ :address "Wing 🆃, Level 1 (Rhône-Pasteur)" .
  
  <#room/Rh%C3%B4ne_3B> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Rhône 3B" .
+ rdfs:label "🆃 Rhône 3B";
+ :address "Wing 🆃, Level 1 (Rhône-Pasteur)" .
  
  <#room/Rh%C3%B4ne_4> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 Rhône 4" .
- 
- <#room/Salle_Bellecour_1> :address "Wing 🅱, Level -1 (Bellecour)" .
- 
- <#room/Salle_Bellecour_2> :address "Wing 🅱, Level -1 (Bellecour)" .
- 
- <#room/Salle_Bellecour_3> :address "Wing 🅱, Level -1 (Bellecour)" .
- 
- <#room/Salle_Gratte-Ciel_1> :address "Wing 🅱, Level 2 (Gratte-Ciel)" .
- 
- <#room/Salle_Gratte-Ciel_2> :address "Wing 🅱, Level 2 (Gratte-Ciel)" .
- 
- <#room/Salle_Gratte-Ciel_3> :address "Wing 🅱, Level 2 (Gratte-Ciel)" .
- 
- <#room/Salle_Rh%C3%B4ne_1> :address "Wing 🆃, Level 1 (Rhône-Pasteur)" .
- 
- <#room/Salle_Rh%C3%B4ne_2> :address "Wing 🆃, Level 1 (Rhône-Pasteur)" .
- 
- <#room/Salle_Rh%C3%B4ne_3A> :address "Wing 🆃, Level 1 (Rhône-Pasteur)" .
- 
- <#room/Salle_Rh%C3%B4ne_3B> :address "Wing 🆃, Level 1 (Rhône-Pasteur)" .
- 
- <#room/Salle_Rh%C3%B4ne_4> :address "Wing 🆃, Level 1 (Rhône-Pasteur)" .
- 
- <#room/Salle_St_Clair_1> :address "Wing 🆃, Level 2 (Saint-Clair)" .
- 
- <#room/Salle_St_Clair_2> :address "Wing 🆃, Level 2 (Saint-Clair)" .
- 
- <#room/Salle_St_Clair_3A> :address "Wing 🆃, Level 2 (Saint-Clair)" .
- 
- <#room/Salle_St_Clair_3B> :address "Wing 🆃, Level 2 (Saint-Clair)" .
- 
- <#room/Salle_St_Clair_4> :address "Wing 🆃, Level 2 (Saint-Clair)" .
- 
- <#room/Salle_T%C3%AAte_d%27Or_1> :address "Wing 🅱, Level 1 (Tête d'Or)" .
- 
- <#room/Salle_T%C3%AAte_d%27Or_2> :address "Wing 🅱, Level 1 (Tête d'Or)" .
+ rdfs:label "🆃 Rhône 4";
+ :address "Wing 🆃, Level 1 (Rhône-Pasteur)" .
  
  <#room/Salon_Gratte-Ciel> :address "Wing 🅱, Level 2 (Gratte-Ciel)" .
  
@@ -9592,31 +9567,38 @@
  
  <#room/St_Clair_1> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 St Clair 1" .
+ rdfs:label "🆃 St Clair 1";
+ :address "Wing 🆃, Level 2 (Saint-Clair)" .
  
  <#room/St_Clair_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 St Clair 2" .
+ rdfs:label "🆃 St Clair 2";
+ :address "Wing 🆃, Level 2 (Saint-Clair)" .
  
  <#room/St_Clair_3A> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 St Clair 3A" .
+ rdfs:label "🆃 St Clair 3A";
+ :address "Wing 🆃, Level 2 (Saint-Clair)" .
  
  <#room/St_Clair_3B> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 St Clair 3B" .
+ rdfs:label "🆃 St Clair 3B";
+ :address "Wing 🆃, Level 2 (Saint-Clair)" .
  
  <#room/St_Clair_4> a sch:MeetingRoom,
  :Site;
- rdfs:label "🆃 St Clair 4" .
+ rdfs:label "🆃 St Clair 4";
+ :address "Wing 🆃, Level 2 (Saint-Clair)" .
  
  <#room/T%C3%AAte_d%27Or_1> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Tête d'Or 1" .
+ rdfs:label "🅱 Tête d'Or 1";
+ :address "Wing 🅱, Level 1 (Tête d'Or)" .
  
  <#room/T%C3%AAte_d%27Or_2> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Tête d'Or 2" .
+ rdfs:label "🅱 Tête d'Or 2";
+ :address "Wing 🅱, Level 1 (Tête d'Or)" .
  
  <#room/TBC> a sch:Restaurant,
  :Site;

@@ -9500,7 +9500,8 @@
  
  <#room/Prestige_Gratte-Ciel> a sch:MeetingRoom,
  :Site;
- rdfs:label "🅱 Prestige Gratte-Ciel" .
+ rdfs:label "🅱 Prestige Gratte-Ciel";
+ :address "Wing 🅱, Level 2 (Gratte-Ciel)" .
  
  <#room/Region_Head_Quarter> a sch:LegislativeBuilding,
  :Site;
@@ -9532,8 +9533,6 @@
  :Site;
  rdfs:label "🆃 Rhône 4";
  :address "Wing 🆃, Level 1 (Rhône-Pasteur)" .
- 
- <#room/Salon_Gratte-Ciel> :address "Wing 🅱, Level 2 (Gratte-Ciel)" .
  
  <#room/Salon_Lumi%C3%A8re> a sch:MeetingRoom,
  :Site;

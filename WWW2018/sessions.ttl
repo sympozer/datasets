@@ -9366,6 +9366,10 @@
  rdfs:label "🅱 Amphithéâtre";
  :address "Wing 🅱" .
  
+ <#room/Amphith%C3%A9%C3%A2tre_> a sch:MeetingRoom,
+ :Site;
+ rdfs:label "🅱 Amphithéâtre " .
+ 
  <#room/Auditorium_Pasteur> a sch:MeetingRoom,
  :Site;
  rdfs:label "🆃 Auditorium Pasteur";

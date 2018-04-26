@@ -1141,6 +1141,16 @@
  :startDate "2018-04-27T14:00:00+02:00"^^xsd:dateTime;
  :title "Question / Answer" .
  
+ alt:264 a :AcademicEvent,
+ :OrganisedEvent,
+ :Talk;
+ rdfs:label "Measuring the Impact of Topic Drift in Scholarly Networks";
+ :endDate "2018-04-25T16:40:00+02:00"^^xsd:dateTime;
+ :isEventRelatedTo inp:cogcomp-2018-cognitive-1078;
+ :isSubEventOf se:91;
+ :startDate "2018-04-25T16:20:00+02:00"^^xsd:dateTime;
+ :title "Measuring the Impact of Topic Drift in Scholarly Networks" .
+ 
  alt:27 a :AcademicEvent,
  :OrganisedEvent,
  :Talk;
@@ -10921,7 +10931,7 @@
  :Session;
  rdfs:label "Web Content Analysis, Semantics and Knowledge VII";
  :endDate "2018-04-27T12:20:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Auditorium_Pasteur>;
+ :hasSite <#room/Rh%C3%B4ne_3A>;
  :hasSubEvent talk:1,
  talk:179,
  talk:621,
@@ -10935,7 +10945,7 @@
  :Session;
  rdfs:label "Web Content Analysis, Semantics and Knowledge VIII";
  :endDate "2018-04-27T15:00:00+02:00"^^xsd:dateTime;
- :hasSite <#room/Auditorium_Pasteur>;
+ :hasSite <#room/Rh%C3%B4ne_3A>;
  :hasSubEvent talk:1047,
  talk:1097,
  talk:1256,
@@ -12777,6 +12787,7 @@
  :endDate "2018-04-25T17:00:00+02:00"^^xsd:dateTime;
  :hasSite <#room/St_Clair_3A>;
  :hasSubEvent alt:2,
+ alt:264,
  alt:9;
  :isSubEventOf confe:the-web-conf2018;
  :relatesToTrack track:cogcomp-2018-cognitive;
@@ -14996,6 +15007,9 @@
  
  inp:cogcomp-2018-cognitive-107 foaf:homepage <https://dl.acm.org/authorize?N655195>;
  :relatesToEvent alt:12 .
+ 
+ inp:cogcomp-2018-cognitive-1078 foaf:homepage <https://dl.acm.org/authorize?N655190>;
+ :relatesToEvent alt:264 .
  
  inp:cogcomp-2018-cognitive-108 foaf:homepage <https://dl.acm.org/authorize?N655196>;
  :relatesToEvent alt:13 .

@@ -15164,7 +15164,9 @@
  demo:413-4-2,
  demo:413-4-3,
  demo:413-5-1,
- demo:413-5-2 .
+ demo:413-5-2;
+ :relatesToTrack track:www-best-demo-2018,
+ track:www-demos-hm-2018 .
  
  inp:www-demo-2018-419 foaf:homepage <https://dl.acm.org/authorize?N655153>;
  :relatesToEvent demo:419-3-1,
@@ -15202,7 +15204,8 @@
  demo:459-4-2,
  demo:459-4-3,
  demo:459-5-1,
- demo:459-5-2 .
+ demo:459-5-2;
+ :relatesToTrack track:www-demos-hm-2018 .
  
  inp:www-demo-2018-482 foaf:homepage <https://dl.acm.org/authorize?N655167>;
  :relatesToEvent demo:482-3-1,
@@ -15301,7 +15304,8 @@
  demo:541-4-2,
  demo:541-4-3,
  demo:541-5-1,
- demo:541-5-2 .
+ demo:541-5-2;
+ :relatesToTrack track:www-demos-hm-2018 .
  
  inp:www-demo-2018-560 :relatesToEvent demo:560-3-1,
  demo:560-3-2,
@@ -15631,7 +15635,9 @@
  demo:257-4-2,
  demo:257-4-3,
  demo:257-5-1,
- demo:257-5-2 .
+ demo:257-5-2;
+ :relatesToTrack track:www-best-poster-2018,
+ track:www-posters-hm-2018 .
  
  inp:www-posters-2018-302 foaf:homepage <https://dl.acm.org/authorize?N655098>;
  :relatesToEvent demo:302-3-1,
@@ -15750,7 +15756,8 @@
  demo:421-4-2,
  demo:421-4-3,
  demo:421-5-1,
- demo:421-5-2 .
+ demo:421-5-2;
+ :relatesToTrack track:www-posters-hm-2018 .
  
  inp:www-posters-2018-426 foaf:homepage <https://dl.acm.org/authorize?N655000>;
  :relatesToEvent demo:426-3-1,
@@ -15848,7 +15855,8 @@
  demo:463-4-2,
  demo:463-4-3,
  demo:463-5-1,
- demo:463-5-2 .
+ demo:463-5-2;
+ :relatesToTrack track:www-posters-hm-2018 .
  
  inp:www-posters-2018-468 foaf:homepage <https://dl.acm.org/authorize?N655010>;
  :relatesToEvent demo:468-3-1,
@@ -16182,7 +16190,8 @@
  
  inp:www-research-2018-content-analysis-100 foaf:homepage <https://dl.acm.org/authorize?N655999>;
  :relatesToEvent talk:100;
- :relatesToTrack track:www-honorable-mention-2018 .
+ :relatesToTrack track:www-best-research-paper-2018,
+ track:www-honorable-mention-2018 .
  
  inp:www-research-2018-content-analysis-1047 foaf:homepage <https://dl.acm.org/authorize?N655917>;
  :relatesToEvent talk:1047 .
@@ -18055,7 +18064,30 @@
  te:sortLabel "7. Awards";
  rdfs:label "Awards";
  :description "Awards";
- :hasSubTrack track:www-honorable-mention-2018 .
+ :hasSubTrack track:www-best-demo-2018,
+ track:www-best-poster-2018,
+ track:www-best-research-paper-2018,
+ track:www-demos-hm-2018,
+ track:www-honorable-mention-2018,
+ track:www-posters-hm-2018 .
+ 
+ track:www-best-demo-2018 a :Track;
+ rdfs:label "★ Best Demo";
+ :description "★ Best Demo";
+ :isSubTrackOf track:www-awards-2018;
+ :isTrackRelatedTo inp:www-demo-2018-413 .
+ 
+ track:www-best-poster-2018 a :Track;
+ rdfs:label "★ Best Poster";
+ :description "★ Best Poster";
+ :isSubTrackOf track:www-awards-2018;
+ :isTrackRelatedTo inp:www-posters-2018-257 .
+ 
+ track:www-best-research-paper-2018 a :Track;
+ rdfs:label "★ Best Research Paper";
+ :description "★ Best Research Paper";
+ :isSubTrackOf track:www-awards-2018;
+ :isTrackRelatedTo inp:www-research-2018-content-analysis-100 .
  
  track:www-demo-2018 :isTrackRelatedTo se:1003,
  se:1004,
@@ -18065,6 +18097,14 @@
  se:195,
  se:196,
  se:197 .
+ 
+ track:www-demos-hm-2018 a :Track;
+ rdfs:label "★ Honorable Mention (demos)";
+ :description "★ Honorable Mention (demos)";
+ :isSubTrackOf track:www-awards-2018;
+ :isTrackRelatedTo inp:www-demo-2018-413,
+ inp:www-demo-2018-459,
+ inp:www-demo-2018-541 .
  
  track:www-dev-2018-dev :isTrackRelatedTo se:112,
  se:113 .
@@ -18086,8 +18126,8 @@
  se:176 .
  
  track:www-honorable-mention-2018 a :Track;
- rdfs:label "★ Honorable Mention";
- :description "★ Honorable Mention";
+ rdfs:label "★ Honorable Mention (research papers)";
+ :description "★ Honorable Mention (research papers)";
  :isSubTrackOf track:www-awards-2018;
  :isTrackRelatedTo inp:www-research-2018-content-analysis-100,
  inp:www-research-2018-economics-670,
@@ -18179,6 +18219,14 @@
  se:195,
  se:196,
  se:197 .
+ 
+ track:www-posters-hm-2018 a :Track;
+ rdfs:label "★ Honorable Mention (posters)";
+ :description "★ Honorable Mention (posters)";
+ :isSubTrackOf track:www-awards-2018;
+ :isTrackRelatedTo inp:www-posters-2018-257,
+ inp:www-posters-2018-421,
+ inp:www-posters-2018-463 .
  
  track:www-research-2018-ai :isTrackRelatedTo se:105,
  inp:www-research-2018-content-analysis-179 .
